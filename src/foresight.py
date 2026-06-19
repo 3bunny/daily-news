@@ -143,22 +143,7 @@ def analyze(corpus):
 
 
 # ----------------------------------------------------------------- rendering ---
-EXTRA_CSS = """
-.fs-intro{font-size:18px;font-style:italic;color:var(--muted);margin:24px 0 8px}
-.dive{margin-top:40px;border-top:2px solid var(--ink);padding-top:18px}
-.dive h2{font-family:'Playfair Display',Georgia,serif;font-size:24px;margin:0 0 8px;color:var(--accent)}
-.dive .happened{font-size:16.5px;margin:0 0 16px}
-.block{margin:14px 0}
-.block .h{font-size:11px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;
-  font-family:Helvetica,Arial,sans-serif;color:var(--accent2);margin-bottom:6px}
-.kv{margin:5px 0;font-size:15.5px}
-.kv b{color:var(--ink)}
-.spill{background:#fff;border:1px solid var(--rule);border-left:4px solid var(--accent2);
-  padding:10px 14px;border-radius:3px;font-size:15.5px}
-.watch li{margin:5px 0;font-size:15.5px}
-.disclaimer{margin-top:40px;font-size:12.5px;color:var(--muted);font-style:italic;
-  border-top:1px solid var(--rule);padding-top:12px}
-"""
+EXTRA_CSS = ""  # foresight styles now live in publisher.CSS
 
 
 def _kv_list(items, kfield, vfield):
@@ -193,6 +178,14 @@ def _dive_html(d):
     return "".join(parts)
 
 
+def render_fragment(report):
+    """Inner HTML (intro + deep dives + disclaimer) for embedding in the daily paper."""
+    intro = f"<p class='fs-intro'>{publisher._esc(report.get('intro',''))}</p>"
+    dives = "".join(_dive_html(d) for d in report.get("deep_dives", []))
+    disc = f"<div class='disclaimer'>{publisher._esc(report.get('disclaimer',''))}</div>"
+    return intro + dives + disc
+
+
 def render(report, date):
     week = date.strftime("Week of %B %d, %Y")
     head = (f"<header class='masthead'><h1>FORESIGHT</h1>"
@@ -200,11 +193,8 @@ def render(report, date):
             f"what the military builds today, the world uses tomorrow</div>"
             f"<div class='dateline'><span>Seoul · {week}</span>"
             f"<span><a href='../index.html'>← Daily paper</a></span></div></header>")
-    intro = f"<p class='fs-intro'>{publisher._esc(report.get('intro',''))}</p>"
-    dives = "".join(_dive_html(d) for d in report.get("deep_dives", []))
-    disc = f"<div class='disclaimer'>{publisher._esc(report.get('disclaimer',''))}</div>"
     foot = ("<div class='foot'><a href='index.html'>Past Foresight reports →</a></div>")
-    body = head + intro + dives + disc + foot
+    body = head + render_fragment(report) + foot
     html = (f"<!doctype html><html lang='en'><head><meta charset='utf-8'>"
             f"<meta name='viewport' content='width=device-width,initial-scale=1'>"
             f"<title>Foresight — {publisher._esc(week)}</title>{publisher.FONTS}"
@@ -241,6 +231,12 @@ def publish(report, date):
     manifest = [m for m in manifest if m["id"] != wid]
     manifest.append({"id": wid, "file": fname, "week": date.strftime("Week of %B %d, %Y")})
     json.dump(manifest, open(man_path, "w", encoding="utf-8"), indent=2)
+
+    # Embeddable fragment + machine copy used by the daily paper.
+    with open(os.path.join(out, "latest_fragment.html"), "w", encoding="utf-8") as f:
+        f.write(render_fragment(report))
+    with open(os.path.join(out, "latest.json"), "w", encoding="utf-8") as f:
+        json.dump(report, f, indent=2, ensure_ascii=False)
 
     with open(os.path.join(out, "index.html"), "w", encoding="utf-8") as f:
         f.write(render_index(manifest))

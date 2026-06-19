@@ -77,6 +77,26 @@ a{color:inherit}
 .archive-list a{text-decoration:none;font-size:18px;font-weight:700}
 .archive-list .g{float:right;color:var(--accent);font-weight:700}
 @media print{body{background:#fff}.foot a{color:#000}}
+/* Foresight (embedded in daily paper + standalone pages) */
+.fs-section{margin-top:50px}
+.fs-section .section-head h2{color:var(--accent2)}
+.fs-intro{font-size:17px;font-style:italic;color:var(--muted);margin:18px 0 8px}
+.dive{margin-top:34px;border-top:1px solid var(--rule);padding-top:16px}
+.dive h2{font-family:'Playfair Display',Georgia,serif;font-size:22px;margin:0 0 8px;color:var(--accent2)}
+.dive .happened{font-size:16.5px;margin:0 0 14px}
+.block{margin:13px 0}
+.block .h{font-size:11px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;
+  font-family:Helvetica,Arial,sans-serif;color:var(--accent);margin-bottom:6px}
+.kv{margin:5px 0;font-size:15.5px}
+.kv b{color:var(--ink)}
+.spill{background:#fff;border:1px solid var(--rule);border-left:4px solid var(--accent2);
+  padding:10px 14px;border-radius:3px;font-size:15.5px}
+.watch{margin:0;padding-left:18px}
+.watch li{margin:5px 0;font-size:15.5px}
+.disclaimer{margin-top:24px;font-size:12.5px;color:var(--muted);font-style:italic;
+  border-top:1px solid var(--rule);padding-top:12px}
+.fs-more{margin-top:18px;font-size:13px}
+.fs-more a{color:var(--accent2);font-weight:700}
 """
 
 FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">'
@@ -127,7 +147,7 @@ def _section_html(topic: dict, stories: list, lead: bool) -> str:
     return f"<section class='{cls}'>{head}{body}</section>"
 
 
-def render_issue(selected: dict, grade: dict, config: dict, date: datetime) -> str:
+def render_issue(selected: dict, grade: dict, config: dict, date: datetime, foresight_fragment: str = "") -> str:
     long_date = date.strftime("%A, %B %-d, %Y") if os.name != "nt" else date.strftime("%A, %B %d, %Y")
     masthead = (
         f"<header class='masthead'><h1>{PAPER_NAME}</h1>"
@@ -145,10 +165,20 @@ def render_issue(selected: dict, grade: dict, config: dict, date: datetime) -> s
         _section_html(t, selected.get(t["key"], []), lead=(i == 0))
         for i, t in enumerate(topics)
     )
+    fs = ""
+    if foresight_fragment:
+        fs = (
+            "<section class='fs-section'>"
+            "<div class='section-head'><h2>Weekly Foresight</h2>"
+            "<span class='blurb'>Dual-use tech — what the military builds today, the world uses tomorrow</span></div>"
+            f"{foresight_fragment}"
+            "<div class='fs-more'><a href='foresight/index.html'>Past Foresight reports →</a></div>"
+            "</section>"
+        )
     foot = ("<div class='foot'>Compiled automatically by the Daily Dispatch bot · "
             "<a href='archive.html'>Past editions →</a> · <a href='foresight/index.html'>Weekly Foresight →</a><br>"
             "Sources are independent outlets; tap any headline to read the original.</div>")
-    return _page(f"{PAPER_NAME} — {long_date}", masthead + ednote + sections + foot)
+    return _page(f"{PAPER_NAME} — {long_date}", masthead + ednote + sections + fs + foot)
 
 
 def _load_manifest(docs: str) -> list:
@@ -180,7 +210,12 @@ def publish(selected: dict, grade: dict, config: dict, root: str,
     arch = os.path.join(docs, "archive")
     os.makedirs(arch, exist_ok=True)
 
-    issue_html = render_issue(selected, grade, config, date)
+    frag_path = os.path.join(docs, "foresight", "latest_fragment.html")
+    fragment = ""
+    if os.path.exists(frag_path):
+        with open(frag_path, encoding="utf-8") as ff:
+            fragment = ff.read()
+    issue_html = render_issue(selected, grade, config, date, foresight_fragment=fragment)
     dstr = date.strftime("%Y-%m-%d")
     long = date.strftime("%A, %B %d, %Y")
 
