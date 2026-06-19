@@ -1,0 +1,77 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>Foresight — Week of June 20, 2026</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800;900&display=swap" rel="stylesheet"><style>
+:root{
+  --paper:#f7f3ea; --ink:#1c1a17; --muted:#6b6358; --rule:#d8cfbf;
+  --accent:#8a1f1f; --accent2:#2a3d54; --pill:#efe8da; --wow:#b8860b;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);
+  font-family:Georgia,'Times New Roman',serif;line-height:1.6;
+  -webkit-font-smoothing:antialiased}
+.wrap{max-width:860px;margin:0 auto;padding:32px 22px 80px}
+a{color:inherit}
+/* Masthead */
+.masthead{text-align:center;border-bottom:3px double var(--ink);padding-bottom:14px}
+.masthead h1{font-family:'Playfair Display',Georgia,serif;font-weight:900;
+  letter-spacing:.04em;margin:.1em 0;font-size:clamp(34px,7vw,58px);line-height:1}
+.tagline{font-style:italic;color:var(--muted);font-size:15px;margin-top:6px}
+.dateline{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;
+  font-size:12.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);
+  margin-top:12px}
+/* Editor's note */
+.ednote{background:#fff;border:1px solid var(--rule);border-left:4px solid var(--accent);
+  padding:14px 18px;margin:26px 0;border-radius:3px}
+.ednote .lbl{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);
+  font-family:Helvetica,Arial,sans-serif;font-weight:700}
+.ednote .grade{float:right;font-family:'Playfair Display',Georgia,serif;font-weight:900;
+  font-size:34px;line-height:1;color:var(--accent)}
+.ednote p{margin:.4em 0 0;font-style:italic}
+/* Sections */
+.section{margin-top:40px}
+.section-head{display:flex;align-items:baseline;gap:12px;border-bottom:2px solid var(--ink);
+  padding-bottom:6px}
+.section-head h2{font-family:'Playfair Display',Georgia,serif;margin:0;font-size:25px;font-weight:800}
+.section-head .blurb{color:var(--muted);font-style:italic;font-size:13.5px}
+.section.lead .section-head h2{color:var(--accent)}
+/* Stories */
+.story{padding:20px 0;border-bottom:1px solid var(--rule)}
+.story:last-child{border-bottom:none}
+.story h3{margin:0 0 6px;font-size:20px;line-height:1.3;font-weight:700}
+.story h3 a{text-decoration:none}
+.story h3 a:hover{text-decoration:underline;text-decoration-color:var(--accent)}
+.meta{font-size:12px;color:var(--muted);font-family:Helvetica,Arial,sans-serif;
+  display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:8px}
+.pill{background:var(--pill);border:1px solid var(--rule);border-radius:20px;
+  padding:2px 10px;letter-spacing:.04em}
+.wow{background:var(--wow);color:#fff;border-color:var(--wow);font-weight:700}
+.story p{margin:0;font-size:16.5px}
+.empty{color:var(--muted);font-style:italic;padding:14px 0}
+/* Footer / nav */
+.foot{margin-top:54px;border-top:3px double var(--ink);padding-top:16px;
+  font-size:13px;color:var(--muted);text-align:center}
+.foot a{color:var(--accent2);font-weight:700}
+.archive-list{list-style:none;padding:0}
+.archive-list li{border-bottom:1px solid var(--rule);padding:12px 2px}
+.archive-list a{text-decoration:none;font-size:18px;font-weight:700}
+.archive-list .g{float:right;color:var(--accent);font-weight:700}
+@media print{body{background:#fff}.foot a{color:#000}}
+/* Foresight (embedded in daily paper + standalone pages) */
+.fs-section{margin-top:50px}
+.fs-section .section-head h2{color:var(--accent2)}
+.fs-intro{font-size:17px;font-style:italic;color:var(--muted);margin:18px 0 8px}
+.dive{margin-top:34px;border-top:1px solid var(--rule);padding-top:16px}
+.dive h2{font-family:'Playfair Display',Georgia,serif;font-size:22px;margin:0 0 8px;color:var(--accent2)}
+.dive .happened{font-size:16.5px;margin:0 0 14px}
+.block{margin:13px 0}
+.block .h{font-size:11px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;
+  font-family:Helvetica,Arial,sans-serif;color:var(--accent);margin-bottom:6px}
+.kv{margin:5px 0;font-size:15.5px}
+.kv b{color:var(--ink)}
+.spill{background:#fff;border:1px solid var(--rule);border-left:4px solid var(--accent2);
+  padding:10px 14px;border-radius:3px;font-size:15.5px}
+.watch{margin:0;padding-left:18px}
+.watch li{margin:5px 0;font-size:15.5px}
+.disclaimer{margin-top:24px;font-size:12.5px;color:var(--muted);font-style:italic;
+  border-top:1px solid var(--rule);padding-top:12px}
+.fs-more{margin-top:18px;font-size:13px}
+.fs-more a{color:var(--accent2);font-weight:700}
+</style></head><body><div class='wrap'><header class='masthead'><h1>FORESIGHT</h1><div class='tagline'>Weekly dual-use technology briefing — what the military builds today, the world uses tomorrow</div><div class='dateline'><span>Seoul · Week of June 20, 2026</span><span><a href='../index.html'>← Daily paper</a></span></div></header><p class='fs-intro'>Automated deep analysis was unavailable this week, so here is a plain roundup of the week&#x27;s notable military and business technology.</p><div class='dive'><h2>Troop cuts in Europe: Giving away something for nothing</h2><p class='happened'>It’s not too late – if Washington is intent on reducing troop levels in Europe, it can still wield this bargaining chip with Russia.</p><div class='block'><div class='h'>Pioneers &amp; players</div><div class='kv'><b>Defense News</b> — reporting outlet</div></div></div><div class='dive'><h2>Naval Group, MESKO and TELESYSTEM sign a sea firing trials agreement for demonstration</h2><p class='happened'>On 19th June 2026, Naval Group, MESKO and TELESYTEM signed an agreement to demonstrate MESKO’s Piorun missile capacity onto Naval Group’s Rampart during future naval exercises. Naval Group press release This agreement marks the first step of a mutually beneficial strategic cooperation intended to support the future integration of the missile into the launching system. ... The post Naval Group, MESKO and TELESYSTEM sign a sea firing trials agreement for demonstration appeared first on Naval News .</p><div class='block'><div class='h'>Pioneers &amp; players</div><div class='kv'><b>Naval News</b> — reporting outlet</div></div></div><div class='dive'><h2>Japan joins the global craze to field interceptor drones</h2><p class='happened'>The interceptor drone systems are expected to be installed by 2027 near radar sites, bases, vessels and other critical locations, the agency stated.</p><div class='block'><div class='h'>Pioneers &amp; players</div><div class='kv'><b>Defense News</b> — reporting outlet</div></div></div><div class='dive'><h2>Italy rejects aid scheme that buys US weapons for Ukraine’s defense</h2><p class='happened'>NATO has said the Prioritised Ukraine Requirements List (PURL) mechanism has helped fund the purchase of air-defense systems, in particular.</p><div class='block'><div class='h'>Pioneers &amp; players</div><div class='kv'><b>Defense News</b> — reporting outlet</div></div></div><div class='dive'><h2>Spanish Navy Tests Hornet Block 1 Interceptor from Santa María Frigate</h2><p class='happened'>The Spanish Navy has conducted a test launch of the Hornet Block 1 interceptor from the F-81 Santa María frigate. The firing took place on 18 June 2026 as part of a joint demonstration with Destinus to evaluate containerised deployment of the system for ship-based air defence. The test involved the launch of a single ... The post Spanish Navy Tests Hornet Block 1 Interceptor from Santa María Frigate appeared first on Naval News .</p><div class='block'><div class='h'>Pioneers &amp; players</div><div class='kv'><b>Naval News</b> — reporting outlet</div></div></div><div class='dive'><h2>Extraordinary Footage From Moscow Under Heavy Ukrainian Aerial Attack</h2><p class='happened'>Ukraine&#x27;s large-scale strike on Moscow, triggering massive explosions and fires, may indicate a new phase in the long-range air war. The post Extraordinary Footage From Moscow Under Heavy Ukrainian Aerial Attack appeared first on The War Zone .</p><div class='block'><div class='h'>Pioneers &amp; players</div><div class='kv'><b>The War Zone</b> — reporting outlet</div></div></div><div class='dive'><h2>Senate eyes Hegseth travel cuts without probes into Iran school bombing, boat strikes</h2><p class='happened'>Senate lawmakers added a provision in the NDAA that would restrict Hegseth&#x27;s travel expenses until the department releases certain operational information.</p><div class='block'><div class='h'>Pioneers &amp; players</div><div class='kv'><b>Defense News</b> — reporting outlet</div></div></div><div class='dive'><h2>Congress Questions Air Force’s Combat Rescue Readiness As HH-60W Helicopters Get Turned Into VIP Transports</h2><p class='happened'>It&#x27;s clear the HH-60W fleet isn&#x27;t ideal for the Pacific, but concerns are growing around the capacity of any dedicated combat rescue capabilities. The post Congress Questions Air Force’s Combat Rescue Readiness As HH-60W Helicopters Get Turned Into VIP Transports appeared first on The War Zone .</p><div class='block'><div class='h'>Pioneers &amp; players</div><div class='kv'><b>The War Zone</b> — reporting outlet</div></div></div><div class='disclaimer'>The watchlist is informational only and not financial advice.</div><div class='foot'><a href='index.html'>Past Foresight reports →</a></div></div></body></html>
