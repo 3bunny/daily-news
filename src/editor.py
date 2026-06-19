@@ -145,14 +145,101 @@ def grade_issue(selected: dict, config: dict) -> dict:
     return {"grade": grade, "note": note, "counts": counts, "wow": wow}
 
 
-def select(scanned: dict, config: dict) -> dict:
-    """Apply thresholds + per-section caps. Returns {topic_key: [Story,...]}."""
+_DEDUP_STOP = {
+    "the", "a", "an", "and", "or", "of", "to", "in", "on", "for", "with",
+    "from", "at", "as", "by", "is", "are", "was", "were", "be", "been",
+    "new", "says", "say", "amid", "after", "over", "into", "could", "will",
+    "plan", "plans", "its", "his", "her", "their", "that", "this", "but",
+    "how", "why", "what", "more", "than", "out", "set", "get", "via",
+}
+
+
+def _title_tokens(title):
+    words = re.findall(r"[a-z0-9]+", (title or "").lower())
+    return {w for w in words if len(w) >= 3 and w not in _DEDUP_STOP}
+
+
+def _heuristic_dedupe(stories, threshold=0.34):
+    """No-LLM fallback: cluster by title token overlap, keep best-scored."""
+    kept = []
+    for s in sorted(stories, key=lambda x: x.score, reverse=True):
+        st = _title_tokens(s.title)
+        dup = False
+        for k in kept:
+            kt = _title_tokens(k.title)
+            if not st or not kt:
+                continue
+            inter = st & kt
+            jac = len(inter) / len(st | kt)
+            sig = sum(1 for w in inter if len(w) >= 4)
+            if jac >= threshold or sig >= 3:
+                dup = True
+                break
+        if not dup:
+            kept.append(s)
+    return kept
+
+
+def dedupe_topic(topic_title, stories):
+    """Collapse stories reporting the SAME underlying event, keeping the
+    best-scored version. Uses Gemini when available, heuristic otherwise."""
+    if len(stories) < 2:
+        return stories
+    if not gemini_client.available():
+        return _heuristic_dedupe(stories)
+
+    items = [{"id": i, "title": s.title, "source": s.source}
+             for i, s in enumerate(stories)]
+    prompt = (
+        f"These are candidate '{topic_title}' news items. Group items that report "
+        "the SAME underlying event or story (same companies/people and the same "
+        "development), even if from different outlets or worded differently. Items "
+        "about genuinely different events must each be in their own group.\n"
+        "Return JSON: an array of arrays of ids; every id must appear exactly once.\n\n"
+        f"ITEMS:\n{items}"
+    )
+    r = gemini_client.generate_json(prompt)
+    if isinstance(r, list):
+        groups, seen, ok = [], set(), True
+        for g in r:
+            if not isinstance(g, list):
+                ok = False
+                break
+            ids = []
+            for x in g:
+                try:
+                    i = int(x)
+                except (ValueError, TypeError):
+                    ok = False
+                    break
+                if i < 0 or i >= len(stories) or i in seen:
+                    ok = False
+                    break
+                seen.add(i)
+                ids.append(i)
+            if not ok:
+                break
+            if ids:
+                groups.append(ids)
+        if ok and seen == set(range(len(stories))):
+            kept = []
+            for ids in groups:
+                best = max((stories[i] for i in ids),
+                           key=lambda s: (s.score, len(s.summary or "")))
+                kept.append(best)
+            return kept
+    return _heuristic_dedupe(stories)
+
+
+def select(scanned, config):
+    """Filter by score, collapse duplicate stories, cap per section."""
     min_score = float(config.get("min_score", 6))
     cap = int(config.get("max_stories_per_section", 5))
     out = {}
     for topic in sorted(config["topics"], key=lambda t: t.get("priority", 99)):
         key = topic["key"]
         good = [s for s in scanned.get(key, []) if s.score >= min_score]
+        good = dedupe_topic(topic["title"], good)
         good.sort(key=lambda s: (s.wow, s.score), reverse=True)
         out[key] = good[:cap]
     return out
