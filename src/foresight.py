@@ -2,14 +2,12 @@
 Weekly Foresight — dual-use technology deep-dive.
 
 Looks back over the past week's military + business technology, then for the
-most significant developments explains:
-  - the ENABLING TECHNOLOGIES underneath them (chips, sensors, comms, etc.),
-  - the PIONEERS (companies, labs, agencies) building them,
-  - a COMMERCIAL-SPILLOVER forecast with a rough timeline,
-  - an informational WATCHLIST of sectors/companies in the space
-    (informational only — not financial advice).
+most significant developments explains the enabling technologies, the pioneers,
+a commercial-spillover forecast, and an informational watchlist.
 
-Runs weekly. Uses free Gemini when available; otherwise emits a plain roundup.
+Strategy: TWO-STEP Gemini calls (pick themes, then one focused call per theme)
+so a single failure or truncation can't blank the whole report. Falls back to a
+plain roundup when no key / all calls fail. Diagnostics are saved into the report.
 
     python src/foresight.py                 # live (network needed)
     python src/foresight.py --mock FILE     # offline render from a JSON fixture
@@ -35,7 +33,7 @@ import publisher        # noqa: E402
 KST = timezone(timedelta(hours=9))
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FOCUS = ["military", "business"]
-MAX_CORPUS = 45
+MAX_CORPUS = 40
 
 
 def load_config():
@@ -48,7 +46,7 @@ def _norm(t):
 
 
 def gather(config, days=7, mock_path=None):
-    """Build a de-duplicated corpus of the week's focus-topic stories."""
+    """De-duplicated corpus of the week's focus-topic stories."""
     corpus, seen = [], set()
 
     def add(topic, title, source, text):
@@ -66,7 +64,6 @@ def gather(config, days=7, mock_path=None):
                 add(key, it["title"], it.get("source", ""), it.get("raw_summary", ""))
         return corpus
 
-    # 1) fresh scan with a 7-day lookback
     cfg = copy.deepcopy(config)
     cfg["lookback_hours"] = days * 24
     cfg["topics"] = [t for t in cfg["topics"] if t["key"] in FOCUS]
@@ -75,7 +72,6 @@ def gather(config, days=7, mock_path=None):
         for s in scanned.get(key, []):
             add(key, s.title, s.source, s.raw_summary)
 
-    # 2) merge durable daily dumps from data/stories/
     cutoff = dt.datetime.now(KST) - timedelta(days=days)
     for fp in glob.glob(os.path.join(ROOT, "data", "stories", "*.json")):
         try:
@@ -84,52 +80,17 @@ def gather(config, days=7, mock_path=None):
                 continue
             for it in json.load(open(fp, encoding="utf-8")):
                 if it.get("topic") in FOCUS:
-                    add(it["topic"], it.get("title"), it.get("source", ""),
-                        it.get("summary", ""))
+                    add(it["topic"], it.get("title"), it.get("source", ""), it.get("summary", ""))
         except (ValueError, KeyError, json.JSONDecodeError):
             continue
 
     return corpus[:MAX_CORPUS]
 
 
-def analyze(corpus):
-    """Return the report dict via Gemini, or a fallback roundup."""
-    if corpus and gemini_client.available():
-        prompt = (
-            "You are a technology-foresight analyst writing a WEEKLY briefing for a "
-            "curious reader who is not a technical expert but is sharp and wants to "
-            "anticipate where technology is heading. Theme: dual-use technology — how "
-            "military/advanced tech becomes commercial (like GPS, the internet, GPUs).\n\n"
-            "From the week's items below, pick the 3-4 MOST SIGNIFICANT developments "
-            "or themes. For each, write a deep dive. Use a balanced tone: explain "
-            "jargon briefly when first used, but keep momentum.\n\n"
-            "Return JSON with this exact shape:\n"
-            "{\n"
-            '  "intro": "2-3 sentences framing the week",\n'
-            '  "deep_dives": [\n'
-            "    {\n"
-            '      "title": "short headline for the development/theme",\n'
-            '      "what_happened": "2-4 sentences on the development this week",\n'
-            '      "enabling_tech": [{"name": "tech", "why": "plain-language why it is needed"}],\n'
-            '      "pioneers": [{"name": "company/lab/agency", "role": "what they do here"}],\n'
-            '      "spillover": "where/when this likely reaches commercial use; rough timeline",\n'
-            '      "watchlist": [{"name": "sector or company", "note": "why it is positioned"}]\n'
-            "    }\n"
-            "  ],\n"
-            '  "disclaimer": "one line noting the watchlist is informational, not financial advice"\n'
-            "}\n\n"
-            f"WEEK'S ITEMS:\n{corpus}"
-        )
-        r = gemini_client.generate_json(prompt)
-        if isinstance(r, dict) and r.get("deep_dives"):
-            r.setdefault("disclaimer",
-                         "The watchlist is informational only and not financial advice.")
-            return r
-
-    # Fallback: simple roundup so the report still builds.
+def _fallback(corpus, reason):
     return {
-        "intro": ("Automated deep analysis was unavailable this week, so here is a "
-                  "plain roundup of the week's notable military and business technology."),
+        "intro": ("A plain roundup of the week's notable military and business "
+                  "technology (full analysis was unavailable this run)."),
         "deep_dives": [
             {"title": c["title"], "what_happened": c["text"], "enabling_tech": [],
              "pioneers": [{"name": c["source"], "role": "reporting outlet"}],
@@ -139,7 +100,67 @@ def analyze(corpus):
                "No items were available from the sources.", "enabling_tech": [],
                "pioneers": [], "spillover": "", "watchlist": []}],
         "disclaimer": "The watchlist is informational only and not financial advice.",
+        "_fallback_reason": reason,
     }
+
+
+def analyze(corpus):
+    """Return (report, diagnostics)."""
+    diag = {"key_present": gemini_client.available(), "corpus": len(corpus), "steps": []}
+    if not corpus or not gemini_client.available():
+        diag["steps"].append("no key or empty corpus -> fallback")
+        return _fallback(corpus, "no key or empty corpus"), diag
+
+    # Step 1 — pick the 3-4 most significant tech themes.
+    idx_items = [{"id": i, "topic": c["topic"], "title": c["title"]}
+                 for i, c in enumerate(corpus)]
+    sel_prompt = (
+        "From these military/technology news items of the past week, identify the "
+        "3-4 MOST SIGNIFICANT new technology developments or themes — real advances, "
+        "inventions, programs, or capabilities. Ignore pure politics, troop "
+        "movements, budget squabbles, and battle/strike news that has no technology "
+        "angle.\n"
+        'Return JSON: {"intro": "2-3 sentence framing of the week", '
+        '"themes": [{"title": str, "ids": [int, ...]}]}\n\n'
+        f"ITEMS:\n{idx_items}"
+    )
+    sel = gemini_client.generate_json(sel_prompt, max_output_tokens=2048)
+    diag["steps"].append({"select": "ok" if sel else gemini_client.STATUS["last_error"]})
+    if not (isinstance(sel, dict) and isinstance(sel.get("themes"), list) and sel["themes"]):
+        return _fallback(corpus, "theme selection failed"), diag
+
+    intro = str(sel.get("intro", "")).strip()
+    dives = []
+    for th in sel["themes"][:4]:
+        ids = [i for i in th.get("ids", []) if isinstance(i, int) and 0 <= i < len(corpus)]
+        ctx = [{"title": corpus[i]["title"], "source": corpus[i]["source"],
+                "text": corpus[i]["text"]} for i in ids] or [{"title": th.get("title", "")}]
+        dive_prompt = (
+            "Write a deep dive on this technology development for a smart non-expert. "
+            "Balanced tone: briefly explain jargon when first used. Theme: dual-use "
+            "technology — how military/advanced tech becomes commercial (like GPS, the "
+            "internet, GPUs).\n"
+            'Return JSON: {"title": str, "what_happened": str (2-4 sentences), '
+            '"enabling_tech": [{"name": str, "why": str}], '
+            '"pioneers": [{"name": str, "role": str}], '
+            '"spillover": str (where/when it likely reaches commercial use; rough timeline), '
+            '"watchlist": [{"name": str, "note": str}]}\n\n'
+            f"THEME: {th.get('title','')}\nSOURCES:\n{ctx}"
+        )
+        dv = gemini_client.generate_json(dive_prompt, max_output_tokens=2048)
+        if isinstance(dv, dict) and dv.get("what_happened"):
+            dv.setdefault("title", th.get("title", ""))
+            dives.append(dv)
+        else:
+            diag["steps"].append({"dive_failed": th.get("title", ""),
+                                  "err": gemini_client.STATUS["last_error"]})
+
+    if not dives:
+        return _fallback(corpus, "all deep-dive calls failed"), diag
+
+    report = {"intro": intro, "deep_dives": dives,
+              "disclaimer": "The watchlist is informational only and not financial advice."}
+    return report, diag
 
 
 # ----------------------------------------------------------------- rendering ---
@@ -149,10 +170,9 @@ EXTRA_CSS = ""  # foresight styles now live in publisher.CSS
 def _kv_list(items, kfield, vfield):
     if not items:
         return ""
-    rows = "".join(
+    return "".join(
         f"<div class='kv'><b>{publisher._esc(str(i.get(kfield,'')))}</b> — "
         f"{publisher._esc(str(i.get(vfield,'')))}</div>" for i in items)
-    return rows
 
 
 def _dive_html(d):
@@ -179,7 +199,7 @@ def _dive_html(d):
 
 
 def render_fragment(report):
-    """Inner HTML (intro + deep dives + disclaimer) for embedding in the daily paper."""
+    """Inner HTML (intro + dives + disclaimer) for embedding in the daily paper."""
     intro = f"<p class='fs-intro'>{publisher._esc(report.get('intro',''))}</p>"
     dives = "".join(_dive_html(d) for d in report.get("deep_dives", []))
     disc = f"<div class='disclaimer'>{publisher._esc(report.get('disclaimer',''))}</div>"
@@ -193,14 +213,13 @@ def render(report, date):
             f"what the military builds today, the world uses tomorrow</div>"
             f"<div class='dateline'><span>Seoul · {week}</span>"
             f"<span><a href='../index.html'>← Daily paper</a></span></div></header>")
-    foot = ("<div class='foot'><a href='index.html'>Past Foresight reports →</a></div>")
+    foot = "<div class='foot'><a href='index.html'>Past Foresight reports →</a></div>"
     body = head + render_fragment(report) + foot
-    html = (f"<!doctype html><html lang='en'><head><meta charset='utf-8'>"
+    return (f"<!doctype html><html lang='en'><head><meta charset='utf-8'>"
             f"<meta name='viewport' content='width=device-width,initial-scale=1'>"
             f"<title>Foresight — {publisher._esc(week)}</title>{publisher.FONTS}"
-            f"<style>{publisher.CSS}{EXTRA_CSS}</style></head>"
+            f"<style>{publisher.CSS}</style></head>"
             f"<body><div class='wrap'>{body}</div></body></html>")
-    return html
 
 
 def render_index(manifest):
@@ -214,7 +233,7 @@ def render_index(manifest):
     return (f"<!doctype html><html lang='en'><head><meta charset='utf-8'>"
             f"<meta name='viewport' content='width=device-width,initial-scale=1'>"
             f"<title>Foresight — Archive</title>{publisher.FONTS}"
-            f"<style>{publisher.CSS}{EXTRA_CSS}</style></head>"
+            f"<style>{publisher.CSS}</style></head>"
             f"<body><div class='wrap'>{body}</div></body></html>")
 
 
@@ -232,12 +251,10 @@ def publish(report, date):
     manifest.append({"id": wid, "file": fname, "week": date.strftime("Week of %B %d, %Y")})
     json.dump(manifest, open(man_path, "w", encoding="utf-8"), indent=2)
 
-    # Embeddable fragment + machine copy used by the daily paper.
     with open(os.path.join(out, "latest_fragment.html"), "w", encoding="utf-8") as f:
         f.write(render_fragment(report))
     with open(os.path.join(out, "latest.json"), "w", encoding="utf-8") as f:
         json.dump(report, f, indent=2, ensure_ascii=False)
-
     with open(os.path.join(out, "index.html"), "w", encoding="utf-8") as f:
         f.write(render_index(manifest))
     return os.path.join(out, fname)
@@ -249,12 +266,16 @@ def main():
     args = ap.parse_args()
 
     date = dt.datetime.now(KST)
-    print(f"[foresight] Building weekly report {date.strftime('%G-W%V')} "
+    print(f"[foresight] Building {date.strftime('%G-W%V')} "
           f"(LLM={'on' if gemini_client.available() else 'off'})")
+    print(f"[foresight] Gemini health: {gemini_client.ping()}")
+
     config = load_config()
     corpus = gather(config, days=7, mock_path=args.mock)
     print(f"[foresight] corpus: {len(corpus)} stories")
-    report = analyze(corpus)
+    report, diag = analyze(corpus)
+    report["_diagnostics"] = diag
+    print(f"[foresight] diagnostics: {diag}")
     path = publish(report, date)
     print(f"[foresight] wrote {path} ({len(report.get('deep_dives', []))} deep dives)")
 

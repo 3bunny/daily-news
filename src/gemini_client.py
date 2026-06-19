@@ -19,7 +19,7 @@ def available() -> bool:
     return bool(os.environ.get("GEMINI_API_KEY"))
 
 
-# Health tracking so the daily log can prove the key actually worked.
+# Health tracking so logs can prove the key actually worked.
 STATUS = {"ok": 0, "fail": 0, "last_error": None}
 
 
@@ -34,15 +34,23 @@ def ping() -> dict:
             "detail": STATUS["last_error"] or "No valid response from Gemini."}
 
 
-def generate_json(prompt: str, retries: int = 3):
-    """Call Gemini and parse the reply as JSON. Returns parsed object or None."""
+def generate_json(prompt: str, retries: int = 3, max_output_tokens: int = 8192):
+    """Call Gemini and parse the reply as JSON. Returns parsed object or None.
+
+    Captures a descriptive last_error (HTTP code, safety block, truncation, or
+    JSON parse failure) so callers/logs can see exactly what went wrong.
+    """
     key = os.environ.get("GEMINI_API_KEY")
     if not key:
         return None
 
     body = {
         "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {"temperature": 0.3, "responseMimeType": "application/json"},
+        "generationConfig": {
+            "temperature": 0.3,
+            "responseMimeType": "application/json",
+            "maxOutputTokens": max_output_tokens,
+        },
     }
     url = ENDPOINT.format(model=MODEL) + "?key=" + key
     data = json.dumps(body).encode("utf-8")
@@ -51,10 +59,23 @@ def generate_json(prompt: str, retries: int = 3):
         try:
             req = urllib.request.Request(url, data=data,
                                          headers={"Content-Type": "application/json"})
-            with urllib.request.urlopen(req, timeout=60) as resp:
+            with urllib.request.urlopen(req, timeout=90) as resp:
                 payload = json.loads(resp.read().decode("utf-8"))
-            text = payload["candidates"][0]["content"]["parts"][0]["text"]
-            result = json.loads(text)
+
+            cands = payload.get("candidates")
+            if not cands:
+                raise RuntimeError(f"no candidates; promptFeedback={payload.get('promptFeedback')}")
+            c0 = cands[0]
+            parts = (c0.get("content") or {}).get("parts")
+            if not parts:
+                raise RuntimeError(f"empty content; finishReason={c0.get('finishReason')}")
+            text = parts[0].get("text", "")
+            try:
+                result = json.loads(text)
+            except json.JSONDecodeError as je:
+                raise RuntimeError(
+                    f"JSON parse failed (finishReason={c0.get('finishReason')}, "
+                    f"len={len(text)}): {je}")
             STATUS["ok"] += 1
             return result
         except urllib.error.HTTPError as e:
