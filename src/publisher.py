@@ -146,7 +146,7 @@ def render_issue(selected: dict, grade: dict, config: dict, date: datetime) -> s
         for i, t in enumerate(topics)
     )
     foot = ("<div class='foot'>Compiled automatically by the Daily Dispatch bot · "
-            "<a href='archive.html'>Past editions →</a><br>"
+            "<a href='archive.html'>Past editions →</a> · <a href='foresight/index.html'>Weekly Foresight →</a><br>"
             "Sources are independent outlets; tap any headline to read the original.</div>")
     return _page(f"{PAPER_NAME} — {long_date}", masthead + ednote + sections + foot)
 

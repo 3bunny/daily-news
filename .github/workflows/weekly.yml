@@ -1,0 +1,39 @@
+name: Weekly Foresight
+
+on:
+  schedule:
+    # Saturday 22:00 UTC = Sunday 07:00 KST
+    - cron: "0 22 * * 6"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-foresight
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Build weekly foresight report
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python src/foresight.py
+      - name: Commit the report
+        run: |
+          git config user.name  "daily-dispatch-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add docs data
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Foresight $(date -u +%G-W%V)"
+            git push
+          fi

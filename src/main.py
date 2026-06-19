@@ -92,6 +92,23 @@ def write_log(date, grade, suggestions, added, health=None):
         json.dump(entry, f, indent=2, ensure_ascii=False)
 
 
+def dump_stories(selected, date):
+    """Persist the day's selected stories as JSON so the Weekly Foresight
+    report has durable history to look back over."""
+    d = os.path.join(ROOT, "data", "stories")
+    os.makedirs(d, exist_ok=True)
+    rows = []
+    for topic, stories in selected.items():
+        for s in stories:
+            rows.append({
+                "topic": topic, "title": s.title, "link": s.link,
+                "source": s.source, "published": s.published,
+                "summary": s.summary, "score": s.score, "wow": s.wow,
+            })
+    with open(os.path.join(d, f"{date.strftime('%Y-%m-%d')}.json"), "w", encoding="utf-8") as f:
+        json.dump(rows, f, indent=2, ensure_ascii=False)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--mock", help="Path to a JSON fixture (offline test).")
@@ -111,6 +128,7 @@ def main():
         editor.evaluate_topic(topic["title"], stories)
 
     selected = editor.select(scanned, config)
+    dump_stories(selected, date)
     grade = editor.grade_issue(selected, config)
 
     suggestions = editor.curate(selected, config)
