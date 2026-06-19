@@ -1,0 +1,18 @@
+{
+  "date": "2026-06-19",
+  "grade": "B",
+  "note": "A solid edition with 2 standout item(s).",
+  "counts": {
+    "military": 3,
+    "business": 3,
+    "crypto": 1,
+    "economics": 1
+  },
+  "wow": 2,
+  "source_suggestions": [
+    "Thin section: Crypto & Blockchain",
+    "Thin section: World Economics"
+  ],
+  "sources_added": [],
+  "used_llm": false
+}

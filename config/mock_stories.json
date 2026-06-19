@@ -1,0 +1,87 @@
+{
+  "military": [
+    {
+      "title": "U.S. Navy test-fires first ship-based hypersonic missile in Pacific trial",
+      "link": "https://example.com/navy-hypersonic",
+      "source": "Naval News",
+      "published": "2026-06-19T07:40:00+09:00",
+      "raw_summary": "The U.S. Navy successfully launched a conventional prompt-strike hypersonic weapon from a destroyer for the first time during a Pacific exercise, reaching speeds above Mach 5. Officials called it a milestone in fielding sea-based long-range strike, with the system slated to deploy across the destroyer fleet over the next two years."
+    },
+    {
+      "title": "South Korea unveils autonomous 'wingman' combat drone to fly alongside KF-21 jets",
+      "link": "https://example.com/kf21-wingman",
+      "source": "Breaking Defense",
+      "published": "2026-06-19T06:10:00+09:00",
+      "raw_summary": "South Korea revealed a new stealthy uncrewed combat aircraft designed to pair with the KF-21 fighter, marking the country's debut in the collaborative-combat-aircraft field. The prototype is built for autonomous strike and electronic-warfare missions and adds to a small club of nations developing AI loyal-wingman drones."
+    },
+    {
+      "title": "Germany orders first batch of laser air-defense systems for frigates",
+      "link": "https://example.com/germany-laser",
+      "source": "Defense News",
+      "published": "2026-06-18T22:05:00+09:00",
+      "raw_summary": "Germany has placed its first production order for high-energy laser weapons to defend navy frigates against drones and fast boats, following two years of at-sea trials. The directed-energy system offers a low cost-per-shot answer to swarming drone threats."
+    },
+    {
+      "title": "Pentagon outlines fiscal plan for next-generation logistics software",
+      "link": "https://example.com/pentagon-logistics",
+      "source": "Defense One",
+      "published": "2026-06-18T19:30:00+09:00",
+      "raw_summary": "A Defense Department memo discusses budgeting priorities and contracting reform for back-office logistics IT, with officials commenting on the need for modernization."
+    }
+  ],
+  "business": [
+    {
+      "title": "Startup demonstrates room-temperature solid-state battery with 1,000-km range cell",
+      "link": "https://example.com/solid-state-battery",
+      "source": "IEEE Spectrum",
+      "published": "2026-06-19T05:20:00+09:00",
+      "raw_summary": "A battery startup showed an automotive-grade solid-state cell that it says enables roughly 1,000 km of range and ten-minute charging, with a pilot production line opening this year. Independent labs verified the energy density in early testing, a potential breakthrough for electric vehicles."
+    },
+    {
+      "title": "Chipmaker reveals first 1.4-nanometer test chip ahead of 2028 production",
+      "link": "https://example.com/14nm-chip",
+      "source": "Ars Technica",
+      "published": "2026-06-18T23:15:00+09:00",
+      "raw_summary": "A leading foundry unveiled a working 1.4nm-class test chip, claiming sizable gains in power efficiency, and laid out a roadmap toward volume manufacturing in 2028. The new node could extend performance scaling for AI accelerators."
+    },
+    {
+      "title": "Robotics firm launches humanoid that learns warehouse tasks by watching once",
+      "link": "https://example.com/humanoid-robot",
+      "source": "New Atlas",
+      "published": "2026-06-18T20:00:00+09:00",
+      "raw_summary": "A robotics company launched a humanoid robot that can pick up new warehouse tasks from a single human demonstration using a new imitation-learning model. Pilot customers report it handling order-picking with minimal setup."
+    }
+  ],
+  "crypto": [
+    {
+      "title": "New layer-1 'Helios' debuts with parallel execution, hits 100k TPS in public testnet",
+      "link": "https://example.com/helios-l1",
+      "source": "CoinDesk",
+      "published": "2026-06-19T04:30:00+09:00",
+      "raw_summary": "A new layer-1 blockchain called Helios launched its public testnet, posting over 100,000 transactions per second using parallel execution and a novel consensus design. Developers are watching whether the throughput holds under real-world load before mainnet."
+    },
+    {
+      "title": "Ethereum activates upgrade cutting layer-2 fees by an estimated 90%",
+      "link": "https://example.com/eth-upgrade",
+      "source": "Decrypt",
+      "published": "2026-06-18T21:45:00+09:00",
+      "raw_summary": "Ethereum's latest network upgrade went live, expanding data capacity for rollups and driving layer-2 transaction fees down sharply. Several major rollups reported fees falling to a fraction of a cent."
+    }
+  ],
+  "economics": [
+    {
+      "title": "Japan's central bank raises rates as inflation holds above target",
+      "link": "https://example.com/boj-rates",
+      "source": "CNBC",
+      "published": "2026-06-19T03:10:00+09:00",
+      "raw_summary": "The Bank of Japan raised its benchmark interest rate for the first time in over a year, citing persistent inflation and rising wages, a notable shift after decades of ultra-loose policy. The yen strengthened on the news."
+    },
+    {
+      "title": "Analysts debate the outlook for global growth",
+      "link": "https://example.com/growth-outlook",
+      "source": "The Economist",
+      "published": "2026-06-18T18:00:00+09:00",
+      "raw_summary": "Commentators offer differing opinions on where the world economy is headed next year, with the usual mix of optimism and caution."
+    }
+  ]
+}
