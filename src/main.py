@@ -43,8 +43,7 @@ def validate_feed(url: str) -> bool:
 
 
 def apply_curation(suggestions: list, config: dict) -> list:
-    """Validate suggested RSS feeds and append the working ones to sources.yaml
-    under auto_added. Never removes curated feeds. Returns what was added."""
+    """Validate suggested feeds and append working ones under auto_added."""
     added = []
     existing = set()
     for t in config["topics"]:
@@ -52,14 +51,12 @@ def apply_curation(suggestions: list, config: dict) -> list:
     auto = {a["key"]: a for a in config.get("auto_added", [])}
 
     for s in suggestions:
-        # suggestions of the form "section: name -> rss"
         if "->" not in s:
             continue
         section_name, rss = s.rsplit("->", 1)
         rss = rss.strip()
         if rss in existing or not rss.startswith("http"):
             continue
-        # map the section title back to a topic key
         key = next((t["key"] for t in config["topics"]
                     if t["title"].lower() in section_name.lower()), None)
         if not key or not validate_feed(rss):
@@ -76,7 +73,7 @@ def apply_curation(suggestions: list, config: dict) -> list:
     return added
 
 
-def write_log(date: dt.datetime, grade: dict, suggestions: list, added: list):
+def write_log(date, grade, suggestions, added, health=None):
     d = os.path.join(ROOT, "editor_log")
     os.makedirs(d, exist_ok=True)
     entry = {
@@ -88,6 +85,8 @@ def write_log(date: dt.datetime, grade: dict, suggestions: list, added: list):
         "source_suggestions": suggestions,
         "sources_added": added,
         "used_llm": gemini_client.available(),
+        "gemini_health": health or {},
+        "gemini_calls": gemini_client.STATUS,
     }
     with open(os.path.join(d, f"{date.strftime('%Y-%m-%d')}.json"), "w", encoding="utf-8") as f:
         json.dump(entry, f, indent=2, ensure_ascii=False)
@@ -102,6 +101,9 @@ def main():
     date = dt.datetime.now(KST)
     print(f"[main] Building edition {date:%Y-%m-%d} (LLM={'on' if gemini_client.available() else 'off'})")
 
+    health = gemini_client.ping()
+    print(f"[main] Gemini health: {health}")
+
     scanned = scanner.collect(config, mock_path=args.mock)
     for topic in config["topics"]:
         stories = scanned.get(topic["key"], [])
@@ -115,11 +117,10 @@ def main():
     added = [] if args.mock else apply_curation(suggestions, config)
 
     paths = publisher.publish(selected, grade, config, ROOT, date=date)
-    write_log(date, grade, suggestions, added)
+    write_log(date, grade, suggestions, added, health)
 
     printed = sum(len(v) for v in selected.values())
-    print(f"[main] Grade {grade.get('grade')} · {printed} stories printed · "
-          f"{grade.get('wow',0)} standouts")
+    print(f"[main] Grade {grade.get('grade')} - {printed} stories printed - {grade.get('wow', 0)} standouts")
     print(f"[main] Wrote {paths['index']}")
 
 

@@ -14,5 +14,15 @@
     "Thin section: World Economics"
   ],
   "sources_added": [],
-  "used_llm": false
+  "used_llm": false,
+  "gemini_health": {
+    "key_present": false,
+    "working": false,
+    "detail": "No GEMINI_API_KEY set."
+  },
+  "gemini_calls": {
+    "ok": 0,
+    "fail": 0,
+    "last_error": null
+  }
 }
