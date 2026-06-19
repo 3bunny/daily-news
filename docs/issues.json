@@ -2,12 +2,12 @@
   {
     "date": "2026-06-19",
     "long": "Friday, June 19, 2026",
-    "grade": "B+",
+    "grade": "A",
     "counts": {
       "military": 5,
       "business": 5,
       "crypto": 5,
-      "economics": 0
+      "economics": 3
     }
   }
 ]
