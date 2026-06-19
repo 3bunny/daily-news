@@ -1,27 +1,30 @@
 {
   "date": "2026-06-19",
-  "grade": "B",
-  "note": "A solid edition with 2 standout item(s).",
+  "grade": "B+",
+  "note": "Today's briefing delivers several genuinely groundbreaking stories in military technology and scientific discovery, making for compelling reading. While the crypto section is redundant and economics is entirely missing, the high impact of the included news elevates the overall quality.",
   "counts": {
-    "military": 3,
-    "business": 3,
-    "crypto": 1,
-    "economics": 1
+    "military": 5,
+    "business": 5,
+    "crypto": 5,
+    "economics": 0
   },
-  "wow": 2,
+  "wow": 12,
   "source_suggestions": [
-    "Thin section: Crypto & Blockchain",
-    "Thin section: World Economics"
+    "World Economics: Financial Times - World Economy -> https://www.ft.com/world-economy?format=rss",
+    "World Economics: The Economist - Finance & Economics -> https://www.economist.com/finance-and-economics/rss.xml",
+    "World Economics: Wall Street Journal - Economy -> https://feeds.a.dj.com/rss/RssWSJEconomy.xml"
   ],
-  "sources_added": [],
-  "used_llm": false,
+  "sources_added": [
+    "economics: https://www.ft.com/world-economy?format=rss"
+  ],
+  "used_llm": true,
   "gemini_health": {
-    "key_present": false,
-    "working": false,
-    "detail": "No GEMINI_API_KEY set."
+    "key_present": true,
+    "working": true,
+    "detail": "Gemini responded correctly."
   },
   "gemini_calls": {
-    "ok": 0,
+    "ok": 11,
     "fail": 0,
     "last_error": null
   }

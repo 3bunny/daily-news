@@ -1,60 +1,44 @@
-# ============================================================
-#  THE DAILY DISPATCH — source list
-#  Topics are processed in this order (military first).
-#  The editor agent may APPEND new feeds under `auto_added:`
-#  but will never delete the curated feeds below.
-# ============================================================
-
-# How many stories, at most, to show per section in the final issue.
 max_stories_per_section: 5
-
-# A story must score at least this (0-10) to be printed.
-# Keeps the paper honest: a weak news day = a shorter paper.
 min_score: 6
-
-# Only consider stories published within this many hours.
 lookback_hours: 28
-
 topics:
-  - key: military
-    title: "Military & Defense Technology"
-    blurb: "New advances, programs, and the genuinely jaw-dropping."
-    priority: 1
-    feeds:
-      - https://breakingdefense.com/feed/
-      - https://www.defensenews.com/arc/outboundfeeds/rss/?outputType=xml
-      - https://www.twz.com/feed
-      - https://www.navalnews.com/feed/
-      - https://www.defenseone.com/rss/
-      - https://www.thedefensepost.com/feed/
-
-  - key: business
-    title: "Business & Invention"
-    blurb: "Companies building new and remarkable things."
-    priority: 2
-    feeds:
-      - https://techcrunch.com/feed/
-      - https://www.theverge.com/rss/index.xml
-      - https://feeds.arstechnica.com/arstechnica/index
-      - https://spectrum.ieee.org/feeds/feed.rss
-      - https://newatlas.com/index.rss
-
-  - key: crypto
-    title: "Crypto & Blockchain"
-    blurb: "Notable altcoins, protocols, and on-chain developments."
-    priority: 3
-    feeds:
-      - https://www.coindesk.com/arc/outboundfeeds/rss/
-      - https://cointelegraph.com/rss
-      - https://decrypt.co/feed
-
-  - key: economics
-    title: "World Economics"
-    blurb: "The state and direction of the world's economies."
-    priority: 4
-    feeds:
-      - https://www.cnbc.com/id/20910258/device/rss/rss.html
-      - https://www.economist.com/finance-and-economics/rss.xml
-
-# Feeds discovered and validated by the editor agent get appended here.
-auto_added: []
+- key: military
+  title: Military & Defense Technology
+  blurb: New advances, programs, and the genuinely jaw-dropping.
+  priority: 1
+  feeds:
+  - https://breakingdefense.com/feed/
+  - https://www.defensenews.com/arc/outboundfeeds/rss/?outputType=xml
+  - https://www.twz.com/feed
+  - https://www.navalnews.com/feed/
+  - https://www.defenseone.com/rss/
+  - https://www.thedefensepost.com/feed/
+- key: business
+  title: Business & Invention
+  blurb: Companies building new and remarkable things.
+  priority: 2
+  feeds:
+  - https://techcrunch.com/feed/
+  - https://www.theverge.com/rss/index.xml
+  - https://feeds.arstechnica.com/arstechnica/index
+  - https://spectrum.ieee.org/feeds/feed.rss
+  - https://newatlas.com/index.rss
+- key: crypto
+  title: Crypto & Blockchain
+  blurb: Notable altcoins, protocols, and on-chain developments.
+  priority: 3
+  feeds:
+  - https://www.coindesk.com/arc/outboundfeeds/rss/
+  - https://cointelegraph.com/rss
+  - https://decrypt.co/feed
+- key: economics
+  title: World Economics
+  blurb: The state and direction of the world's economies.
+  priority: 4
+  feeds:
+  - https://www.cnbc.com/id/20910258/device/rss/rss.html
+  - https://www.economist.com/finance-and-economics/rss.xml
+auto_added:
+- key: economics
+  feeds:
+  - https://www.ft.com/world-economy?format=rss
