@@ -1,5 +1,5 @@
 {
-  "intro": "Automated deep analysis was unavailable this week, so here is a plain roundup of the week's notable military and business technology.",
+  "intro": "A plain roundup of the week's notable military and business technology (full analysis was unavailable this run).",
   "deep_dives": [
     {
       "title": "Troop cuts in Europe: Giving away something for nothing",
@@ -106,5 +106,15 @@
       "watchlist": []
     }
   ],
-  "disclaimer": "The watchlist is informational only and not financial advice."
+  "disclaimer": "The watchlist is informational only and not financial advice.",
+  "_fallback_reason": "theme selection failed",
+  "_diagnostics": {
+    "key_present": true,
+    "corpus": 40,
+    "steps": [
+      {
+        "select": "HTTP 429: b'{\\n  \"error\": {\\n    \"code\": 429,\\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a'"
+      }
+    ]
+  }
 }
