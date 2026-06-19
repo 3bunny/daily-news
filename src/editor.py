@@ -1,23 +1,21 @@
 """
 Editor agent: the quality brain of the paper.
 
-Responsibilities
-  1. Score every candidate story 0-10 on novelty + "wow factor", flag standouts.
-  2. Drop filler below the configured threshold, cap per-section counts.
-     => A weak news day yields a shorter (or empty) section, never padding.
-  3. Grade the whole issue and write a short editor's note.
-  4. Propose new/better outlets for thin sections (logged; validated before any
-     are appended to sources.yaml, and curated feeds are never removed).
+  1. Score every candidate 0-10 on novelty + "wow", flag standouts.
+  2. Summarize each story (combined into the same call to save API quota).
+  3. De-duplicate stories that report the same event (keep the best).
+  4. Drop filler below threshold, cap per-section counts.
+  5. Grade the issue and curate sources for thin sections.
 
-Falls back to transparent heuristics when no Gemini key is present.
+To respect the free Gemini tier, the per-story work (summarize + score + dedupe)
+is done in ONE call per section via process_topic(). Falls back to transparent
+heuristics when no key is present or a call fails.
 """
 
-import datetime as _dt
 import re
 
 import gemini_client
 
-# Words that tend to mark genuinely new / impressive developments.
 _WOW = re.compile(
     r"\b(first|breakthrough|record|unveil|launch|reveal|new|prototype|"
     r"world'?s|fastest|largest|hypersonic|autonomous|quantum|stealth|"
@@ -26,125 +24,14 @@ _WOW = re.compile(
 )
 
 
-def _heuristic_score(story) -> tuple[float, bool, str]:
+def _heuristic_score(story):
     text = f"{story.title} {story.raw_summary}"
     hits = len(set(m.group(0).lower() for m in _WOW.finditer(text)))
     score = min(10.0, 5.0 + 1.3 * hits)
     return score, score >= 8.0, f"{hits} novelty signal(s) in headline/summary."
 
 
-def evaluate_topic(topic_title: str, stories: list) -> None:
-    """Fill score / wow / reason for each story in-place."""
-    if not stories:
-        return
-
-    if not gemini_client.available():
-        for s in stories:
-            s.score, s.wow, s.reason = _heuristic_score(s)
-        return
-
-    items = [
-        {"id": i, "title": s.title, "source": s.source, "text": s.raw_summary}
-        for i, s in enumerate(stories)
-    ]
-    prompt = (
-        f"You are the editor of a daily briefing, judging the '{topic_title}' "
-        "section. Rate each item for a reader who wants genuinely NEW and "
-        "impressive developments — real advances, inventions, launches, records "
-        "— not routine commentary, opinion, or recycled news.\n\n"
-        "Score 0-10 where:\n"
-        "  9-10 = remarkable, clearly new, high 'wow'.\n"
-        "  6-8  = solid, worth reading.\n"
-        "  0-5  = routine, opinion, vague, or not really news. \n"
-        "Set wow=true only for the standout 9-10 items.\n\n"
-        "Return JSON: array of {\"id\": int, \"score\": number, \"wow\": bool, "
-        "\"reason\": str(<=12 words)}.\n\n"
-        f"ITEMS:\n{items}"
-    )
-    result = gemini_client.generate_json(prompt)
-    by_id = {}
-    if isinstance(result, list):
-        for r in result:
-            try:
-                by_id[int(r["id"])] = r
-            except (KeyError, ValueError, TypeError):
-                continue
-
-    for i, s in enumerate(stories):
-        r = by_id.get(i)
-        if r:
-            try:
-                s.score = float(r.get("score", 0))
-                s.wow = bool(r.get("wow", False))
-                s.reason = str(r.get("reason", "")).strip()
-                continue
-            except (ValueError, TypeError):
-                pass
-        s.score, s.wow, s.reason = _heuristic_score(s)
-
-
-def curate(selected: dict, config: dict) -> list[str]:
-    """Suggest better/more outlets for thin sections. Returns a list of
-    human-readable suggestions for the editor log. (Validation + appending to
-    sources.yaml happens in main, conservatively.)"""
-    thin = [t["title"] for t in config["topics"]
-            if len(selected.get(t["key"], [])) < 2]
-    if not thin or not gemini_client.available():
-        return [f"Thin section: {t}" for t in thin]
-
-    prompt = (
-        "These sections of a daily world-news briefing had few good stories "
-        f"today: {thin}. Suggest up to 3 high-quality, reputable RSS feed URLs "
-        "per thin section that would improve coverage of NEW developments. "
-        "Only well-known outlets with real public RSS feeds.\n"
-        "Return JSON: array of {\"section\": str, \"name\": str, \"rss\": str}."
-    )
-    result = gemini_client.generate_json(prompt)
-    out = []
-    if isinstance(result, list):
-        for r in result:
-            out.append(f"{r.get('section')}: {r.get('name')} -> {r.get('rss')}")
-    return out or [f"Thin section: {t}" for t in thin]
-
-
-def grade_issue(selected: dict, config: dict) -> dict:
-    """Return {'grade': 'A-', 'note': '...'} summarising the day's paper."""
-    counts = {k: len(v) for k, v in selected.items()}
-    total = sum(counts.values())
-    wow = sum(1 for v in selected.values() for s in v if s.wow)
-
-    if gemini_client.available():
-        digest = {
-            k: [{"title": s.title, "score": s.score} for s in v]
-            for k, v in selected.items()
-        }
-        prompt = (
-            "You are the editor-in-chief grading today's edition of a world-news "
-            "briefing (military, business, crypto, economics). Consider how much "
-            "genuinely new and notable material it contains. Give a letter grade "
-            "(A+ to D) and a 1-2 sentence editor's note for the reader.\n"
-            "Return JSON: {\"grade\": str, \"note\": str}.\n\n"
-            f"TODAY: {digest}"
-        )
-        r = gemini_client.generate_json(prompt)
-        if isinstance(r, dict) and r.get("grade"):
-            r.setdefault("note", "")
-            r["counts"] = counts
-            r["wow"] = wow
-            return r
-
-    # Heuristic grade.
-    if total == 0:
-        grade, note = "—", "A quiet news day — nothing met the bar for print."
-    elif total >= 12:
-        grade, note = "A", f"A strong edition with {wow} standout item(s)."
-    elif total >= 7:
-        grade, note = "B", f"A solid edition with {wow} standout item(s)."
-    else:
-        grade, note = "C", "A light news day; only the strongest stories ran."
-    return {"grade": grade, "note": note, "counts": counts, "wow": wow}
-
-
+# ----------------------------------------------------------------- de-dupe ----
 _DEDUP_STOP = {
     "the", "a", "an", "and", "or", "of", "to", "in", "on", "for", "with",
     "from", "at", "as", "by", "is", "are", "was", "were", "be", "been",
@@ -160,7 +47,6 @@ def _title_tokens(title):
 
 
 def _heuristic_dedupe(stories, threshold=0.34):
-    """No-LLM fallback: cluster by title token overlap, keep best-scored."""
     kept = []
     for s in sorted(stories, key=lambda x: x.score, reverse=True):
         st = _title_tokens(s.title)
@@ -180,66 +66,158 @@ def _heuristic_dedupe(stories, threshold=0.34):
     return kept
 
 
-def dedupe_topic(topic_title, stories):
-    """Collapse stories reporting the SAME underlying event, keeping the
-    best-scored version. Uses Gemini when available, heuristic otherwise."""
-    if len(stories) < 2:
-        return stories
+def _apply_groups(stories, groups):
+    """Keep the best-scored story per duplicate group. Returns deduped list, or
+    None if the grouping is invalid (caller falls back to heuristic)."""
+    if not isinstance(groups, list):
+        return None
+    seen, out = set(), []
+    for g in groups:
+        if not isinstance(g, list):
+            return None
+        ids = []
+        for x in g:
+            try:
+                i = int(x)
+            except (ValueError, TypeError):
+                return None
+            if i < 0 or i >= len(stories) or i in seen:
+                return None
+            seen.add(i)
+            ids.append(i)
+        if ids:
+            best = max((stories[i] for i in ids),
+                       key=lambda s: (s.score, len(s.summary or "")))
+            out.append(best)
+    if seen != set(range(len(stories))):
+        return None
+    return out
+
+
+# ------------------------------------------------- combined per-section call --
+def process_topic(topic_title, stories):
+    """ONE Gemini call per section: summarize + score + flag + de-dupe.
+    Returns a de-duplicated, scored, summarized list (not yet capped)."""
+    import summarizer
+    if not stories:
+        return []
+
     if not gemini_client.available():
+        for s in stories:
+            s.summary = summarizer._fallback(s.raw_summary)
+            s.score, s.wow, s.reason = _heuristic_score(s)
         return _heuristic_dedupe(stories)
 
-    items = [{"id": i, "title": s.title, "source": s.source}
+    items = [{"id": i, "title": s.title, "source": s.source, "text": s.raw_summary}
              for i, s in enumerate(stories)]
     prompt = (
-        f"These are candidate '{topic_title}' news items. Group items that report "
-        "the SAME underlying event or story (same companies/people and the same "
-        "development), even if from different outlets or worded differently. Items "
-        "about genuinely different events must each be in their own group.\n"
-        "Return JSON: an array of arrays of ids; every id must appear exactly once.\n\n"
+        f"You are the editor of the '{topic_title}' section of a daily world-news "
+        "briefing for a smart general reader in Korea. For the items below do ALL of:\n"
+        "1) Write a clear factual summary (2-4 sentences) of each (no hype, no first person).\n"
+        "2) Score each 0-10 for genuinely NEW and impressive developments (real "
+        "advances, inventions, launches, records). 9-10 remarkable/high-wow; 6-8 "
+        "solid; 0-5 routine/opinion/not news. Set wow true only for 9-10 items.\n"
+        "3) Group items that report the SAME underlying event (even across outlets).\n\n"
+        'Return JSON: {"items": [{"id": int, "summary": str, "score": number, '
+        '"wow": bool, "reason": str}], "groups": [[int, ...]]}. '
+        "Every id must appear exactly once across the groups.\n\n"
         f"ITEMS:\n{items}"
     )
     r = gemini_client.generate_json(prompt)
-    if isinstance(r, list):
-        groups, seen, ok = [], set(), True
-        for g in r:
-            if not isinstance(g, list):
-                ok = False
-                break
-            ids = []
-            for x in g:
+    if isinstance(r, dict) and isinstance(r.get("items"), list):
+        by = {}
+        for it in r["items"]:
+            try:
+                by[int(it["id"])] = it
+            except (KeyError, ValueError, TypeError):
+                continue
+        for i, s in enumerate(stories):
+            it = by.get(i)
+            if it:
+                s.summary = str(it.get("summary", "")).strip() or summarizer._fallback(s.raw_summary)
                 try:
-                    i = int(x)
+                    s.score = float(it.get("score", 0))
                 except (ValueError, TypeError):
-                    ok = False
-                    break
-                if i < 0 or i >= len(stories) or i in seen:
-                    ok = False
-                    break
-                seen.add(i)
-                ids.append(i)
-            if not ok:
-                break
-            if ids:
-                groups.append(ids)
-        if ok and seen == set(range(len(stories))):
-            kept = []
-            for ids in groups:
-                best = max((stories[i] for i in ids),
-                           key=lambda s: (s.score, len(s.summary or "")))
-                kept.append(best)
-            return kept
+                    s.score = 0.0
+                s.wow = bool(it.get("wow", False))
+                s.reason = str(it.get("reason", "")).strip()
+            else:
+                s.summary = summarizer._fallback(s.raw_summary)
+                s.score, s.wow, s.reason = _heuristic_score(s)
+        deduped = _apply_groups(stories, r.get("groups"))
+        return deduped if deduped is not None else _heuristic_dedupe(stories)
+
+    for s in stories:
+        s.summary = summarizer._fallback(s.raw_summary)
+        s.score, s.wow, s.reason = _heuristic_score(s)
     return _heuristic_dedupe(stories)
 
 
+# ------------------------------------------------------------- issue assembly -
 def select(scanned, config):
-    """Filter by score, collapse duplicate stories, cap per section."""
+    """Filter by score and cap per section (dedup already done upstream)."""
     min_score = float(config.get("min_score", 6))
     cap = int(config.get("max_stories_per_section", 5))
     out = {}
     for topic in sorted(config["topics"], key=lambda t: t.get("priority", 99)):
         key = topic["key"]
         good = [s for s in scanned.get(key, []) if s.score >= min_score]
-        good = dedupe_topic(topic["title"], good)
         good.sort(key=lambda s: (s.wow, s.score), reverse=True)
         out[key] = good[:cap]
     return out
+
+
+def curate(selected, config):
+    """Suggest better/more outlets for thin sections (logged; validated in main)."""
+    thin = [t["title"] for t in config["topics"]
+            if len(selected.get(t["key"], [])) < 2]
+    if not thin or not gemini_client.available():
+        return [f"Thin section: {t}" for t in thin]
+    prompt = (
+        "These sections of a daily world-news briefing had few good stories today: "
+        f"{thin}. Suggest up to 3 high-quality reputable RSS feed URLs per thin "
+        "section that would improve coverage of NEW developments. Only well-known "
+        "outlets with real public RSS feeds.\n"
+        'Return JSON: array of {"section": str, "name": str, "rss": str}.'
+    )
+    result = gemini_client.generate_json(prompt)
+    out = []
+    if isinstance(result, list):
+        for r in result:
+            out.append(f"{r.get('section')}: {r.get('name')} -> {r.get('rss')}")
+    return out or [f"Thin section: {t}" for t in thin]
+
+
+def grade_issue(selected, config):
+    """Return {'grade','note','counts','wow'} summarising the day's paper."""
+    counts = {k: len(v) for k, v in selected.items()}
+    total = sum(counts.values())
+    wow = sum(1 for v in selected.values() for s in v if s.wow)
+
+    if gemini_client.available():
+        digest = {k: [{"title": s.title, "score": s.score} for s in v]
+                  for k, v in selected.items()}
+        prompt = (
+            "You are the editor-in-chief grading today's edition of a world-news "
+            "briefing (military, business, crypto, economics). Consider how much "
+            "genuinely new and notable material it contains. Give a letter grade "
+            "(A+ to D) and a 1-2 sentence editor's note for the reader.\n"
+            'Return JSON: {"grade": str, "note": str}.\n\n'
+            f"TODAY: {digest}"
+        )
+        r = gemini_client.generate_json(prompt)
+        if isinstance(r, dict) and r.get("grade"):
+            r.setdefault("note", "")
+            r["counts"] = counts
+            r["wow"] = wow
+            return r
+
+    if total == 0:
+        grade, note = "—", "A quiet news day — nothing met the bar for print."
+    elif total >= 12:
+        grade, note = "A", f"A strong edition with {wow} standout item(s)."
+    elif total >= 7:
+        grade, note = "B", f"A solid edition with {wow} standout item(s)."
+    else:
+        grade, note = "C", "A light news day; only the strongest stories ran."
+    return {"grade": grade, "note": note, "counts": counts, "wow": wow}

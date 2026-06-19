@@ -122,12 +122,12 @@ def main():
     print(f"[main] Gemini health: {health}")
 
     scanned = scanner.collect(config, mock_path=args.mock)
+    processed = {}
     for topic in config["topics"]:
-        stories = scanned.get(topic["key"], [])
-        summarizer.summarize_topic(topic["title"], stories)
-        editor.evaluate_topic(topic["title"], stories)
+        processed[topic["key"]] = editor.process_topic(
+            topic["title"], scanned.get(topic["key"], []))
 
-    selected = editor.select(scanned, config)
+    selected = editor.select(processed, config)
     dump_stories(selected, date)
     grade = editor.grade_issue(selected, config)
 

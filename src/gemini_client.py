@@ -22,6 +22,17 @@ def available() -> bool:
 # Health tracking so logs can prove the key actually worked.
 STATUS = {"ok": 0, "fail": 0, "last_error": None}
 
+# Pace calls so we stay under the free-tier per-minute limit (~15 RPM).
+MIN_INTERVAL = float(os.environ.get("GEMINI_MIN_INTERVAL", "4.5"))
+_LAST_CALL = [0.0]
+
+
+def _pace():
+    gap = time.time() - _LAST_CALL[0]
+    if gap < MIN_INTERVAL:
+        time.sleep(MIN_INTERVAL - gap)
+    _LAST_CALL[0] = time.time()
+
 
 def ping() -> dict:
     """Make one minimal call to confirm the key is valid."""
@@ -57,6 +68,7 @@ def generate_json(prompt: str, retries: int = 3, max_output_tokens: int = 8192):
 
     for attempt in range(retries):
         try:
+            _pace()
             req = urllib.request.Request(url, data=data,
                                          headers={"Content-Type": "application/json"})
             with urllib.request.urlopen(req, timeout=90) as resp:
@@ -80,7 +92,7 @@ def generate_json(prompt: str, retries: int = 3, max_output_tokens: int = 8192):
             return result
         except urllib.error.HTTPError as e:
             if e.code == 429 and attempt < retries - 1:
-                time.sleep(20 * (attempt + 1))
+                time.sleep(30 * (attempt + 1))
                 continue
             detail = f"HTTP {e.code}: {e.read()[:200]!r}"
             print(f"[gemini] {detail}")
