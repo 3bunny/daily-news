@@ -2,37 +2,30 @@ name: Daily Dispatch
 
 on:
   schedule:
-    # GitHub cron is UTC. 22:00 UTC = 07:00 KST (next day) -> a 7am Seoul paper.
+    # 22:00 UTC = 07:00 KST (next day) -> a 7am Seoul paper.
     - cron: "0 22 * * *"
-  workflow_dispatch: {}   # lets you run it manually from the Actions tab anytime
+  workflow_dispatch: {}
 
 permissions:
-  contents: write          # allow committing the new issue back to the repo
+  contents: write
 
 concurrency:
-  group: daily-dispatch
+  group: dispatch-repo        # shared with weekly to avoid push races
   cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
-      - name: Install dependencies
-        run: pip install -r requirements.txt
-
+      - run: pip install -r requirements.txt
       - name: Build today's edition
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python src/main.py
-
       - name: Commit the new edition
         run: |
           git config user.name  "daily-dispatch-bot"
@@ -40,7 +33,11 @@ jobs:
           git add -A
           if git diff --staged --quiet; then
             echo "No changes to commit (quiet news day)."
-          else
-            git commit -m "Edition $(date -u +%Y-%m-%d)"
-            git push
+            exit 0
           fi
+          git commit -m "Edition $(date -u +%Y-%m-%d)"
+          for i in 1 2 3 4 5; do
+            git pull --rebase --autostash origin main && git push && exit 0
+            echo "push attempt $i failed; retrying in 5s..."; sleep 5
+          done
+          echo "push failed after retries"; exit 1
