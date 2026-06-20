@@ -103,7 +103,7 @@ def dump_stories(selected, date):
             rows.append({
                 "topic": topic, "title": s.title, "link": s.link,
                 "source": s.source, "published": s.published,
-                "summary": s.summary, "score": s.score, "wow": s.wow,
+                "summary": s.summary, "detail": s.detail, "score": s.score, "wow": s.wow,
             })
     with open(os.path.join(d, f"{date.strftime('%Y-%m-%d')}.json"), "w", encoding="utf-8") as f:
         json.dump(rows, f, indent=2, ensure_ascii=False)
@@ -128,6 +128,7 @@ def main():
             topic["title"], scanned.get(topic["key"], []))
 
     selected = editor.select(processed, config)
+    editor.expand_selected(selected)
     dump_stories(selected, date)
     grade = editor.grade_issue(selected, config)
 

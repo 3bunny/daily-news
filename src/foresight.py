@@ -115,11 +115,13 @@ def analyze(corpus):
     idx_items = [{"id": i, "topic": c["topic"], "title": c["title"]}
                  for i, c in enumerate(corpus)]
     sel_prompt = (
-        "From these military/technology news items of the past week, identify the "
-        "3-4 MOST SIGNIFICANT new technology developments or themes — real advances, "
-        "inventions, programs, or capabilities. Ignore pure politics, troop "
-        "movements, budget squabbles, and battle/strike news that has no technology "
-        "angle.\n"
+        "From these news items of the past week, pick the 3-4 most significant items "
+        "about ACTUAL useful technologies being built, invented, or fielded — real "
+        "advances, inventions, devices, or capabilities (e.g. new chips, sensors, "
+        "batteries, materials, robotics, AI systems, energy, comms, space). Favour "
+        "things with strong future or everyday/commercial potential. IGNORE pure "
+        "politics, troop movements, budgets, contracts, and battle/strike news that "
+        "has no real technology to explain.\n"
         'Return JSON: {"intro": "2-3 sentence framing of the week", '
         '"themes": [{"title": str, "ids": [int, ...]}]}\n\n'
         f"ITEMS:\n{idx_items}"
@@ -139,7 +141,8 @@ def analyze(corpus):
             "Write a deep dive on this technology development for a smart non-expert. "
             "Balanced tone: briefly explain jargon when first used. Theme: dual-use "
             "technology — how military/advanced tech becomes commercial (like GPS, the "
-            "internet, GPUs).\n"
+            "internet, GPUs). Emphasise what the technology is actually USEFUL for and its "
+            "realistic future/everyday potential.\n"
             'Return JSON: {"title": str, "what_happened": str (2-4 sentences), '
             '"enabling_tech": [{"name": str, "why": str}], '
             '"pioneers": [{"name": str, "role": str}], '
@@ -219,7 +222,7 @@ def render(report, date):
             f"<meta name='viewport' content='width=device-width,initial-scale=1'>"
             f"<title>Foresight — {publisher._esc(week)}</title>{publisher.FONTS}"
             f"<style>{publisher.CSS}</style></head>"
-            f"<body><div class='wrap'>{body}</div></body></html>")
+            f"<body><div class='wrap'>{body}</div>{publisher.BIONIC_JS}</body></html>")
 
 
 def render_index(manifest):
@@ -234,7 +237,7 @@ def render_index(manifest):
             f"<meta name='viewport' content='width=device-width,initial-scale=1'>"
             f"<title>Foresight — Archive</title>{publisher.FONTS}"
             f"<style>{publisher.CSS}</style></head>"
-            f"<body><div class='wrap'>{body}</div></body></html>")
+            f"<body><div class='wrap'>{body}</div>{publisher.BIONIC_JS}</body></html>")
 
 
 def publish(report, date):

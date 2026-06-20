@@ -221,3 +221,35 @@ def grade_issue(selected, config):
     else:
         grade, note = "C", "A light news day; only the strongest stories ran."
     return {"grade": grade, "note": note, "counts": counts, "wow": wow}
+
+
+def expand_selected(selected):
+    """Generate a concise (<=300 word) 'read more' explainer for each PRINTED
+    story, one batched call per section. Without a key, detail stays empty and
+    the publisher falls back to the feed's own text."""
+    if not gemini_client.available():
+        return
+    for key, stories in selected.items():
+        if not stories:
+            continue
+        items = [{"id": i, "title": s.title, "source": s.source, "text": s.raw_summary}
+                 for i, s in enumerate(stories)]
+        prompt = (
+            "For EACH news item below, write a concise deeper explainer of at most "
+            "300 words for a curious general reader: what happened, why it matters, "
+            "and the useful context or background. Factual, clear, no hype, no first "
+            "person.\n"
+            'Return JSON: array of {"id": int, "detail": str}.\n\n'
+            f"ITEMS:\n{items}"
+        )
+        r = gemini_client.generate_json(prompt)
+        if isinstance(r, list):
+            by = {}
+            for it in r:
+                try:
+                    by[int(it["id"])] = str(it.get("detail", "")).strip()
+                except (KeyError, ValueError, TypeError):
+                    continue
+            for i, s in enumerate(stories):
+                if by.get(i):
+                    s.detail = by[i]

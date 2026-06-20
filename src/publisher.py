@@ -97,12 +97,55 @@ a{color:inherit}
   border-top:1px solid var(--rule);padding-top:12px}
 .fs-more{margin-top:18px;font-size:13px}
 .fs-more a{color:var(--accent2);font-weight:700}
+/* Read more */
+details.readmore-d{margin-top:10px}
+details.readmore-d summary{cursor:pointer;list-style:none;font-family:Helvetica,Arial,sans-serif;
+  font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent2)}
+details.readmore-d summary::-webkit-details-marker{display:none}
+details.readmore-d summary::after{content:" \25B8"}
+details.readmore-d[open] summary::after{content:" \25BE"}
+.readmore{margin-top:8px;font-size:15.5px;color:var(--ink)}
+/* Bionic reading toggle */
+#bionic-toggle{position:fixed;right:14px;bottom:14px;z-index:60;font-family:Helvetica,Arial,sans-serif;
+  font-size:12px;font-weight:700;letter-spacing:.04em;background:var(--accent2);color:#fff;border:none;
+  border-radius:20px;padding:9px 15px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.25);opacity:.85}
+#bionic-toggle:hover{opacity:1}
+@media print{#bionic-toggle{display:none}}
 """
 
 FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">'
          '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
          '<link href="https://fonts.googleapis.com/css2?'
          'family=Playfair+Display:wght@800;900&display=swap" rel="stylesheet">')
+
+BIONIC_JS = r"""
+<script>
+(function(){
+  var SEL='.story p, .readmore, .fs-intro, .dive .happened, .spill';
+  var KEY='bionicOn';
+  function bw(w){var m=w.match(/^([^A-Za-z0-9]*)([A-Za-z0-9]+)([\s\S]*)$/);if(!m)return w;
+    var n=Math.max(1,Math.round(m[2].length*0.45));
+    return m[1]+'<b>'+m[2].slice(0,n)+'</b>'+m[2].slice(n)+m[3];}
+  function apply(){document.querySelectorAll(SEL).forEach(function(el){
+    if(el.dataset.bd)return; el.dataset.bd='1'; el.dataset.orig=el.innerHTML;
+    var wk=document.createTreeWalker(el,NodeFilter.SHOW_TEXT,null),ns=[];
+    while(wk.nextNode())ns.push(wk.currentNode);
+    ns.forEach(function(t){ if(!t.nodeValue.trim())return;
+      var sp=document.createElement('span');
+      sp.innerHTML=t.nodeValue.split(/(\s+)/).map(function(tok){return tok.trim()?bw(tok):tok;}).join('');
+      t.parentNode.replaceChild(sp,t);});
+  });}
+  function unapply(){document.querySelectorAll(SEL).forEach(function(el){
+    if(el.dataset.orig!==undefined){el.innerHTML=el.dataset.orig;delete el.dataset.bd;delete el.dataset.orig;}});}
+  var on; try{var v=localStorage.getItem(KEY); on=(v===null)?true:(v==='1');}catch(e){on=true;}
+  var btn=document.createElement('button'); btn.id='bionic-toggle';
+  function render(){ if(on)apply(); else unapply(); btn.textContent='\u26A1 Faster reading: '+(on?'ON':'OFF'); }
+  btn.onclick=function(){on=!on; try{localStorage.setItem(KEY,on?'1':'0');}catch(e){} render();};
+  if(document.readyState!=='loading'){document.body.appendChild(btn);render();}
+  else document.addEventListener('DOMContentLoaded',function(){document.body.appendChild(btn);render();});
+})();
+</script>
+"""
 
 
 def _esc(s: str) -> str:
@@ -113,7 +156,7 @@ def _page(title: str, body: str) -> str:
     return (f"<!doctype html><html lang='en'><head><meta charset='utf-8'>"
             f"<meta name='viewport' content='width=device-width,initial-scale=1'>"
             f"<title>{_esc(title)}</title>{FONTS}<style>{CSS}</style></head>"
-            f"<body><div class='wrap'>{body}</div></body></html>")
+            f"<body><div class='wrap'>{body}</div>{BIONIC_JS}</body></html>")
 
 
 def _story_html(s) -> str:
@@ -132,8 +175,17 @@ def _story_html(s) -> str:
         f"<span class='pill'>{_esc(s.source)}</span>"
         f"<span>{when}</span></div>"
         f"<p>{_esc(s.summary)}</p>"
+        f"{_readmore_html(s)}"
         "</article>"
     )
+
+
+def _readmore_html(s) -> str:
+    detail = getattr(s, "detail", "") or getattr(s, "raw_summary", "")
+    if not detail or detail.strip() == (s.summary or "").strip():
+        return ""
+    return ("<details class='readmore-d'><summary>Read more</summary>"
+            f"<div class='readmore'>{_esc(detail)}</div></details>")
 
 
 def _section_html(topic: dict, stories: list, lead: bool) -> str:

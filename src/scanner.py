@@ -29,6 +29,7 @@ class Story:
     score: float = 0.0           # filled by editor (0-10)
     wow: bool = False            # editor flag for standout items
     reason: str = ""             # editor's one-line justification
+    detail: str = ""             # ~300-word "read more" explainer
 
     def to_dict(self):
         return asdict(self)
