@@ -1,0 +1,25 @@
+{
+  "date": "2026-06-21",
+  "grade": "A-",
+  "note": "Today's briefing delivers a strong array of genuinely new and notable developments, particularly in the tech and crypto sectors, alongside a unique military readiness story. While the economics section is somewhat lighter, the overall edition provides excellent insight into emerging global trends.",
+  "counts": {
+    "military": 2,
+    "business": 5,
+    "crypto": 5,
+    "economics": 2
+  },
+  "wow": 0,
+  "source_suggestions": [],
+  "sources_added": [],
+  "used_llm": true,
+  "gemini_health": {
+    "key_present": true,
+    "working": true,
+    "detail": "Gemini responded correctly."
+  },
+  "gemini_calls": {
+    "ok": 10,
+    "fail": 0,
+    "last_error": null
+  }
+}
