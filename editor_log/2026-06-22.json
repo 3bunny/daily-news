@@ -1,0 +1,29 @@
+{
+  "date": "2026-06-22",
+  "grade": "A-",
+  "note": "This edition delivers genuinely groundbreaking news, particularly in business with advancements in artificial photosynthesis and aging research, complemented by a significant AI development in the crypto sector. While some sections offer more routine updates, the high-impact discoveries make this a compelling read.",
+  "counts": {
+    "military": 1,
+    "business": 5,
+    "crypto": 4,
+    "economics": 5
+  },
+  "wow": 3,
+  "source_suggestions": [
+    "Military & Defense Technology: Defense News - Technology -> https://www.defensenews.com/arc/outboundfeeds/rss/category/technology/",
+    "Military & Defense Technology: Breaking Defense -> https://breakingdefense.com/feed/",
+    "Military & Defense Technology: Defense One -> https://www.defenseone.com/feeds/latest/"
+  ],
+  "sources_added": [],
+  "used_llm": true,
+  "gemini_health": {
+    "key_present": true,
+    "working": true,
+    "detail": "Gemini responded correctly."
+  },
+  "gemini_calls": {
+    "ok": 10,
+    "fail": 1,
+    "last_error": "RuntimeError: JSON parse failed (finishReason=MAX_TOKENS, len=1272): Unterminated string starting at: line 26 column 18 (char 1115)"
+  }
+}
