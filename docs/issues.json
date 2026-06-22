@@ -42,5 +42,16 @@
       "crypto": 4,
       "economics": 5
     }
+  },
+  {
+    "date": "2026-06-23",
+    "long": "Tuesday, June 23, 2026",
+    "grade": "B",
+    "counts": {
+      "military": 5,
+      "business": 5,
+      "crypto": 5,
+      "economics": 5
+    }
   }
 ]
