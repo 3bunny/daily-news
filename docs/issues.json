@@ -53,5 +53,16 @@
       "crypto": 5,
       "economics": 5
     }
+  },
+  {
+    "date": "2026-06-24",
+    "long": "Wednesday, June 24, 2026",
+    "grade": "A-",
+    "counts": {
+      "military": 5,
+      "business": 5,
+      "crypto": 5,
+      "economics": 4
+    }
   }
 ]

@@ -1,0 +1,25 @@
+{
+  "date": "2026-06-24",
+  "grade": "A-",
+  "note": "Today's briefing delivers a robust collection of genuinely new and impactful stories, particularly strong in military developments and significant economic policy shifts. A solid edition offering crucial updates across all sectors.",
+  "counts": {
+    "military": 5,
+    "business": 5,
+    "crypto": 5,
+    "economics": 4
+  },
+  "wow": 0,
+  "source_suggestions": [],
+  "sources_added": [],
+  "used_llm": true,
+  "gemini_health": {
+    "key_present": true,
+    "working": true,
+    "detail": "Gemini responded correctly."
+  },
+  "gemini_calls": {
+    "ok": 7,
+    "fail": 3,
+    "last_error": "RuntimeError: JSON parse failed (finishReason=MAX_TOKENS, len=1204): Expecting value: line 26 column 17 (char 1204)"
+  }
+}
