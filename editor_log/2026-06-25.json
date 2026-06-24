@@ -1,0 +1,26 @@
+{
+  "date": "2026-06-25",
+  "grade": "A-",
+  "note": "Today's briefing features exceptionally strong coverage in military and business, with several genuinely new and impactful developments, including a top-tier insight into 5G's killer app. However, the crypto section is notably weak, suffering from low-impact news and significant miscategorization.",
+  "counts": {
+    "military": 5,
+    "business": 5,
+    "diamonds": 5,
+    "crypto": 5,
+    "economics": 5
+  },
+  "wow": 6,
+  "source_suggestions": [],
+  "sources_added": [],
+  "used_llm": true,
+  "gemini_health": {
+    "key_present": true,
+    "working": true,
+    "detail": "Gemini responded correctly."
+  },
+  "gemini_calls": {
+    "ok": 7,
+    "fail": 5,
+    "last_error": "RuntimeError: JSON parse failed (finishReason=MAX_TOKENS, len=1408): Expecting property name enclosed in double quotes: line 21 column 307 (char 1408)"
+  }
+}

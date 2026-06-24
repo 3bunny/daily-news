@@ -88,7 +88,25 @@ details.readmore-d[open] summary::after{content:" BE"}
   border-radius:20px;padding:9px 15px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.25);opacity:.85}
 #bionic-toggle:hover{opacity:1}
 @media print{#bionic-toggle{display:none}}
-</style></head><body><div class='wrap'><header class='masthead'><h1>Archive</h1><div class='tagline'>Every past edition of the Daily Dispatch</div></header><ul class='archive-list'><li><a href='archive/2026-06-24.html'>Wednesday, June 24, 2026</a><span class='g'>A-</span></li><li><a href='archive/2026-06-23.html'>Tuesday, June 23, 2026</a><span class='g'>B</span></li><li><a href='archive/2026-06-22.html'>Monday, June 22, 2026</a><span class='g'>A-</span></li><li><a href='archive/2026-06-21.html'>Sunday, June 21, 2026</a><span class='g'>A-</span></li><li><a href='archive/2026-06-20.html'>Saturday, June 20, 2026</a><span class='g'>A</span></li><li><a href='archive/2026-06-19.html'>Friday, June 19, 2026</a><span class='g'>A</span></li></ul><div class='foot'><a href='index.html'>← Latest edition</a></div></div>
+/* Top Ten Today */
+.topten{margin:26px 0 8px;background:#fff;border:1px solid var(--rule);border-radius:4px;padding:16px 18px 12px}
+.topten h2{font-family:'Playfair Display',Georgia,serif;font-size:21px;margin:0;color:var(--accent)}
+.topten .sub{font-size:12px;color:var(--muted);font-style:italic;margin:2px 0 10px}
+.topten ol{margin:0;padding:0;list-style:none;counter-reset:tt}
+.topten li{counter-increment:tt;display:flex;gap:9px;align-items:baseline;
+  padding:7px 0;border-bottom:1px dotted var(--rule)}
+.topten li:last-child{border-bottom:none}
+.topten li::before{content:counter(tt);font-family:'Playfair Display',Georgia,serif;
+  font-weight:900;color:var(--accent);min-width:20px;font-size:15px}
+.topten a{font-weight:700;text-decoration:none;font-size:15.5px;flex:1}
+.topten a:hover{text-decoration:underline;text-decoration-color:var(--accent)}
+.tt-grade{font-family:Helvetica,Arial,sans-serif;font-size:11px;font-weight:700;color:#fff;
+  background:var(--accent2);border-radius:4px;padding:1px 6px;white-space:nowrap}
+.tt-tag{font-family:Helvetica,Arial,sans-serif;font-size:10px;letter-spacing:.05em;
+  text-transform:uppercase;color:var(--muted);background:var(--pill);border:1px solid var(--rule);
+  border-radius:20px;padding:1px 8px;white-space:nowrap}
+.pill.tag{background:#edf0f7;border-color:#cfd8ea;color:var(--accent2)}
+</style></head><body><div class='wrap'><header class='masthead'><h1>Archive</h1><div class='tagline'>Every past edition of the Daily Dispatch</div></header><ul class='archive-list'><li><a href='archive/2026-06-25.html'>Thursday, June 25, 2026</a><span class='g'>A-</span></li><li><a href='archive/2026-06-24.html'>Wednesday, June 24, 2026</a><span class='g'>A-</span></li><li><a href='archive/2026-06-23.html'>Tuesday, June 23, 2026</a><span class='g'>B</span></li><li><a href='archive/2026-06-22.html'>Monday, June 22, 2026</a><span class='g'>A-</span></li><li><a href='archive/2026-06-21.html'>Sunday, June 21, 2026</a><span class='g'>A-</span></li><li><a href='archive/2026-06-20.html'>Saturday, June 20, 2026</a><span class='g'>A</span></li><li><a href='archive/2026-06-19.html'>Friday, June 19, 2026</a><span class='g'>A</span></li></ul><div class='foot'><a href='index.html'>← Latest edition</a></div></div>
 <script>
 (function(){
   var SEL='.story p, .readmore, .fs-intro, .dive .happened, .spill';
