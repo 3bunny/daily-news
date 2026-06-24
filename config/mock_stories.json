@@ -83,5 +83,35 @@
       "published": "2026-06-18T18:00:00+09:00",
       "raw_summary": "Commentators offer differing opinions on where the world economy is headed next year, with the usual mix of optimism and caution."
     }
+  ],
+  "diamonds": [
+    {
+      "title": "Stealthy battery startup Volta raises $40M Series A to mass-produce sodium-ion cells",
+      "link": "https://example.com/volta",
+      "source": "Google News",
+      "published": "2026-06-20T06:00:00+09:00",
+      "raw_summary": "Volta, a two-year-old startup, raised a $40M Series A led by a major VC to scale cheap sodium-ion batteries that avoid lithium supply constraints."
+    },
+    {
+      "title": "Nvidia takes minority stake in robotics-foundation-model startup",
+      "link": "https://example.com/nv-invest",
+      "source": "Google News",
+      "published": "2026-06-20T05:00:00+09:00",
+      "raw_summary": "Nvidia made a strategic investment in a startup building general-purpose models for industrial robots, deepening its push beyond chips into the robotics stack."
+    },
+    {
+      "title": "Show HN: an open-source tool that runs LLMs on a Raspberry Pi cluster",
+      "link": "https://example.com/hn",
+      "source": "Hacker News",
+      "published": "2026-06-20T04:00:00+09:00",
+      "raw_summary": "A developer released an open-source framework letting hobbyists run mid-size language models across cheap Raspberry Pi clusters, hitting the HN front page."
+    },
+    {
+      "title": "arXiv: room-temperature single-photon source could slash quantum-networking cost",
+      "link": "https://example.com/arxiv",
+      "source": "arXiv cs.AI",
+      "published": "2026-06-19T22:00:00+09:00",
+      "raw_summary": "Researchers report a room-temperature single-photon emitter that may dramatically lower the cost of building quantum communication networks."
+    }
   ]
 }

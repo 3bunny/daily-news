@@ -16,6 +16,9 @@ from dateutil import parser as dateparser
 
 KST = timezone(timedelta(hours=9))
 
+# Some feeds (e.g. SEC EDGAR) reject the default UA; identify ourselves politely.
+USER_AGENT = "DailyDispatch/1.0 (personal news aggregator; eelcchrisyoo@gmail.com)"
+
 
 @dataclass
 class Story:
@@ -30,6 +33,7 @@ class Story:
     wow: bool = False            # editor flag for standout items
     reason: str = ""             # editor's one-line justification
     detail: str = ""             # ~300-word "read more" explainer
+    tag: str = ""                # short keyword for the Top Ten
 
     def to_dict(self):
         return asdict(self)
@@ -87,7 +91,7 @@ def collect(config: dict, mock_path: str | None = None) -> dict:
 
         for url in feeds:
             try:
-                parsed = feedparser.parse(url)
+                parsed = feedparser.parse(url, agent=USER_AGENT)
             except Exception as e:  # noqa: BLE001
                 print(f"[scanner] {key}: failed {url}: {e}")
                 continue

@@ -24,6 +24,18 @@ _WOW = re.compile(
 )
 
 
+def letter_grade(score):
+    """Map a 0-10 story score to a letter grade for the Top Ten chips."""
+    s = float(score or 0)
+    if s >= 9.5: return "A+"
+    if s >= 9:   return "A"
+    if s >= 8.5: return "A-"
+    if s >= 8:   return "B+"
+    if s >= 7:   return "B"
+    if s >= 6:   return "B-"
+    return "C"
+
+
 def _heuristic_score(story):
     text = f"{story.title} {story.raw_summary}"
     hits = len(set(m.group(0).lower() for m in _WOW.finditer(text)))
@@ -119,7 +131,8 @@ def process_topic(topic_title, stories):
         "solid; 0-5 routine/opinion/not news. Set wow true only for 9-10 items.\n"
         "3) Group items that report the SAME underlying event (even across outlets).\n\n"
         'Return JSON: {"items": [{"id": int, "summary": str, "score": number, '
-        '"wow": bool, "reason": str}], "groups": [[int, ...]]}. '
+        '"wow": bool, "reason": str, "tag": str (1-3 word topic keyword, e.g. '
+        '"AI chips", "funding", "drones", "biotech")}], "groups": [[int, ...]]}. '
         "Every id must appear exactly once across the groups.\n\n"
         f"ITEMS:\n{items}"
     )
@@ -141,6 +154,7 @@ def process_topic(topic_title, stories):
                     s.score = 0.0
                 s.wow = bool(it.get("wow", False))
                 s.reason = str(it.get("reason", "")).strip()
+                s.tag = str(it.get("tag", "")).strip()
             else:
                 s.summary = summarizer._fallback(s.raw_summary)
                 s.score, s.wow, s.reason = _heuristic_score(s)

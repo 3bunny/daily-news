@@ -111,6 +111,24 @@ details.readmore-d[open] summary::after{content:" \25BE"}
   border-radius:20px;padding:9px 15px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.25);opacity:.85}
 #bionic-toggle:hover{opacity:1}
 @media print{#bionic-toggle{display:none}}
+/* Top Ten Today */
+.topten{margin:26px 0 8px;background:#fff;border:1px solid var(--rule);border-radius:4px;padding:16px 18px 12px}
+.topten h2{font-family:'Playfair Display',Georgia,serif;font-size:21px;margin:0;color:var(--accent)}
+.topten .sub{font-size:12px;color:var(--muted);font-style:italic;margin:2px 0 10px}
+.topten ol{margin:0;padding:0;list-style:none;counter-reset:tt}
+.topten li{counter-increment:tt;display:flex;gap:9px;align-items:baseline;
+  padding:7px 0;border-bottom:1px dotted var(--rule)}
+.topten li:last-child{border-bottom:none}
+.topten li::before{content:counter(tt);font-family:'Playfair Display',Georgia,serif;
+  font-weight:900;color:var(--accent);min-width:20px;font-size:15px}
+.topten a{font-weight:700;text-decoration:none;font-size:15.5px;flex:1}
+.topten a:hover{text-decoration:underline;text-decoration-color:var(--accent)}
+.tt-grade{font-family:Helvetica,Arial,sans-serif;font-size:11px;font-weight:700;color:#fff;
+  background:var(--accent2);border-radius:4px;padding:1px 6px;white-space:nowrap}
+.tt-tag{font-family:Helvetica,Arial,sans-serif;font-size:10px;letter-spacing:.05em;
+  text-transform:uppercase;color:var(--muted);background:var(--pill);border:1px solid var(--rule);
+  border-radius:20px;padding:1px 8px;white-space:nowrap}
+.pill.tag{background:#edf0f7;border-color:#cfd8ea;color:var(--accent2)}
 """
 
 FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">'
@@ -159,25 +177,55 @@ def _page(title: str, body: str) -> str:
             f"<body><div class='wrap'>{body}</div>{BIONIC_JS}</body></html>")
 
 
-def _story_html(s) -> str:
+def _lg(score):
+    s = float(score or 0)
+    return ("A+" if s >= 9.5 else "A" if s >= 9 else "A-" if s >= 8.5 else
+            "B+" if s >= 8 else "B" if s >= 7 else "B-" if s >= 6 else "C")
+
+
+def _story_html(s, sid="") -> str:
     try:
         when = datetime.fromisoformat(s.published).strftime("%b %d, %H:%M KST")
     except (ValueError, TypeError):
         when = ""
     wow = "<span class='pill wow'>★ Standout</span>" if s.wow else ""
+    tag = f"<span class='pill tag'>{_esc(s.tag)}</span>" if getattr(s, "tag", "") else ""
     link = _esc(s.link)
     title = (f"<a href='{link}' target='_blank' rel='noopener'>{_esc(s.title)}</a>"
              if s.link else _esc(s.title))
+    idattr = f" id='{sid}'" if sid else ""
     return (
-        "<article class='story'>"
+        f"<article class='story'{idattr}>"
         f"<h3>{title}</h3>"
-        f"<div class='meta'>{wow}"
+        f"<div class='meta'>{wow}{tag}"
         f"<span class='pill'>{_esc(s.source)}</span>"
         f"<span>{when}</span></div>"
         f"<p>{_esc(s.summary)}</p>"
         f"{_readmore_html(s)}"
         "</article>"
     )
+
+
+def _topten_html(selected, topics, id_map) -> str:
+    title_by_key = {t["key"]: t["title"] for t in topics}
+    alls = [s for t in topics for s in selected.get(t["key"], [])]
+    if not alls:
+        return ""
+    ranked = sorted(alls, key=lambda s: (s.wow, s.score), reverse=True)[:10]
+    lis = []
+    for s in ranked:
+        sid = id_map.get(id(s), "")
+        href = f"#{sid}" if sid else (_esc(s.link) or "#")
+        tag = getattr(s, "tag", "") or title_by_key.get(s.topic, "")
+        lis.append(
+            f"<li><span class='tt-grade'>{_lg(s.score)}</span>"
+            f"<a href='{href}'>{_esc(s.title)}</a>"
+            f"<span class='tt-tag'>{_esc(tag)}</span></li>"
+        )
+    return ("<section class='topten'><h2>Top Ten Today</h2>"
+            "<div class='sub'>The day's highest-graded finds across every desk \u2014 "
+            "tap to jump to the full story.</div>"
+            f"<ol>{''.join(lis)}</ol></section>")
 
 
 def _readmore_html(s) -> str:
@@ -188,11 +236,11 @@ def _readmore_html(s) -> str:
             f"<div class='readmore'>{_esc(detail)}</div></details>")
 
 
-def _section_html(topic: dict, stories: list, lead: bool) -> str:
+def _section_html(topic: dict, stories: list, lead: bool, id_map: dict) -> str:
     head = (f"<div class='section-head'><h2>{_esc(topic['title'])}</h2>"
             f"<span class='blurb'>{_esc(topic.get('blurb',''))}</span></div>")
     if stories:
-        body = "".join(_story_html(s) for s in stories)
+        body = "".join(_story_html(s, id_map.get(id(s), "")) for s in stories)
     else:
         body = "<div class='empty'>Nothing met the bar today. We'd rather run nothing than filler.</div>"
     cls = "section lead" if lead else "section"
@@ -213,8 +261,14 @@ def render_issue(selected: dict, grade: dict, config: dict, date: datetime, fore
               f"<span class='lbl'>Editor's Note</span><p>{note}</p></div>")
 
     topics = sorted(config["topics"], key=lambda t: t.get("priority", 99))
+    id_map, _n = {}, 0
+    for t in topics:
+        for st in selected.get(t["key"], []):
+            _n += 1
+            id_map[id(st)] = f"s{_n}"
+    topten = _topten_html(selected, topics, id_map)
     sections = "".join(
-        _section_html(t, selected.get(t["key"], []), lead=(i == 0))
+        _section_html(t, selected.get(t["key"], []), (i == 0), id_map)
         for i, t in enumerate(topics)
     )
     fs = ""
@@ -230,7 +284,7 @@ def render_issue(selected: dict, grade: dict, config: dict, date: datetime, fore
     foot = ("<div class='foot'>Compiled automatically by the Daily Dispatch bot · "
             "<a href='archive.html'>Past editions →</a> · <a href='foresight/index.html'>Weekly Foresight →</a><br>"
             "Sources are independent outlets; tap any headline to read the original.</div>")
-    return _page(f"{PAPER_NAME} — {long_date}", masthead + ednote + sections + fs + foot)
+    return _page(f"{PAPER_NAME} — {long_date}", masthead + ednote + topten + sections + fs + foot)
 
 
 def _load_manifest(docs: str) -> list:

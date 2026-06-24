@@ -26,7 +26,7 @@ topics:
 - key: crypto
   title: Crypto & Blockchain
   blurb: Notable altcoins, protocols, and on-chain developments.
-  priority: 3
+  priority: 4
   feeds:
   - https://www.coindesk.com/arc/outboundfeeds/rss/
   - https://cointelegraph.com/rss
@@ -34,12 +34,23 @@ topics:
 - key: economics
   title: World Economics
   blurb: The state and direction of the world's economies.
-  priority: 4
+  priority: 5
   feeds:
   - https://www.cnbc.com/id/20910258/device/rss/rss.html
   - https://www.economist.com/finance-and-economics/rss.xml
   - https://news.google.com/rss/search?q=global+economy+OR+inflation+OR+interest+rate+OR+GDP+when:2d&hl=en-US&gl=US&ceid=US:en
   - https://www.federalreserve.gov/feeds/press_all.xml
+- key: diamonds
+  title: Diamonds in the Rough
+  blurb: 'Early & under-the-radar: startups, funding, big-company bets, fresh tech.'
+  priority: 3
+  feeds:
+  - https://news.google.com/rss/search?q=(startup+OR+startups)+(raises+OR+%22Series+A%22+OR+%22Series+B%22+OR+%22seed+round%22+OR+funding)+when:2d&hl=en-US&gl=US&ceid=US:en
+  - https://news.google.com/rss/search?q=(acquires+OR+acquisition+OR+%22strategic+investment%22+OR+%22invests+in%22+OR+%22takes+stake%22+OR+%22leads+round%22)+(AI+OR+startup+OR+technology+OR+chip+OR+biotech)+when:2d&hl=en-US&gl=US&ceid=US:en
+  - https://hnrss.org/frontpage?points=150
+  - https://www.producthunt.com/feed
+  - http://export.arxiv.org/rss/cs.AI
+  - https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=S-1&output=atom
 auto_added:
 - key: economics
   feeds:
