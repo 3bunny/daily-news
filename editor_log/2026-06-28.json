@@ -1,0 +1,30 @@
+{
+  "date": "2026-06-28",
+  "grade": "B+",
+  "note": "Today's briefing offers a solid collection of genuinely newsworthy items, highlighted by a significant geopolitical development in the military sector and notable advancements in AI technology. While some sections are lighter, the core updates provide compelling insights across the global landscape.",
+  "counts": {
+    "military": 2,
+    "business": 5,
+    "diamonds": 5,
+    "crypto": 5,
+    "economics": 1
+  },
+  "wow": 3,
+  "source_suggestions": [
+    "World Economics: Reuters - Economics -> https://www.reuters.com/arc/feed/rss/category/economics/",
+    "World Economics: Bloomberg - Economics -> https://www.bloomberg.com/feeds/bpol/economics.rss",
+    "World Economics: Financial Times - World Economy -> https://www.ft.com/world-economy.rss"
+  ],
+  "sources_added": [],
+  "used_llm": true,
+  "gemini_health": {
+    "key_present": true,
+    "working": true,
+    "detail": "Gemini responded correctly."
+  },
+  "gemini_calls": {
+    "ok": 9,
+    "fail": 4,
+    "last_error": "RuntimeError: JSON parse failed (finishReason=MAX_TOKENS, len=1264): Unterminated string starting at: line 24 column 17 (char 1144)"
+  }
+}
