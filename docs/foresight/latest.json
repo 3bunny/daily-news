@@ -2,8 +2,60 @@
   "intro": "A plain roundup of the week's notable military and business technology (full analysis was unavailable this run).",
   "deep_dives": [
     {
-      "title": "SK Oceanplant Delivers Second Ulsan-class Batch-III Frigate to ROK Navy",
-      "what_happened": "SK Oceanplant has delivered the second Ulsan-class (FFX) Batch-III frigate, ROKS Gyeongbuk, to the Republic of Korea (ROK) Navy. SK Oceanplant Press Release Translated by Naval News SK Oceanplant announced on June 19 that it has delivered the ROK Navy’s latest frigate, ROKS Gyeongbuk, ahead of the original end-June schedule. The delivery ceremony was held ... The post SK Oceanplant Delivers Second Ulsan-class Batch-III Frigate to ROK Navy appeared first on Naval News .",
+      "title": "U.S. Carries Out First Strike On Iran Since Peace Memorandum Signed (Updated)",
+      "what_happened": "The attack was in response to an Iranian strike on a cargo vessel exiting the Strait of Hormuz yesterday. The post U.S. Carries Out First Strike On Iran Since Peace Memorandum Signed (Updated) appeared first on TWZ .",
+      "enabling_tech": [],
+      "pioneers": [
+        {
+          "name": "TWZ",
+          "role": "reporting outlet"
+        }
+      ],
+      "spillover": "",
+      "watchlist": []
+    },
+    {
+      "title": "US strikes Iranian missile, drone, radar sites",
+      "what_happened": "The U.S. struck Iranian missile, drone and radar sites on Friday, U.S. Central Command said.",
+      "enabling_tech": [],
+      "pioneers": [
+        {
+          "name": "Defense News",
+          "role": "reporting outlet"
+        }
+      ],
+      "spillover": "",
+      "watchlist": []
+    },
+    {
+      "title": "How the Pentagon is shaping its next cyber strategy",
+      "what_happened": "Drawing on Breaking Defense’s TechNet Cyber 2026 coverage, this eBook examines how the Pentagon is advancing AI, cybersecurity, and cyber strategy to strengthen the future force.",
+      "enabling_tech": [],
+      "pioneers": [
+        {
+          "name": "Breaking Defense",
+          "role": "reporting outlet"
+        }
+      ],
+      "spillover": "",
+      "watchlist": []
+    },
+    {
+      "title": "Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week",
+      "what_happened": "Remember... sky? The post Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week appeared first on TWZ .",
+      "enabling_tech": [],
+      "pioneers": [
+        {
+          "name": "TWZ",
+          "role": "reporting outlet"
+        }
+      ],
+      "spillover": "",
+      "watchlist": []
+    },
+    {
+      "title": "U.S. Navy Accepts Two Modernized Destroyers Ahead of Schedule",
+      "what_happened": "The U.S. Navy took delivery of two modernized destroyers, USS Chung-Hoon (DDG 93) and USS James E. Williams (DDG 95), ahead of schedule through accelerated acquisition, planning, and execution milestones led by the service’s new Portfolio Acquisition Executive (PAE) Maritime office. Both ships completed their combat system sea trials, calibrations, and shakedowns successfully and ahead ... The post U.S. Navy Accepts Two Modernized Destroyers Ahead of Schedule appeared first on Naval News .",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -15,90 +67,38 @@
       "watchlist": []
     },
     {
-      "title": "Highway patrol: US Marine F-35s conduct flight operations on Finnish roads",
-      "what_happened": "The first ever deployment of U.S. Marine Corps F-35B Lightning IIs to Finland proved to be a memorable one.",
+      "title": "C-17 Cargo Jets Flowing To Caribbean For Venezuela Earthquake Relief Effort",
+      "what_happened": "The flights are part of a growing U.S. military effort to provide humanitarian assistance to Venezuela. The post C-17 Cargo Jets Flowing To Caribbean For Venezuela Earthquake Relief Effort appeared first on TWZ .",
+      "enabling_tech": [],
+      "pioneers": [
+        {
+          "name": "TWZ",
+          "role": "reporting outlet"
+        }
+      ],
+      "spillover": "",
+      "watchlist": []
+    },
+    {
+      "title": "It’s Official: F-35s Are Now Being Delivered Without Radars",
+      "what_happened": "Delays in the delivery of new AN/APG-85 radars are deeply intertwined with other woes that continue to hound the F-35 program. The post It’s Official: F-35s Are Now Being Delivered Without Radars appeared first on TWZ .",
+      "enabling_tech": [],
+      "pioneers": [
+        {
+          "name": "TWZ",
+          "role": "reporting outlet"
+        }
+      ],
+      "spillover": "",
+      "watchlist": []
+    },
+    {
+      "title": "NATO allies promised Trump they’d secure the Arctic; they’ve got work to do",
+      "what_happened": "Through most of NATO’s eight-decade history, the inhospitable High North was low priority. That calculus is now changing.",
       "enabling_tech": [],
       "pioneers": [
         {
           "name": "Defense News",
-          "role": "reporting outlet"
-        }
-      ],
-      "spillover": "",
-      "watchlist": []
-    },
-    {
-      "title": "Army launches new Indo-Pacific multi-domain command",
-      "what_happened": "The move combines traditional formations with some of the service’s cyber, space, unmanned systems and electronic warfare capabilities.",
-      "enabling_tech": [],
-      "pioneers": [
-        {
-          "name": "Defense News",
-          "role": "reporting outlet"
-        }
-      ],
-      "spillover": "",
-      "watchlist": []
-    },
-    {
-      "title": "New Air Force VC-25B “Bridge” Jet Has Joined The Presidential Airlift Group (Updated)",
-      "what_happened": "The new Air Force One jet will undergo a final round of tests before ferrying President Donald Trump. The post New Air Force VC-25B “Bridge” Jet Has Joined The Presidential Airlift Group (Updated) appeared first on The War Zone .",
-      "enabling_tech": [],
-      "pioneers": [
-        {
-          "name": "The War Zone",
-          "role": "reporting outlet"
-        }
-      ],
-      "spillover": "",
-      "watchlist": []
-    },
-    {
-      "title": "Air Force One begins commissioning flights, final step before presidential use",
-      "what_happened": "The service announced the delivery of the Qatari-donated aircraft to Joint Base Andrews on Friday and the kickoff of its commissioning flights.",
-      "enabling_tech": [],
-      "pioneers": [
-        {
-          "name": "Defense News",
-          "role": "reporting outlet"
-        }
-      ],
-      "spillover": "",
-      "watchlist": []
-    },
-    {
-      "title": "Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week",
-      "what_happened": "Holy s&*t... the Playstation just broke. The post Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week appeared first on The War Zone .",
-      "enabling_tech": [],
-      "pioneers": [
-        {
-          "name": "The War Zone",
-          "role": "reporting outlet"
-        }
-      ],
-      "spillover": "",
-      "watchlist": []
-    },
-    {
-      "title": "Pentagon tells lawmakers it needs $80 billion for Iran war, other expenses: WSJ",
-      "what_happened": "The full cost of the conflict, which the U.S. launched alongside Israel on Feb. 28, has remained an open question on Capitol Hill.",
-      "enabling_tech": [],
-      "pioneers": [
-        {
-          "name": "Defense News",
-          "role": "reporting outlet"
-        }
-      ],
-      "spillover": "",
-      "watchlist": []
-    },
-    {
-      "title": "RC-135 Rivet Joints Could Control Drones To Drastically Expand Collection Capabilities",
-      "what_happened": "Teaming with drones could be a path to new operational possibilities for the Rivet Joint, and other developments are on the horizon. The post RC-135 Rivet Joints Could Control Drones To Drastically Expand Collection Capabilities appeared first on The War Zone .",
-      "enabling_tech": [],
-      "pioneers": [
-        {
-          "name": "The War Zone",
           "role": "reporting outlet"
         }
       ],
@@ -113,7 +113,7 @@
     "corpus": 40,
     "steps": [
       {
-        "select": "HTTP 429: b'{\\n  \"error\": {\\n    \"code\": 429,\\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a'"
+        "select": "RuntimeError: JSON parse failed (finishReason=MAX_TOKENS, len=370): Expecting property name enclosed in double quotes: line 6 column 1 (char 370)"
       }
     ]
   }
