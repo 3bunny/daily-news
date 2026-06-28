@@ -112,5 +112,17 @@
       "crypto": 5,
       "economics": 1
     }
+  },
+  {
+    "date": "2026-06-29",
+    "long": "Monday, June 29, 2026",
+    "grade": "A-",
+    "counts": {
+      "military": 1,
+      "business": 5,
+      "diamonds": 5,
+      "crypto": 3,
+      "economics": 3
+    }
   }
 ]

@@ -1,0 +1,30 @@
+{
+  "date": "2026-06-29",
+  "grade": "A-",
+  "note": "Today's briefing delivers several genuinely newsworthy items, particularly in the business sector with China's supercomputer claim and the debut of the world's first electric hydrofoil pilot boat. Solid updates in military and crypto round out a strong edition.",
+  "counts": {
+    "military": 1,
+    "business": 5,
+    "diamonds": 5,
+    "crypto": 3,
+    "economics": 3
+  },
+  "wow": 1,
+  "source_suggestions": [
+    "Military & Defense Technology: Defense News -> https://www.defensenews.com/arc/outboundfeeds/rss/category/defense-news-latest-news/",
+    "Military & Defense Technology: Breaking Defense -> https://breakingdefense.com/feed/",
+    "Military & Defense Technology: Janes -> https://www.janes.com/rss/latest-news"
+  ],
+  "sources_added": [],
+  "used_llm": true,
+  "gemini_health": {
+    "key_present": true,
+    "working": true,
+    "detail": "Gemini responded correctly."
+  },
+  "gemini_calls": {
+    "ok": 7,
+    "fail": 6,
+    "last_error": "HTTP 503: b'{\\n  \"error\": {\\n    \"code\": 503,\\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\\n    \"status\": \"UNAVAILABLE\"\\n  }\\n}\\n'"
+  }
+}
