@@ -1,0 +1,26 @@
+{
+  "date": "2026-07-01",
+  "grade": "A",
+  "note": "This edition earns high marks for its genuinely new and notable material, highlighted by the surprise disclosure of B-2 stealth bomber capabilities and groundbreaking 'firsts' in hydrogen transport and fusion energy. The 'Diamonds' section consistently provides top-tier insights into future technologies and AI advancements.",
+  "counts": {
+    "military": 5,
+    "business": 5,
+    "diamonds": 5,
+    "crypto": 5,
+    "economics": 5
+  },
+  "wow": 8,
+  "source_suggestions": [],
+  "sources_added": [],
+  "used_llm": true,
+  "gemini_health": {
+    "key_present": true,
+    "working": true,
+    "detail": "Gemini responded correctly."
+  },
+  "gemini_calls": {
+    "ok": 8,
+    "fail": 4,
+    "last_error": "HTTP 429: b'{\\n  \"error\": {\\n    \"code\": 429,\\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a'"
+  }
+}
