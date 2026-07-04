@@ -2,60 +2,8 @@
   "intro": "A plain roundup of the week's notable military and business technology (full analysis was unavailable this run).",
   "deep_dives": [
     {
-      "title": "U.S. Carries Out First Strike On Iran Since Peace Memorandum Signed (Updated)",
-      "what_happened": "The attack was in response to an Iranian strike on a cargo vessel exiting the Strait of Hormuz yesterday. The post U.S. Carries Out First Strike On Iran Since Peace Memorandum Signed (Updated) appeared first on TWZ .",
-      "enabling_tech": [],
-      "pioneers": [
-        {
-          "name": "TWZ",
-          "role": "reporting outlet"
-        }
-      ],
-      "spillover": "",
-      "watchlist": []
-    },
-    {
-      "title": "US strikes Iranian missile, drone, radar sites",
-      "what_happened": "The U.S. struck Iranian missile, drone and radar sites on Friday, U.S. Central Command said.",
-      "enabling_tech": [],
-      "pioneers": [
-        {
-          "name": "Defense News",
-          "role": "reporting outlet"
-        }
-      ],
-      "spillover": "",
-      "watchlist": []
-    },
-    {
-      "title": "How the Pentagon is shaping its next cyber strategy",
-      "what_happened": "Drawing on Breaking Defense’s TechNet Cyber 2026 coverage, this eBook examines how the Pentagon is advancing AI, cybersecurity, and cyber strategy to strengthen the future force.",
-      "enabling_tech": [],
-      "pioneers": [
-        {
-          "name": "Breaking Defense",
-          "role": "reporting outlet"
-        }
-      ],
-      "spillover": "",
-      "watchlist": []
-    },
-    {
-      "title": "Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week",
-      "what_happened": "Remember... sky? The post Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week appeared first on TWZ .",
-      "enabling_tech": [],
-      "pioneers": [
-        {
-          "name": "TWZ",
-          "role": "reporting outlet"
-        }
-      ],
-      "spillover": "",
-      "watchlist": []
-    },
-    {
-      "title": "U.S. Navy Accepts Two Modernized Destroyers Ahead of Schedule",
-      "what_happened": "The U.S. Navy took delivery of two modernized destroyers, USS Chung-Hoon (DDG 93) and USS James E. Williams (DDG 95), ahead of schedule through accelerated acquisition, planning, and execution milestones led by the service’s new Portfolio Acquisition Executive (PAE) Maritime office. Both ships completed their combat system sea trials, calibrations, and shakedowns successfully and ahead ... The post U.S. Navy Accepts Two Modernized Destroyers Ahead of Schedule appeared first on Naval News .",
+      "title": "Saronic Launches First Mirage 16-Meter Uncrewed Surface Vessel",
+      "what_happened": "Saronic on July 2, 2026 announced the launch of its first Mirage, a 52-ft. (16-meter) dual-use Autonomous Surface Vessel (ASV) that joins the 24-ft. (7-meter) Corsair and 180-ft. (55-meter) Marauder as the third flagship platform in Saronic’s growing fleet, and is the latest milestone in a production model delivering autonomous vessels at speed and scale. ... The post Saronic Launches First Mirage 16-Meter Uncrewed Surface Vessel appeared first on Naval News .",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -67,8 +15,21 @@
       "watchlist": []
     },
     {
-      "title": "C-17 Cargo Jets Flowing To Caribbean For Venezuela Earthquake Relief Effort",
-      "what_happened": "The flights are part of a growing U.S. military effort to provide humanitarian assistance to Venezuela. The post C-17 Cargo Jets Flowing To Caribbean For Venezuela Earthquake Relief Effort appeared first on TWZ .",
+      "title": "US withdrew forces from Nigeria after operation against ISIS, AFRICOM chief says",
+      "what_happened": "AFRICOM Commander Gen. Dagvin Anderson described May’s joint U.S.-Nigerian as a model for future security cooperation in Africa.",
+      "enabling_tech": [],
+      "pioneers": [
+        {
+          "name": "Defense News",
+          "role": "reporting outlet"
+        }
+      ],
+      "spillover": "",
+      "watchlist": []
+    },
+    {
+      "title": "Bunker Talk: Happy 250th Birthday United States Of America Edition!",
+      "what_happened": "Two and a half centuries of USA. The post Bunker Talk: Happy 250th Birthday United States Of America Edition! appeared first on TWZ .",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -80,8 +41,8 @@
       "watchlist": []
     },
     {
-      "title": "It’s Official: F-35s Are Now Being Delivered Without Radars",
-      "what_happened": "Delays in the delivery of new AN/APG-85 radars are deeply intertwined with other woes that continue to hound the F-35 program. The post It’s Official: F-35s Are Now Being Delivered Without Radars appeared first on TWZ .",
+      "title": "Hardened Aircraft Shelters At Russian Air Base In Crimea Damaged From Ukrainian Drone Strikes (Updated)",
+      "what_happened": "The drone attacks on Saki Air Base are part of Ukraine's latest campaign to make Crimea as uninhabitable for Russian forces as possible. The post Hardened Aircraft Shelters At Russian Air Base In Crimea Damaged From Ukrainian Drone Strikes (Updated) appeared first on TWZ .",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -93,8 +54,47 @@
       "watchlist": []
     },
     {
-      "title": "NATO allies promised Trump they’d secure the Arctic; they’ve got work to do",
-      "what_happened": "Through most of NATO’s eight-decade history, the inhospitable High North was low priority. That calculus is now changing.",
+      "title": "This Is The Massive Aerial Armada That Is About To Fly Over The Capital",
+      "what_happened": "NASA will lead waves of aircraft, from stealth bombers to VIP helicopters, over the Mall to celebrate America's 250th birthday. The post This Is The Massive Aerial Armada That Is About To Fly Over The Capital appeared first on TWZ .",
+      "enabling_tech": [],
+      "pioneers": [
+        {
+          "name": "TWZ",
+          "role": "reporting outlet"
+        }
+      ],
+      "spillover": "",
+      "watchlist": []
+    },
+    {
+      "title": "Royal Navy’s Sea Launch Of Combat-Proven Nyan Kamikaze Drone Points To Fleet’s ‘Hybrid’ Future",
+      "what_happened": "The demonstration of a new shipboard strike capability comes amid advancing plans to integrate drones deeply across the fleet. The post Royal Navy’s Sea Launch Of Combat-Proven Nyan Kamikaze Drone Points To Fleet’s ‘Hybrid’ Future appeared first on TWZ .",
+      "enabling_tech": [],
+      "pioneers": [
+        {
+          "name": "TWZ",
+          "role": "reporting outlet"
+        }
+      ],
+      "spillover": "",
+      "watchlist": []
+    },
+    {
+      "title": "U.S. Navy Eyes CPS Deployment from New VLS, Containers",
+      "what_happened": "The U.S. Navy’s next-generation undersea developmental efforts aim to drastically expand the deployment methods from which the service’s Conventional Prompt Strike (CPS) hypersonics can be launched from and increase their production rates. Headed by the Portfolio Acquisition Executive Strategic Systems Programs, the service’s organization responsible for the development and sustainment of Submarine-Launched Ballistic Missiles and ... The post U.S. Navy Eyes CPS Deployment from New VLS, Containers appeared first on Naval News .",
+      "enabling_tech": [],
+      "pioneers": [
+        {
+          "name": "Naval News",
+          "role": "reporting outlet"
+        }
+      ],
+      "spillover": "",
+      "watchlist": []
+    },
+    {
+      "title": "Multibillion-dollar contract secures ‘major step forward’ for GCAP fighter jet",
+      "what_happened": "Japan, Italy and the U.K. have handed a £4.6 billion ($6.1 billion) development contract to their national champions building the GCAP jet.",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -113,7 +113,7 @@
     "corpus": 40,
     "steps": [
       {
-        "select": "RuntimeError: JSON parse failed (finishReason=MAX_TOKENS, len=370): Expecting property name enclosed in double quotes: line 6 column 1 (char 370)"
+        "select": "HTTP 429: b'{\\n  \"error\": {\\n    \"code\": 429,\\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a'"
       }
     ]
   }
