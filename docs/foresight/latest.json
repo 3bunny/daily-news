@@ -2,8 +2,21 @@
   "intro": "A plain roundup of the week's notable military and business technology (full analysis was unavailable this run).",
   "deep_dives": [
     {
-      "title": "Saronic Launches First Mirage 16-Meter Uncrewed Surface Vessel",
-      "what_happened": "Saronic on July 2, 2026 announced the launch of its first Mirage, a 52-ft. (16-meter) dual-use Autonomous Surface Vessel (ASV) that joins the 24-ft. (7-meter) Corsair and 180-ft. (55-meter) Marauder as the third flagship platform in Saronic’s growing fleet, and is the latest milestone in a production model delivering autonomous vessels at speed and scale. ... The post Saronic Launches First Mirage 16-Meter Uncrewed Surface Vessel appeared first on Naval News .",
+      "title": "Ukraine Claims Scores Of Russian Ships Struck In Sea Of Azov",
+      "what_happened": "The long-range drone attacks are targeting Russian oil tankers, adding to that nation's burgeoning war-induced energy woes. The post Ukraine Claims Scores Of Russian Ships Struck In Sea Of Azov appeared first on TWZ .",
+      "enabling_tech": [],
+      "pioneers": [
+        {
+          "name": "TWZ",
+          "role": "reporting outlet"
+        }
+      ],
+      "spillover": "",
+      "watchlist": []
+    },
+    {
+      "title": "LRASM and JASSM Production to Triple Under New US Air Force Contract",
+      "what_happened": "The U.S. Air Force now anticipates buying more than 11,000 new JASSM and LRASM cruise missiles over the next five to seven years according to a notice of intent published Friday, dramatically expanding the Pentagon’s JASSM and LRASM topline inventory objectives for both weapons that have had their objectives periodically increased over the past decade. ... The post LRASM and JASSM Production to Triple Under New US Air Force Contract appeared first on Naval News .",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -15,73 +28,8 @@
       "watchlist": []
     },
     {
-      "title": "US withdrew forces from Nigeria after operation against ISIS, AFRICOM chief says",
-      "what_happened": "AFRICOM Commander Gen. Dagvin Anderson described May’s joint U.S.-Nigerian as a model for future security cooperation in Africa.",
-      "enabling_tech": [],
-      "pioneers": [
-        {
-          "name": "Defense News",
-          "role": "reporting outlet"
-        }
-      ],
-      "spillover": "",
-      "watchlist": []
-    },
-    {
-      "title": "Bunker Talk: Happy 250th Birthday United States Of America Edition!",
-      "what_happened": "Two and a half centuries of USA. The post Bunker Talk: Happy 250th Birthday United States Of America Edition! appeared first on TWZ .",
-      "enabling_tech": [],
-      "pioneers": [
-        {
-          "name": "TWZ",
-          "role": "reporting outlet"
-        }
-      ],
-      "spillover": "",
-      "watchlist": []
-    },
-    {
-      "title": "Hardened Aircraft Shelters At Russian Air Base In Crimea Damaged From Ukrainian Drone Strikes (Updated)",
-      "what_happened": "The drone attacks on Saki Air Base are part of Ukraine's latest campaign to make Crimea as uninhabitable for Russian forces as possible. The post Hardened Aircraft Shelters At Russian Air Base In Crimea Damaged From Ukrainian Drone Strikes (Updated) appeared first on TWZ .",
-      "enabling_tech": [],
-      "pioneers": [
-        {
-          "name": "TWZ",
-          "role": "reporting outlet"
-        }
-      ],
-      "spillover": "",
-      "watchlist": []
-    },
-    {
-      "title": "This Is The Massive Aerial Armada That Is About To Fly Over The Capital",
-      "what_happened": "NASA will lead waves of aircraft, from stealth bombers to VIP helicopters, over the Mall to celebrate America's 250th birthday. The post This Is The Massive Aerial Armada That Is About To Fly Over The Capital appeared first on TWZ .",
-      "enabling_tech": [],
-      "pioneers": [
-        {
-          "name": "TWZ",
-          "role": "reporting outlet"
-        }
-      ],
-      "spillover": "",
-      "watchlist": []
-    },
-    {
-      "title": "Royal Navy’s Sea Launch Of Combat-Proven Nyan Kamikaze Drone Points To Fleet’s ‘Hybrid’ Future",
-      "what_happened": "The demonstration of a new shipboard strike capability comes amid advancing plans to integrate drones deeply across the fleet. The post Royal Navy’s Sea Launch Of Combat-Proven Nyan Kamikaze Drone Points To Fleet’s ‘Hybrid’ Future appeared first on TWZ .",
-      "enabling_tech": [],
-      "pioneers": [
-        {
-          "name": "TWZ",
-          "role": "reporting outlet"
-        }
-      ],
-      "spillover": "",
-      "watchlist": []
-    },
-    {
-      "title": "U.S. Navy Eyes CPS Deployment from New VLS, Containers",
-      "what_happened": "The U.S. Navy’s next-generation undersea developmental efforts aim to drastically expand the deployment methods from which the service’s Conventional Prompt Strike (CPS) hypersonics can be launched from and increase their production rates. Headed by the Portfolio Acquisition Executive Strategic Systems Programs, the service’s organization responsible for the development and sustainment of Submarine-Launched Ballistic Missiles and ... The post U.S. Navy Eyes CPS Deployment from New VLS, Containers appeared first on Naval News .",
+      "title": "Anti-Drone Warfare at Sea: Matching Sensors and Effectors to the Threat",
+      "what_happened": "Effective Anti-Drone Warfare demands a complete kill chain – detection, identification, tracking, and hard-kill engagement – with every link matched to the physics and economics of the Tier 2 OWA drone threat. This article examines the technology choices for each link: why only AESA radar meets the detection requirement, what the electro-optic director must deliver, ... The post Anti-Drone Warfare at Sea: Matching Sensors and Effectors to the Threat appeared first on Naval News .",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -93,8 +41,60 @@
       "watchlist": []
     },
     {
-      "title": "Multibillion-dollar contract secures ‘major step forward’ for GCAP fighter jet",
-      "what_happened": "Japan, Italy and the U.K. have handed a £4.6 billion ($6.1 billion) development contract to their national champions building the GCAP jet.",
+      "title": "Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week",
+      "what_happened": "It's not fear, it's patience. The post Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week appeared first on TWZ .",
+      "enabling_tech": [],
+      "pioneers": [
+        {
+          "name": "TWZ",
+          "role": "reporting outlet"
+        }
+      ],
+      "spillover": "",
+      "watchlist": []
+    },
+    {
+      "title": "USAF Decides Against Flying B-21 Raiders With Just One Pilot",
+      "what_happened": "The Air Force has made a formal decision about how the B-21 will be crewed as it pushes to start fielding the bombers next year. The post USAF Decides Against Flying B-21 Raiders With Just One Pilot appeared first on TWZ .",
+      "enabling_tech": [],
+      "pioneers": [
+        {
+          "name": "TWZ",
+          "role": "reporting outlet"
+        }
+      ],
+      "spillover": "",
+      "watchlist": []
+    },
+    {
+      "title": "Carrier Qualifications Still Happening For A Few Navy Fighter Pilots In Training",
+      "what_happened": "E-2 pilots and foreign student pilots still need to do carrier qualifications, but huge changes to the naval aviation training landscape are looming. The post Carrier Qualifications Still Happening For A Few Navy Fighter Pilots In Training appeared first on TWZ .",
+      "enabling_tech": [],
+      "pioneers": [
+        {
+          "name": "TWZ",
+          "role": "reporting outlet"
+        }
+      ],
+      "spillover": "",
+      "watchlist": []
+    },
+    {
+      "title": "Air Force pushing contractors to purge Anthropic by Sept. 1: Memo",
+      "what_happened": "The Pentagon’s new target is to remove Anthropic department-wide by end of September, even as the AI titan is suing the government to overturn it.",
+      "enabling_tech": [],
+      "pioneers": [
+        {
+          "name": "Breaking Defense",
+          "role": "reporting outlet"
+        }
+      ],
+      "spillover": "",
+      "watchlist": []
+    },
+    {
+      "title": "Ukraine can soon build its own Patriots – but it could take years",
+      "what_happened": "Ukraine may soon possess a license the U.S. currently extends to only a handful of allies — but it could be years before Patriots protect Ukrainian cities.",
       "enabling_tech": [],
       "pioneers": [
         {
