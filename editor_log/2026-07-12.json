@@ -1,0 +1,28 @@
+{
+  "date": "2026-07-12",
+  "grade": "A",
+  "note": "A strong edition with 0 standout item(s).",
+  "counts": {
+    "military": 3,
+    "business": 5,
+    "diamonds": 3,
+    "crypto": 2,
+    "economics": 1
+  },
+  "wow": 0,
+  "source_suggestions": [
+    "Thin section: World Economics"
+  ],
+  "sources_added": [],
+  "used_llm": true,
+  "gemini_health": {
+    "key_present": true,
+    "working": true,
+    "detail": "Gemini responded correctly."
+  },
+  "gemini_calls": {
+    "ok": 4,
+    "fail": 9,
+    "last_error": "HTTP 429: b'{\\n  \"error\": {\\n    \"code\": 429,\\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a'"
+  }
+}
