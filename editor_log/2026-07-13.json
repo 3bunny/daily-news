@@ -1,0 +1,28 @@
+{
+  "date": "2026-07-13",
+  "grade": "B+",
+  "note": "Today's briefing offers genuinely innovative tech stories and crucial insights into global economic shifts, particularly the unprecedented surge in AI investment. However, the complete absence of military news is a significant oversight for a comprehensive world briefing.",
+  "counts": {
+    "military": 0,
+    "business": 5,
+    "diamonds": 5,
+    "crypto": 3,
+    "economics": 3
+  },
+  "wow": 2,
+  "source_suggestions": [
+    "Thin section: Military & Defense Technology"
+  ],
+  "sources_added": [],
+  "used_llm": true,
+  "gemini_health": {
+    "key_present": true,
+    "working": true,
+    "detail": "Gemini responded correctly."
+  },
+  "gemini_calls": {
+    "ok": 8,
+    "fail": 4,
+    "last_error": "HTTP 429: b'{\\n  \"error\": {\\n    \"code\": 429,\\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a'"
+  }
+}
