@@ -1,0 +1,178 @@
+[
+  {
+    "topic": "military",
+    "title": "Saronic picks Brownsville, Texas, for $3 billion Port Alpha shipyard",
+    "link": "https://www.defensenews.com/industry/techwatch/2026/07/17/saronic-picks-brownsville-texas-for-3-billion-port-alpha-shipyard/",
+    "source": "Defense News",
+    "published": "2026-07-18T03:49:07+09:00",
+    "summary": "Autonomous vessel manufacturer Saronic plans to construct a $3 billion shipyard named Port Alpha in Brownsville, Texas. The company claims this facility will be the most advanced shipyard globally, focusing on autonomous vessel production.",
+    "detail": "",
+    "score": 7.0,
+    "wow": false
+  },
+  {
+    "topic": "military",
+    "title": "USS Zumwalt Set To Return To Fleet After Long Anticipated Hypersonic Missile Upgrade",
+    "link": "https://www.twz.com/sea/uss-zumwalt-set-to-return-to-fleet-after-long-anticipated-hypersonic-missile-upgrade",
+    "source": "TWZ",
+    "published": "2026-07-18T04:51:15+09:00",
+    "summary": "The USS Zumwalt is expected to return to the fleet following a long-anticipated upgrade to incorporate hypersonic missiles. The return has been delayed due to issues with the ship's hybrid-electric power plant and other factors.",
+    "detail": "",
+    "score": 6.0,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "Sony’s flagship RGB LED TV is incredible",
+    "link": "https://www.theverge.com/tech/966788/sony-bravia-9-ii-tv-review",
+    "source": "The Verge",
+    "published": "2026-07-18T21:30:00+09:00",
+    "summary": "The Sony Bravia 9 II is the most anticipated new TV in years. It's an amazing RGB LED TV. I watched Dungeons & Dragons: Honor Among Thieves on the new Bravia with my son, who has been getting into the roleplaying game but had never seen the movie. The landscapes of Faerûn looked natural and […]",
+    "detail": "",
+    "score": 7.6,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "Latest Volkswagen smart vehicle isn't a camper bus or car",
+    "link": "https://newatlas.com/bicycles/vw-ebike-nplus-smart-volkswagen/",
+    "source": "New Atlas: Technology-Innovation-Outdoor News",
+    "published": "2026-07-18T19:03:00+09:00",
+    "summary": "N+ has a fun approach to making ebikes: it inks licensing deals with big-name brands to launch new models with something familiar to attract your attention in today's ever-expanding bicycle market. Continue Reading Category: Bicycles , Transport Tags: Volkswagen , ebikes , Radar , Road Safety , urban transport , …",
+    "detail": "",
+    "score": 7.6,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "Habitable underwater pod blows open new world of subsea exploration",
+    "link": "https://newatlas.com/marine/deep-vanguard-subsea-habitat/",
+    "source": "New Atlas: Technology-Innovation-Outdoor News",
+    "published": "2026-07-18T15:03:00+09:00",
+    "summary": "Humans have occupied the International Space Station (ISS), which sits at about 248 miles (400 km) above sea level, for 25 years. Meanwhile, the sea, sitting at … well, sea level, with a maximum known depth of 6.8 miles, has never had a station manned for up to a month. Researchers are looking to change that with a …",
+    "detail": "",
+    "score": 7.6,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "Waymo says San Francisco service has resumed after one-hour pause",
+    "link": "https://techcrunch.com/2026/07/18/waymo-appears-to-pause-san-francisco-service-amidst-power-outage/",
+    "source": "TechCrunch",
+    "published": "2026-07-19T04:30:23+09:00",
+    "summary": "This isn’t the first time power outages have caused issues for Waymo.",
+    "detail": "",
+    "score": 6.3,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "Kimi: Threat or menace?",
+    "link": "https://techcrunch.com/2026/07/18/kimi-threat-or-menace/",
+    "source": "TechCrunch",
+    "published": "2026-07-19T03:51:07+09:00",
+    "summary": "Chinese company Moonshot AI released a new version of its Kimi model this week, prompting concern about \"full AI communism.\"",
+    "detail": "",
+    "score": 6.3,
+    "wow": false
+  },
+  {
+    "topic": "diamonds",
+    "title": "How Artificial Intelligence LLM Engines Shape the Global Conflict Information Environment",
+    "link": "https://arxiv.org/abs/2607.14197",
+    "source": "cs.AI updates on arXiv.org",
+    "published": "2026-07-18T13:00:00+09:00",
+    "summary": "arXiv:2607.14197v1 Announce Type: new Abstract: Artificial Intelligence (AI) answer engines now field a growing share of the questions that analysts, scholars, and the public ask about issues of peace and conflict. Large Language Models (LLMs) are known to hallucinate under certain conditions, but do these errors …",
+    "detail": "",
+    "score": 8.9,
+    "wow": true
+  },
+  {
+    "topic": "diamonds",
+    "title": "Chat2Scenic: An Iterative RAG-Based Framework for Scenario Generation in Autonomous Driving",
+    "link": "https://arxiv.org/abs/2607.14387",
+    "source": "cs.AI updates on arXiv.org",
+    "published": "2026-07-18T13:00:00+09:00",
+    "summary": "arXiv:2607.14387v1 Announce Type: new Abstract: Validating autonomous driving systems requires diverse, regulation-compliant test scenarios. In simulation-based testing, scenarios are defined as executable scripts. Yet automatically generating such scripts from regulatory descriptions remains an open challenge, and …",
+    "detail": "",
+    "score": 8.9,
+    "wow": true
+  },
+  {
+    "topic": "diamonds",
+    "title": "Towards an Intention Abstraction Layer for Autonomous Industrial Systems",
+    "link": "https://arxiv.org/abs/2607.14553",
+    "source": "cs.AI updates on arXiv.org",
+    "published": "2026-07-18T13:00:00+09:00",
+    "summary": "arXiv:2607.14553v1 Announce Type: new Abstract: Modern industrial environments increasingly run many autonomous subsystems at once - schedulers, energy managers, vehicle fleets - each pursuing its own goals while sharing the same physical resources. Because high-level human intentions are translated into low-level …",
+    "detail": "",
+    "score": 8.9,
+    "wow": true
+  },
+  {
+    "topic": "diamonds",
+    "title": "Seeing the End at Step Zero: Accelerating Diffusion MLLMs via MLP Sparsity-Aware Truncation",
+    "link": "https://arxiv.org/abs/2607.14557",
+    "source": "cs.AI updates on arXiv.org",
+    "published": "2026-07-18T13:00:00+09:00",
+    "summary": "arXiv:2607.14557v1 Announce Type: new Abstract: Diffusion Multimodal Large Language Models (DMLLMs) are highly effective for multimodal reasoning, yet their inference efficiency is significantly hindered by fixed-length generation constraints. Since the actual output length is unknown, output sequences are padded to …",
+    "detail": "",
+    "score": 8.9,
+    "wow": true
+  },
+  {
+    "topic": "diamonds",
+    "title": "What Models Express, Suppress, and Resist: Auditing Open-Weight LLMs with Persona Vectors",
+    "link": "https://arxiv.org/abs/2607.13162",
+    "source": "cs.AI updates on arXiv.org",
+    "published": "2026-07-18T13:00:00+09:00",
+    "summary": "arXiv:2607.13162v2 Announce Type: replace-cross Abstract: What a language model will and will not do is largely set during post-training, but which behaviors it expresses, hides, or resists is not revealed by prompting alone. Persona vectors, behavioral directions in activation space, can probe this organization, but …",
+    "detail": "",
+    "score": 8.9,
+    "wow": true
+  },
+  {
+    "topic": "crypto",
+    "title": "Crypto executives say digital native generations may never need a bank account",
+    "link": "https://www.coindesk.com/business/2026/07/17/crypto-executives-say-digital-native-generations-may-never-need-a-bank-account",
+    "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+    "published": "2026-07-19T03:30:00+09:00",
+    "summary": "Summary unavailable.",
+    "detail": "",
+    "score": 6.3,
+    "wow": false
+  },
+  {
+    "topic": "economics",
+    "title": "Trump threatens Canada with tariffs over ‘invasion’ of wildfire smoke",
+    "link": "https://www.ft.com/content/fa4e24db-9324-47e2-8512-a581ca9c1aba?syn-25a6b1a6=1",
+    "source": "Global Economy",
+    "published": "2026-07-18T05:56:10+09:00",
+    "summary": "Former President Trump has reportedly threatened Canada with tariffs, citing an \"invasion\" of wildfire smoke affecting US cities. He is said to be planning a call with Canadian Prime Minister Mark Carney (Note: Mark Carney is not the current PM of Canada) to address the \"filthy, polluted\" air.",
+    "detail": "",
+    "score": 7.0,
+    "wow": false
+  },
+  {
+    "topic": "economics",
+    "title": "Washington pushes EU to announce import rules rollback",
+    "link": "https://www.ft.com/content/580f2b36-1d00-40b8-a12a-cc7d7067a046?syn-25a6b1a6=1",
+    "source": "Global Economy",
+    "published": "2026-07-18T13:00:23+09:00",
+    "summary": "Washington is reportedly increasing pressure on the European Union to roll back certain import rules. This diplomatic push comes approximately a year after a previous agreement aimed at reducing tariffs imposed during the Trump administration.",
+    "detail": "",
+    "score": 6.0,
+    "wow": false
+  },
+  {
+    "topic": "economics",
+    "title": "Trump Media pitched $100,000 monthly fee for fast feed of president’s posts",
+    "link": "https://www.ft.com/content/e466df85-fa3b-4a7f-a4a1-ae04d66db99f?syn-25a6b1a6=1",
+    "source": "Global Economy",
+    "published": "2026-07-18T05:24:36+09:00",
+    "summary": "Trump Media, a family company, has reportedly proposed a monthly fee of $100,000 for high-speed access to former President Trump's posts on its Truth Social platform. This six-figure sum is quoted for a fast feed of content.",
+    "detail": "",
+    "score": 6.0,
+    "wow": false
+  }
+]
