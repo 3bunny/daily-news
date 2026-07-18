@@ -2,8 +2,8 @@
   "intro": "A plain roundup of the week's notable military and business technology (full analysis was unavailable this run).",
   "deep_dives": [
     {
-      "title": "Ukraine Claims Scores Of Russian Ships Struck In Sea Of Azov",
-      "what_happened": "The long-range drone attacks are targeting Russian oil tankers, adding to that nation's burgeoning war-induced energy woes. The post Ukraine Claims Scores Of Russian Ships Struck In Sea Of Azov appeared first on TWZ .",
+      "title": "Two U.S. Troops Killed In Iranian Barrage On Base In Jordan (Updated)",
+      "what_happened": "Jordan is a key host of U.S. troops, with Muwaffaq Salti Air Base housing the largest contingent of American tactical airpower in the entire Middle East. The post Two U.S. Troops Killed In Iranian Barrage On Base In Jordan (Updated) appeared first on TWZ .",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -15,25 +15,12 @@
       "watchlist": []
     },
     {
-      "title": "LRASM and JASSM Production to Triple Under New US Air Force Contract",
-      "what_happened": "The U.S. Air Force now anticipates buying more than 11,000 new JASSM and LRASM cruise missiles over the next five to seven years according to a notice of intent published Friday, dramatically expanding the Pentagon’s JASSM and LRASM topline inventory objectives for both weapons that have had their objectives periodically increased over the past decade. ... The post LRASM and JASSM Production to Triple Under New US Air Force Contract appeared first on Naval News .",
+      "title": "2 US troops killed, 1 missing after Iranian missile, drone attack in Jordan",
+      "what_happened": "Two U.S. service members were killed in action on Friday in an Iranian ballistic missile and drone attack on U.S. and partner forces in Jordan.",
       "enabling_tech": [],
       "pioneers": [
         {
-          "name": "Naval News",
-          "role": "reporting outlet"
-        }
-      ],
-      "spillover": "",
-      "watchlist": []
-    },
-    {
-      "title": "Anti-Drone Warfare at Sea: Matching Sensors and Effectors to the Threat",
-      "what_happened": "Effective Anti-Drone Warfare demands a complete kill chain – detection, identification, tracking, and hard-kill engagement – with every link matched to the physics and economics of the Tier 2 OWA drone threat. This article examines the technology choices for each link: why only AESA radar meets the detection requirement, what the electro-optic director must deliver, ... The post Anti-Drone Warfare at Sea: Matching Sensors and Effectors to the Threat appeared first on Naval News .",
-      "enabling_tech": [],
-      "pioneers": [
-        {
-          "name": "Naval News",
+          "name": "Defense News",
           "role": "reporting outlet"
         }
       ],
@@ -42,7 +29,7 @@
     },
     {
       "title": "Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week",
-      "what_happened": "It's not fear, it's patience. The post Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week appeared first on TWZ .",
+      "what_happened": "Is it getting more humid in here? The post Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week appeared first on TWZ .",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -54,34 +41,8 @@
       "watchlist": []
     },
     {
-      "title": "USAF Decides Against Flying B-21 Raiders With Just One Pilot",
-      "what_happened": "The Air Force has made a formal decision about how the B-21 will be crewed as it pushes to start fielding the bombers next year. The post USAF Decides Against Flying B-21 Raiders With Just One Pilot appeared first on TWZ .",
-      "enabling_tech": [],
-      "pioneers": [
-        {
-          "name": "TWZ",
-          "role": "reporting outlet"
-        }
-      ],
-      "spillover": "",
-      "watchlist": []
-    },
-    {
-      "title": "Carrier Qualifications Still Happening For A Few Navy Fighter Pilots In Training",
-      "what_happened": "E-2 pilots and foreign student pilots still need to do carrier qualifications, but huge changes to the naval aviation training landscape are looming. The post Carrier Qualifications Still Happening For A Few Navy Fighter Pilots In Training appeared first on TWZ .",
-      "enabling_tech": [],
-      "pioneers": [
-        {
-          "name": "TWZ",
-          "role": "reporting outlet"
-        }
-      ],
-      "spillover": "",
-      "watchlist": []
-    },
-    {
-      "title": "Air Force pushing contractors to purge Anthropic by Sept. 1: Memo",
-      "what_happened": "The Pentagon’s new target is to remove Anthropic department-wide by end of September, even as the AI titan is suing the government to overturn it.",
+      "title": "Navy, Army risk wasting money, time without unified hypersonic missile strategy: GAO",
+      "what_happened": "The GAO determined that the Navy is already roughly two years behind schedule on modernizing the Zumwalt-class destroyers as part of the more than $50 billion hypersonic effort.",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -93,8 +54,47 @@
       "watchlist": []
     },
     {
-      "title": "Ukraine can soon build its own Patriots – but it could take years",
-      "what_happened": "Ukraine may soon possess a license the U.S. currently extends to only a handful of allies — but it could be years before Patriots protect Ukrainian cities.",
+      "title": "U.S.-Iran Fight Heats Up With Mutual Strikes On Infrastructure Targets",
+      "what_happened": "More U.S. Air Force tankers and fighters head to the Middle East as the conflict intensifies. The post U.S.-Iran Fight Heats Up With Mutual Strikes On Infrastructure Targets appeared first on TWZ .",
+      "enabling_tech": [],
+      "pioneers": [
+        {
+          "name": "TWZ",
+          "role": "reporting outlet"
+        }
+      ],
+      "spillover": "",
+      "watchlist": []
+    },
+    {
+      "title": "USS Zumwalt Set To Return To Fleet After Long Anticipated Hypersonic Missile Upgrade",
+      "what_happened": "Issues tied to Zumwalt's hugely powerful hybrid-electric power plant and other factors have set back its return to the fleet. The post USS Zumwalt Set To Return To Fleet After Long Anticipated Hypersonic Missile Upgrade appeared first on TWZ .",
+      "enabling_tech": [],
+      "pioneers": [
+        {
+          "name": "TWZ",
+          "role": "reporting outlet"
+        }
+      ],
+      "spillover": "",
+      "watchlist": []
+    },
+    {
+      "title": "US Navy 2 years behind on hypersonic missile installation on Zumwalt destroyers",
+      "what_happened": "The U.S. Navy’s expensive effort to install hypersonic missiles on three Zumwalt-class destroyers is two years behind schedule.",
+      "enabling_tech": [],
+      "pioneers": [
+        {
+          "name": "Defense News",
+          "role": "reporting outlet"
+        }
+      ],
+      "spillover": "",
+      "watchlist": []
+    },
+    {
+      "title": "Saronic picks Brownsville, Texas, for $3 billion Port Alpha shipyard",
+      "what_happened": "Autonomous vessel maker Saronic is set to build Port Alpha, a shipyard the company describes as the most advanced in the world, in Texas.",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -107,13 +107,25 @@
     }
   ],
   "disclaimer": "The watchlist is informational only and not financial advice.",
-  "_fallback_reason": "theme selection failed",
+  "_fallback_reason": "all deep-dive calls failed",
   "_diagnostics": {
     "key_present": true,
     "corpus": 40,
     "steps": [
       {
-        "select": "HTTP 429: b'{\\n  \"error\": {\\n    \"code\": 429,\\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a'"
+        "select": "ok"
+      },
+      {
+        "dive_failed": "Advancements in Autonomous Marine Systems",
+        "err": "RuntimeError: JSON parse failed (finishReason=MAX_TOKENS, len=3053): Unterminated string starting at: line 36 column 16 (char 2638)"
+      },
+      {
+        "dive_failed": "Development of AI-Driven Loyal Wingman Drones",
+        "err": "HTTP 429: b'{\\n  \"error\": {\\n    \"code\": 429,\\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a'"
+      },
+      {
+        "dive_failed": "Fielding of Hypersonic Missile Capabilities",
+        "err": "HTTP 429: b'{\\n  \"error\": {\\n    \"code\": 429,\\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a'"
       }
     ]
   }
