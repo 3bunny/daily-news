@@ -2,25 +2,12 @@
   "intro": "A plain roundup of the week's notable military and business technology (full analysis was unavailable this run).",
   "deep_dives": [
     {
-      "title": "Two U.S. Troops Killed In Iranian Barrage On Base In Jordan (Updated)",
-      "what_happened": "Jordan is a key host of U.S. troops, with Muwaffaq Salti Air Base housing the largest contingent of American tactical airpower in the entire Middle East. The post Two U.S. Troops Killed In Iranian Barrage On Base In Jordan (Updated) appeared first on TWZ .",
+      "title": "U.S. Navy Deploys Ukraine-Style Kamikaze Sea Drones During Pacific SINKEX",
+      "what_happened": "Sailing past the impact holes left by Harpoon, Spike, and LRASM missiles, two U.S. Navy one-way attack surface drones closed in on a decommissioned amphibious assault ship before detonating at the ship’s waterline. U.S. Navy-piloted uncrewed surface attack drones helped sink the former USS Peleliu (LHD 5) off the coast of Hawaii last Friday, pushing ... The post U.S. Navy Deploys Ukraine-Style Kamikaze Sea Drones During Pacific SINKEX appeared first on Naval News .",
       "enabling_tech": [],
       "pioneers": [
         {
-          "name": "TWZ",
-          "role": "reporting outlet"
-        }
-      ],
-      "spillover": "",
-      "watchlist": []
-    },
-    {
-      "title": "2 US troops killed, 1 missing after Iranian missile, drone attack in Jordan",
-      "what_happened": "Two U.S. service members were killed in action on Friday in an Iranian ballistic missile and drone attack on U.S. and partner forces in Jordan.",
-      "enabling_tech": [],
-      "pioneers": [
-        {
-          "name": "Defense News",
+          "name": "Naval News",
           "role": "reporting outlet"
         }
       ],
@@ -29,7 +16,7 @@
     },
     {
       "title": "Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week",
-      "what_happened": "Is it getting more humid in here? The post Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week appeared first on TWZ .",
+      "what_happened": "Is the sky still red out there? The post Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week appeared first on TWZ .",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -41,47 +28,8 @@
       "watchlist": []
     },
     {
-      "title": "Navy, Army risk wasting money, time without unified hypersonic missile strategy: GAO",
-      "what_happened": "The GAO determined that the Navy is already roughly two years behind schedule on modernizing the Zumwalt-class destroyers as part of the more than $50 billion hypersonic effort.",
-      "enabling_tech": [],
-      "pioneers": [
-        {
-          "name": "Breaking Defense",
-          "role": "reporting outlet"
-        }
-      ],
-      "spillover": "",
-      "watchlist": []
-    },
-    {
-      "title": "U.S.-Iran Fight Heats Up With Mutual Strikes On Infrastructure Targets",
-      "what_happened": "More U.S. Air Force tankers and fighters head to the Middle East as the conflict intensifies. The post U.S.-Iran Fight Heats Up With Mutual Strikes On Infrastructure Targets appeared first on TWZ .",
-      "enabling_tech": [],
-      "pioneers": [
-        {
-          "name": "TWZ",
-          "role": "reporting outlet"
-        }
-      ],
-      "spillover": "",
-      "watchlist": []
-    },
-    {
-      "title": "USS Zumwalt Set To Return To Fleet After Long Anticipated Hypersonic Missile Upgrade",
-      "what_happened": "Issues tied to Zumwalt's hugely powerful hybrid-electric power plant and other factors have set back its return to the fleet. The post USS Zumwalt Set To Return To Fleet After Long Anticipated Hypersonic Missile Upgrade appeared first on TWZ .",
-      "enabling_tech": [],
-      "pioneers": [
-        {
-          "name": "TWZ",
-          "role": "reporting outlet"
-        }
-      ],
-      "spillover": "",
-      "watchlist": []
-    },
-    {
-      "title": "US Navy 2 years behind on hypersonic missile installation on Zumwalt destroyers",
-      "what_happened": "The U.S. Navy’s expensive effort to install hypersonic missiles on three Zumwalt-class destroyers is two years behind schedule.",
+      "title": "From steppe to sea, a Ukrainian drone unit hunts Russian ships",
+      "what_happened": "Drone units operating far behind the front line on Ukraine’s sweeping steppe have hit more than 180 vessels and other sea-borne targets in recent weeks.",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -93,12 +41,64 @@
       "watchlist": []
     },
     {
-      "title": "Saronic picks Brownsville, Texas, for $3 billion Port Alpha shipyard",
-      "what_happened": "Autonomous vessel maker Saronic is set to build Port Alpha, a shipyard the company describes as the most advanced in the world, in Texas.",
+      "title": "U.S. Coast Guard Seeking Technology To Hunt And Kill Uncrewed Underwater Vehicles",
+      "what_happened": "The risk of attacks on ships in port and harbor infrastructure from UUVs is growing and the USCG wants defensive solutions. The post U.S. Coast Guard Seeking Technology To Hunt And Kill Uncrewed Underwater Vehicles appeared first on TWZ .",
+      "enabling_tech": [],
+      "pioneers": [
+        {
+          "name": "TWZ",
+          "role": "reporting outlet"
+        }
+      ],
+      "spillover": "",
+      "watchlist": []
+    },
+    {
+      "title": "More Of The UK’s Stealth Fighter Demonstrator Revealed In New Images",
+      "what_happened": "We are getting better insights into the configuration of the demonstrator jet that will inform the design of the upcoming Tempest fighter. The post More Of The UK’s Stealth Fighter Demonstrator Revealed In New Images appeared first on TWZ .",
+      "enabling_tech": [],
+      "pioneers": [
+        {
+          "name": "TWZ",
+          "role": "reporting outlet"
+        }
+      ],
+      "spillover": "",
+      "watchlist": []
+    },
+    {
+      "title": "With no Iran war end in sight, Germany pulls back two navy ships eyed for Hormuz mission",
+      "what_happened": "German defense leaders have little hope for peace in Iran soon, pulling back two navy ships meant to support a post-war mission in the Strait of Hormuz.",
       "enabling_tech": [],
       "pioneers": [
         {
           "name": "Defense News",
+          "role": "reporting outlet"
+        }
+      ],
+      "spillover": "",
+      "watchlist": []
+    },
+    {
+      "title": "Pentagon nominates Lt. Gen. Admiral to command US Army Europe and Africa",
+      "what_happened": "Lt. Gen. Kevin D. Admiral, who currently serves as the commander of III Corps and Fort Hood, Texas, was nominated to take over the top job on Thursday.",
+      "enabling_tech": [],
+      "pioneers": [
+        {
+          "name": "Defense News",
+          "role": "reporting outlet"
+        }
+      ],
+      "spillover": "",
+      "watchlist": []
+    },
+    {
+      "title": "Pathway To Larger B-21 Raider Fleet Was Baked Into Production Ramp-Up Deal",
+      "what_happened": "The USAF previously framed the B-21 production boost deal as simply helping accelerate fielding of the bombers next year. The post Pathway To Larger B-21 Raider Fleet Was Baked Into Production Ramp-Up Deal appeared first on TWZ .",
+      "enabling_tech": [],
+      "pioneers": [
+        {
+          "name": "TWZ",
           "role": "reporting outlet"
         }
       ],
@@ -107,25 +107,13 @@
     }
   ],
   "disclaimer": "The watchlist is informational only and not financial advice.",
-  "_fallback_reason": "all deep-dive calls failed",
+  "_fallback_reason": "theme selection failed",
   "_diagnostics": {
     "key_present": true,
     "corpus": 40,
     "steps": [
       {
-        "select": "ok"
-      },
-      {
-        "dive_failed": "Advancements in Autonomous Marine Systems",
-        "err": "RuntimeError: JSON parse failed (finishReason=MAX_TOKENS, len=3053): Unterminated string starting at: line 36 column 16 (char 2638)"
-      },
-      {
-        "dive_failed": "Development of AI-Driven Loyal Wingman Drones",
-        "err": "HTTP 429: b'{\\n  \"error\": {\\n    \"code\": 429,\\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a'"
-      },
-      {
-        "dive_failed": "Fielding of Hypersonic Missile Capabilities",
-        "err": "HTTP 429: b'{\\n  \"error\": {\\n    \"code\": 429,\\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a'"
+        "select": "HTTP 429: b'{\\n  \"error\": {\\n    \"code\": 429,\\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a'"
       }
     ]
   }
