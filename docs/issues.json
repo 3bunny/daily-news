@@ -448,5 +448,17 @@
       "crypto": 3,
       "economics": 3
     }
+  },
+  {
+    "date": "2026-07-27",
+    "long": "Monday, July 27, 2026",
+    "grade": "A-",
+    "counts": {
+      "military": 2,
+      "business": 5,
+      "diamonds": 5,
+      "crypto": 5,
+      "economics": 1
+    }
   }
 ]

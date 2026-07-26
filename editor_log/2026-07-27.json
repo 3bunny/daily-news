@@ -1,0 +1,32 @@
+{
+  "date": "2026-07-27",
+  "grade": "A-",
+  "note": "This edition shines with several genuinely innovative stories, particularly in business and technology, offering a fresh look at advancements from robotic mosquito hunters to Starlink-enabled pet tracking. While the economics section is light, the military and crypto updates provide solid, relevant coverage.",
+  "counts": {
+    "military": 2,
+    "business": 5,
+    "diamonds": 5,
+    "crypto": 5,
+    "economics": 1
+  },
+  "wow": 1,
+  "source_suggestions": [
+    "World Economics: Financial Times - World Economy -> https://www.ft.com/world-economy?format=rss",
+    "World Economics: Wall Street Journal - Global Economy -> https://www.wsj.com/news/economy/global-economy?format=rss",
+    "World Economics: Bloomberg - Economics -> https://www.bloomberg.com/feeds/markets/economics.rss"
+  ],
+  "sources_added": [
+    "economics: https://www.ft.com/world-economy?format=rss"
+  ],
+  "used_llm": true,
+  "gemini_health": {
+    "key_present": true,
+    "working": true,
+    "detail": "Gemini responded correctly."
+  },
+  "gemini_calls": {
+    "ok": 13,
+    "fail": 0,
+    "last_error": null
+  }
+}
