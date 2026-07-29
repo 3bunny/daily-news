@@ -1,0 +1,233 @@
+[
+  {
+    "topic": "military",
+    "title": "How DARPA plans to get nuclear power in the size of a ‘AA battery’",
+    "link": "https://breakingdefense.com/2026/07/how-darpa-plans-to-get-nuclear-power-in-the-size-of-aa-battery/",
+    "source": "Breaking Defense",
+    "published": "2026-07-29T21:00:00+09:00",
+    "summary": "DARPA's Rads to Watts program is exploring ways to create miniature nuclear power cells, aiming for a size comparable to a AA battery. Seven teams are currently competing to develop these power cells, which are designed to last for years or decades without recharging.",
+    "detail": "DARPA's Rads to Watts program is funding seven teams to develop miniature nuclear power cells, aiming for a size comparable to a AA battery. These cells are designed to provide power for years or even decades without needing recharging. This initiative is significant because it seeks to revolutionize long-duration power sources. Current small batteries have limited lifespans, while existing nuclear power cells (radioisotope thermoelectric generators, or RTGs) are typically much larger and used for specialized applications like space probes. Successfully miniaturizing this technology could enable a new generation of autonomous systems, remote sensors, medical implants, and defense technologies that require sustained, maintenance-free power in challenging environments. The challenge lies in safely and efficiently harnessing the decay heat of radioisotopes in a compact form factor, distinct from nuclear fission reactors.",
+    "score": 9.0,
+    "wow": true
+  },
+  {
+    "topic": "military",
+    "title": "China Fires YJ-20 Hypersonic Anti-Ship Missile From Smaller Destroyer",
+    "link": "https://www.twz.com/sea/china-fires-yj-20-hypersonic-anti-ship-missile-from-smaller-destroyer",
+    "source": "TWZ",
+    "published": "2026-07-30T05:41:15+09:00",
+    "summary": "China has reportedly fired its YJ-20 hypersonic anti-ship missile from a Type 052D destroyer. This development indicates that the advanced missile capability is being distributed across a wider range of naval vessels, beyond just the larger Type 055 destroyers, expanding operational flexibility.",
+    "detail": "China has reportedly demonstrated the capability to fire its YJ-20 hypersonic anti-ship missile from a Type 052D destroyer. This is a crucial development because previous reports associated such advanced weapons primarily with China's larger, more capable Type 055 destroyers. By deploying the YJ-20 on the more numerous Type 052D class, China significantly expands the distribution and reach of its anti-ship capabilities across its naval fleet. Hypersonic missiles, which travel at speeds exceeding Mach 5 and are highly maneuverable, are exceptionally difficult to intercept, posing a substantial threat to adversary naval vessels, particularly aircraft carriers. This move enhances China's anti-access/area-denial (A2/AD) strategy, complicating potential naval operations by other powers in critical regions like the South China Sea and the Western Pacific, and signals a maturation of its advanced missile technology.",
+    "score": 8.0,
+    "wow": false
+  },
+  {
+    "topic": "military",
+    "title": "Pentagon puts out call for robot boats that launch attack drones",
+    "link": "https://www.defensenews.com/industry/techwatch/2026/07/29/pentagon-puts-out-call-for-robot-boats-that-launch-attack-drones/",
+    "source": "Defense News",
+    "published": "2026-07-30T04:22:52+09:00",
+    "summary": "The Pentagon has issued a solicitation for uncrewed surface vessels (USVs) capable of launching attack drones. The requirement specifies that prototypes should be ready for testing within 120 days, indicating an urgent need for this integrated autonomous capability.",
+    "detail": "The Pentagon has issued a solicitation for uncrewed surface vessels (USVs), or 'robot boats,' specifically designed to launch attack drones, with an aggressive timeline requiring prototypes ready for testing within 120 days. This initiative underscores a rapid acceleration in the development and integration of autonomous warfare capabilities. USVs capable of deploying attack drones would offer a flexible, distributed, and potentially expendable platform for a range of missions, including surveillance, reconnaissance, and offensive strikes, thereby reducing risk to human personnel. This approach could significantly enhance naval power projection and intelligence gathering, particularly in contested maritime environments. The short development window highlights the urgency within the US military to quickly field and integrate advanced autonomous systems into its operational forces, reflecting a broader strategic shift towards networked and distributed warfare concepts.",
+    "score": 7.0,
+    "wow": false
+  },
+  {
+    "topic": "military",
+    "title": "US Navy deploys GARC uncrewed surface vessel in first live-fire training exercise",
+    "link": "https://www.defensenews.com/news/your-military/2026/07/29/us-navy-deploys-garc-uncrewed-surface-vessel-in-first-live-fire-training-exercise/",
+    "source": "Defense News",
+    "published": "2026-07-30T01:16:05+09:00",
+    "summary": "The U.S. Navy has deployed its Global Autonomous Reconnaissance Craft (GARC) uncrewed surface vessel (USV) for its first live-fire training exercise. This marks a significant step in integrating autonomous vessels with offensive capabilities into naval operations.",
+    "detail": "The US Navy has conducted its first live-fire training exercise involving its Global Autonomous Reconnaissance Craft (GARC) uncrewed surface vessel (USV). This event is a significant milestone in the operational integration of autonomous systems into naval warfare. Moving beyond basic navigation and sensor tests, a live-fire exercise demonstrates the GARC's ability to participate in combat scenarios, potentially identifying targets and engaging them either autonomously or with human oversight. This validates the platform's combat readiness and paves the way for its wider deployment and integration into fleet operations. The GARC, designed for long-endurance reconnaissance, could enhance the Navy's capabilities for intelligence gathering, surveillance, and potentially strike missions, while keeping human personnel out of harm's way. This aligns with the Navy's broader strategy to develop a hybrid fleet of crewed and uncrewed vessels.",
+    "score": 7.0,
+    "wow": false
+  },
+  {
+    "topic": "military",
+    "title": "Trump, Zelenskyy discuss Patriot deal and reviving talks with Russia",
+    "link": "https://www.defensenews.com/global/europe/2026/07/29/trump-zelenskyy-discuss-patriot-deal-and-reviving-talks-with-russia/",
+    "source": "Defense News",
+    "published": "2026-07-29T19:36:26+09:00",
+    "summary": "Former President Trump and Ukrainian President Zelenskyy discussed a potential Patriot missile deal and the possibility of reviving talks with Russia. Zelenskyy later stated that Trump had agreed to provide licenses for Ukraine to produce Patriot interceptors.",
+    "detail": "Former President Donald Trump and Ukrainian President Volodymyr Zelenskyy reportedly discussed a potential deal for Ukraine to produce Patriot interceptors and the possibility of reviving talks with Russia. Zelenskyy later stated that Trump 'accepted that he will give us licenses' for Patriot production. This interaction is highly significant. If a licensing agreement for domestic Patriot production materializes, it would be a major boost to Ukraine's long-term air defense capabilities, reducing its reliance on external military aid and strengthening its defense industrial base against ongoing Russian aggression. The discussion about resuming talks with Russia is also critical, as it touches upon potential future diplomatic pathways to end the conflict, a key foreign policy consideration for any US administration. Zelenskyy's engagement with a leading US presidential candidate reflects Ukraine's efforts to secure sustained support and navigate potential shifts in US foreign policy.",
+    "score": 6.0,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "Siobahn Day Grady Wants Everyone to Be AI Literate",
+    "link": "https://spectrum.ieee.org/siobahn-day-grady-ai-hbcu",
+    "source": "IEEE Spectrum",
+    "published": "2026-07-29T23:00:02+09:00",
+    "summary": "Artificial intelligence is reshaping the skills employers expect from new graduates. In response, universities are scrambling to launch new courses, research centers, and industry partnerships that prepare students for today’s workforce. But building a cutting-edge AI curriculum demands funding and access to industry …",
+    "detail": "",
+    "score": 8.9,
+    "wow": true
+  },
+  {
+    "topic": "business",
+    "title": "Yet more qubit tech: New quantum dot options, diamond vacancies",
+    "link": "https://arstechnica.com/science/2026/07/quantum-computing-roundup-still-more-technologies-making-waves/",
+    "source": "Ars Technica - All content",
+    "published": "2026-07-30T02:37:47+09:00",
+    "summary": "Companies are making sure we have a surplus of options for building qubits.",
+    "detail": "",
+    "score": 7.6,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "Full school day cellphone bans are more popular than ever",
+    "link": "https://www.theverge.com/policy/972607/full-school-day-cell-phone-bans-are-more-popular-than-ever",
+    "source": "The Verge",
+    "published": "2026-07-30T01:42:44+09:00",
+    "summary": "As schools across the country continue to implement cellphone bans, a new Pew Research Center survey shows they continue to gain support. Seventy-seven percent of US adults support banning cellphones in middle and high school classes, and 48 percent support banning them for the entire school day. That's the first …",
+    "detail": "",
+    "score": 7.6,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "Brilliant Ram 4x4 camper truck is a private deck in the great outdoors",
+    "link": "https://newatlas.com/rvs-motorhomes/storied-gxv-wild-4x4-camper/",
+    "source": "New Atlas: Technology-Innovation-Outdoor News",
+    "published": "2026-07-29T10:38:00+09:00",
+    "summary": "Before the term \"overlanding\" entered the broad American lexicon, Global Expedition Vehicles (GXV) was building some of the largest, most fearsome overland rigs the US had seen ... or has ever seen since. The latest truck to wear the badge, the new GXV Wild evolves overland living to a higher standard while erasing …",
+    "detail": "",
+    "score": 7.6,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "xAI’s last-minute scramble to stop Minnesota’s anti-nudification app law",
+    "link": "https://www.theverge.com/policy/972850/xai-grok-minnesota-nudification-lawsuit",
+    "source": "The Verge",
+    "published": "2026-07-30T06:06:52+09:00",
+    "summary": "xAI is suing Minnesota Attorney General Keith Ellison over a law passed back in May that broadly targets \"nudification\" apps, claiming that the statute's punitive provisions leave the company with \"no practical choice but to restrict Grok Imagine's image-editing features in various ways.\" The law, the company argues, …",
+    "detail": "",
+    "score": 6.3,
+    "wow": false
+  },
+  {
+    "topic": "diamonds",
+    "title": "Atmospheric Diffusion-Guided Spatio-Temporal Transformer for Nuclear Radiation Forecasting",
+    "link": "https://arxiv.org/abs/2607.24774",
+    "source": "cs.AI updates on arXiv.org",
+    "published": "2026-07-29T13:00:00+09:00",
+    "summary": "arXiv:2607.24774v1 Announce Type: new Abstract: Nuclear radiation, the energy released during atomic decay, poses persistent risks to public health and the environment, and concerns have only grown since the Fukushima accident and the recent commencement of treated-water discharge. Modern monitoring networks now …",
+    "detail": "",
+    "score": 8.9,
+    "wow": true
+  },
+  {
+    "topic": "diamonds",
+    "title": "How Often Should a Recommender Call an LLM? Value-Weighted Routing, Monitoring, and Seasonal Robustness",
+    "link": "https://arxiv.org/abs/2607.25068",
+    "source": "cs.AI updates on arXiv.org",
+    "published": "2026-07-29T13:00:00+09:00",
+    "summary": "arXiv:2607.25068v1 Announce Type: new Abstract: Routing decisions between a cheap heuristic and an expensive large language model (LLM) are typically framed as a difficulty problem: send the hard cases to the expensive path. We argue this framing is incomplete because difficulty and business value are distinct axes - …",
+    "detail": "",
+    "score": 8.9,
+    "wow": true
+  },
+  {
+    "topic": "diamonds",
+    "title": "Towards an Agent Operating System - Lessons from Classical and Cloud OS",
+    "link": "https://arxiv.org/abs/2607.25076",
+    "source": "cs.AI updates on arXiv.org",
+    "published": "2026-07-29T13:00:00+09:00",
+    "summary": "arXiv:2607.25076v1 Announce Type: new Abstract: Every major wave of platform software follows the same arc: an initial period of experimentation with competing frameworks and ad-hoc implementations, followed by the articulation of a small set of stable abstractions with well-defined semantics, and finally …",
+    "detail": "",
+    "score": 8.9,
+    "wow": true
+  },
+  {
+    "topic": "diamonds",
+    "title": "ContractHIL-HLS: Contract-Aligned Multi-Agent Workflow with Hardware-in-the-Loop Feedback for HLS Design",
+    "link": "https://arxiv.org/abs/2607.25283",
+    "source": "cs.AI updates on arXiv.org",
+    "published": "2026-07-29T13:00:00+09:00",
+    "summary": "arXiv:2607.25283v1 Announce Type: new Abstract: This paper presents ContractHIL-HLS, a contract-aligned multi-agent workflow for practical high-level synthesis (HLS) engineering. The workflow makes three contributions. First, it introduces a structured contract as the semantic-alignment and task-execution artifact …",
+    "detail": "",
+    "score": 8.9,
+    "wow": true
+  },
+  {
+    "topic": "diamonds",
+    "title": "A Density-Matrix Framework for Electronic-Structure Analysis of Functional-Group and Salt Effects in Lithium-Metal Electrolytes",
+    "link": "https://arxiv.org/abs/2607.25597",
+    "source": "cs.AI updates on arXiv.org",
+    "published": "2026-07-29T13:00:00+09:00",
+    "summary": "arXiv:2607.25597v1 Announce Type: new Abstract: The reactivity of lithium-metal electrolytes arises from the interplay of molecular functional groups, Li$^+$ solvation, and salt-anion participation. This interplay operates through the redistribution of electron density across donor, anion, and cation centers, which …",
+    "detail": "",
+    "score": 8.9,
+    "wow": true
+  },
+  {
+    "topic": "crypto",
+    "title": "There's a New Way to Protect Bitcoin From Future Quantum Attacks, Researchers Say",
+    "link": "https://decrypt.co/374651/new-research-bitcoin-wallet-quantum-attacks-safe",
+    "source": "Decrypt",
+    "published": "2026-07-30T05:01:03+09:00",
+    "summary": "New research outlines a cryptographic approach that could allow Bitcoin and other blockchain wallets to remain compatible with existing addresses in a post-quantum future.",
+    "detail": "",
+    "score": 7.6,
+    "wow": false
+  },
+  {
+    "topic": "crypto",
+    "title": "About $80 million ZEC crosses into Zcash's new Ironwood pool in the first day",
+    "link": "https://www.coindesk.com/tech/2026/07/29/about-usd80-million-zec-crosses-into-zcash-s-new-ironwood-pool-in-the-first-day",
+    "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+    "published": "2026-07-29T22:32:37+09:00",
+    "summary": "Summary unavailable.",
+    "detail": "",
+    "score": 7.6,
+    "wow": false
+  },
+  {
+    "topic": "crypto",
+    "title": "The 100x obsession: Fundamentals grow in importance as crypto matures",
+    "link": "https://cointelegraph.com/magazine/the-100x-obsession-why-great-crypto-projects-keep-losing-to-great-stories?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source": "Cointelegraph.com News",
+    "published": "2026-07-29T22:30:00+09:00",
+    "summary": "Crypto’s fundamentals have never been stronger, yet degens keep chasing hot new narratives. Behavioral finance may explain why get rich quick stories continue to beat substance.",
+    "detail": "",
+    "score": 7.6,
+    "wow": false
+  },
+  {
+    "topic": "crypto",
+    "title": "Morning Minute: Claude Mythos Breaks Post-Quantum Cryptography",
+    "link": "https://decrypt.co/374637/morning-minute-claude-mythos-breaks-post-quantum-cryptography",
+    "source": "Decrypt",
+    "published": "2026-07-29T21:15:00+09:00",
+    "summary": "Plus markets are mixed ahead of FOMC; new Wall St. giants are backing the Clarity Act; and Zcash officially launched its Ironwood upgrade",
+    "detail": "",
+    "score": 7.6,
+    "wow": false
+  },
+  {
+    "topic": "crypto",
+    "title": "Microsoft Quietly Adds New Windows App That Wants to Scan Your Face",
+    "link": "https://decrypt.co/374688/microsoft-quietly-adds-windows-app-wants-scan-face-onedrive",
+    "source": "Decrypt",
+    "published": "2026-07-30T07:31:03+09:00",
+    "summary": "A new OneDrive Photos app is appearing on some Windows 11 PCs through OneDrive and Windows updates, adding AI-powered search and an optional facial grouping feature.",
+    "detail": "",
+    "score": 6.3,
+    "wow": false
+  },
+  {
+    "topic": "economics",
+    "title": "OECD Report: India Remains World’s Fastest-Growing Major Economy - News On AIR",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTENpLWpfUFdmMW4tOGFBQWpxcDAweU5TOFFsaGtfTzRDYVJ3c1ZxVjIzaS1zVXJwWGd2VGhnai1Sa0djbXJTWXFyN0ZnS0d5X2doZEd3T2pMZ29teG1xVjRFR3FyVzBaUVZxeDRJRHpuZWdhSHlXNjhVZzBrUWNsN2hYZ2E0ZjJubE9lS0dKdnliUQ?oc=5",
+    "source": "\"global economy OR inflation OR interest rate OR GDP when:2d\" - Google News",
+    "published": "2026-07-30T05:00:07+09:00",
+    "summary": "OECD Report: India Remains World’s Fastest-Growing Major Economy News On AIR",
+    "detail": "",
+    "score": 6.3,
+    "wow": false
+  }
+]
