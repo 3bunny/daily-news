@@ -2,8 +2,8 @@
   "intro": "A plain roundup of the week's notable military and business technology (full analysis was unavailable this run).",
   "deep_dives": [
     {
-      "title": "U.S. Navy Deploys Ukraine-Style Kamikaze Sea Drones During Pacific SINKEX",
-      "what_happened": "Sailing past the impact holes left by Harpoon, Spike, and LRASM missiles, two U.S. Navy one-way attack surface drones closed in on a decommissioned amphibious assault ship before detonating at the ship’s waterline. U.S. Navy-piloted uncrewed surface attack drones helped sink the former USS Peleliu (LHD 5) off the coast of Hawaii last Friday, pushing ... The post U.S. Navy Deploys Ukraine-Style Kamikaze Sea Drones During Pacific SINKEX appeared first on Naval News .",
+      "title": "South Korea’s KDDX Enters Detailed Design and Lead Ship Construction Phase",
+      "what_happened": "South Korea’s DAPA has officially signed the main contract with Hanwha Ocean for the detailed design and construction of the first-in-class KDDX destroyer, targeting delivery to the ROK Navy by 2032. South Korea’s Defense Acquisition Program Administration (DAPA) announced on July 31 that it has officially signed the contract with Hanwha Ocean for the detailed ... The post South Korea’s KDDX Enters Detailed Design and Lead Ship Construction Phase appeared first on Naval News .",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -16,7 +16,7 @@
     },
     {
       "title": "Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week",
-      "what_happened": "Is the sky still red out there? The post Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week appeared first on TWZ .",
+      "what_happened": "Do you have a metallic taste in your mouth too? The post Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week appeared first on TWZ .",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -28,21 +28,8 @@
       "watchlist": []
     },
     {
-      "title": "From steppe to sea, a Ukrainian drone unit hunts Russian ships",
-      "what_happened": "Drone units operating far behind the front line on Ukraine’s sweeping steppe have hit more than 180 vessels and other sea-borne targets in recent weeks.",
-      "enabling_tech": [],
-      "pioneers": [
-        {
-          "name": "Defense News",
-          "role": "reporting outlet"
-        }
-      ],
-      "spillover": "",
-      "watchlist": []
-    },
-    {
-      "title": "U.S. Coast Guard Seeking Technology To Hunt And Kill Uncrewed Underwater Vehicles",
-      "what_happened": "The risk of attacks on ships in port and harbor infrastructure from UUVs is growing and the USCG wants defensive solutions. The post U.S. Coast Guard Seeking Technology To Hunt And Kill Uncrewed Underwater Vehicles appeared first on TWZ .",
+      "title": "Red Sea Maritime Security Task Force Commander Talks Major Jump In Escort Requests (Updated)",
+      "what_happened": "The danger to Red Sea shipping has increased once again after the Houthis began attacking Saudi tankers. The post Red Sea Maritime Security Task Force Commander Talks Major Jump In Escort Requests (Updated) appeared first on TWZ .",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -54,8 +41,21 @@
       "watchlist": []
     },
     {
-      "title": "More Of The UK’s Stealth Fighter Demonstrator Revealed In New Images",
-      "what_happened": "We are getting better insights into the configuration of the demonstrator jet that will inform the design of the upcoming Tempest fighter. The post More Of The UK’s Stealth Fighter Demonstrator Revealed In New Images appeared first on TWZ .",
+      "title": "Facing a lack of kit, Space Force creates $981M pool to buy training capabilities",
+      "what_happened": "Gen. Greg Gagnon, head of Space Force Combat Forces Command, said a number of key mission areas face a serious lack of simulators needed for training Guardians.",
+      "enabling_tech": [],
+      "pioneers": [
+        {
+          "name": "Breaking Defense",
+          "role": "reporting outlet"
+        }
+      ],
+      "spillover": "",
+      "watchlist": []
+    },
+    {
+      "title": "U.S. Navy Is Seeking A Submarine Launched Anti-Air Missile",
+      "what_happened": "The Navy has a plan for a revolutionary modular surface-to-air missile arsenal, and submarines are intended to be added as launch platforms. The post U.S. Navy Is Seeking A Submarine Launched Anti-Air Missile appeared first on TWZ .",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -67,12 +67,12 @@
       "watchlist": []
     },
     {
-      "title": "With no Iran war end in sight, Germany pulls back two navy ships eyed for Hormuz mission",
-      "what_happened": "German defense leaders have little hope for peace in Iran soon, pulling back two navy ships meant to support a post-war mission in the Strait of Hormuz.",
+      "title": "Marine Corps F-35 suffers crash in California",
+      "what_happened": "The pilot ejected and is receiving medical treatment for non-life-threatening injuries, according to the service.",
       "enabling_tech": [],
       "pioneers": [
         {
-          "name": "Defense News",
+          "name": "Breaking Defense",
           "role": "reporting outlet"
         }
       ],
@@ -80,12 +80,12 @@
       "watchlist": []
     },
     {
-      "title": "Pentagon nominates Lt. Gen. Admiral to command US Army Europe and Africa",
-      "what_happened": "Lt. Gen. Kevin D. Admiral, who currently serves as the commander of III Corps and Fort Hood, Texas, was nominated to take over the top job on Thursday.",
+      "title": "Key B-52 upgrades face cost, schedule risks: GAO",
+      "what_happened": "A new audit from the Government Accountability Office found concerns with the Air Force’s modernization of the B-52 Stratofortress, which is planned to fly through the middle of the century.",
       "enabling_tech": [],
       "pioneers": [
         {
-          "name": "Defense News",
+          "name": "Breaking Defense",
           "role": "reporting outlet"
         }
       ],
@@ -93,8 +93,8 @@
       "watchlist": []
     },
     {
-      "title": "Pathway To Larger B-21 Raider Fleet Was Baked Into Production Ramp-Up Deal",
-      "what_happened": "The USAF previously framed the B-21 production boost deal as simply helping accelerate fielding of the bombers next year. The post Pathway To Larger B-21 Raider Fleet Was Baked Into Production Ramp-Up Deal appeared first on TWZ .",
+      "title": "F-35B Crashes And Burns At Marine Corps Air Station Miramar (Updated)",
+      "what_happened": "The F-35B crashed near the end of the runway at the sprawling Marine Corps base at around 10AM local time. The post F-35B Crashes And Burns At Marine Corps Air Station Miramar (Updated) appeared first on TWZ .",
       "enabling_tech": [],
       "pioneers": [
         {
