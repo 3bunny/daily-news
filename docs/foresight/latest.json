@@ -2,12 +2,25 @@
   "intro": "A plain roundup of the week's notable military and business technology (full analysis was unavailable this run).",
   "deep_dives": [
     {
-      "title": "South Korea’s KDDX Enters Detailed Design and Lead Ship Construction Phase",
-      "what_happened": "South Korea’s DAPA has officially signed the main contract with Hanwha Ocean for the detailed design and construction of the first-in-class KDDX destroyer, targeting delivery to the ROK Navy by 2032. South Korea’s Defense Acquisition Program Administration (DAPA) announced on July 31 that it has officially signed the contract with Hanwha Ocean for the detailed ... The post South Korea’s KDDX Enters Detailed Design and Lead Ship Construction Phase appeared first on Naval News .",
+      "title": "Russian Nuclear Ballistic Missile Submarines Are Now Cocooned In Nets",
+      "what_happened": "Growing uncrewed threats look to be prompting various new defensive measures Russian naval bases far and wide. The post Russian Nuclear Ballistic Missile Submarines Are Now Cocooned In Nets appeared first on TWZ .",
       "enabling_tech": [],
       "pioneers": [
         {
-          "name": "Naval News",
+          "name": "TWZ",
+          "role": "reporting outlet"
+        }
+      ],
+      "spillover": "",
+      "watchlist": []
+    },
+    {
+      "title": "Senate passes stopgap funding bill",
+      "what_happened": "The House and Senate have each passed separate versions of a continuing resolution, and must agree on a single bill before the new fiscal year starts on Oct. 1",
+      "enabling_tech": [],
+      "pioneers": [
+        {
+          "name": "Breaking Defense",
           "role": "reporting outlet"
         }
       ],
@@ -16,7 +29,7 @@
     },
     {
       "title": "Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week",
-      "what_happened": "Do you have a metallic taste in your mouth too? The post Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week appeared first on TWZ .",
+      "what_happened": "Sorry, the dust is staying. The post Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week appeared first on TWZ .",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -28,21 +41,8 @@
       "watchlist": []
     },
     {
-      "title": "Red Sea Maritime Security Task Force Commander Talks Major Jump In Escort Requests (Updated)",
-      "what_happened": "The danger to Red Sea shipping has increased once again after the Houthis began attacking Saudi tankers. The post Red Sea Maritime Security Task Force Commander Talks Major Jump In Escort Requests (Updated) appeared first on TWZ .",
-      "enabling_tech": [],
-      "pioneers": [
-        {
-          "name": "TWZ",
-          "role": "reporting outlet"
-        }
-      ],
-      "spillover": "",
-      "watchlist": []
-    },
-    {
-      "title": "Facing a lack of kit, Space Force creates $981M pool to buy training capabilities",
-      "what_happened": "Gen. Greg Gagnon, head of Space Force Combat Forces Command, said a number of key mission areas face a serious lack of simulators needed for training Guardians.",
+      "title": "The state of DoD Zero Trust: Progress toward target level",
+      "what_happened": "Join us August 26th at 2pm ET as industry leaders discuss the current state of Zero Trust and what the roadmap looks like for the next 2 years.",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -54,21 +54,8 @@
       "watchlist": []
     },
     {
-      "title": "U.S. Navy Is Seeking A Submarine Launched Anti-Air Missile",
-      "what_happened": "The Navy has a plan for a revolutionary modular surface-to-air missile arsenal, and submarines are intended to be added as launch platforms. The post U.S. Navy Is Seeking A Submarine Launched Anti-Air Missile appeared first on TWZ .",
-      "enabling_tech": [],
-      "pioneers": [
-        {
-          "name": "TWZ",
-          "role": "reporting outlet"
-        }
-      ],
-      "spillover": "",
-      "watchlist": []
-    },
-    {
-      "title": "Marine Corps F-35 suffers crash in California",
-      "what_happened": "The pilot ejected and is receiving medical treatment for non-life-threatening injuries, according to the service.",
+      "title": "GDIT scores $1.3 billion National Guard IT contract",
+      "what_happened": "The Enterprise Network Operations and Cybersecurity Support contract aims to provide modernized IT and cybersecurity services to the Army National Guard.",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -80,8 +67,8 @@
       "watchlist": []
     },
     {
-      "title": "Key B-52 upgrades face cost, schedule risks: GAO",
-      "what_happened": "A new audit from the Government Accountability Office found concerns with the Air Force’s modernization of the B-52 Stratofortress, which is planned to fly through the middle of the century.",
+      "title": "Army opens ranges in US, Morocco to speed interceptor testing, development",
+      "what_happened": "Army Secretary Dan Driscoll told reporters he hopes to get companies who have internally funded their own munitions onto testing ranges within 30 days of a request.",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -93,12 +80,25 @@
       "watchlist": []
     },
     {
-      "title": "F-35B Crashes And Burns At Marine Corps Air Station Miramar (Updated)",
-      "what_happened": "The F-35B crashed near the end of the runway at the sprawling Marine Corps base at around 10AM local time. The post F-35B Crashes And Burns At Marine Corps Air Station Miramar (Updated) appeared first on TWZ .",
+      "title": "How North Korean forces are bolstering Russia’s war against Ukraine",
+      "what_happened": "North Korea has deployed troops, weapons and now, according to a Ukrainian intelligence official, a missile unit to support Russia’s war against Ukraine.",
       "enabling_tech": [],
       "pioneers": [
         {
-          "name": "TWZ",
+          "name": "Defense News",
+          "role": "reporting outlet"
+        }
+      ],
+      "spillover": "",
+      "watchlist": []
+    },
+    {
+      "title": "Senate confirms nominees for Pentagon comptroller, space acquisition and NRO chief",
+      "what_happened": "Until today, the Pentagon had gone a year and a half without a confirmed comptroller.",
+      "enabling_tech": [],
+      "pioneers": [
+        {
+          "name": "Breaking Defense",
           "role": "reporting outlet"
         }
       ],
