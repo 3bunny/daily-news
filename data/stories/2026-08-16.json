@@ -1,0 +1,167 @@
+[
+  {
+    "topic": "military",
+    "title": "U.S. Navy Orca XLUUV Completes 1,000-Mile Pacific Transit",
+    "link": "https://www.navalnews.com/naval-news/2026/08/u-s-navy-orca-xluuv-completes-1000-mile-pacific-transit/",
+    "source": "Naval News",
+    "published": "2026-08-15T17:44:13+09:00",
+    "summary": "The U.S. Navy's Orca Extra Large Uncrewed Undersea Vehicle (XLUUV) successfully completed a 1,000-nautical-mile transit in the Pacific in July. This marks the first long-range mission for the Boeing and Huntington Ingalls-built uncrewed submarine. This achievement demonstrates a significant step in the development and operational capabilities of large autonomous underwater vehicles.",
+    "detail": "",
+    "score": 9.0,
+    "wow": true
+  },
+  {
+    "topic": "military",
+    "title": "Army To Use Robinson R66 For Its New Helicopter Pilot Training Concept",
+    "link": "https://www.twz.com/air/army-to-use-robinson-r66-for-its-new-helicopter-pilot-training-concept",
+    "source": "TWZ",
+    "published": "2026-08-15T06:03:13+09:00",
+    "summary": "The U.S. Army plans to integrate the Robinson R66 helicopter into a new pilot training concept. This initiative represents a fundamentally different, contractor-run approach to training Army helicopter pilots. The R66 will serve as a key platform in this revised training methodology.",
+    "detail": "",
+    "score": 6.0,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "Star Wars: Ahsoka season 2 and Starfighter get teased at D23",
+    "link": "https://www.theverge.com/entertainment/980666/star-wars-ahsoka-season-2-and-starfighter-get-teased-at-d23",
+    "source": "The Verge",
+    "published": "2026-08-15T23:58:27+09:00",
+    "summary": "Season two of Star Wars: Ahsoka is still months away, but Lucasfilm still took the opportunity to tease it a bit at D23. The company dropped the first trailer for the new season ahead of its January 20th, 2027 debut. The clip shows a darker, witchcraft-filled take on the Star Wars universe, with Grand Admiral […]",
+    "detail": "",
+    "score": 8.9,
+    "wow": true
+  },
+  {
+    "topic": "business",
+    "title": "Disney D23 2026: Everything announced for Star Wars, Marvel, and more",
+    "link": "https://www.theverge.com/streaming/980633/x-men-marvel-star-wars-pixar-disney-d23",
+    "source": "The Verge",
+    "published": "2026-08-15T23:20:33+09:00",
+    "summary": "The annual Disney fan event showed off the cast of Marvel’s X-Men movie, plus a new trailer for Avengers: Doomsday, and our first look at the VisionQuest TV show for Disney Plus. For Star Wars fans, there was a teaser trailer for season two of Ahsoka, plus a special look at Star Wars: Starfighter with […]",
+    "detail": "",
+    "score": 7.6,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "Marvel reveals the new X-Men cast, including Inde Navarrette and Adam Driver",
+    "link": "https://www.theverge.com/entertainment/980635/marvel-new-x-men-movie-cast",
+    "source": "The Verge",
+    "published": "2026-08-15T23:03:14+09:00",
+    "summary": "With Spider-Man: Brand New Day behind us, and its reveal of Sadie Sink as Jean Grey, Marvel is finally ready to officially welcome the X-Men into the MCU. At the D23 event in Anaheim yesterday, the company revealed the cast for its upcoming, untitled X-Men film, which is scheduled to hit theaters on May 5th […]",
+    "detail": "",
+    "score": 7.6,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "Containerized GHOST system puts rocket launch infrastructure on the go",
+    "link": "https://newatlas.com/military/ghost-gives-rocket-launch-sites-flat-pack-treatment/",
+    "source": "New Atlas: Technology-Innovation-Outdoor News",
+    "published": "2026-08-15T23:03:00+09:00",
+    "summary": "Land-based launch sites for orbital rockets just got the flat-pack treatment as Rocket Lab announced its Global Hypersonic & Orbital Spaceport Technology (GHOST) system. The initiative packs a complete launch system into standard shipping containers. Continue Reading Category: Military , Engineering Tags: Rocket Lab …",
+    "detail": "",
+    "score": 7.6,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "Anthropic shares more details about how Claude’s new watermarks will work",
+    "link": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
+    "source": "TechCrunch",
+    "published": "2026-08-16T03:58:39+09:00",
+    "summary": "How will the watermarking actually work? Can it be hidden with editing? And how does this affect code?",
+    "detail": "",
+    "score": 6.3,
+    "wow": false
+  },
+  {
+    "topic": "diamonds",
+    "title": "Predictive Memory Localization: Forecasting Selective Intervention Paths from Internal Signals",
+    "link": "https://arxiv.org/abs/2608.12892",
+    "source": "cs.AI updates on arXiv.org",
+    "published": "2026-08-15T13:00:00+09:00",
+    "summary": "arXiv:2608.12892v1 Announce Type: new Abstract: Activation steering turns localized representations into control directions, but localization alone does not reveal whether a direction has a selective operating regime. We introduce Predictive Memory Localization (PML), which treats the measured-grid intervention path …",
+    "detail": "Researchers have introduced Predictive Memory Localization (PML), a novel method designed to precisely understand and control specific behaviors within AI models. Unlike previous techniques that merely identify where a concept is stored, PML focuses on predicting the exact impact of interventions. It differentiates between desired changes to a target concept and unintended damage to related semantic concepts or overall model capabilities. The study, involving extensive testing across 3,000 records from nine datasets, evaluated 210,000 distinct intervention paths. PML demonstrated superior performance in selectively targeting concepts, exceeding random baselines. This innovation is crucial for developing more reliable and safer AI. By enabling precise manipulation of internal AI representations without causing collateral damage, PML offers a pathway to fine-tune AI behavior, correct biases, or enhance specific functions with greater accuracy. This moves AI control beyond simple localization to a predictive understanding of intervention outcomes, a significant step towards more robust and interpretable AI systems.",
+    "score": 8.9,
+    "wow": true
+  },
+  {
+    "topic": "diamonds",
+    "title": "Moose: Latent concept learning with reasoning-shortcut awareness in $\\mathcal{EL}^{++}$",
+    "link": "https://arxiv.org/abs/2608.12961",
+    "source": "cs.AI updates on arXiv.org",
+    "published": "2026-08-15T13:00:00+09:00",
+    "summary": "arXiv:2608.12961v1 Announce Type: new Abstract: The OWL 2 EL profile is used in some of the largest production ontologies, including the Gene Ontology and SNOMED CT. Existing neuro-symbolic (NeSy) learning methods accept propositional theories or Datalog, and reasoning-shortcut (RS) awareness has not been …",
+    "detail": "Researchers have developed \"Moose,\" a new neuro-symbolic AI method for learning latent (hidden) concepts within complex knowledge bases, specifically those adhering to the OWL 2 EL++ standard. This standard is widely used in large production ontologies like the Gene Ontology and SNOMED CT. Moose compiles the knowledge base into a Sentential Decision Diagram (SDD), which functions as a differentiable layer, allowing it to learn from partial data. A key feature is its \"reasoning-shortcut awareness,\" preventing the model from learning superficial correlations instead of true underlying logic. The method's theoretical properties, including termination, soundness, completeness, and polynomial intermediate sizes, were formally proven and validated. Evaluated on tasks like \"MNIST-with-ontology\" and \"Pizzaïolo,\" Moose outperformed existing propositional neuro-symbolic, fuzzy-logic, and ontology embedding baselines. This advancement is vital for AI systems that need to integrate symbolic reasoning with neural network learning, improving the reliability and interpretability of AI in critical domains by enabling robust learning from incomplete data while adhering to logical constraints.",
+    "score": 8.9,
+    "wow": true
+  },
+  {
+    "topic": "diamonds",
+    "title": "SkillEvo: Self-Renewing Evolution Gradients from Multi-Turn Interaction Feedback",
+    "link": "https://arxiv.org/abs/2608.13120",
+    "source": "cs.AI updates on arXiv.org",
+    "published": "2026-08-15T13:00:00+09:00",
+    "summary": "arXiv:2608.13120v1 Announce Type: new Abstract: Agent Skills are today either hand-authored or produced in a single LLM generation pass, and consequently possess no closed loop through which they might improve from the interaction failures they actually cause. Recent work does close this loop, but derives its …",
+    "detail": "Researchers have introduced SkillEvo, a new framework designed to continuously improve AI agent skills by addressing limitations in current feedback mechanisms. Existing methods often rely on hand-authored skills or single-pass Large Language Model (LLM) generation, and even those that learn from feedback typically use single-turn evaluations. This leads to a plateau in improvements as multi-turn interaction failures remain unaddressed. SkillEvo generates \"trustworthy evolution gradients\" from multi-turn user simulations, providing sustained feedback that allows agents to learn from complex, sequential interactions. This approach ensures continuous skill refinement and enables more granular governance beyond simple pass/fail scores. This innovation is critical for developing sophisticated AI agents capable of handling complex, real-world tasks that require sustained interaction, such as personal assistants or research agents. By learning from multi-turn failures, agents can develop more robust and adaptable skills, leading to truly intelligent and resilient AI systems that can continuously improve over time.",
+    "score": 8.9,
+    "wow": true
+  },
+  {
+    "topic": "diamonds",
+    "title": "Sovereign by necessity? Frontier AI export controls, cyber security, and the limits of national AI capability",
+    "link": "https://arxiv.org/abs/2608.13272",
+    "source": "cs.AI updates on arXiv.org",
+    "published": "2026-08-15T13:00:00+09:00",
+    "summary": "arXiv:2608.13272v1 Announce Type: new Abstract: A small number of firms based in two states produce the most capable frontier AI models. The governments of those states have shown both the legal power and the political will to decide which other countries may use these systems. In June 2026 the United States required …",
+    "detail": "The article examines the geopolitical implications of a few states controlling access to advanced \"frontier AI\" models, leading to export controls. A recent US regulation, requiring licenses for a leading developer to release advanced models to foreign entities, resulted in a global withdrawal due to administrative impracticality. This event coincided with the first documented AI-run cyber espionage campaign and growing evidence that frontier AI significantly alters the economics of cyber warfare. The article argues that access to frontier AI is becoming integral to national cyber defense, and that such access can be unilaterally revoked. It highlights that while sovereign capability (developing one's own advanced AI) is an obvious remedy, it remains largely unfeasible for most nations due to the immense resources required. This situation underscores a critical national security challenge, creating technological dependency and potential vulnerability for nations unable to develop their own advanced AI, thereby impacting their ability to defend against evolving cyber threats.",
+    "score": 8.9,
+    "wow": true
+  },
+  {
+    "topic": "diamonds",
+    "title": "Beyond Final Scores: A Systematic Evaluation of Agents for Long-Horizon AI Research and Development",
+    "link": "https://arxiv.org/abs/2608.13417",
+    "source": "cs.AI updates on arXiv.org",
+    "published": "2026-08-15T13:00:00+09:00",
+    "summary": "arXiv:2608.13417v1 Announce Type: new Abstract: Autonomous agents are increasingly capable of improving models, systems, and other technical artifacts through long-horizon experimentation. To understand the current state of this capability, however, evaluation must go beyond final scores, which neither reveal where …",
+    "detail": "Researchers propose a new framework for systematically evaluating autonomous AI agents engaged in \"long-horizon experimentation,\" such as scientific research and development. They argue that relying solely on final scores is insufficient, as it fails to reveal how progress is achieved or if agents learn from experience. Their framework employs rule-based metrics to characterize within-run behavior across three stages: Solution Framing, Execution, and Feedback Control. It also uses controlled comparisons to assess how agents reuse experience across and within tasks. An evaluation of seven frontier models on 36 tasks revealed that current agents function more like \"engineering optimizers\" than true autonomous researchers. They primarily adapt or combine established techniques, with genuine methodological novelty remaining rare. This systematic evaluation is crucial for advancing AI research, as understanding the process bottlenecks and capabilities of agents, rather than just their outcomes, is essential for building AI systems that can genuinely innovate and contribute to scientific discovery.",
+    "score": 8.9,
+    "wow": true
+  },
+  {
+    "topic": "crypto",
+    "title": "Why the world’s second-largest Bitcoin mining power is shutting down rigs in its capital city",
+    "link": "https://www.coindesk.com/policy/2026/08/15/why-the-world-s-second-largest-bitcoin-mining-power-is-shutting-down-rigs-in-its-capital-city",
+    "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+    "published": "2026-08-16T00:21:15+09:00",
+    "summary": "Summary unavailable.",
+    "detail": "",
+    "score": 6.3,
+    "wow": false
+  },
+  {
+    "topic": "crypto",
+    "title": "OpenAI Staff Blame Rush to Ship for Rogue Agent Hack",
+    "link": "https://decrypt.co/375670/openai-staff-blame-rush-ship-rogue-agent-hack",
+    "source": "Decrypt",
+    "published": "2026-08-15T03:31:03+09:00",
+    "summary": "Current and former OpenAI employees reportedly say pressure to release new AI products made it harder to prioritize safety.",
+    "detail": "",
+    "score": 6.3,
+    "wow": false
+  },
+  {
+    "topic": "economics",
+    "title": "US accuses more than 40 countries of helping China avoid Trump’s tariffs",
+    "link": "https://www.ft.com/content/5d5ed2dd-8326-4cad-aac3-5816448ceccf?syn-25a6b1a6=1",
+    "source": "Global Economy",
+    "published": "2026-08-15T03:54:54+09:00",
+    "summary": "The United States has accused over 40 countries, including Canada, Japan, and members of the European Union, of assisting China in circumventing Trump-era tariffs. The White House alleges these nations are enabling a '$60bn in trade' 'transshipment scam' to evade import levies.",
+    "detail": "",
+    "score": 7.0,
+    "wow": false
+  }
+]

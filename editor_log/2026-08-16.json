@@ -1,0 +1,28 @@
+{
+  "date": "2026-08-16",
+  "grade": "A-",
+  "note": "Today's briefing features several genuinely significant developments, including a major U.S. Navy XLUUV milestone and innovative rocket launch technology. While some business news leans heavily into entertainment, the overall breadth of notable material across military, economics, and tech is strong.",
+  "counts": {
+    "military": 2,
+    "business": 5,
+    "diamonds": 5,
+    "crypto": 2,
+    "economics": 1
+  },
+  "wow": 7,
+  "source_suggestions": [
+    "Thin section: World Economics"
+  ],
+  "sources_added": [],
+  "used_llm": true,
+  "gemini_health": {
+    "key_present": true,
+    "working": true,
+    "detail": "Gemini responded correctly."
+  },
+  "gemini_calls": {
+    "ok": 5,
+    "fail": 8,
+    "last_error": "HTTP 429: b'{\\n  \"error\": {\\n    \"code\": 429,\\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a'"
+  }
+}
