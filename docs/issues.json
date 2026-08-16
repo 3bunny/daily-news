@@ -700,5 +700,17 @@
       "crypto": 2,
       "economics": 1
     }
+  },
+  {
+    "date": "2026-08-17",
+    "long": "Monday, August 17, 2026",
+    "grade": "A",
+    "counts": {
+      "military": 1,
+      "business": 5,
+      "diamonds": 5,
+      "crypto": 3,
+      "economics": 5
+    }
   }
 ]

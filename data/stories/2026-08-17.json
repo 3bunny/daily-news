@@ -1,0 +1,211 @@
+[
+  {
+    "topic": "military",
+    "title": "HII Completes Successful Acceptance Sea Trials of John F. Kennedy (CVN 79)",
+    "link": "https://www.navalnews.com/naval-news/2026/08/hii-completes-successful-acceptance-sea-trials-of-john-f-kennedy-cvn-79/",
+    "source": "Naval News",
+    "published": "2026-08-16T16:44:52+09:00",
+    "summary": "HII's Newport News Shipbuilding division has successfully completed acceptance sea trials for the John F. Kennedy (CVN 79), the second Gerald R. Ford-class nuclear-powered aircraft carrier. The vessel returned to the shipyard after extensive testing and evaluation of its systems and components at sea. This milestone brings the carrier closer to its eventual delivery and commissioning.",
+    "detail": "The successful completion of acceptance sea trials for the USS John F. Kennedy (CVN 79) marks a significant milestone in its journey towards joining the U.S. Navy fleet. This event, announced by shipbuilder HII's Newport News Shipbuilding division, signifies that the second Gerald R. Ford-class nuclear-powered aircraft carrier has undergone rigorous testing of its critical systems and components at sea and is deemed ready for delivery to the Navy.\n\nThis development is crucial because aircraft carriers are the cornerstone of the U.S. Navy's global power projection capabilities. The Gerald R. Ford-class represents the latest generation of these formidable warships, designed to be more technologically advanced, efficient, and capable than their predecessors, the Nimitz-class carriers. Key innovations include the Electromagnetic Aircraft Launch System (EMALS) and Advanced Arresting Gear (AAG), which replace older steam-powered systems, allowing for higher sortie rates and greater operational flexibility. The class also features an Integrated Power System for increased electrical capacity and a redesigned flight deck, contributing to enhanced combat effectiveness and reduced crew requirements.\n\nThe \"John F. Kennedy\" (CVN 79) will bolster the Navy's ability to conduct air operations, provide humanitarian aid, and maintain maritime security worldwide. Acceptance sea trials are the final comprehensive evaluation before formal delivery, ensuring the ship meets all performance specifications. Its eventual commissioning will further strengthen the U.S. national security posture and its capacity to respond to global challenges.",
+    "score": 6.0,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "BMW's weird Minecraft-like car harvests more energy than it uses",
+    "link": "https://newatlas.com/automotive/bmw-clemson-deep-orange-17-solar-car/",
+    "source": "New Atlas: Technology-Innovation-Outdoor News",
+    "published": "2026-08-16T20:03:00+09:00",
+    "summary": "BMW, in collaboration with Clemson University, has unveiled the 'Deep Orange 17,' a prototype electric vehicle with a distinctive, angular design. This concept car is designed to be 'energy positive,' meaning it generates more energy than it consumes, likely through advanced solar power integration and efficiency measures. This represents a significant leap in sustainable automotive design.",
+    "detail": "BMW, in collaboration with Clemson University, has unveiled the Deep Orange 17, a prototype electric vehicle with a distinctive, 'Minecraft-like' aesthetic. The car is designed to be 'energy positive,' meaning it generates more energy than it consumes, primarily through advanced solar harvesting and efficient systems. This innovation matters significantly as it pushes the boundaries of sustainable automotive design, potentially reducing reliance on traditional charging infrastructure and fossil fuels. An energy-positive vehicle could even contribute power back to the grid, marking a crucial step towards truly self-sufficient and environmentally friendly transportation. The Deep Orange program at Clemson is renowned for its experimental automotive projects, and this prototype showcases a radical approach to integrating energy generation directly into vehicle design, moving beyond mere efficiency to active energy contribution.",
+    "score": 9.0,
+    "wow": true
+  },
+  {
+    "topic": "business",
+    "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+    "link": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
+    "source": "TechCrunch",
+    "published": "2026-08-17T05:57:04+09:00",
+    "summary": "Stripe is reportedly in talks to acquire OpenRouter, an AI gateway startup, for over $7 billion. OpenRouter's CEO has previously described the company as 'Stripe for AI,' indicating its role in facilitating AI model interactions and payments. This potential acquisition highlights Stripe's strategic interest in the burgeoning AI infrastructure market.",
+    "detail": "Payment processing giant Stripe is reportedly in advanced talks to acquire OpenRouter, an AI gateway startup, for a valuation exceeding $7 billion. OpenRouter's CEO previously described their company as the 'Stripe for AI,' highlighting its ambition to become a foundational layer for AI applications. This acquisition is significant as it signals Stripe's strategic entry into the rapidly expanding AI infrastructure market. By integrating OpenRouter's technology, Stripe aims to provide a unified platform for businesses to access, manage, and monetize various AI models, much like it simplifies online payments. The substantial reported valuation underscores the perceived critical importance of building the 'plumbing' for the AI economy, positioning Stripe to be a key enabler for developers and companies leveraging artificial intelligence.",
+    "score": 8.0,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
+    "link": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
+    "source": "TechCrunch",
+    "published": "2026-08-16T06:29:19+09:00",
+    "summary": "A woman has alleged that her stepfather used Grok, an AI tool, to manipulate a childhood photograph into explicit imagery. This claim highlights serious concerns about the misuse of AI for generating harmful content and the potential for such tools to facilitate child sexual abuse material, raising critical ethical and legal questions.",
+    "detail": "A woman has publicly accused her stepfather of using Grok, an AI tool, to manipulate a childhood photograph of her into explicit imagery. She voiced strong concerns that AI technologies are being used to facilitate child sexual abuse material (CSAM). This incident highlights the severe ethical and safety risks inherent in generative AI, particularly its potential for misuse in creating non-consensual intimate imagery and CSAM. It underscores the urgent need for robust safeguards, content moderation, and legal frameworks to prevent such exploitation. The ease with which AI can generate highly realistic, harmful content poses immense challenges for victims, law enforcement, and technology companies, demanding greater accountability and more effective preventative measures from AI developers like xAI, the creator of Grok.",
+    "score": 8.0,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "OpenAI reportedly disbanded its preparedness team",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
+    "source": "The Verge",
+    "published": "2026-08-17T06:32:56+09:00",
+    "summary": "OpenAI has reportedly disbanded its preparedness team, which was responsible for assessing and mitigating serious risks posed by its AI models, such as the potential for models to act autonomously and maliciously. According to the Financial Times, the team's responsibilities have now been distributed among other research teams. This move raises concerns about the company's commitment to AI safety.",
+    "detail": "OpenAI, a leading AI research company, has reportedly disbanded its 'preparedness team,' a unit specifically tasked with assessing severe risks posed by advanced AI models and developing mitigation strategies. This team's responsibilities included evaluating potential threats such as AI systems going rogue or engaging in unauthorized activities like hacking. The disbanding of this crucial safety-focused team raises significant concerns about OpenAI's commitment to responsible AI development, especially as its models become increasingly powerful. Critics argue this move could indicate a prioritization of rapid development and deployment over comprehensive safety protocols, potentially increasing the risk of unforeseen negative consequences from advanced AI systems and fueling the ongoing debate about the long-term societal impacts of artificial intelligence.",
+    "score": 7.0,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "Durston's Dyneema X-Dome tent claims 'world's lightest' title",
+    "link": "https://newatlas.com/tents/durston-worlds-lightest-x-dome-tent/",
+    "source": "New Atlas: Technology-Innovation-Outdoor News",
+    "published": "2026-08-17T05:38:00+09:00",
+    "summary": "Durston Gear has launched the X-Dome Pro 1+ tent, claiming it to be the 'world's lightest freestanding double-wall tent.' This ultralight backpacking tent utilizes Dyneema fabric, known for its strength-to-weight ratio, continuing the brand's tradition of producing lighter and more expensive 'Pro' models. It represents a notable advancement in ultralight outdoor gear.",
+    "detail": "Durston Gear, a specialist in ultralight backpacking equipment, has launched the X-Dome Pro 1+ tent, claiming it to be the 'world's lightest freestanding double-wall tent.' This new model utilizes Dyneema Composite Fabric (DCF), a high-performance, extremely lightweight, and durable material. This product is significant for the ultralight backpacking community, offering a cutting-edge option for adventurers seeking to drastically reduce their pack weight without compromising on the benefits of a freestanding design or the protection of a double-wall tent. Lighter gear enhances mobility, reduces fatigue, and improves the overall outdoor experience, making this a notable advancement in a niche but highly competitive market focused on weight optimization and performance.",
+    "score": 7.0,
+    "wow": false
+  },
+  {
+    "topic": "diamonds",
+    "title": "SpaceX Buys Cursor: 60 Billion for Anysphere, the Largest Startup Acquisition Ever - Pasquale Pillitteri",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPOHBDQlpvTnRxZjNsb19wbFpRMDRBcHNoUXlndlNuanVqWlJIZEtkUmdBbnpia2lyZDVqNXNHcllrVUI3Vm1uY3dPS0pkWVhfSEJkLThnWWU1UGctM1VpcmVlcFRQRGsxcGZEdjRRNDk5S296SEhlNkdTYzNuakM5dUN6NGl1TjdlYl9Z?oc=5",
+    "source": "\"(acquires OR acquisition OR \"strategic investment\" OR \"invests in\" OR \"takes stake\" OR \"leads round\") (AI OR startup OR technology OR chip OR biotech) when:2d\" - Google News",
+    "published": "2026-08-16T21:24:55+09:00",
+    "summary": "SpaceX Buys Cursor: 60 Billion for Anysphere, the Largest Startup Acquisition Ever Pasquale Pillitteri",
+    "detail": "Reports, particularly from Pasquale Pillitteri, indicate that SpaceX has acquired Anysphere, the company behind the AI-powered code editor Cursor, for an astonishing $60 billion. If confirmed, this would represent the largest startup acquisition in history. This potential deal signifies an unprecedented valuation for an AI software company and a major strategic move by SpaceX beyond its core aerospace and satellite internet businesses. The acquisition could allow SpaceX to integrate advanced AI capabilities into its complex engineering, design, and operational processes, potentially enhancing efficiency in rocket development, mission control, or future autonomous systems for space exploration. The sheer scale of the reported figure suggests a belief in Anysphere's transformative potential, although such a monumental transaction would typically be widely corroborated by major financial news outlets.",
+    "score": 6.3,
+    "wow": false
+  },
+  {
+    "topic": "diamonds",
+    "title": "The Sequence Radar- Issue 915: Last Week in AI: The Cursor Acquisition, New Grok and GLM Models, Anthropic’s Latest Deal, and River AI - thesequence.substack.com",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9rV0xjZ01NZ2JqelNhYWNtaDVpQnYweGN3SUJST3luLUdFTHdlM1QyZ3F5WmNuZTFLU0xuaUVaTXVEX0pWR1pidE00Sjhnbm9UX2g1SVExVDVhOEtVTTVHYWRWTGpqS2g0MW9JQUliSFlvTW1lamd3?oc=5",
+    "source": "\"(acquires OR acquisition OR \"strategic investment\" OR \"invests in\" OR \"takes stake\" OR \"leads round\") (AI OR startup OR technology OR chip OR biotech) when:2d\" - Google News",
+    "published": "2026-08-16T20:04:10+09:00",
+    "summary": "The Sequence Radar- Issue 915: Last Week in AI: The Cursor Acquisition, New Grok and GLM Models, Anthropic’s Latest Deal, and River AI thesequence.substack.com",
+    "detail": "The \"Cursor Acquisition\" was highlighted as a significant event in the latest issue of \"The Sequence Radar,\" a prominent AI-focused newsletter. This mention places the acquisition alongside other major developments in the artificial intelligence landscape, including updates on Grok and GLM models, a new deal involving Anthropic, and news regarding River AI. The inclusion in such a roundup underscores the importance of Cursor's technology and its acquisition within the AI industry. It suggests that Cursor, likely an AI-centric company, is considered a key player whose strategic move warrants attention from AI professionals and enthusiasts. This context reinforces the perceived value and impact of the acquisition, indicating a notable shift or consolidation within the competitive AI sector.",
+    "score": 6.3,
+    "wow": false
+  },
+  {
+    "topic": "diamonds",
+    "title": "New Funding Boosts MENA Startups in Gaming, Fintech, and AI - UPPERNEWS",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNVFPR3RQNjFBaGplbllyZnprRlFzZ184LU9aNDlNdUpxN0R2Y1E4UW1kQ3Uxa1pndUxPcTMyLVhnYUlOa21NWnpZN25FcmdoOVdrNmlFQnB3eTdDQzNvZkxOcHNwYkFsb1BOY0hXSmN6aE1kakRYRU8wLXJVV0tqZjdwdUc0SDhHMEJrOXpGaw?oc=5",
+    "source": "\"(startup OR startups) (raises OR \"Series A\" OR \"Series B\" OR \"seed round\" OR funding) when:2d\" - Google News",
+    "published": "2026-08-16T16:12:26+09:00",
+    "summary": "New Funding Boosts MENA Startups in Gaming, Fintech, and AI UPPERNEWS",
+    "detail": "Startups across the Middle East and North Africa (MENA) region are experiencing a surge in new funding, particularly within the gaming, financial technology (fintech), and artificial intelligence (AI) sectors. This influx of capital signals a robust and maturing entrepreneurial ecosystem in MENA, attracting significant investment interest. The increased funding is crucial for fostering innovation, enabling these startups to develop new products, expand operations, and create employment opportunities. It reflects a broader regional strategy to diversify economies beyond traditional industries and embrace technology-driven growth. The focus on gaming, fintech, and AI highlights these areas as key growth engines with high potential for disruption and value creation in the global digital economy.",
+    "score": 6.3,
+    "wow": false
+  },
+  {
+    "topic": "diamonds",
+    "title": "Top 30 Funded Healthtech Startups In New Delhi (2026) - Inc42",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQOTBkZWlyeFdTRkZjT1BpTlM3SVJlR3hFQmFkMkd3ekZLMnFLY2VjSHZnTGVvR0JiTmlyejB0WHRENU00eHRVTUVsdzRjX0tmcHJqU3JpcVdmcVdfanQ0VEdIWEp5bjRQRGI2U1lORFc4WkYzRl9LLS1jY1JDbUtuNldn?oc=5",
+    "source": "\"(startup OR startups) (raises OR \"Series A\" OR \"Series B\" OR \"seed round\" OR funding) when:2d\" - Google News",
+    "published": "2026-08-16T11:15:45+09:00",
+    "summary": "Top 30 Funded Healthtech Startups In New Delhi (2026) Inc42",
+    "detail": "Inc42 has published a report identifying the top 30 funded healthtech startups in New Delhi, projecting their impact towards 2026. This compilation highlights the burgeoning health technology sector within India's capital, showcasing companies that have successfully attracted significant investment. The focus on \"funded\" startups indicates investor confidence in their business models and potential to scale solutions addressing healthcare challenges. This trend is vital for improving healthcare access, efficiency, and quality through technological innovation, such as telemedicine, AI diagnostics, and digital health platforms. The report underscores New Delhi's role as a growing hub for healthtech innovation, contributing to India's broader efforts to modernize its healthcare infrastructure and services.",
+    "score": 6.3,
+    "wow": false
+  },
+  {
+    "topic": "diamonds",
+    "title": "Cptvertex Expands Global Operations With New Strategic Investment Priorities - USA Today",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPU2RIZkVPR1hXYk5iUmtHdEFLeWVtRzdxWDMzekFfOGVlc1A2SEc4UmNQbmZSLW1ONDVYYmMzaUFUNmx6dWl2R0t6WUQzUjUxVHBIbDItclNpVzUzZ1ZDOU9EeE9jbUxRUWRmal9rWGhHQ1dvam4wNW96cnNqcG9YVnYxY2hSWTlFSjVMelNoY1JhV2dncFdPMnhUZFJTS2k0enZBbHVqOTRlRjJadGllaGhkLTdxZE8yUUwtcXFxYXhJVTI5YVFZ?oc=5",
+    "source": "\"(acquires OR acquisition OR \"strategic investment\" OR \"invests in\" OR \"takes stake\" OR \"leads round\") (AI OR startup OR technology OR chip OR biotech) when:2d\" - Google News",
+    "published": "2026-08-16T09:56:29+09:00",
+    "summary": "Cptvertex Expands Global Operations With New Strategic Investment Priorities USA Today",
+    "detail": "Cptvertex has announced a significant expansion of its global operations, coupled with the establishment of new strategic investment priorities. This move indicates the company's ambition to broaden its market reach and strengthen its competitive position on an international scale. The declaration of new strategic investment priorities suggests a focused allocation of resources towards specific areas deemed critical for future growth, such as research and development, market entry into new regions, or the acquisition of complementary technologies. Such an expansion typically aims to tap into new customer bases, diversify revenue streams, and leverage global talent pools, ultimately contributing to the company's long-term sustainability and market influence.",
+    "score": 6.3,
+    "wow": false
+  },
+  {
+    "topic": "crypto",
+    "title": "Gemini 3.7 Flash Review: Google's Cheap Model Isn’t Dumb Anymore",
+    "link": "https://decrypt.co/375730/gemini-3-7-flash-review-google-cheap-model",
+    "source": "Decrypt",
+    "published": "2026-08-17T01:00:05+09:00",
+    "summary": "Google's budget-tier AI model, Gemini 3.7 Flash, has significantly improved, now capable of zero-shotting a playable game, a notable advance from its previous inability to produce working files. Despite this progress, it still lacks reasoning capabilities, and a free 27B model reportedly offers better writing quality.",
+    "detail": "Google's budget-tier AI model, Gemini 3.7 Flash, has demonstrated significant improvement, now capable of generating a playable game from a 'zero-shot' prompt—meaning without prior examples. This marks a notable leap from its initial release, where it struggled with basic tasks. This development is important because it signifies progress in making powerful AI models more accessible and cost-effective. A capable 'budget tier' model lowers the barrier to entry for developers and users, democratizing advanced AI capabilities. While it still lags behind some free, larger models in complex reasoning, its enhanced performance suggests that even less resource-intensive AI can achieve impressive results, broadening the potential applications and adoption of artificial intelligence across various sectors.",
+    "score": 7.0,
+    "wow": false
+  },
+  {
+    "topic": "crypto",
+    "title": "Ethereum devs to narrow 66 proposals tied to Hegotá upgrade",
+    "link": "https://cointelegraph.com/news/ethereum-devs-66-proposals-hegota-upgrade?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source": "Cointelegraph.com News",
+    "published": "2026-08-16T20:12:51+09:00",
+    "summary": "Ethereum developers are preparing to refine 66 proposals associated with the upcoming Hegotá upgrade, which aims to introduce enhanced native privacy features for applications built on the Ethereum blockchain. This development signifies a focus on improving user privacy within the Ethereum ecosystem.",
+    "detail": "Ethereum developers are currently refining 66 proposals related to an upcoming network upgrade dubbed 'Hegotá.' The core objective of this upgrade is to integrate more native privacy features directly into the Ethereum blockchain for decentralized applications (dApps). This initiative is crucial because most transactions and interactions on Ethereum are currently public, which can be a barrier for certain users and enterprises requiring confidentiality. Introducing native privacy would enable more discreet transactions and dApp usage, potentially unlocking new use cases in sensitive sectors like finance, healthcare, and supply chain management. This enhancement could significantly boost Ethereum's utility and adoption by addressing a key limitation and making the platform more versatile for a wider range of applications.",
+    "score": 7.0,
+    "wow": false
+  },
+  {
+    "topic": "crypto",
+    "title": "Bybit adds Unitree, Moonshot AI to pre-IPO perpetuals lineup",
+    "link": "https://cointelegraph.com/news/bybit-launches-unitree-pre-ipo-perpetual-as-crypto-platforms-push-into-private-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source": "Cointelegraph.com News",
+    "published": "2026-08-16T04:27:29+09:00",
+    "summary": "Bybit has expanded its lineup of TradFi perpetuals by adding Unitree and Moonshot AI, increasing its offerings to over 200 products. This expansion includes equities, ETFs, commodities, indices, and private companies, demonstrating Bybit's growing integration of traditional financial instruments into its crypto trading platform.",
+    "detail": "Bybit, a prominent cryptocurrency exchange, has expanded its 'TradFi perpetuals lineup' by adding Unitree and Moonshot AI, bringing its total offerings in this category to over 200 products. This diverse portfolio now spans equities, ETFs, commodities, indices, and private companies. This move is significant as it highlights the increasing convergence between traditional finance (TradFi) and the cryptocurrency market. Bybit is offering derivatives, specifically perpetual contracts, on assets typically found in traditional markets, including shares of private companies expected to go public (pre-IPO). This allows crypto users to gain exposure to these traditional assets without directly engaging with conventional stock markets, providing new investment avenues and potentially attracting a broader user base to crypto platforms. It underscores the growing sophistication and diversification efforts of crypto exchanges beyond purely digital assets.",
+    "score": 6.0,
+    "wow": false
+  },
+  {
+    "topic": "economics",
+    "title": "Global Bond Yields Reach 2008 High as Rate Risks Spread Worldwide - Blockonomi",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOcDE2QjFiQWlZcEFxdHVSNjBNZ3k2ajV6cHR4MHBYcmE4U3VHV0M2bjVnb05vUGtUUnN2VkMyQzJ6VVZJWFZPZTJIalk0UHRXS3ctQWlEZ3NnZmluU0lFZHNMREROTHBTT3pjdS1QY1JPM3YzcjRHZ3ZoaXgwdEhjQlNvMDl1UUlqTHNBUTJmTUc4dDg?oc=5",
+    "source": "\"global economy OR inflation OR interest rate OR GDP when:2d\" - Google News",
+    "published": "2026-08-17T02:05:54+09:00",
+    "summary": "Global bond yields have climbed to levels not seen since 2008, reflecting widespread concerns about rising interest rates. This surge indicates increasing borrowing costs for governments and corporations globally.",
+    "detail": "",
+    "score": 7.0,
+    "wow": false
+  },
+  {
+    "topic": "economics",
+    "title": "AI Investment Eyed At $1 Trillion In 2026, To Hit 1.4% Of Global GDP By 2028: Goldman Sachs - NDTV Profit",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSkVYVWprM2ZVZDBMcGlacXpUM1hvUVdvV2pUUjJKMXdyemdFeW9IM2I2NTNKRy1QaC1BZ2pNT1NzZkwwdzNpRm1iV0lCSUhXaWFWUlNBRmZxYXNGaExBZjNLdHlxcVdzQlR0WnJfU1ktbVFIWmFZNXBaX08xZXp6Q2s5NGp3cVRiMEY1T1RLMXgwUXUwd1lEWUF0VW1NTEd0eFk3WmJpb2ZDRlNwOFZfVldkZkpvRFpzVmJaMEJMbTQ2Um1OVm4zZ2tfWkHSAdQBQVVfeXFMT0xTSDB1Z05LMEFNLXo1c3pxTVVRMGdoakktd09LU3dhSDc0aXpYYVdsZm1wck1LOHBzSlRkSUZ5U3hna05YT01DSVdnZDhZeEhwV09vOHpkVFh3czhKd0NzVENQMllQc3AwQk8yU0tvVDlSREFkeWlpYkZDRmdiWVJVNHZ5RGVXaE50bEVib3BKSmtuSUJJLUdkUzVHVjF0OFF0djBWUDRWd1lHbk4tNEQ3R2M4cjlfalZZNU5tWFY4eWhFT0E4QktLRW5JM1Q1b1Y1Vy0?oc=5",
+    "source": "\"global economy OR inflation OR interest rate OR GDP when:2d\" - Google News",
+    "published": "2026-08-16T16:29:17+09:00",
+    "summary": "Goldman Sachs projects that global investment in Artificial Intelligence will reach $1 trillion by 2026 and account for 1.4% of global GDP by 2028. These figures highlight the rapidly growing economic impact and scale of AI development worldwide.",
+    "detail": "",
+    "score": 7.0,
+    "wow": false
+  },
+  {
+    "topic": "economics",
+    "title": "Malaysia profits from data centre boom",
+    "link": "https://www.ft.com/content/f063b38e-61c0-449b-aca3-968b903091a1?syn-25a6b1a6=1",
+    "source": "Global Economy",
+    "published": "2026-08-16T12:08:10+09:00",
+    "summary": "Malaysia is experiencing significant economic benefits from a boom in data center development, emerging as a key Artificial Intelligence (AI) hub. This growth is providing a substantial boost to the country's economy.",
+    "detail": "",
+    "score": 7.0,
+    "wow": false
+  },
+  {
+    "topic": "economics",
+    "title": "Cooling US inflation supports Fed pause amid global uncertainty - Kuwait Times",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdUx0Q213cEg5dnlpSTViSzFDWFkybmlfYkdTcF8tR2lWLVdUcVd6RWJnZEhCTnNPblZEY2xid2RaYndKd1Fpak1ZcmpfZnhYNklVR1N3YmYtYUhsakxSTEY2MUtvOUpGQmE0MllXa2E1ODVtUDJpLXdMV2FETXF6dU1TdWNLeUdNTXNIZm4wLTlVREZEMlNDbV9faW5VS3BCeU5xS3EtTE5EeVN1RDlYVXFMLWXSAbQBQVVfeXFMTXVMdENtd3BIOXZ5aUk1YksxQ1hZMm5pX2JHU3BfLUdpVi1XVHFXekViZ2RIQk5zT25WRGNsYndkWmJ3SndRaWpNWXJqX2Z4WDZJVUdTd2JmLWFIbGpMUkxGNjFLbzlKRkJhNDJZV2thNTg1bVAyaS13TFdhRE1xenVNU3VjS3lHTU1zSGZuMC05VURGRDJTQ21fX2luVUtwQnlOcUtxLUxORHlTdUQ5WFVxTC1l?oc=5",
+    "source": "\"global economy OR inflation OR interest rate OR GDP when:2d\" - Google News",
+    "published": "2026-08-16T23:39:00+09:00",
+    "summary": "Cooling inflation in the United States is providing support for the Federal Reserve to potentially pause its interest rate hikes. This development occurs amidst broader global economic uncertainties, suggesting a potential shift in monetary policy.",
+    "detail": "",
+    "score": 6.0,
+    "wow": false
+  },
+  {
+    "topic": "economics",
+    "title": "Canadian business braced for 50% US tariffs",
+    "link": "https://www.ft.com/content/d14b21c8-6a63-4593-b455-480b18792ac8?syn-25a6b1a6=1",
+    "source": "Global Economy",
+    "published": "2026-08-17T02:15:03+09:00",
+    "summary": "Canadian businesses are preparing for the potential imposition of 50% tariffs by the United States. This development signals escalating trade tensions between the two nations, with significant economic implications for Canada.",
+    "detail": "",
+    "score": 6.0,
+    "wow": false
+  }
+]
