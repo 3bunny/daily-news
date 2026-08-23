@@ -1,0 +1,156 @@
+[
+  {
+    "topic": "military",
+    "title": "AIM-424 “Malice” Very Long-Range Air-To-Air Missile Emerges From The Shadows (Updated)",
+    "link": "https://www.twz.com/air/aim-424-malice-very-long-range-air-to-air-missile-emerges-from-the-shadows",
+    "source": "TWZ",
+    "published": "2026-08-23T13:50:49+09:00",
+    "summary": "The AIM-424 \"Malice\" is identified as the U.S. Navy's newest extreme-range air-to-air missile. It is slated for integration with key naval aviation platforms, including the F/A-18E/F Super Hornet, F-35C JSF, and the upcoming F/A-XX aircraft.",
+    "detail": "",
+    "score": 9.0,
+    "wow": true
+  },
+  {
+    "topic": "business",
+    "title": "China's colossal tunneling machine bores AND blasts through raw ground",
+    "link": "https://newatlas.com/engineering/china-tunneling-machine-bores-and-blasts/",
+    "source": "New Atlas: Technology-Innovation-Outdoor News",
+    "published": "2026-08-23T19:03:00+09:00",
+    "summary": "China has unveiled the world's first Boring and Blasting Machine (BBM), a colossal multi-tool for tunneling. This innovative machine combines a traditional tunnel-boring machine with the capability to set explosives for blasting through solid rock.",
+    "detail": "China has unveiled the world's first Boring and Blasting Machine (BBM), a colossal tunneling machine that uniquely combines the continuous excavation capabilities of a Tunnel Boring Machine (TBM) with the ability to set and detonate explosives. This innovation addresses a long-standing challenge in tunnel construction: traditional TBMs are highly efficient in stable ground but struggle significantly when encountering extremely hard rock or mixed geological conditions, often requiring a switch to slower, more disruptive conventional blasting methods or even disassembly. The BBM aims to overcome this by seamlessly integrating both techniques, allowing it to adapt to varying ground conditions without major operational interruptions. This development could substantially accelerate the construction of critical infrastructure projects like railways, subways, and water tunnels, making them faster, safer, and more cost-effective by reducing downtime and improving efficiency in challenging environments.",
+    "score": 9.0,
+    "wow": true
+  },
+  {
+    "topic": "business",
+    "title": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
+    "link": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+    "source": "TechCrunch",
+    "published": "2026-08-23T04:00:00+09:00",
+    "summary": "Inherent, an AI lab founded by DeepMind alumni, has launched Faraday, an AI agent that reportedly outperformed Anthropic and OpenAI in replicating scientific research. This capability could be a significant step towards accelerating scientific innovation and discovery.",
+    "detail": "Inherent, an AI lab founded by former DeepMind researchers, has introduced Faraday, an AI agent they claim has surpassed leading models from Anthropic and OpenAI in its ability to accurately replicate scientific papers. This development is crucial because scientific replication is fundamental for validating research findings and ensuring their reliability, yet it's often a time-consuming and resource-intensive process. If an AI can reliably understand, reproduce, and validate experimental results described in academic literature, it could dramatically accelerate the pace of scientific discovery. This could free human researchers from repetitive tasks, allowing them to focus on generating new hypotheses, designing novel experiments, and interpreting complex results. It signifies a potential shift towards AI functioning as a collaborative 'teammate' in research, enhancing the robustness and speed of scientific innovation.",
+    "score": 9.0,
+    "wow": true
+  },
+  {
+    "topic": "business",
+    "title": "TechCrunch Mobility: The custom chip driving Waymo’s robotaxi ambitions",
+    "link": "https://techcrunch.com/2026/08/23/techcrunch-mobility-the-custom-chip-driving-waymos-robotaxi-ambitions/",
+    "source": "TechCrunch",
+    "published": "2026-08-24T01:03:00+09:00",
+    "summary": "Waymo is reportedly using a custom chip to power its robotaxi ambitions. This specialized technology is central to the company's strategy for advancing autonomous transportation, indicating a focus on tailored hardware for performance.",
+    "detail": "Waymo, a leader in autonomous driving technology, is leveraging custom-designed chips to power its robotaxi ambitions. This strategic choice is critical for autonomous vehicles, which demand immense computational power to process vast amounts of real-time data from various sensors like Lidar, radar, and cameras, and to execute complex AI algorithms for perception, prediction, and decision-making. Custom chips, or Application-Specific Integrated Circuits (ASICs), offer significant advantages over general-purpose processors. They are optimized for the specific tasks of self-driving, leading to superior performance, faster processing speeds, lower latency, and greater energy efficiency—a crucial factor for electric autonomous vehicles. This move highlights Waymo's commitment to vertical integration, allowing them to control and optimize their core technology stack, which is often a key differentiator in highly complex and competitive tech sectors like autonomous driving.",
+    "score": 7.0,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "USA finally gets the modular smartphone owners can repair themselves",
+    "link": "https://newatlas.com/mobile-technology/fairphone-6-plus-usa-launch/",
+    "source": "New Atlas: Technology-Innovation-Outdoor News",
+    "published": "2026-08-24T00:03:00+09:00",
+    "summary": "The Fairphone, a modular smartphone designed for user repairability and sustainability, is now available in the USA. This launch caters to growing demand for right-to-repair options and environmentally conscious devices in a major market.",
+    "detail": "The USA is now receiving a modular smartphone designed for user repair, exemplified by companies like Fairphone. This development is a significant response to the growing 'right-to-repair' movement, which advocates for consumers' ability to fix their own electronic devices rather than being forced into costly replacements or manufacturer-controlled services. For years, smartphones have been designed as sealed units, contributing to a culture of disposability and increasing electronic waste. Modular designs, where components can be easily replaced or upgraded, directly address this by extending device lifespans, promoting sustainability, and reducing the environmental impact of manufacturing new phones. This shift offers consumers greater control over their devices, potential long-term cost savings, and signifies a changing landscape in consumer electronics, partly driven by emerging right-to-repair legislation across various states.",
+    "score": 7.0,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "Aston Martin's Valen is the most powerful front-engined supercar ever",
+    "link": "https://newatlas.com/automotive/aston-martin-v12-valen-powerful-front-engined/",
+    "source": "New Atlas: Technology-Innovation-Outdoor News",
+    "published": "2026-08-23T07:03:00+09:00",
+    "summary": "Aston Martin has introduced the Valen, which is touted as the most powerful front-engined supercar ever. This new model represents a radical departure in design for the brand, emphasizing a burly and fast aesthetic.",
+    "detail": "Aston Martin has unveiled the Valen, a new supercar positioned as the most powerful front-engined supercar ever produced by the brand. This announcement is significant within the high-performance automotive sector, showcasing Aston Martin's engineering prowess and its commitment to pushing the boundaries of power and design. For automotive enthusiasts, the Valen represents a pinnacle of traditional supercar performance, emphasizing raw power and a specific engine configuration. The 'front-engined' layout refers to the engine's placement at the front of the vehicle, a classic design choice that influences handling characteristics and aesthetic possibilities. In an era where many high-performance vehicles are transitioning towards hybrid or fully electric powertrains, the Valen's focus on a powerful internal combustion engine in a front-engined setup highlights a continued dedication to a specific segment of the luxury sports car market, reinforcing the brand's heritage and image.",
+    "score": 7.0,
+    "wow": false
+  },
+  {
+    "topic": "diamonds",
+    "title": "River Mobility Raises $120 Million in Series C Funding to Build New EV Factory, Launch New Electric Scooters and Expand to 350+ Stores by 2028 - EVTech.News",
+    "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOaTFzLTM0M2tiakswV3E4RlRzaWtpUTQyRkpKSXVINVdCZnhNZE0yWDRsRlN2VG50MzRuYUlMc01RbGlTWEJBUEVLVEl2bGRkczRLMGdwM1dwcEJ5YVROR1hGamVSNVZnY0s1VFBBYUNVcWV2NFU1anRIZG40bkxBaFFldWtwZ0dlNllKOTJMOTBOWHBjbFRkRnJwTW9CdnV6Ym1HVGJyVTRFVGlBMHVqaDhSWm51QjRDT1o2YTlYbzhrOU9VcnZsMUFwd3lWZXlmM182NTkzMk1TTjdFX0doYmJGeGdPYVp5cEJIdFZHbWRxbUdSdmhCX0lKSlRjel9zaHdkSS1KMA?oc=5",
+    "source": "\"(startup OR startups) (raises OR \"Series A\" OR \"Series B\" OR \"seed round\" OR funding) when:2d\" - Google News",
+    "published": "2026-08-23T14:51:07+09:00",
+    "summary": "River Mobility Raises $120 Million in Series C Funding to Build New EV Factory, Launch New Electric Scooters and Expand to 350+ Stores by 2028 EVTech.News",
+    "detail": "",
+    "score": 7.6,
+    "wow": false
+  },
+  {
+    "topic": "diamonds",
+    "title": "Redwood AI's Kigali Debut Offers a Pause From a Brutal Stretch of Share Price Pain - Ad-hoc-news.de",
+    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPZkZGdmYtTTNZQk45VThTWmwwaldsTFg4dk82UzhJa1BXdllOVWF1Z2E5OUNFOHd4SHQ5bVZCeVhKdFM0aElGZWtPTEI4VVFFZHRaa0NjNldSYzhvd1FQdlNtX0tzUU1pTWhIMmp0RF9PWTFyc25UNTBFdVhQYVRxcUFHTFBxaEplbkdmVUFxUzJCQlFfOGFWbHM2TzEza3U1ZXptZks3eDYySHBBdklGemlYdmgtd01uR29pNWl4UWVlOVk1R0pQd2Y5LWFnTXJFNGhNTEtqUlhxaXM?oc=5",
+    "source": "\"(acquires OR acquisition OR \"strategic investment\" OR \"invests in\" OR \"takes stake\" OR \"leads round\") (AI OR startup OR technology OR chip OR biotech) when:2d\" - Google News",
+    "published": "2026-08-23T20:41:25+09:00",
+    "summary": "Redwood AI's Kigali Debut Offers a Pause From a Brutal Stretch of Share Price Pain Ad-hoc-news.de",
+    "detail": "",
+    "score": 6.3,
+    "wow": false
+  },
+  {
+    "topic": "crypto",
+    "title": "Crypto card spending tops $1 billion as stablecoins move into everyday purchases",
+    "link": "https://www.coindesk.com/business/2026/08/23/crypto-card-spending-tops-usd1-billion-as-stablecoins-move-into-everyday-purchases",
+    "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+    "published": "2026-08-24T00:00:00+09:00",
+    "summary": "Crypto card spending has exceeded $1 billion, marking a significant milestone in the real-world adoption of digital assets for everyday transactions. This growth is primarily driven by the increasing use of stablecoins for routine consumer purchases.",
+    "detail": "",
+    "score": 8.0,
+    "wow": false
+  },
+  {
+    "topic": "crypto",
+    "title": "63% of Religious Books on Amazon Are Likely AI-Written, Study Finds",
+    "link": "https://decrypt.co/376295/religious-books-amazon-ai-written-study",
+    "source": "Decrypt",
+    "published": "2026-08-24T01:31:04+09:00",
+    "summary": "A study by Originality.ai revealed that an estimated 63% of religious books on Amazon are likely AI-generated, with witchcraft books showing the highest rate at 78%. This analysis of over 2,000 titles highlights the significant penetration of AI-authored content in specific publishing categories.",
+    "detail": "",
+    "score": 7.0,
+    "wow": false
+  },
+  {
+    "topic": "crypto",
+    "title": "Crypto’s next billion users might be AI agents, and they’re paying with stablecoins",
+    "link": "https://www.coindesk.com/business/2026/08/23/crypto-s-next-billion-users-might-be-ai-agents-and-they-re-paying-with-stablecoins",
+    "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+    "published": "2026-08-23T22:00:00+09:00",
+    "summary": "A forward-looking perspective suggests that AI agents could represent the next billion users of cryptocurrency, primarily utilizing stablecoins for their transactions. This concept envisions autonomous AI systems becoming significant participants in the crypto economy, expanding its user base and utility.",
+    "detail": "",
+    "score": 7.0,
+    "wow": false
+  },
+  {
+    "topic": "crypto",
+    "title": "Fed study finds crypto investors driven by beliefs, easily swayed by returns",
+    "link": "https://cointelegraph.com/news/fed-study-finds-crypto-investors-driven-by-beliefs-easily-swayed-by-returns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source": "Cointelegraph.com News",
+    "published": "2026-08-24T00:30:53+09:00",
+    "summary": "A study by the Federal Reserve Bank of Cleveland found that crypto investors hold diverse views on risk and returns. The research also indicated that providing information about Bitcoin's past performance can increase both the desired allocation to crypto and actual purchases.",
+    "detail": "",
+    "score": 6.0,
+    "wow": false
+  },
+  {
+    "topic": "economics",
+    "title": "Date from 4 giant banks for a historic peak ahead! New record in gram gold on the horizon - Haberler.com",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOelBCTW9hTDQzVFY2T2VWUDM3X2ZKZUlKcXN1VEY1VVV0LWZlN0RTZWpRN2VlSnFUQ1hFRF8tRkNqNVF4ZWdaS09jdnpNSkt1MjgzX3ZjOWFqaTdnSHdLY3ZyLUwwd0tIX1Y5NFowR2xZQzhuZ09JUkNBdzJxYms3Q05OT01BaXlZ?oc=5",
+    "source": "\"global economy OR inflation OR interest rate OR GDP when:2d\" - Google News",
+    "published": "2026-08-23T16:43:12+09:00",
+    "summary": "Date from 4 giant banks for a historic peak ahead! New record in gram gold on the horizon Haberler.com",
+    "detail": "",
+    "score": 7.6,
+    "wow": false
+  },
+  {
+    "topic": "economics",
+    "title": "Govts’ carry trade a rising global risk - The New Indian Express",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNS0hKSzBIVy1UeDhPYkwxbXNQMjhtUlIwUUF6SlY0MmJVTHFQWE9NTldtVkczbUxueXUtOExuR3lHeFBzNnFaa3hLQjNLN3Btd2J2S0kyR1FYZXBSWmg3MFRldHhkVkEtUENBcm51czd4RUFtSVFDZE1XMnFyemdJNmN4Q25PSHBXblVUYUZRSFpMRGVGWldvcGQyajJkUlR6WV92VnljZGtxODR2dEJNc3BVMEHSAcIBQVVfeXFMTlVRN2dOOEo0S2djdHVKNmRxU3N2S29aSm10U2U5dkRUZFZiTGpSNFlqY2hXVWdtX3czQXA4cHZ4bmRCNnNOdDMwT3g0ZjRyLWotWE9ZcHFENExMVW1KXzRhUTc5Mlk3S2JyWE93SEtQandrUDRIeWRUSmtoSDI1VkZzbGZqc2FoOUdmQ0t1VVAxRk1MUEZENnBxQ2NqdUloaF9CR0kwa0k0UUcwQkNteEVWMFJ2U2NveTQzQ3pfdXA0aVE?oc=5",
+    "source": "\"global economy OR inflation OR interest rate OR GDP when:2d\" - Google News",
+    "published": "2026-08-23T04:07:46+09:00",
+    "summary": "Govts’ carry trade a rising global risk The New Indian Express",
+    "detail": "",
+    "score": 6.3,
+    "wow": false
+  }
+]
