@@ -796,5 +796,17 @@
       "crypto": 4,
       "economics": 2
     }
+  },
+  {
+    "date": "2026-08-25",
+    "long": "Tuesday, August 25, 2026",
+    "grade": "A",
+    "counts": {
+      "military": 5,
+      "business": 5,
+      "diamonds": 5,
+      "crypto": 5,
+      "economics": 3
+    }
   }
 ]
