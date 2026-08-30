@@ -2,8 +2,8 @@
   "intro": "A plain roundup of the week's notable military and business technology (full analysis was unavailable this run).",
   "deep_dives": [
     {
-      "title": "China’s Next Aircraft Carrier Is Taking Shape",
-      "what_happened": "China's fourth aircraft carrier, which could be nuclear-powered, is looking more and more like a real ship. The post China’s Next Aircraft Carrier Is Taking Shape appeared first on TWZ .",
+      "title": "Russia Changing Missile And Drone Attack Strategy On Ukrainian Capital",
+      "what_happened": "Ukraine Situation Report: The new strategy prioritizes frequency over amplitude, wearing down the populace and exhausting air defenders. The post Russia Changing Missile And Drone Attack Strategy On Ukrainian Capital appeared first on TWZ .",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -15,8 +15,8 @@
       "watchlist": []
     },
     {
-      "title": "Raytheon Expands Global Push for AN/SPY-6 Radar",
-      "what_happened": "Raytheon is expanding international export pursuits for its AN/SPY-6 radar family, targeting frigate programs in Germany, Japan, and Denmark. The post Raytheon Expands Global Push for AN/SPY-6 Radar appeared first on Naval News .",
+      "title": "Roketsan Tests Ground-Launched ÇAKIR Cruise Missile Against Land, Sea Targets",
+      "what_happened": "Roketsan has conducted the first ground-launch tests of its ÇAKIR cruise missile against land and sea targets, expanding its coastal defence capabilities. The post Roketsan Tests Ground-Launched ÇAKIR Cruise Missile Against Land, Sea Targets appeared first on Naval News .",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -29,7 +29,7 @@
     },
     {
       "title": "Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week",
-      "what_happened": "Now that's a door! The post Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week appeared first on TWZ .",
+      "what_happened": "We should have brought more puzzles. The post Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week appeared first on TWZ .",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -41,47 +41,8 @@
       "watchlist": []
     },
     {
-      "title": "Saab Unveils Stealthy Supersonic ‘Fighter Drone’ Concept",
-      "what_happened": "The advanced drone could become a high-end collaborative companion to the Gripen E, and may also shape Saab’s next crewed combat aircraft. The post Saab Unveils Stealthy Supersonic ‘Fighter Drone’ Concept appeared first on TWZ .",
-      "enabling_tech": [],
-      "pioneers": [
-        {
-          "name": "TWZ",
-          "role": "reporting outlet"
-        }
-      ],
-      "spillover": "",
-      "watchlist": []
-    },
-    {
-      "title": "China’s Massive New Artificial Island In The South China Sea Emerges, Primed For Militarization",
-      "what_happened": "What was a submerged reef a year ago is now a 1,500 acre artificial island with a large runway under construction, as China's militarization of the South China Sea accelerates. The post China’s Massive New Artificial Island In The South China Sea Emerges, Primed For Militarization appeared first on TWZ .",
-      "enabling_tech": [],
-      "pioneers": [
-        {
-          "name": "TWZ",
-          "role": "reporting outlet"
-        }
-      ],
-      "spillover": "",
-      "watchlist": []
-    },
-    {
-      "title": "Ukraine Situation Report: Kyiv Is Turning Soviet-Era Armor Into Robotic Combat Vehicles",
-      "what_happened": "As Ukraine tries to deploy greater automation across the battlefield, reports are emerging of a harder-hitting North Korean ballistic missile entering the fight. The post Ukraine Situation Report: Kyiv Is Turning Soviet-Era Armor Into Robotic Combat Vehicles appeared first on TWZ .",
-      "enabling_tech": [],
-      "pioneers": [
-        {
-          "name": "TWZ",
-          "role": "reporting outlet"
-        }
-      ],
-      "spillover": "",
-      "watchlist": []
-    },
-    {
-      "title": "Space war 2040: SPACECOM preps for attacks on ground segments, eyes cislunar ops",
-      "what_happened": "The Space Warfighting Environment 2040 is unique because it “was deliberately written to be warfighter-first, not technology-first,” an official at SPACECOM’s Joint Forces Development and Training team told Breaking Defense.",
+      "title": "The big defense spending priorities awaiting Congress in September",
+      "what_happened": "There is a lot of business awaiting the House and Senate when they return to Washington.",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -93,12 +54,51 @@
       "watchlist": []
     },
     {
-      "title": "Taiwan proposes record $35 billion defense budget",
-      "what_happened": "The new budget proposal will have to be approved by the opposition-controlled legislature.",
+      "title": "The devastation of NSA Bahrain is a national security warning",
+      "what_happened": "If NSA Bahrain is not reconstituted to pre-attack capabilities, it will fundamentally change how the U.S. Navy operates, the author of this op-ed writes.",
       "enabling_tech": [],
       "pioneers": [
         {
-          "name": "Breaking Defense",
+          "name": "Defense News",
+          "role": "reporting outlet"
+        }
+      ],
+      "spillover": "",
+      "watchlist": []
+    },
+    {
+      "title": "USAF Stands Up Unit To Fly HH-60W Helicopters In Doomsday Evacuation Role In Nation’s Capital",
+      "what_happened": "Jolly Green II rescue helicopters offer a capability boost for VIP airlift and continuity of government roles, but there are questions about the plan. The post USAF Stands Up Unit To Fly HH-60W Helicopters In Doomsday Evacuation Role In Nation’s Capital appeared first on TWZ .",
+      "enabling_tech": [],
+      "pioneers": [
+        {
+          "name": "TWZ",
+          "role": "reporting outlet"
+        }
+      ],
+      "spillover": "",
+      "watchlist": []
+    },
+    {
+      "title": "Massive Expansion At China’s ‘Area 51’",
+      "what_happened": "The buildout of the remote flight-test base has accelerated sharply, and large new hangars suggest a specific type of aircraft may be arriving in the near future. The post Massive Expansion At China’s ‘Area 51’ appeared first on TWZ .",
+      "enabling_tech": [],
+      "pioneers": [
+        {
+          "name": "TWZ",
+          "role": "reporting outlet"
+        }
+      ],
+      "spillover": "",
+      "watchlist": []
+    },
+    {
+      "title": "Taiwan-Bound Harpoon Coastal Defense System Scores Direct Hit in US Navy Test",
+      "what_happened": "The land-based Harpoon Coastal Defense System (HCDS) scored a direct hit during US Navy trials ahead of its planned deployment to Taiwan's military. The post Taiwan-Bound Harpoon Coastal Defense System Scores Direct Hit in US Navy Test appeared first on Naval News .",
+      "enabling_tech": [],
+      "pioneers": [
+        {
+          "name": "Naval News",
           "role": "reporting outlet"
         }
       ],
