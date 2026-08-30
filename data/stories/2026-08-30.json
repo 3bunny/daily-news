@@ -1,0 +1,211 @@
+[
+  {
+    "topic": "military",
+    "title": "Roketsan Tests Ground-Launched ÇAKIR Cruise Missile Against Land, Sea Targets",
+    "link": "https://www.navalnews.com/naval-news/2026/08/roketsan-tests-ground-launched-cakir-cruise-missile-against-land-sea-targets/",
+    "source": "Naval News",
+    "published": "2026-08-29T17:54:20+09:00",
+    "summary": "Turkish defense firm Roketsan has successfully conducted the first ground-launch tests of its ÇAKIR cruise missile. These tests targeted both land and sea objectives, significantly enhancing Turkey's coastal defense capabilities.",
+    "detail": "Roketsan, a prominent Turkish defense company, recently conducted the inaugural ground-launch tests of its new ÇAKIR cruise missile. These tests successfully engaged both land and sea targets, marking a significant advancement in Turkey's coastal defense capabilities.\n\nThis development matters because ground-launched cruise missiles offer a flexible and potent means of protecting a nation's maritime borders, strategic coastal assets, and shipping lanes. By demonstrating the ÇAKIR's ability to strike targets from land, Turkey enhances its deterrence posture against potential naval and land-based threats. The versatility of the ÇAKIR, designed to engage a range of surface targets, provides a multi-layered defense solution. Furthermore, as an indigenous product of Roketsan, it underscores Turkey's commitment to self-sufficiency in defense technology, reducing reliance on foreign suppliers and potentially opening avenues for defense exports. This is particularly relevant given Turkey's strategic location in the Black Sea and Mediterranean regions, where robust defense capabilities are crucial for national security.\n\nThe ÇAKIR is a new generation cruise missile system, characterized by its ability to fly at low altitudes to evade radar detection and its modular design, allowing for deployment from various platforms including ships, aircraft, and now, ground vehicles. Cruise missiles are guided weapons that maintain a relatively constant speed and altitude during their flight, making them effective for precision strikes over long distances. The integration of ground-launched cruise missiles into coastal defense strategies represents a modern approach, moving beyond traditional artillery to sophisticated, long-range precision strike capabilities.",
+    "score": 7.0,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "Prying, wrenching, screwdriving multitool has the soul of a six-shooter",
+    "link": "https://newatlas.com/knives-multitools/rixel-revolver-multitool/",
+    "source": "New Atlas: Technology-Innovation-Outdoor News",
+    "published": "2026-08-29T08:03:00+09:00",
+    "summary": "For those who like firearm-inspired aesthetics, a new Kickstarter campaign may be worth a look. A new titanium EDC tool from Rixel is currently available for backing. At first glance, it looks like a pry bar, but it actually combines quite a few tools. And the coolest part – its screwdriver bit holder looks like a …",
+    "detail": "",
+    "score": 7.6,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "Nvidia’s AI advantage is moving beyond the GPU",
+    "link": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/",
+    "source": "TechCrunch",
+    "published": "2026-08-29T22:00:00+09:00",
+    "summary": "The new generation of data center systems is increasing efficiency with smarter traffic control instead of just more processor cycles.",
+    "detail": "",
+    "score": 6.3,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "Beyond origami: New algorithm designs expandable 3D lattices",
+    "link": "https://newatlas.com/materials/hoberman-spheres-scissor-jointed-collapsible-shapes/",
+    "source": "New Atlas: Technology-Innovation-Outdoor News",
+    "published": "2026-08-29T15:03:00+09:00",
+    "summary": "Chances are you’ve seen Hoberman spheres, those kinetic lattices made of joint-connected rods that, with a little manual effort, can contract or expand. Inspired by the ancient Japanese arts of origami (paper-folding) and kirigami (paper-folding-and-cutting), a team from Harvard University in the US and Tokyo …",
+    "detail": "",
+    "score": 6.3,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "800-passenger commercial plane boldly reinvents how we will fly",
+    "link": "https://newatlas.com/transport/800-passenger-commercial-plane/",
+    "source": "New Atlas: Technology-Innovation-Outdoor News",
+    "published": "2026-08-29T08:30:40+09:00",
+    "summary": "More than 20 years since the Airbus A380 ushered in a new era of commercial flight, Chinese scientists have a bold plan to make it seem obsolete, revealing a new model of aircraft that's unlike anything we've seen before. Continue Reading Category: Transport Tags: China , Aircraft , Flight , Wings , Plane",
+    "detail": "",
+    "score": 6.3,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "Chinese automakers are following Tesla’s bet that robots are the next big profit machine",
+    "link": "https://techcrunch.com/2026/08/28/chinese-automakers-are-following-teslas-bet-that-robots-are-the-next-big-profit-machine/",
+    "source": "TechCrunch",
+    "published": "2026-08-29T08:24:27+09:00",
+    "summary": "Technical progress has encouraged a new batch of companies to jump in on the promise of profits from humanoid robots. And they're all Chinese automakers.",
+    "detail": "",
+    "score": 6.3,
+    "wow": false
+  },
+  {
+    "topic": "diamonds",
+    "title": "FIRSTPASS: A Multi-Domain, Multi-Round Peer Review Dataset Grounded in Real Editorial Outcomes",
+    "link": "https://arxiv.org/abs/2608.26129",
+    "source": "cs.AI updates on arXiv.org",
+    "published": "2026-08-29T13:00:00+09:00",
+    "summary": "arXiv:2608.26129v1 Announce Type: cross Abstract: Scientific peer review datasets have trained AI systems exclusively on Computer Science and Machine Learning venues, producing models that critique ablation studies yet have never seen a biology reviewer demand contamination controls or a chemist question Nuclear …",
+    "detail": "",
+    "score": 8.9,
+    "wow": true
+  },
+  {
+    "topic": "diamonds",
+    "title": "How Do LLM Agents Actually Get the Flag? Trace-Level Provenance for Agentic Offensive Security Evaluation",
+    "link": "https://arxiv.org/abs/2608.26237",
+    "source": "cs.AI updates on arXiv.org",
+    "published": "2026-08-29T13:00:00+09:00",
+    "summary": "arXiv:2608.26237v1 Announce Type: cross Abstract: Capture-the-Flag (CTF) benchmarks are widely used to assess the offensive security capabilities of autonomous language-model agents. Evaluations rely on shallow binary judgments or aggregate scores, overlooking the agent's trajectory to the flag. Consequently actual …",
+    "detail": "",
+    "score": 8.9,
+    "wow": true
+  },
+  {
+    "topic": "diamonds",
+    "title": "A 12-CNOT Double Qubit Excitation Gate",
+    "link": "https://arxiv.org/abs/2608.11733",
+    "source": "cs.AI updates on arXiv.org",
+    "published": "2026-08-29T13:00:00+09:00",
+    "summary": "arXiv:2608.11733v3 Announce Type: replace-cross Abstract: Effective implementation of high-level quantum gates is essential for practical quantum computing. In this work, we presented, to the best of our knowledge, the first reported 12-CNOT decomposition of the double qubit excitation operator. We compared our new …",
+    "detail": "",
+    "score": 8.9,
+    "wow": true
+  },
+  {
+    "topic": "diamonds",
+    "title": "Large Models for Battery Prognostics and Health Management: A Review and Future Roadmap",
+    "link": "https://arxiv.org/abs/2608.26111",
+    "source": "cs.AI updates on arXiv.org",
+    "published": "2026-08-29T13:00:00+09:00",
+    "summary": "arXiv:2608.26111v1 Announce Type: new Abstract: Battery Prognostics and Health Management (BPHM) is critical for ensuring the safe, reliable, and cost-effective operation of batteries across electric vehicles, grid storage, and consumer electronics. Conventional BPHM approaches, including physics-based models and …",
+    "detail": "",
+    "score": 7.6,
+    "wow": false
+  },
+  {
+    "topic": "diamonds",
+    "title": "PICasso: An AI-Enabled Design Framework for Autonomous Optimization of Silicon Photonic Devices",
+    "link": "https://arxiv.org/abs/2608.26113",
+    "source": "cs.AI updates on arXiv.org",
+    "published": "2026-08-29T13:00:00+09:00",
+    "summary": "arXiv:2608.26113v1 Announce Type: new Abstract: We present PICasso, an AI-assisted framework for automated synthesis, verification, and optimization of photonic integrated circuits (PICs) from natural-language specifications. PICasso couples a structured NL -> YAML -> GDS generation pipeline with PDK aware knowledge …",
+    "detail": "",
+    "score": 7.6,
+    "wow": false
+  },
+  {
+    "topic": "crypto",
+    "title": "Ripple is preparing XRP Ledger for quantum computers before ‘Q-Day’ arrives",
+    "link": "https://www.coindesk.com/tech/2026/08/28/ripple-is-preparing-xrp-ledger-for-quantum-computers-before-q-day-arrives",
+    "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+    "published": "2026-08-29T11:30:00+09:00",
+    "summary": "Ripple is actively preparing the XRP Ledger to be resilient against quantum computing threats in anticipation of \"Q-Day.\" This proactive measure aims to ensure the long-term security and integrity of the ledger in a post-quantum cryptographic era.",
+    "detail": "",
+    "score": 8.0,
+    "wow": false
+  },
+  {
+    "topic": "crypto",
+    "title": "Stellar tokenized RWA market more than quadruples to nearly $4B",
+    "link": "https://cointelegraph.com/markets/stellar-tokenized-rwa-market-nears-4b-after-fourfold-2026-growth?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source": "Cointelegraph.com News",
+    "published": "2026-08-30T04:12:42+09:00",
+    "summary": "Stellar's market for tokenized real-world assets (RWAs) has grown significantly this year, expanding to nearly $4 billion. This rapid increase is attributed to growing institutional adoption and increased tokenization activity across the network.",
+    "detail": "",
+    "score": 7.0,
+    "wow": false
+  },
+  {
+    "topic": "crypto",
+    "title": "Tokenized stock transfer volume jumps 415% in 30 days to $29.5B",
+    "link": "https://cointelegraph.com/markets/tokenized-stock-transfer-volume-jumps-416-in-30-days-to-295b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source": "Cointelegraph.com News",
+    "published": "2026-08-30T01:27:28+09:00",
+    "summary": "The volume of tokenized stock transfers has surged by 415% in 30 days, reaching $29.5 billion. This sharp rise in on-chain activity also saw active addresses and holders more than doubled over the past month.",
+    "detail": "",
+    "score": 7.0,
+    "wow": false
+  },
+  {
+    "topic": "crypto",
+    "title": "BitGo Buys NYDIG's Institutional Trading Arm to Beef Up Derivatives and Financing",
+    "link": "https://decrypt.co/376864/bitgo-buys-nydig-institutional-trading-arm",
+    "source": "Decrypt",
+    "published": "2026-08-29T22:31:04+09:00",
+    "summary": "BitGo has acquired NYDIG's institutional trading arm in an approximately $42.5 million cash-and-stock deal. This acquisition aims to enhance BitGo's capabilities in derivatives, structured products, and capital markets, while allowing NYDIG to concentrate on its power and data-center business.",
+    "detail": "",
+    "score": 7.0,
+    "wow": false
+  },
+  {
+    "topic": "crypto",
+    "title": "Solana validators approve proposal to accelerate SOL disinflation",
+    "link": "https://cointelegraph.com/news/solana-validators-approve-proposal-to-accelerate-sol-disinflation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source": "Cointelegraph.com News",
+    "published": "2026-08-29T04:53:12+09:00",
+    "summary": "Solana validators have approved a proposal to double the network's annual disinflation rate from 15% to 30%. This measure will reduce future SOL issuance while maintaining the long-term inflation target, aiming to enhance the token's scarcity.",
+    "detail": "",
+    "score": 7.0,
+    "wow": false
+  },
+  {
+    "topic": "economics",
+    "title": "Sweden GDP Growth Accelerates to 3.3% in Q2, Exceeding Forecasts - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9NUW5UWmRhanRELVZ5dl9UTjVHa2ItZkt6ZHR6S0V6V1lMN19rQlFhRkZHMWlnRjBtRDFYNi10M2xqMlc2WnZJblZWa1cxUDhPcnJjSHZmUUNwa2ZTY1o4QnZCaVFlcE1OaUJUSTk1UDY?oc=5",
+    "source": "\"global economy OR inflation OR interest rate OR GDP when:2d\" - Google News",
+    "published": "2026-08-29T13:07:02+09:00",
+    "summary": "Sweden's Gross Domestic Product (GDP) growth accelerated to 3.3% in the second quarter, surpassing economic forecasts. This stronger-than-expected performance indicates robust economic activity in the country, suggesting a healthy economic expansion.",
+    "detail": "",
+    "score": 7.0,
+    "wow": false
+  },
+  {
+    "topic": "economics",
+    "title": "Warsh puts Fed on collision course with Trump ahead of midterms",
+    "link": "https://www.ft.com/content/69452aea-cee0-47de-be8a-dc790fed3db1?syn-25a6b1a6=1",
+    "source": "Global Economy",
+    "published": "2026-08-29T21:57:12+09:00",
+    "summary": "US central bank chair Warsh's recent hint at potential interest rate increases at Jackson Hole sets the Federal Reserve on a divergent path from President Trump's desire for lower borrowing costs. This creates a potential policy conflict ahead of the mid-term elections, highlighting political tensions.",
+    "detail": "",
+    "score": 6.0,
+    "wow": false
+  },
+  {
+    "topic": "economics",
+    "title": "The end of cheap food has costs far beyond the grocery store",
+    "link": "https://www.ft.com/content/c2609ef8-1592-4c04-a3b6-37437627ff8e?syn-25a6b1a6=1",
+    "source": "Global Economy",
+    "published": "2026-08-29T13:00:40+09:00",
+    "summary": "New research estimates that climate-related shocks could significantly increase global food inflation, potentially adding 0.9 to 3.2 percentage points annually by 2035. This suggests the end of an era of cheap food, with broad economic implications beyond consumer prices.",
+    "detail": "",
+    "score": 6.0,
+    "wow": false
+  }
+]
