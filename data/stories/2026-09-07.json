@@ -1,0 +1,101 @@
+[
+  {
+    "topic": "military",
+    "title": "Mysterious Black Jet That Emerged At Long Beach Airport Identified",
+    "link": "https://www.twz.com/space/mysterious-black-jet-that-emerged-at-long-beach-airport-identified",
+    "source": "TWZ",
+    "published": "2026-09-07T03:06:36+09:00",
+    "summary": "With a sleek airframe the size of an A-5 Vigilante, its silhouette drew immediate attention from local aviation photographers who had never seen anything like it there. The post Mysterious Black Jet That Emerged At Long Beach Airport Identified appeared first on TWZ .",
+    "detail": "",
+    "score": 7.6,
+    "wow": false
+  },
+  {
+    "topic": "military",
+    "title": "U.S. Navy Accelerates Tomahawk Production Citing ‘Current International Conflict’",
+    "link": "https://www.navalnews.com/naval-news/2026/09/us-navy-accelerates-tomahawk-missile-production/",
+    "source": "Naval News",
+    "published": "2026-09-06T21:15:50+09:00",
+    "summary": "Citing a \"current international conflict\", the U.S. Navy is modifying a SLAM-ER contract with General Dynamics to fast-track Tomahawk warhead production. The post U.S. Navy Accelerates Tomahawk Production Citing ‘Current International Conflict’ appeared first on Naval News .",
+    "detail": "",
+    "score": 6.3,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "German company becomes first in Europe to launch fully commercial orbital rocket",
+    "link": "https://arstechnica.com/space/2026/09/german-company-becomes-first-in-europe-to-launch-fully-commercial-orbital-rocket/",
+    "source": "Ars Technica - All content",
+    "published": "2026-09-06T20:55:26+09:00",
+    "summary": "A German company has achieved a significant milestone by becoming the first in Europe to successfully launch a fully commercial orbital rocket. This accomplishment highlights the rapid progress of the European private space industry. A company representative noted that this was achieved in a few years, a feat that previously took decades for the European space industry.",
+    "detail": "German startup Isar Aerospace has successfully launched its Spectrum rocket into orbit, marking a significant milestone as the first private European company to achieve a fully commercial orbital launch. This event signals a shift in the European space industry, traditionally dominated by state-backed agencies. It demonstrates Europe's growing capability in the 'New Space' sector, aiming to provide more cost-effective and agile access to space for satellite deployment. This development is crucial for fostering competition, driving innovation, and potentially lowering launch costs, which benefits various industries reliant on space-based services, from telecommunications to Earth observation, and strengthens Europe's independent access to space.",
+    "score": 9.0,
+    "wow": true
+  },
+  {
+    "topic": "business",
+    "title": "Solid-state cooler uses heat to make things cold",
+    "link": "https://newatlas.com/energy/solid-state-cooler-heat-cold/",
+    "source": "New Atlas: Technology-Innovation-Outdoor News",
+    "published": "2026-09-07T08:03:00+09:00",
+    "summary": "Scientists have developed a solid-state cooling device that can generate cold using heat. This technology could enable processors and other electronics to recycle their waste heat for cooling purposes. The device potentially offers a new approach to thermal management.",
+    "detail": "Scientists have developed a novel solid-state cooling device that can generate cold using heat, a counter-intuitive process. This technology leverages the unique properties of shape memory alloys, which can undergo phase transitions when subjected to thermal or mechanical stress, leading to temperature changes. This innovation is significant because traditional refrigeration often relies on chemical refrigerants that can be environmentally harmful. A solid-state, heat-driven cooler offers a potentially greener, more energy-efficient, and compact alternative. It could revolutionize cooling systems for electronics, industrial processes, and even domestic appliances by recycling waste heat, reducing energy consumption, and eliminating the need for harmful chemical refrigerants, contributing to more sustainable technology.",
+    "score": 9.0,
+    "wow": true
+  },
+  {
+    "topic": "business",
+    "title": "'Honeycomb sandwich' may make for fully recyclable airplane cabins",
+    "link": "https://newatlas.com/materials/epoxy-composite-recyclable-airplane-cabins/",
+    "source": "New Atlas: Technology-Innovation-Outdoor News",
+    "published": "2026-09-06T23:03:00+09:00",
+    "summary": "Researchers are developing a 'honeycomb sandwich' material that could enable fully recyclable airplane cabins. This innovation addresses the challenge of recycling composites made with conventional epoxy, which are difficult to separate. The new approach aims to make aerospace materials more sustainable.",
+    "detail": "Researchers have created a new 'honeycomb sandwich' material designed for airplane cabins that is fully recyclable. This addresses a major environmental challenge in the aerospace industry: the difficulty of recycling composite materials, particularly those bonded with conventional epoxy resins. While composites are crucial for lightweight aircraft and fuel efficiency, the strong, irreversible bonds formed by traditional epoxies make it nearly impossible to separate and reuse the constituent materials at the end of an aircraft's life. This new recyclable material, likely employing a reversible or easily separable adhesive, could drastically reduce aviation waste, promote a circular economy in aerospace manufacturing, and significantly improve the industry's overall environmental sustainability.",
+    "score": 8.0,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "Our sex organs could be pacemakers for aging through our body",
+    "link": "https://newatlas.com/imaging-diagnostics/organs-age-different-rates-one-could-be-setting-pace/",
+    "source": "New Atlas: Technology-Innovation-Outdoor News",
+    "published": "2026-09-07T05:03:00+09:00",
+    "summary": "New research suggests that sex organs might act as 'pacemakers' for the aging process throughout the body. This concept implies a significant role for these organs in regulating systemic aging. Further investigation could reveal new insights into the mechanisms of aging and potential interventions.",
+    "detail": "New research suggests that our sex organs may act as 'pacemakers' for the aging process throughout the entire body. This hypothesis challenges the traditional view of aging as a purely systemic or cellular phenomenon, proposing a central regulatory role for reproductive organs, such as the ovaries. Understanding this mechanism could open new avenues for anti-aging interventions, potentially by targeting specific pathways related to gonadal function or hormone regulation. This insight could also explain observed differences in aging patterns between sexes and the profound impact of reproductive health on overall longevity and health span, offering a deeper understanding of the complex biological processes that govern aging.",
+    "score": 7.0,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "Range Rover's first electric SUV brings proper off-roading cred",
+    "link": "https://newatlas.com/automotive/range-rover-electric-suv-off-roading/",
+    "source": "New Atlas: Technology-Innovation-Outdoor News",
+    "published": "2026-09-06T13:03:00+09:00",
+    "summary": "Range Rover has introduced its first fully electric SUV, marking a significant step for the luxury brand. Jaguar Land Rover (JLR) states that the vehicle, developed over a decade with over 300 patents, maintains the brand's renowned off-roading capabilities. This launch combines luxury SUV performance with electric powertrain technology.",
+    "detail": "Range Rover has launched its first fully electric SUV, emphasizing its robust off-road capabilities. This release is significant as Range Rover is a brand synonymous with luxury and extreme off-road performance, demonstrating that electric vehicles (EVs) can meet the demanding expectations of traditional rugged vehicles. Jaguar Land Rover (JLR) spent a decade developing this model, filing over 300 patents, underscoring the engineering complexity involved in electrifying such a capable platform while maintaining brand integrity. This move validates the potential of EVs in challenging segments, potentially accelerating EV adoption among consumers who prioritize capability and luxury, while also aligning with global efforts to reduce carbon emissions from the automotive sector.",
+    "score": 7.0,
+    "wow": false
+  },
+  {
+    "topic": "diamonds",
+    "title": "This Torrance Startup Just Raised $1B to Mass-Produce Hypersonic Missiles - dot.LA",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQa0JDWmFjZkhjdXkzMmhiM1JDanRkYno3ODFpcnFPQnlabXJmN0xDdnV0eTdHSERjVmpsM015dVJHaU5HMzBISmNIYmFod1NGdk1kc2lHSXF3TllYQ2pBeV85eklOZFc2b3ptMmNHemxBRGUyblFBaGtsT3k0WnV1SQ?oc=5",
+    "source": "\"(startup OR startups) (raises OR \"Series A\" OR \"Series B\" OR \"seed round\" OR funding) when:2d\" - Google News",
+    "published": "2026-09-06T07:40:58+09:00",
+    "summary": "This Torrance Startup Just Raised $1B to Mass-Produce Hypersonic Missiles dot.LA",
+    "detail": "This development is crucial within the broader geopolitical landscape. Major global powers, including the United States, China, and Russia, are engaged in an accelerating race to develop and deploy hypersonic weaponry. Russia and China have already demonstrated considerable progress in this domain, prompting the U.S. to intensify its own efforts to maintain strategic parity. The involvement of a private startup, securing such substantial capital, also highlights a growing trend where agile, innovative companies are playing an increasingly vital role in developing cutting-edge defense technologies, traditionally the purview of larger, established contractors. This shift could accelerate innovation and potentially alter the dynamics of future military procurement and strategic balance.",
+    "score": 6.3,
+    "wow": false
+  },
+  {
+    "topic": "crypto",
+    "title": "OpenAI's GPT-6 Astra Is Shockingly Good at Almost Everything",
+    "link": "https://decrypt.co/377514/openai-gpt-6-astra-review-shockingly-good",
+    "source": "Decrypt",
+    "published": "2026-09-07T02:01:04+09:00",
+    "summary": "Early testers spent OpenAI's launch weekend pushing Astra through 3D cities, playable games, Bach chorales and research papers.",
+    "detail": "",
+    "score": 6.3,
+    "wow": false
+  }
+]
