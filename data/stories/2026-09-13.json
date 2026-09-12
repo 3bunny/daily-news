@@ -1,0 +1,200 @@
+[
+  {
+    "topic": "military",
+    "title": "World’s First Naval Drone Duel Results In Ukrainian Success",
+    "link": "https://www.navalnews.com/naval-news/2026/09/worlds-first-naval-drone-duel-results-in-ukrainian-success/",
+    "source": "Naval News",
+    "published": "2026-09-13T03:30:17+09:00",
+    "summary": "Ukraine's Navy claims the world's first successful uncrewed surface drone (USV) duel, where a Ukrainian Sargan-3000 USV destroyed a Russian attack USV in the Black Sea. This unprecedented event, supported by intelligence, marks a new chapter in naval combat.",
+    "detail": "The recent engagement in the Black Sea marked a historic first: a Ukrainian uncrewed surface vessel (USV), the Sargan-3000, successfully intercepted and destroyed a Russian attack USV. Operating on intelligence from Ukraine's Main Intelligence Directorate, the Ukrainian drone engaged and sank its Russian counterpart, establishing the first recorded instance of a naval drone duel in combat history.\n\nThis event holds significant implications for the future of naval warfare. It demonstrates the evolving role of autonomous systems beyond reconnaissance or attacks on crewed vessels, showcasing their capability to engage and neutralize similar robotic threats. For Ukraine, this success further validates its innovative and asymmetric warfare strategy, which has heavily relied on USVs to challenge Russia's Black Sea Fleet without risking human lives or expensive traditional warships. The use of USVs offers a cost-effective method for force projection, intelligence gathering, and interdiction, reducing the risk to personnel.\n\nThe broader context includes Ukraine's pioneering use of naval drones, such as the Sea Baby and Magura V5, which have previously inflicted damage on Russian naval assets, forcing operational changes. This \"drone duel\" underscores the accelerating global trend of drone proliferation and the increasing reliance on autonomous systems in modern conflict. It suggests a future where naval engagements could increasingly involve swarms of robotic vessels, necessitating new defensive and offensive doctrines and intensifying the ongoing debate about the ethics and control of autonomous weapons.",
+    "score": 9.0,
+    "wow": true
+  },
+  {
+    "topic": "military",
+    "title": "Adversaries Using Claude AI To Target Americans And Develop Missiles Is A Sign Of What’s To Come",
+    "link": "https://www.twz.com/news-features/adversaries-using-claude-ai-to-target-americans-and-develop-missiles-is-a-sign-of-whats-to-come",
+    "source": "TWZ",
+    "published": "2026-09-12T07:24:17+09:00",
+    "summary": "A new report from Anthropic indicates that malicious actors are exploiting commercially available U.S. AI services, such as Claude AI, despite existing safeguards. These adversaries are reportedly using AI to target Americans and aid in missile development, highlighting emerging threats.",
+    "detail": "A recent report from Anthropic, the developer of the Claude AI model, has revealed concerning attempts by \"malign actors\" to misuse commercially available U.S. artificial intelligence services. Despite existing safeguards, these adversaries have sought to leverage AI for activities such as targeting Americans and assisting in the development of missiles. This disclosure highlights the immediate and tangible risks associated with powerful AI models.\n\nThis situation underscores a critical challenge for the AI industry: managing the \"dual-use\" nature of advanced technologies. While AI offers immense benefits, its capabilities can also be exploited for harmful purposes, from sophisticated cyberattacks and propaganda to accelerating weapons development. The report emphasizes the urgent need for AI developers to implement and continuously refine robust safety protocols, detect misuse patterns, and prevent their technologies from being weaponized or used against national security interests.\n\nThe broader context involves the rapid advancement of large language models (LLMs) like Claude, which possess advanced reasoning and generative capabilities. AI companies typically deploy \"guardrails\" to prevent harmful applications, but this incident demonstrates that these protections are constantly being tested and potentially circumvented by determined adversaries. This evolving threat landscape necessitates ongoing vigilance, international cooperation, and potentially new regulatory frameworks to ensure the responsible development and deployment of AI, mitigating its potential for misuse by malicious actors.",
+    "score": 7.0,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "Tesla says it will finally unveil the second generation Roadster on October 1",
+    "link": "https://techcrunch.com/2026/09/12/tesla-says-it-will-finally-unveil-the-second-generation-roadster-on-october-1/",
+    "source": "TechCrunch",
+    "published": "2026-09-13T04:21:19+09:00",
+    "summary": "Tesla’s halo sports car was first announced in November 2017.",
+    "detail": "",
+    "score": 7.6,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "Khosla Ventures is opening a New York office this fall — its first outpost outside Sand Hill Road",
+    "link": "https://techcrunch.com/2026/09/11/khosla-ventures-is-opening-a-new-york-office-this-fall-its-first-outpost-outside-sand-hill-road/",
+    "source": "TechCrunch",
+    "published": "2026-09-12T06:19:05+09:00",
+    "summary": "\"It's actually allegedly being built out now,\" said Rabois, who has clearly dealt with a missed construction timeline or two.",
+    "detail": "",
+    "score": 7.6,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "The slimmest semi-solid-state power bank is perfect for small EDC kits",
+    "link": "https://newatlas.com/consumer-tech/bmx-solidsafe-air-semi-solid-state-power-bank-edc-review/",
+    "source": "New Atlas: Technology-Innovation-Outdoor News",
+    "published": "2026-09-13T03:03:00+09:00",
+    "summary": "I've never really been one to carry around a power bank often, mostly because of the added bulk. BMX sent over one that's sorted this issue, and given me a bit more peace of mind about it too. Continue Reading Category: Consumer Tech , Technology Tags: EDC , Battery , Charging , Reviews",
+    "detail": "",
+    "score": 6.3,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "Sylvan Esso think you should splurge on good-quality yogurt",
+    "link": "https://www.theverge.com/entertainment/994340/sylvan-esso-ow-infinity-interview-music",
+    "source": "The Verge",
+    "published": "2026-09-13T01:35:00+09:00",
+    "summary": "Amelia Meath and Nick Sanborn, better known as Sylvan Esso, have been bringing their low-key electro-pop to the masses since 2014, bursting onto the scene with their self-titled debut album and the single \"Hey Mami.\" Over the years, they've put out a number of excellent records, dabbling in dustier, more fragile …",
+    "detail": "",
+    "score": 6.3,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "Trump is giving data centers a pass to pollute",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/994112/ai-data-center-pollution-health-epa",
+    "source": "The Verge",
+    "published": "2026-09-12T23:41:27+09:00",
+    "summary": "President Donald Trump is weakening environmental regulations in the name of speeding up the construction of AI data centers, raising health risks for Americans, a cadre of former EPA officials said this week in a briefing and new report. They are urging - perhaps futilely - the president to adopt a \"Data Center …",
+    "detail": "",
+    "score": 6.3,
+    "wow": false
+  },
+  {
+    "topic": "diamonds",
+    "title": "Sci-MMR: Benchmarking Multi-Step Evidence-Grounded Scientific Reasoning in Multimodal Agents",
+    "link": "https://arxiv.org/abs/2609.11243",
+    "source": "cs.AI updates on arXiv.org",
+    "published": "2026-09-12T13:00:00+09:00",
+    "summary": "arXiv:2609.11243v1 Announce Type: new Abstract: Autonomous research agents are increasingly expected to search the literature, analyze experimental evidence, and generate scientific hypotheses. These capabilities require multi-step evidence grounded reasoning that progressively acquires, integrates, and verifies …",
+    "detail": "Researchers introduced Sci-MMR, a new benchmark designed to evaluate multimodal AI agents on multi-step, evidence-grounded scientific reasoning. Unlike existing benchmarks that often focus solely on final answer accuracy, Sci-MMR requires models to progressively acquire, integrate, and verify evidence from structured argument graphs, including scientific claims, citations, and visual evidence from figures. When testing frontier multimodal models, the study found that while models achieved reasonable answer accuracy, their ability to recover all supporting evidence was significantly lower, indicating a gap in true evidence-grounded reasoning. The research identifies bottlenecks in how models acquire and integrate evidence.\n\nThis matters because for AI to genuinely assist in scientific discovery, it must not only provide correct answers but also demonstrate a verifiable, traceable reasoning process. Trust in AI-generated hypotheses or analyses hinges on understanding how conclusions are reached. Sci-MMR pushes AI development towards more transparent and robust scientific reasoning capabilities, moving beyond superficial pattern matching to foster AI agents that can truly contribute to scientific research with verifiable insights. The findings highlight that current models may not possess the deep understanding required for complex scientific tasks.",
+    "score": 8.9,
+    "wow": true
+  },
+  {
+    "topic": "diamonds",
+    "title": "Characterizing Job Power Elasticity for Power-Flexible AI Training",
+    "link": "https://arxiv.org/abs/2609.11542",
+    "source": "cs.AI updates on arXiv.org",
+    "published": "2026-09-12T13:00:00+09:00",
+    "summary": "arXiv:2609.11542v1 Announce Type: new Abstract: Large language model (LLM) training is among the fastest-growing sources of electricity demand in modern data centers, and power availability is a primary bottleneck to continued AI infrastructure growth. Making the power consumption of these workloads flexible could …",
+    "detail": "This paper introduces the first systematic characterization of \"job power elasticity\" in large language model (LLM) training. It investigates how the performance (throughput) of LLM training workloads changes when the power supplied to GPUs is intentionally reduced. The researchers developed a \"Power Flexibility Index (PFI)\" to quantify the performance cost associated with power reductions and collected extensive data from 131 LLM training runs on H200 GPUs, covering various model types and tasks.\n\nThis research is significant because LLM training is a rapidly escalating source of electricity demand, straining data center power availability and grid infrastructure. Understanding power elasticity enables the development of \"power-flexible\" AI training, where workloads can dynamically adjust their power consumption. This flexibility could unlock additional capacity for AI growth, mitigate increases in electricity prices, and improve the utilization of existing power grids by allowing data centers to respond to real-time energy supply and demand fluctuations. It's a crucial step towards more sustainable and economically viable AI infrastructure development.",
+    "score": 8.9,
+    "wow": true
+  },
+  {
+    "topic": "diamonds",
+    "title": "Geospatial AI, Dataverse Metadata, and the Study of Place-Based Government",
+    "link": "https://arxiv.org/abs/2609.11674",
+    "source": "cs.AI updates on arXiv.org",
+    "published": "2026-09-12T13:00:00+09:00",
+    "summary": "arXiv:2609.11674v1 Announce Type: new Abstract: Harvard Dataverse hosts over 150,000 research datasets, but the geographic information those datasets carry is entered as free text by depositors and has never been assembled into a searchable structure. We construct a knowledge graph from the repository's public data …",
+    "detail": "Researchers constructed a knowledge graph from the Harvard Dataverse repository, organizing over 100,000 research datasets by extracting and structuring previously unstructured geographic information. This involved transforming free-text location descriptions into a searchable format, creating a network of 215,985 nodes and 528,003 edges linking datasets to keywords, publications, subjects, and locations. The project identified nearly 44,000 datasets with geospatial fields, with over 7,600 directly relevant to policy, particularly in areas like elections, government administration, and health policy.\n\nThis work matters because it significantly enhances the discoverability and usability of place-based research data within a vast scientific repository. By converting unstructured geographic metadata into a structured, searchable format using AI, it overcomes a major barrier to interdisciplinary research and data sharing. This improved accessibility can accelerate studies on place-based government and policy, enabling researchers to more easily find and integrate relevant data to understand how policies impact specific geographic locations and communities, ultimately fostering more informed decision-making and policy analysis.",
+    "score": 8.9,
+    "wow": true
+  },
+  {
+    "topic": "diamonds",
+    "title": "New Evidence, Same Choice: Testing Physical Experiment Selection in Vision Language Models",
+    "link": "https://arxiv.org/abs/2609.11022",
+    "source": "cs.AI updates on arXiv.org",
+    "published": "2026-09-12T13:00:00+09:00",
+    "summary": "arXiv:2609.11022v1 Announce Type: cross Abstract: A model first sees an image from one physical measurement experiment, such as how far a block coasted, and must answer a question about a new trial, such as whether the block will pass a target after a fixed push. The initial experiment may provide enough information …",
+    "detail": "This paper introduces a novel evaluation method for vision language models (VLMs) that assesses their ability to make sequential decisions about information gathering. Instead of merely evaluating the final answer, the benchmark tests whether a VLM can decide when it has sufficient evidence to answer a question and, if not, which additional physical experiment would be most cost-effective to perform to resolve ambiguity. The setup presents an initial observation (image) and a question, then requires the model to either answer or select from a set of potential experiments. Matched problem pairs are used to rigorously test this decision-making capacity.\n\nThis research is important because real-world intelligent agents often operate in environments where information is incomplete, and they must actively decide what additional data to acquire. Current VLM benchmarks typically focus on static question-answering, overlooking this crucial aspect of adaptive reasoning. By evaluating the ability to select experiments, this work pushes VLMs towards more sophisticated, resource-aware, and adaptive problem-solving capabilities, which are essential for developing AI systems that can effectively interact with and learn from dynamic physical environments.",
+    "score": 8.9,
+    "wow": true
+  },
+  {
+    "topic": "diamonds",
+    "title": "Probabilistic Focal Search: Accelerating Bounded-Suboptimal Search via Lower-Bound Advancement",
+    "link": "https://arxiv.org/abs/2609.10584",
+    "source": "cs.AI updates on arXiv.org",
+    "published": "2026-09-12T13:00:00+09:00",
+    "summary": "arXiv:2609.10584v1 Announce Type: new Abstract: Bounded-suboptimal search seeks a solution within a factor $w$ of optimal while reducing search effort. Focal Search (FS) uses heuristic guidance within FOCAL, the frontier nodes eligible under the threshold $w f_{\\min}$, but its deterministic policy may leave …",
+    "detail": "Researchers introduced Probabilistic Focal Search (PFS), an improved algorithm for bounded-suboptimal search. Bounded-suboptimal search aims to find a solution within a guaranteed factor of the optimal solution, but with reduced computational effort compared to finding the absolute optimum. PFS enhances the existing Focal Search (FS) by introducing a probabilistic element: with a certain probability, it follows FS's heuristic guidance, but with a complementary probability, it expands a node that helps advance the \"lower bound\" of the optimal solution cost. This mechanism balances heuristic guidance with progress on the lower bound, which can enlarge the search frontier (FOCAL) more effectively.\n\nThis work matters because search algorithms are fundamental to many AI applications, including planning, robotics, and game playing. Finding optimal solutions is often computationally prohibitive for complex problems. Bounded-suboptimal search offers a practical alternative, and PFS aims to make this process even more efficient. By accelerating the discovery of good-enough solutions, PFS can enable faster decision-making and problem-solving in scenarios where time is critical, making AI systems more responsive and applicable to real-world challenges with vast search spaces.",
+    "score": 7.6,
+    "wow": false
+  },
+  {
+    "topic": "crypto",
+    "title": "Nvidia considers $10B investment in potential record Anthropic IPO: Reuters",
+    "link": "https://cointelegraph.com/news/nvidia-considers-10b-investment-in-anthropic-record-ipo-reuters?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source": "Cointelegraph.com News",
+    "published": "2026-09-13T00:12:40+09:00",
+    "summary": "Reuters reports that Nvidia is considering a $10 billion investment in Anthropic, an AI company potentially seeking to raise up to $100 billion in an IPO. This offering could value Anthropic at approximately $2 trillion, indicating a massive valuation for an AI firm and a significant strategic investment by Nvidia.",
+    "detail": "",
+    "score": 8.0,
+    "wow": false
+  },
+  {
+    "topic": "crypto",
+    "title": "Nigel Farage’s Reform UK lands $97 million donations from two crypto billionaires in 24 hours",
+    "link": "https://www.coindesk.com/business/2026/09/12/nigel-farage-s-reform-uk-lands-usd97-million-donations-from-two-crypto-billionaires-in-24-hours",
+    "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+    "published": "2026-09-13T03:51:04+09:00",
+    "summary": "Nigel Farage's Reform UK political party has received approximately $97 million in donations from two crypto billionaires within a 24-hour period. This significant influx of funds represents a record-breaking political donation in the UK, highlighting the growing influence of crypto wealth in political financing.",
+    "detail": "",
+    "score": 7.0,
+    "wow": false
+  },
+  {
+    "topic": "crypto",
+    "title": "Revolut Leaks Passports, Bitcoin Transaction Histories to Fake Government Request",
+    "link": "https://decrypt.co/378114/revolut-passports-bitcoin-activity-data-breach",
+    "source": "Decrypt",
+    "published": "2026-09-13T02:01:04+09:00",
+    "summary": "Fintech company Revolut inadvertently exposed sensitive user data, including passport details and full Bitcoin transaction histories, after fulfilling a fraudulent information request. The request originated from a government agency's own email domain, indicating a sophisticated phishing or social engineering attack that affected a 'limited' number of users.",
+    "detail": "",
+    "score": 6.0,
+    "wow": false
+  },
+  {
+    "topic": "crypto",
+    "title": "North Korea using foreign talent to help infiltrate US companies: Report",
+    "link": "https://cointelegraph.com/news/north-korea-using-foreign-talent-to-help-infiltrate-us-companies-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source": "Cointelegraph.com News",
+    "published": "2026-09-13T01:08:29+09:00",
+    "summary": "A report indicates that North Korea is employing third-country IT workers to successfully pass job interviews for positions in US companies. Once hired, these roles are typically taken over by North Korean operatives, suggesting a sophisticated method for infiltration and potential cyber espionage or illicit financial activities.",
+    "detail": "",
+    "score": 6.0,
+    "wow": false
+  },
+  {
+    "topic": "crypto",
+    "title": "Cyberattacks on Law Firms Nearly Double as Stolen Documents Hit the Dark Web",
+    "link": "https://decrypt.co/378094/cyberattacks-law-firms-stolen-documents-dark-web",
+    "source": "Decrypt",
+    "published": "2026-09-12T06:45:05+09:00",
+    "summary": "Cyberattacks targeting law firms have almost doubled, with stolen documents increasingly appearing on the dark web. Greenberg Traurig confirmed documents were posted online, while BakerHostetler reported a near-doubling of incidents in 2025, highlighting a growing and severe threat to legal sector data security.",
+    "detail": "",
+    "score": 6.0,
+    "wow": false
+  },
+  {
+    "topic": "economics",
+    "title": "Wanted: new business, finance and economics interns",
+    "link": "https://www.economist.com/finance-and-economics/2026/09/12/wanted-new-business-finance-and-economics-interns",
+    "source": "Finance & economics",
+    "published": "2026-09-12T17:04:14+09:00",
+    "summary": "The Economist invites applications for the Marjorie Deane internship",
+    "detail": "",
+    "score": 6.3,
+    "wow": false
+  }
+]
