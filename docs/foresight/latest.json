@@ -2,21 +2,8 @@
   "intro": "A plain roundup of the week's notable military and business technology (full analysis was unavailable this run).",
   "deep_dives": [
     {
-      "title": "First-Ever Kill Of A Drone Boat By Another Drone Boat Claimed By Ukraine",
-      "what_happened": "The machine gun attack of one drone boat on another is the latest milestone in uncrewed surface vessel warfare. The post First-Ever Kill Of A Drone Boat By Another Drone Boat Claimed By Ukraine appeared first on TWZ .",
-      "enabling_tech": [],
-      "pioneers": [
-        {
-          "name": "TWZ",
-          "role": "reporting outlet"
-        }
-      ],
-      "spillover": "",
-      "watchlist": []
-    },
-    {
-      "title": "World’s First Naval Drone Duel Results In Ukrainian Success",
-      "what_happened": "For the first time in history, an uncrewed surface drone (USV – uncrewed surface vessel) has destroyed another USV in combat. The Ukrainian Navy Sargan-3000 USV, operating on intelligence from the Main Intelligence Directorate (HUR), interdicted a Russian attack USV in the Black Sea. The Russian naval drone was sunk. The Russian USV can be ... The post World’s First Naval Drone Duel Results In Ukrainian Success appeared first on Naval News .",
+      "title": "F127: Over-Reliance on U.S. Technology Is No Longer Appropriate",
+      "what_happened": "Analyzing Germany’s F127 frigate program, this article by German defense media hartpunkt examines why relying heavily on the U.S. Aegis technology and ecosystem may undermine national sovereignty and defense readiness. By Lars Hoffman / hartpunkt The German Navy’s future F127 class air defense frigates are intended not only for area air defense, but also for ... The post F127: Over-Reliance on U.S. Technology Is No Longer Appropriate appeared first on Naval News .",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -28,21 +15,8 @@
       "watchlist": []
     },
     {
-      "title": "The Outlook Is Getting Grimmer By The Day For Oil Exports From The Red Sea",
-      "what_happened": "Iraqi militias strike a pipeline that's the remaining lifeline to Middle East oil and the Houthis move into a better position to control the Bab al-Mandab Strait than ever. The post The Outlook Is Getting Grimmer By The Day For Oil Exports From The Red Sea appeared first on TWZ .",
-      "enabling_tech": [],
-      "pioneers": [
-        {
-          "name": "TWZ",
-          "role": "reporting outlet"
-        }
-      ],
-      "spillover": "",
-      "watchlist": []
-    },
-    {
       "title": "Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week",
-      "what_happened": "Has it really been 25 years since that terrible morning? The post Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week appeared first on TWZ .",
+      "what_happened": "Tee Gee Eye Eff. The post Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week appeared first on TWZ .",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -54,21 +28,8 @@
       "watchlist": []
     },
     {
-      "title": "Adversaries Using Claude AI To Target Americans And Develop Missiles Is A Sign Of What’s To Come",
-      "what_happened": "A new report from Anthropic presents a stark picture of how malign actors are using commercially available U.S. AI services despite safeguards. The post Adversaries Using Claude AI To Target Americans And Develop Missiles Is A Sign Of What’s To Come appeared first on TWZ .",
-      "enabling_tech": [],
-      "pioneers": [
-        {
-          "name": "TWZ",
-          "role": "reporting outlet"
-        }
-      ],
-      "spillover": "",
-      "watchlist": []
-    },
-    {
-      "title": "Concurrent attacks across multiple domains force rethinking of air-and-missile-defense",
-      "what_happened": "While overall effectiveness is high, damage to US bases and assets in the Iran conflict shows gaps in air-and-missile-defense.",
+      "title": "Space Force to prototype new software to fuse commercial, military space tracking data",
+      "what_happened": "Our number one priority right now is: How do we improve support to space control operations?” Col. Barry Crocker, head of Space Force Mission Delta 2 responsible for keeping tabs on on-orbit threats, told Breaking Defense",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -80,8 +41,21 @@
       "watchlist": []
     },
     {
-      "title": "One Of These Missiles Is Set To Be The Army’s Next Mid-Tier Anti-Air Interceptor",
-      "what_happened": "The new Enduring Shield system paired with AIM-9X Sidewinders already gives the Army its first mid-range air defense capability in decades. The post One Of These Missiles Is Set To Be The Army’s Next Mid-Tier Anti-Air Interceptor appeared first on TWZ .",
+      "title": "Myriad ways that drones, satellites, and common controls reshape ISR",
+      "what_happened": "Connecting platforms and data across domains is key to keeping ISR effective under attack.",
+      "enabling_tech": [],
+      "pioneers": [
+        {
+          "name": "Breaking Defense",
+          "role": "reporting outlet"
+        }
+      ],
+      "spillover": "",
+      "watchlist": []
+    },
+    {
+      "title": "German Forces Surge Onto Baltic Island In First-Of-Its-Kind NATO Drill",
+      "what_happened": "Exercise Silver Wotan tests how quickly allied troops, ships, aircraft, and weapons can reach the strategically vital island of Gotland. The post German Forces Surge Onto Baltic Island In First-Of-Its-Kind NATO Drill appeared first on TWZ .",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -93,12 +67,38 @@
       "watchlist": []
     },
     {
-      "title": "Support for Patriot air-and-missile defense is a case study for the industrial base",
-      "what_happened": "[Sponsored] Manufacturing scale, global sustainment, and next-gen tech are becoming inseparable.",
+      "title": "Europe’s space tracking program sees growing support, interest",
+      "what_happened": "The European Union also is funding a series of grant making projects designed to bring innovative technologies into the EU SST program, and support startups to strengthen the industrial base.",
       "enabling_tech": [],
       "pioneers": [
         {
           "name": "Breaking Defense",
+          "role": "reporting outlet"
+        }
+      ],
+      "spillover": "",
+      "watchlist": []
+    },
+    {
+      "title": "Marine Colonel Who Led Mideast Combat Deployment Wants His Own Drone Boats",
+      "what_happened": "\"If the first thing you're putting through the breach isn't a robot, something's wrong.\" The post Marine Colonel Who Led Mideast Combat Deployment Wants His Own Drone Boats appeared first on TWZ .",
+      "enabling_tech": [],
+      "pioneers": [
+        {
+          "name": "TWZ",
+          "role": "reporting outlet"
+        }
+      ],
+      "spillover": "",
+      "watchlist": []
+    },
+    {
+      "title": "US clears way for $24.3 billion fighter jet sale to Saudi Arabia",
+      "what_happened": "The U.S. Department of State said on Thursday it had approved the potential sale of Lockheed Martin’s F-35 Lightning II fighter jets to Saudi Arabia.",
+      "enabling_tech": [],
+      "pioneers": [
+        {
+          "name": "Defense News",
           "role": "reporting outlet"
         }
       ],
