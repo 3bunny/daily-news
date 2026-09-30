@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-30",
+  "grade": "C+",
+  "note": "Today's briefing features strong reporting on military developments and significant tech valuations. However, the edition is marred by notable miscategorizations in the crypto section and critically outdated economic news, diminishing its overall reliability and currency.",
+  "counts": {
+    "military": 5,
+    "business": 5,
+    "diamonds": 5,
+    "crypto": 5,
+    "economics": 4
+  },
+  "wow": 6,
+  "source_suggestions": [],
+  "sources_added": [],
+  "used_llm": true,
+  "gemini_health": {
+    "key_present": true,
+    "working": true,
+    "detail": "Gemini responded correctly."
+  },
+  "gemini_calls": {
+    "ok": 2,
+    "fail": 10,
+    "last_error": "HTTP 429: b'{\\n  \"error\": {\\n    \"code\": 429,\\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a'"
+  }
+}
