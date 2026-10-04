@@ -2,8 +2,8 @@
   "intro": "A plain roundup of the week's notable military and business technology (full analysis was unavailable this run).",
   "deep_dives": [
     {
-      "title": "Laser Weapons Will Be Deployed At Cape Canaveral Spaceport To Take Down Drones",
-      "what_happened": "With the job of launching giant tubes packed with explosives and extremely expensive national security payloads on top, if anywhere could use lasers, it's the Cape. The post Laser Weapons Will Be Deployed At Cape Canaveral Spaceport To Take Down Drones appeared first on TWZ .",
+      "title": "Northrop Grumman’s Talon Blue Collaborative Combat Aircraft Has Flown",
+      "what_happened": "Northrop Grumman has placed its hopes in Talon Blue to capture a piece of the USAF's future Collaborative Combat Aircraft portfolio. The post Northrop Grumman’s Talon Blue Collaborative Combat Aircraft Has Flown appeared first on TWZ .",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -15,8 +15,8 @@
       "watchlist": []
     },
     {
-      "title": "Dutch ASWF Frigate Program Faces Further Delays as Belgium Evaluates Options",
-      "what_happened": "Dutch Defence outlines ASWF frigate progress and a potential pivot to F126 industrial capacity following project delays, as Belgium weighs its options The post Dutch ASWF Frigate Program Faces Further Delays as Belgium Evaluates Options appeared first on Naval News .",
+      "title": "Raytheon awarded $24.4 billion multi-year contract for SM-6 interceptors",
+      "what_happened": "Raytheon has secured a five-year contract, with two additional option years, valued up to $24.4 billion for Standard Missile-6 (SM-6) interceptors, significantly increasing the availability of a critical munition able to conduct both offensive strikes and missile defense missions. Raytheon press release Building on landmark agreements between Raytheon and the Department of War, this long-term order ensures ... The post Raytheon awarded $24.4 billion multi-year contract for SM-6 interceptors appeared first on Naval News .",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -28,8 +28,21 @@
       "watchlist": []
     },
     {
-      "title": "TKMS and EDGE Explore Collaboration on Underwater Protection and Surveillance Capability",
-      "what_happened": "TKMS and EDGE Group have signed a Memorandum of Understanding (MoU) within the framework of the state visit of the United Arab Emirates (UAE) to Germany. The MoU is a part of an initiative agreed by the German government and the UAE for a closer cooperation in the area of defense and security and aims ... The post TKMS and EDGE Explore Collaboration on Underwater Protection and Surveillance Capability appeared first on Naval News .",
+      "title": "Desan Shipyard Launches First MPMS for Malaysian Coast Guard in Istanbul",
+      "what_happened": "The Malaysian Maritime Agency (Maritim Malaysia) has achieved another significant milestone through the launch of the Multi Purpose Mission Ship (MPMS 1) at the Desan Shipyard in Türkiye yesterday. Malaysian Maritime Agency press release The launch ceremony was attended by the Minister of Home Affairs, the Honorable Datuk Seri Saifuddin Nasution bin Ismail, along with ... The post Desan Shipyard Launches First MPMS for Malaysian Coast Guard in Istanbul appeared first on Naval News .",
+      "enabling_tech": [],
+      "pioneers": [
+        {
+          "name": "Naval News",
+          "role": "reporting outlet"
+        }
+      ],
+      "spillover": "",
+      "watchlist": []
+    },
+    {
+      "title": "Metal Shark Awarded Contract for 13 Patrol Boats for Vietnam",
+      "what_happened": "Louisiana-based boatbuilder Metal Shark has been awarded a U.S. Government contract to build 13 patrol boats for Vietnam, with options for additional vessels. Metal Shark press release The contract expands Metal Shark’s presence in Asia and builds on the company’s successful delivery of 24 purpose-built 45 Defiant military patrol boats to the Vietnam Coast Guard ... The post Metal Shark Awarded Contract for 13 Patrol Boats for Vietnam appeared first on Naval News .",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -42,7 +55,7 @@
     },
     {
       "title": "Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week",
-      "what_happened": "I wonder if the leaves are changing color out there? The post Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week appeared first on TWZ .",
+      "what_happened": "Who needs scary movies when you have life in 2026?! The post Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week appeared first on TWZ .",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -54,21 +67,8 @@
       "watchlist": []
     },
     {
-      "title": "Ukraine’s deadly AI training platform for drone tech opens to UK companies",
-      "what_happened": "Ukraine opens wartime battlefield data to Britain through Avengers AI Labs, giving British companies access to data for AI drone development.",
-      "enabling_tech": [],
-      "pioneers": [
-        {
-          "name": "Defense News",
-          "role": "reporting outlet"
-        }
-      ],
-      "spillover": "",
-      "watchlist": []
-    },
-    {
-      "title": "Blackbeard Hypersonic Missile Seen Flying On F/A-18 Super Hornet For The First Time",
-      "what_happened": "The Navy is pushing to get Blackbeard, a lower-cost and fast-to-produce standoff weapon, into operational service by 2028 at the latest. The post Blackbeard Hypersonic Missile Seen Flying On F/A-18 Super Hornet For The First Time appeared first on TWZ .",
+      "title": "All The Weapons A Single Navy Fighter Squadron Launched During Operation Epic Fury",
+      "what_happened": "Strike Fighter Squadron 41's F/A-18Fs let loose hundreds of air-to-surface and air-to-air weapons during the war with Iran. The post All The Weapons A Single Navy Fighter Squadron Launched During Operation Epic Fury appeared first on TWZ .",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -80,8 +80,8 @@
       "watchlist": []
     },
     {
-      "title": "Building logistics networks that survive contested environments",
-      "what_happened": "Explore how software, edge AI and resilient connectivity can strengthen military logistics in contested environments. Join Breaking Defense on Oct. 21 and earn 1 CPE credit.",
+      "title": "Army to establish new autonomy command, acquisition executive",
+      "what_happened": "The service’s new command will be called Army Futures and Autonomous Systems Command, or FASCOM, according to a memo signed by Acting Army Secretary Adam Telle.",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -93,12 +93,12 @@
       "watchlist": []
     },
     {
-      "title": "DC Circuit panel upholds Pentagon’s ban on Anthropic – so what comes next?",
-      "what_happened": "Pentagon CTO Emil Michael crowed “The hammer of justice has smashed AnthropicAI[’s] arguments.” The AI titan hinted at an appeal — but they may not be allowed one.",
+      "title": "Former SR-71 Engineer Talks NASA’s Blackbird Revival Program",
+      "what_happened": "Insights into the current status of NASA's SR-71 #844, what it will take to fly it again, and what the agency may be looking to do with it. The post Former SR-71 Engineer Talks NASA’s Blackbird Revival Program appeared first on TWZ .",
       "enabling_tech": [],
       "pioneers": [
         {
-          "name": "Breaking Defense",
+          "name": "TWZ",
           "role": "reporting outlet"
         }
       ],
