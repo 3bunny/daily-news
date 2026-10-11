@@ -2,12 +2,12 @@
   "intro": "A plain roundup of the week's notable military and business technology (full analysis was unavailable this run).",
   "deep_dives": [
     {
-      "title": "Northrop Grumman’s Talon Blue Collaborative Combat Aircraft Has Flown",
-      "what_happened": "Northrop Grumman has placed its hopes in Talon Blue to capture a piece of the USAF's future Collaborative Combat Aircraft portfolio. The post Northrop Grumman’s Talon Blue Collaborative Combat Aircraft Has Flown appeared first on TWZ .",
+      "title": "US Army, Kaizen Laboratories to establish common software platform for classified material",
+      "what_happened": "The U.S. Army recently awarded $43 million to Kaizen Laboratories to create application software for highly sensitive military material.",
       "enabling_tech": [],
       "pioneers": [
         {
-          "name": "TWZ",
+          "name": "Defense News",
           "role": "reporting outlet"
         }
       ],
@@ -15,38 +15,12 @@
       "watchlist": []
     },
     {
-      "title": "Raytheon awarded $24.4 billion multi-year contract for SM-6 interceptors",
-      "what_happened": "Raytheon has secured a five-year contract, with two additional option years, valued up to $24.4 billion for Standard Missile-6 (SM-6) interceptors, significantly increasing the availability of a critical munition able to conduct both offensive strikes and missile defense missions. Raytheon press release Building on landmark agreements between Raytheon and the Department of War, this long-term order ensures ... The post Raytheon awarded $24.4 billion multi-year contract for SM-6 interceptors appeared first on Naval News .",
+      "title": "Lockheed Martin unveils PAC-3 Edge interceptor designed to counter hypersonic threats",
+      "what_happened": "Lockheed Martin said PAC-3 Edge incorporates a new seeker, upgraded flight controls and a multi-pulse rocket motor supplied by Northrop Grumman.",
       "enabling_tech": [],
       "pioneers": [
         {
-          "name": "Naval News",
-          "role": "reporting outlet"
-        }
-      ],
-      "spillover": "",
-      "watchlist": []
-    },
-    {
-      "title": "Desan Shipyard Launches First MPMS for Malaysian Coast Guard in Istanbul",
-      "what_happened": "The Malaysian Maritime Agency (Maritim Malaysia) has achieved another significant milestone through the launch of the Multi Purpose Mission Ship (MPMS 1) at the Desan Shipyard in Türkiye yesterday. Malaysian Maritime Agency press release The launch ceremony was attended by the Minister of Home Affairs, the Honorable Datuk Seri Saifuddin Nasution bin Ismail, along with ... The post Desan Shipyard Launches First MPMS for Malaysian Coast Guard in Istanbul appeared first on Naval News .",
-      "enabling_tech": [],
-      "pioneers": [
-        {
-          "name": "Naval News",
-          "role": "reporting outlet"
-        }
-      ],
-      "spillover": "",
-      "watchlist": []
-    },
-    {
-      "title": "Metal Shark Awarded Contract for 13 Patrol Boats for Vietnam",
-      "what_happened": "Louisiana-based boatbuilder Metal Shark has been awarded a U.S. Government contract to build 13 patrol boats for Vietnam, with options for additional vessels. Metal Shark press release The contract expands Metal Shark’s presence in Asia and builds on the company’s successful delivery of 24 purpose-built 45 Defiant military patrol boats to the Vietnam Coast Guard ... The post Metal Shark Awarded Contract for 13 Patrol Boats for Vietnam appeared first on Naval News .",
-      "enabling_tech": [],
-      "pioneers": [
-        {
-          "name": "Naval News",
+          "name": "Defense News",
           "role": "reporting outlet"
         }
       ],
@@ -55,7 +29,7 @@
     },
     {
       "title": "Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week",
-      "what_happened": "Who needs scary movies when you have life in 2026?! The post Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week appeared first on TWZ .",
+      "what_happened": "The throw rug really pulls the bunker together, don't you think? The post Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week appeared first on TWZ .",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -67,12 +41,12 @@
       "watchlist": []
     },
     {
-      "title": "All The Weapons A Single Navy Fighter Squadron Launched During Operation Epic Fury",
-      "what_happened": "Strike Fighter Squadron 41's F/A-18Fs let loose hundreds of air-to-surface and air-to-air weapons during the war with Iran. The post All The Weapons A Single Navy Fighter Squadron Launched During Operation Epic Fury appeared first on TWZ .",
+      "title": "Pentagon, Raytheon sign $6.3B deal to replenish US missile interceptor supply",
+      "what_happened": "The contract \"supports urgent replenishment of missile defense inventory that has been successfully used in combat,\" Raytheon said.",
       "enabling_tech": [],
       "pioneers": [
         {
-          "name": "TWZ",
+          "name": "Defense News",
           "role": "reporting outlet"
         }
       ],
@@ -80,8 +54,8 @@
       "watchlist": []
     },
     {
-      "title": "Army to establish new autonomy command, acquisition executive",
-      "what_happened": "The service’s new command will be called Army Futures and Autonomous Systems Command, or FASCOM, according to a memo signed by Acting Army Secretary Adam Telle.",
+      "title": "Coast Guard places $248 million order for first MQ-9B drones",
+      "what_happened": "The unarmed drones are meant to “give the Coast Guard crews a longer-range view of our maritime domain,” a senior official said.",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -93,12 +67,38 @@
       "watchlist": []
     },
     {
-      "title": "Former SR-71 Engineer Talks NASA’s Blackbird Revival Program",
-      "what_happened": "Insights into the current status of NASA's SR-71 #844, what it will take to fly it again, and what the agency may be looking to do with it. The post Former SR-71 Engineer Talks NASA’s Blackbird Revival Program appeared first on TWZ .",
+      "title": "One year in, Army’s FUZE leader eyes ‘bigger’ acquisition challenges",
+      "what_happened": "The Army innovation hub’s first year also revealed the challenge of making sure promising technologies don’t stop at the prototype stage, FUZE Director Matt Willis told Breaking Defense.",
       "enabling_tech": [],
       "pioneers": [
         {
-          "name": "TWZ",
+          "name": "Breaking Defense",
+          "role": "reporting outlet"
+        }
+      ],
+      "spillover": "",
+      "watchlist": []
+    },
+    {
+      "title": "Lockheed unveils PAC-3 Edge, its next-gen Patriot interceptor",
+      "what_happened": "The aerospace giant intends to invest hundreds of millions of dollars of its own cash in the missile alone, alongside additional investments in its seeker and solid rocket motor, said Tim Cahill, president of Lockheed’s missiles and fire control division.",
+      "enabling_tech": [],
+      "pioneers": [
+        {
+          "name": "Breaking Defense",
+          "role": "reporting outlet"
+        }
+      ],
+      "spillover": "",
+      "watchlist": []
+    },
+    {
+      "title": "Drones and autonomous warfare: ‘One-way attack’ and reshaping ISR",
+      "what_happened": "[Sponsored] Systems that can work independently while still being part of a unit are critical to carrying out multi-domain operations.",
+      "enabling_tech": [],
+      "pioneers": [
+        {
+          "name": "Breaking Defense",
           "role": "reporting outlet"
         }
       ],
