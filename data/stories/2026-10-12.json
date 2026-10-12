@@ -1,0 +1,145 @@
+[
+  {
+    "topic": "military",
+    "title": "US Army, Kaizen Laboratories to establish common software platform for classified material",
+    "link": "https://www.defensenews.com/industry/techwatch/2026/10/10/us-army-kaizen-laboratories-to-establish-common-software-platform-for-classified-material/",
+    "source": "Defense News",
+    "published": "2026-10-11T07:47:27+09:00",
+    "summary": "The U.S. Army recently awarded a $43 million contract to Kaizen Laboratories. This contract is for developing application software designed to manage highly sensitive military material. The goal is to establish a common software platform for classified information.",
+    "detail": "The U.S. Army has awarded a $43 million contract to Kaizen Laboratories to develop a common software platform specifically designed for managing highly sensitive and classified military material. This initiative aims to create standardized application software for handling information across various classification levels, from Secret to Top Secret and Sensitive Compartmented Information (SCI).\n\nThis development is significant for several reasons. Firstly, it addresses long-standing challenges related to interoperability and efficiency within the Army's information systems. Currently, different units and programs often utilize disparate, custom-built software solutions for classified data, leading to data silos, compatibility issues, and redundant efforts. A unified platform will streamline operations, facilitate secure data sharing among authorized personnel, and reduce the complexity of managing diverse systems. Secondly, it enhances security by implementing consistent protocols, access controls, and patching mechanisms across the board, thereby reducing vulnerabilities inherent in fragmented IT environments. This standardization is crucial in an era of escalating cyber threats targeting national security infrastructure.\n\nIn context, the Department of Defense (DoD) has been actively pursuing IT modernization efforts to replace aging legacy systems with more agile, integrated, and secure solutions. Handling classified information requires specialized software operating on secure networks (like SIPRNet and JWICS), adhering to stringent security mandates. This contract reflects a strategic move to centralize and fortify the Army's approach to classified data management, ensuring that critical intelligence and operational information is handled securely and efficiently, supporting effective decision-making and operational readiness.",
+    "score": 6.0,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "Will the HomeView be Apple’s first smart home success?",
+    "link": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
+    "source": "TechCrunch",
+    "published": "2026-10-12T06:14:40+09:00",
+    "summary": "Over the past couple of years, we’ve seen multiple reports that Apple was working on a new smart home product, but now it seems the product has a name and a launch date.",
+    "detail": "",
+    "score": 8.9,
+    "wow": true
+  },
+  {
+    "topic": "business",
+    "title": "What to expect from Apple’s ‘Welcome Home’ event",
+    "link": "https://www.theverge.com/tech/1009317/apple-what-to-expect-welcome-home",
+    "source": "The Verge",
+    "published": "2026-10-11T22:00:00+09:00",
+    "summary": "We are quickly coming up on Apple's \"Welcome Home\" launch event, where we expect a host of smart home-related announcements. We are expecting refreshes to Apple TV and HomePod Mini, as well as a brand new smart home hub. We could also see the debut of a new platform called homeOS, and some partner devices […]",
+    "detail": "",
+    "score": 8.9,
+    "wow": true
+  },
+  {
+    "topic": "business",
+    "title": "Water-pumping robot worms its way over rugged coastal terrain",
+    "link": "https://newatlas.com/robotics/worma-weight-shifting-worm-robot/",
+    "source": "New Atlas: Technology-Innovation-Outdoor News",
+    "published": "2026-10-12T09:35:00+09:00",
+    "summary": "Biomimicry involves borrowing ideas from nature to solve engineering problems. This is what one of the research teams at New York University's Tandon School of Engineering specializes in. We recently covered their fish-inspired robot, so exploring water bodies seems to be taken care of. Continue Reading Category: …",
+    "detail": "",
+    "score": 6.3,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "Slim magnetic controllers turn your phone into a gaming handheld",
+    "link": "https://newatlas.com/consumer-tech/abxylute-magnetic-controllers-m5-m6-phone-gaming-handheld/",
+    "source": "New Atlas: Technology-Innovation-Outdoor News",
+    "published": "2026-10-12T05:00:00+09:00",
+    "summary": "Gaming hardware brand Abxylute has come up with two products to enhance your mobile gaming sessions wherever you find time to play. Its new M5 and M6 controllers are designed to offer proper-sized buttons and joysticks, while attaching securely to your phone and fitting in your pocket. Continue Reading Category: …",
+    "detail": "",
+    "score": 6.3,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "Review: 4-hour Musk documentary feels like two different films",
+    "link": "https://arstechnica.com/culture/2026/10/review-4-hour-musk-documentary-feels-like-two-different-films/",
+    "source": "Ars Technica - All content",
+    "published": "2026-10-12T03:10:54+09:00",
+    "summary": "Alex Gibney's provocative film is compelling but overlong, and there's not much new here for Ars readers.",
+    "detail": "",
+    "score": 6.3,
+    "wow": false
+  },
+  {
+    "topic": "diamonds",
+    "title": "Indian family offices increase startup bets as new-gen investors take charge: Report - IANS LIVE",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOanB4ZWV5SDNHcmxNa010ZVNKcmVtaHljUk9BdE5uN3g2TGJBelA2czBXMmpLVW1pV3VOV0dybEJzckJVNEMxV2xENWJXR2wtWjRGZUFudVI2YlI3WFFUZmlTakRwVzdyX2NDYzBuNFNFLTB4cWhuMFpsS1NjNW1iLVpjQ2JsTl82YWsxbGRvZzczU2t5NjQ0WFllT2NuX3ZXeU8xNTVxVUlfQWk2WjgtQ2xpVUtndU5QclZr?oc=5",
+    "source": "\"(startup OR startups) (raises OR \"Series A\" OR \"Series B\" OR \"seed round\" OR funding) when:2d\" - Google News",
+    "published": "2026-10-11T18:45:00+09:00",
+    "summary": "Indian family offices increase startup bets as new-gen investors take charge: Report IANS LIVE",
+    "detail": "",
+    "score": 6.3,
+    "wow": false
+  },
+  {
+    "topic": "crypto",
+    "title": "How Zcash Plans to Hide Your Keys From AI and Quantum Attacks",
+    "link": "https://decrypt.co/380637/zcash-plans-hide-keys-ai-quantum-attacks",
+    "source": "Decrypt",
+    "published": "2026-10-11T22:00:03+09:00",
+    "summary": "Zcash is advancing its privacy features to counter AI and quantum computing threats. A Zcash full node developer, Zakura, anticipates the integration of hash-based signatures into Zcash by January and is launching a new privacy tool this week for rotating transparent addresses.",
+    "detail": "",
+    "score": 8.0,
+    "wow": false
+  },
+  {
+    "topic": "crypto",
+    "title": "Ledger attack spreads to EU, AI finds ’18 trillion XRP’ bug: Hodler’s Digest",
+    "link": "https://cointelegraph.com/magazine/ledger-attack-spreads-to-eu-ai-finds-18-trillion-xrp-bug-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source": "Cointelegraph.com News",
+    "published": "2026-10-12T07:57:53+09:00",
+    "summary": "A user in Europe reported receiving a tampered Ledger hardware wallet from a major retailer, indicating a potential spread of a supply chain attack. Separately, security researchers utilized AI to discover a significant bug in XRP, valued at $94 billion, for which they received a $250,000 bounty.",
+    "detail": "",
+    "score": 7.0,
+    "wow": false
+  },
+  {
+    "topic": "crypto",
+    "title": "Tokenized Stocks Show Real Demand But Remain Volatile and Illiquid, IMF Finds",
+    "link": "https://decrypt.co/380653/tokenized-stocks-show-real-demand-but-remain-volatile-and-illiquid-imf-finds",
+    "source": "Decrypt",
+    "published": "2026-10-12T02:11:03+09:00",
+    "summary": "An analysis by the International Monetary Fund (IMF) indicates genuine demand for tokenized stocks, with over half of their trading occurring outside standard U.S. market hours. Despite this, the market, valued at approximately $2.3 billion, is characterized by higher volatility and lower liquidity compared to traditional equities.",
+    "detail": "",
+    "score": 6.0,
+    "wow": false
+  },
+  {
+    "topic": "crypto",
+    "title": "CFTC proposals aimed at separating prediction markets from casino gambling",
+    "link": "https://cointelegraph.com/news/cftc-proposals-aimed-at-separating-prediction-markets-from-casino-gambling?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source": "Cointelegraph.com News",
+    "published": "2026-10-11T16:50:00+09:00",
+    "summary": "The Commodity Futures Trading Commission (CFTC) has introduced proposals designed to differentiate prediction markets from traditional casino gambling. These measures are intended to clarify regulatory boundaries and potentially pave the way for a U.S. Supreme Court review concerning federal and state jurisdiction over these markets.",
+    "detail": "",
+    "score": 6.0,
+    "wow": false
+  },
+  {
+    "topic": "economics",
+    "title": "EU ‘safeguards’ hybrid car sector from Chinese imports under new deal",
+    "link": "https://www.ft.com/content/7e48dd50-957c-4f45-ad24-ce628ca7e06a?syn-25a6b1a6=1",
+    "source": "Global Economy",
+    "published": "2026-10-12T05:00:01+09:00",
+    "summary": "Auto sector welcomes ‘understanding’ reached with Beijing but other industries warn China’s huge trade surplus will persist without further action",
+    "detail": "",
+    "score": 6.3,
+    "wow": false
+  },
+  {
+    "topic": "economics",
+    "title": "India joins global rate-tightening wave with first hike in nearly 4 years - Business Recorder",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBIV3V4anVPWjRyV0tMenNBU0JkUGNqNnFxU3lLQ0w3YnMxaTB6SzBqcmhCQVhrM1dHaFBpR0o4TktkOEs4eVFBV1BmYTlfVnk1cHNrbFV30gFWQVVfeXFMUEhXdXhqdU9aNHJXS0x6c0FTQmRQY2o2cXFTeUtDTDdiczFpMHpLMGpyaEJBWGszV0doUGlHSjhOS2Q4Szh5UUFXUGZhOV9WeTVwc2tsVXc?oc=5",
+    "source": "\"global economy OR inflation OR interest rate OR GDP when:2d\" - Google News",
+    "published": "2026-10-11T06:21:49+09:00",
+    "summary": "India joins global rate-tightening wave with first hike in nearly 4 years Business Recorder",
+    "detail": "",
+    "score": 6.3,
+    "wow": false
+  }
+]
