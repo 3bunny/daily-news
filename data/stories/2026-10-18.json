@@ -1,0 +1,211 @@
+[
+  {
+    "topic": "military",
+    "title": "F-22 Pilot Controls FQ-44 Fighter Drone From The Cockpit For The First Time",
+    "link": "https://www.twz.com/air/f-22-pilot-controls-fq-44-fighter-drone-from-the-cockpit-for-the-first-time",
+    "source": "TWZ",
+    "published": "2026-10-17T06:25:22+09:00",
+    "summary": "An F-22 pilot has successfully controlled an FQ-44 fighter drone directly from the cockpit for the first time. This achievement marks a crucial milestone, establishing the F-22 as the U.S. Air Force's initial 'quarterback' for Collaborative Combat Aircraft (CCA) drones. This capability is vital for future air combat operations and manned-unmanned teaming.",
+    "detail": "The U.S. Air Force achieved a significant milestone as an F-22 Raptor pilot successfully controlled an FQ-44 fighter drone directly from the cockpit. This event marks a critical step in the development of Collaborative Combat Aircraft (CCA), uncrewed aerial vehicles designed to operate alongside crewed fighter jets.\n\nThis development is crucial because it validates the concept of human pilots acting as 'quarterbacks' for multiple autonomous drones. CCAs are envisioned as force multipliers, capable of extending the reach, sensor capabilities, and weapon platforms of crewed aircraft without risking additional human lives in contested airspace. By allowing a single pilot to command several drones, the Air Force can deploy more complex tactics, overwhelm adversaries, and conduct dangerous missions more safely and efficiently. This capability could fundamentally transform air combat by integrating advanced AI and autonomy with human decision-making.\n\nThe F-22, a stealth fighter, is slated to be among the first aircraft to integrate with CCAs, leveraging its advanced sensors and data links to command these 'loyal wingmen.' The FQ-44 likely serves as a testbed for these future drones, demonstrating the practical feasibility of the CCA program, which is a cornerstone of the Air Force's strategy to maintain air superiority against peer competitors.",
+    "score": 9.0,
+    "wow": true
+  },
+  {
+    "topic": "military",
+    "title": "Mothership, MCM, Trials Platform: Indian Navy Inducts First Multi-Purpose Vessel",
+    "link": "https://www.navalnews.com/naval-news/2026/10/indian-navy-first-multi-purpose-vessel-ins-samarthak/",
+    "source": "Naval News",
+    "published": "2026-10-17T17:27:02+09:00",
+    "summary": "The Indian Navy has commissioned its first Multi-Purpose Vessel (MPV), INS Samarthak, built by Larsen and Toubro. This versatile vessel is designed to conduct weapon trials, perform mine countermeasures (MCM), and serve as a mothership for uncrewed assets. It is the first of two such MPVs slated for induction.",
+    "detail": "The Indian Navy commissioned its first Multi-Purpose Vessel (MPV), INS Samarthak, built by Larsen and Toubro. This vessel, the first of two planned, is designed for a diverse range of missions, including weapon trials, mine countermeasures (MCM), and acting as a 'mothership' for uncrewed assets.\n\nThis induction is significant due to the vessel's inherent versatility. Modern navies increasingly seek multi-role platforms to optimize resources and adapt to evolving threats, reducing the need for numerous specialized ships. The INS Samarthak's ability to support uncrewed systems – such as drones, uncrewed surface vessels (USVs), and uncrewed underwater vehicles (UUVs) – is particularly important. Uncrewed technology is becoming central to naval operations for reconnaissance, mine hunting, and even combat, offering enhanced safety and efficiency by keeping human personnel out of harm's way. This vessel significantly boosts the Indian Navy's operational flexibility, technological testing capabilities, and readiness for future naval warfare.\n\nGlobally, navies are moving towards modular and multi-purpose designs. The 'mothership' concept for uncrewed assets allows larger vessels to deploy, recover, and command smaller, autonomous platforms, thereby extending operational reach and reducing risk to crewed ships. Mine countermeasures, a critical but dangerous task, can be performed more safely and effectively using uncrewed systems deployed from such a vessel. The indigenous construction of INS Samarthak also underscores India's growing self-reliance in defense manufacturing.",
+    "score": 7.0,
+    "wow": false
+  },
+  {
+    "topic": "military",
+    "title": "What is Starshield, SpaceX’s military version of Starlink?",
+    "link": "https://www.defensenews.com/industry/techwatch/2026/10/16/what-is-starshield-spacexs-military-version-of-starlink/",
+    "source": "Defense News",
+    "published": "2026-10-17T05:08:08+09:00",
+    "summary": "This article discusses Starshield, SpaceX's military-grade version of its Starlink satellite internet service. Ukraine recently reported that SpaceX had restricted 'military-grade' Starlink services, which reportedly hampered Ukrainian drone strike missions and air defenses, highlighting the operational implications of commercial space technology in conflict.",
+    "detail": "Starshield is SpaceX's dedicated military and government version of its commercial Starlink satellite internet service. The need for such a system was highlighted by reports from Ukraine, where SpaceX reportedly restricted 'military-grade' Starlink services, impacting Ukrainian drone operations and air defenses.\n\nStarshield's existence is crucial because while commercial Starlink has proven invaluable for communication in conflict zones, its commercial nature means it may lack the specific features, security, and dedicated control required for sensitive national security applications. Starshield aims to provide secure, dedicated, and resilient satellite communication, earth observation, and payload hosting services tailored for military and intelligence users. This ensures reliable, high-bandwidth, low-latency connectivity for critical military operations, intelligence gathering, and command and control, free from the limitations or potential restrictions of a commercial service.\n\nThe incident in Ukraine underscores the strategic importance of a dedicated military satellite communication system. Starlink, while vital, is subject to SpaceX's terms and operational decisions, which can create vulnerabilities for military users. Starshield addresses these concerns by offering features like government-grade encryption, priority access, custom payload integration, and clearer operational agreements, providing a more robust and reliable capability for national defense that is not subject to the same commercial constraints.",
+    "score": 6.0,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "Fairphone's repairable earbuds get a glow-up in every way",
+    "link": "https://newatlas.com/wearables/fairphone-repairable-earbuds-fairbuds2/",
+    "source": "New Atlas: Technology-Innovation-Outdoor News",
+    "published": "2026-10-18T06:03:00+09:00",
+    "summary": "I'll sheepishly admit that I've sometimes looked forward to my gadgets conking out so I can replace them with shiny new upgrades. Don't be like me, folks. That simply adds to the world's growing piles of e-waste, and you usually end up discarding a device that only needs a small component repaired or replaced. …",
+    "detail": "",
+    "score": 7.6,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "Websites are closing their doors to AI agents",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+    "source": "The Verge",
+    "published": "2026-10-17T22:00:00+09:00",
+    "summary": "Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behalf, doing anything from booking a dinner reservation and cleaning out your inbox to buying new shoes. But what happens when the rest of the internet won't play nice? In …",
+    "detail": "",
+    "score": 7.6,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "Bose’s new wired earbuds are simple in the best way",
+    "link": "https://www.theverge.com/tech/1013320/bose-noise-cancelling-wired-earbuds-review",
+    "source": "The Verge",
+    "published": "2026-10-17T22:00:00+09:00",
+    "summary": "After Apple courageously removed the headphone jack from the iPhone in 2016, most people switched to Bluetooth earbuds and never looked back. But their wired counterparts have stuck around, and their sales even went up this year after five years of decline. Part of the resurgence can be tied to the fact that they're …",
+    "detail": "",
+    "score": 7.6,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "Bioinspired robot airdrops into remote waters via morphing wing-sail",
+    "link": "https://newatlas.com/robotics/albatross-robot-sail-seed-boat/",
+    "source": "New Atlas: Technology-Innovation-Outdoor News",
+    "published": "2026-10-18T04:03:00+09:00",
+    "summary": "“Fall like a maple seed, sail like a boat” sounds like advice from legendary heavyweight boxer Muhammad Ali. In reality, it describes a new robotic platform scientists have created for fast, long-term deployment to monitor remote waters. Continue Reading Category: Robotics , Engineering Tags: Transformable , …",
+    "detail": "",
+    "score": 6.3,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "Mercedes-AMG’s first ground-up SUV is a 1,150hp electric beast",
+    "link": "https://www.theverge.com/transportation/1013088/mercedes-amg-gt-suv-price-specs-performance",
+    "source": "The Verge",
+    "published": "2026-10-18T02:00:00+09:00",
+    "summary": "Earlier this year, Mercedes' AMG performance brand grabbed our attention with the GT four-door coupe, a souped-up sports sedan with three axial flux motors delivering over 1,150 horsepower. Well, now meet its beefier cousin, the 2028 Mercedes-AMG GT SUV, an equally powerful, ultra-fast-charging electric people- …",
+    "detail": "",
+    "score": 6.3,
+    "wow": false
+  },
+  {
+    "topic": "diamonds",
+    "title": "Solar surpasses nuclear power globally for first time",
+    "link": "https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/",
+    "source": "Hacker News: Front Page",
+    "published": "2026-10-17T23:01:01+09:00",
+    "summary": "Article URL: https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/ Comments URL: https://news.ycombinator.com/item?id=50131256 Points: 441 # Comments: 284",
+    "detail": "",
+    "score": 6.3,
+    "wow": false
+  },
+  {
+    "topic": "diamonds",
+    "title": "Healthcare startup Vitonnix raises first institutional investment from Inflection Point Ventures, others - Indian Startup News",
+    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNcl91THA1b25pcjE4cjdVQTFaUlRxa0pOc0xaUHVEZkhIaXVLM2s4eWIxbEhzMXlKZFVqOEd2SkFsWkc5ZURNNS1kQ2FqTExwUGdKUlNCa0syUDJNRlJaR2Rza09nRWp1aW9uZ3JZUVR0Uk9CaUM0NnFiUG1NY3ZTc3E2VkhTNkhnTFBEUDAyU0dBS3FSZzlkc0FxNHpoS194SGI2a1NqZ2YxNk9Lczl6U3FYbkhKMEtielVyRkpfdUpWV3oxSUtmUDFCUUdrMlBQOEU4dkZkZkVrcU5qYk9zYVhWbWXSAeQBQVVfeXFMTXJfdUxwNW9uaXIxOHI3VUExWlJUcWtKTnNMWlB1RGZISGl1SzNrOHliMWxIczF5SmRVajhHdkpBbFpHOWVETTUtZENhakxMcFBnSlJTQmtLMlAyTUZSWkdkc2tPZ0VqdWlvbmdyWVFUdFJPQmlDNDZxYlBtTWN2U3NxNlZIUzZIZ0xQRFAwMlNHQUtxUmc5ZHNBcTR6aEtfeEhiNmtTamdmMTZPS3M5elNxWG5ISjBLYnpVckZKX3VKVld6MUlLZlAxQlFHazJQUDhFOHZGZGZFa3FOamJPc2FYVm1l?oc=5",
+    "source": "\"(startup OR startups) (raises OR \"Series A\" OR \"Series B\" OR \"seed round\" OR funding) when:2d\" - Google News",
+    "published": "2026-10-17T19:34:25+09:00",
+    "summary": "Healthcare startup Vitonnix raises first institutional investment from Inflection Point Ventures, others Indian Startup News",
+    "detail": "",
+    "score": 6.3,
+    "wow": false
+  },
+  {
+    "topic": "diamonds",
+    "title": "Bengaluru based C-CAMP gets Rs 500 crore to back deeptech startups - The New Indian Express",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdlpQejIxSHhWeWNzT3FtX0xHdmtzR0ZWeTRjMEc1eGowYnVqYzRoZEFzMzA0Ql95OU8zTHhyMEpEeXB6d004aG15MW03WFM0bThGZW91MzE2SENoZGRyaUl6NGhjbTl5eU95ckdBbkhNT0NHZ1UtSU1jUGFTdUhhNFhldmpTR0JnUkVzTElSeUVJN1FpeWhyWXlSUVAwTGNUOG1ZZllPZXJkQXZERWlXWkprUjVrMTRNY2xYQVhkUWJLZUpCdUFn0gHUAUFVX3lxTE9VZkJXcnZtZ1F4TUM2cXlfZjlhZGJsRThBUXZiY0VqRFRkVWRDTENxWU11Wm9MNnl1OVBMT04waFRpRzN1OWkxc3dsS1d6WEZrbHdianZDbzVTX3h6NkJYRUxnZlhtTVNmdG9zSnljNXVSUUlYR05RQTV1WkU4YTk0UDJCQld5WUhlTE1LUy1DMUhOaW1ORC1hQ0VtZW5zYkQ1bGpJZmtVNlVmY08tODZzVWdrNjZDNmF2Wk95UlU2SW45S012NUpqdGhyOU5TME1YV3Rl?oc=5",
+    "source": "\"(startup OR startups) (raises OR \"Series A\" OR \"Series B\" OR \"seed round\" OR funding) when:2d\" - Google News",
+    "published": "2026-10-17T10:55:21+09:00",
+    "summary": "Bengaluru based C-CAMP gets Rs 500 crore to back deeptech startups The New Indian Express",
+    "detail": "",
+    "score": 6.3,
+    "wow": false
+  },
+  {
+    "topic": "crypto",
+    "title": "Chinese Startup StepFun Launches a Phone Built Around an AI Agent, Not Apps",
+    "link": "https://decrypt.co/381202/chinese-startup-stepfun-phone-ai-agent",
+    "source": "Decrypt",
+    "published": "2026-10-18T00:01:03+09:00",
+    "summary": "Chinese startup StepFun has launched pre-orders for its new smartphone, the STEPX Neo, in China. Priced at 3,999 yuan, the device is designed with an AI agent integrated directly into its operating system, fundamentally shifting its user experience away from a traditional app-centric model.",
+    "detail": "",
+    "score": 9.0,
+    "wow": true
+  },
+  {
+    "topic": "crypto",
+    "title": "‘Wow, it’s a real discovery’: Claude cracks a 25-year NSA number mystery",
+    "link": "https://www.coindesk.com/tech/2026/10/17/wow-it-s-a-real-discovery-claude-cracks-a-25-year-nsa-number-mystery",
+    "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+    "published": "2026-10-17T15:39:48+09:00",
+    "summary": "The AI model Claude has reportedly solved a 25-year-old mystery involving a number sequence from the NSA. This achievement is being hailed as a 'real discovery,' showcasing advanced problem-solving capabilities of the AI.",
+    "detail": "",
+    "score": 9.0,
+    "wow": true
+  },
+  {
+    "topic": "crypto",
+    "title": "Tesla Roadster Rocket Is the Cool 'Flying' Car You Can’t Have",
+    "link": "https://decrypt.co/381184/tesla-roadster-rocket-cool-flying-car-you-cant-have",
+    "source": "Decrypt",
+    "published": "2026-10-17T05:16:04+09:00",
+    "summary": "Tesla has unveiled a new 'Rocket' version of its Roadster, which features SpaceX thrusters allowing it to perform maneuvers like flipping through the air and jumping over other vehicles. This exclusive, invite-only version is not approved for public roads and is not expected until 2028.",
+    "detail": "",
+    "score": 9.0,
+    "wow": true
+  },
+  {
+    "topic": "crypto",
+    "title": "Crypto Firms Launch Quantum Alliance as 6 Million Bitcoin Sit Exposed",
+    "link": "https://decrypt.co/381236/crypto-firms-launch-quantum-alliance-as-6-million-bitcoin-sit-exposed",
+    "source": "Decrypt",
+    "published": "2026-10-18T01:01:03+09:00",
+    "summary": "A consortium of nine crypto firms has launched the Quantum Alliance, aiming to establish open standards for testing quantum-resistance claims. This initiative is a response to forecasts predicting the first practical quantum attacks by the late 2020s, which could potentially expose millions of Bitcoin. The group is modeled after the Internet Engineering Task Force.",
+    "detail": "",
+    "score": 8.0,
+    "wow": false
+  },
+  {
+    "topic": "crypto",
+    "title": "Polygon sees Coinme acquisition as entry to payments sector dominated by Visa, Stripe",
+    "link": "https://www.coindesk.com/business/2026/10/17/polygon-sees-coinme-acquisition-as-entry-to-payments-sector-dominated-by-visa-stripe",
+    "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+    "published": "2026-10-17T23:00:00+09:00",
+    "summary": "Polygon views its acquisition of Coinme as a strategic move to enter the competitive payments sector, currently dominated by major players like Visa and Stripe. This acquisition aims to leverage Coinme's infrastructure to expand Polygon's reach and capabilities in the payment processing landscape.",
+    "detail": "",
+    "score": 7.0,
+    "wow": false
+  },
+  {
+    "topic": "economics",
+    "title": "U.S. budget deficit swells to almost $2 trillion for fiscal 2026, up 12% in a single year",
+    "link": "https://www.cnbc.com/2026/10/16/us-budget-deficit-2026.html",
+    "source": "Economy",
+    "published": "2026-10-17T07:34:29+09:00",
+    "summary": "The U.S. budget deficit is projected to reach nearly $2 trillion for fiscal year 2026. This represents a significant 12% increase within a single year, as reported by the Treasury Department.",
+    "detail": "",
+    "score": 7.0,
+    "wow": false
+  },
+  {
+    "topic": "economics",
+    "title": "India Economic Growth Surge: Korean Economist Predicts Longest Era of Over 7 Percent GDP Expansion - Zoom News",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUEs5NlhXbjBJc3puUW0zNGxpZk0yTjNveVVXUy1TZFF2UmJsc3ZySlNabURYUFdXcTB5c3JCQTNLWDJVR25nUnZUU243cjB0WXJ3NkFMMlRjb2M2WW5BQklXNE1GaDZRbnlvd0RGc1FtTVNKVWJ6bnhtNjJKV1JvbVlNcDlYZzZvY3BzS1BqU2xTNUk3a0ZwdFp6TjhNZUg0Q2VucTcxV3ZaS3lPbnZQbkVvZWJlTkJ5dFdCdlpwVVhXeldZa3dYa2Vtbm1Sb2xlRmhXQTVCWEXSAd4BQVVfeXFMTU95OWZjemhpa2RlQV9pbDNwVWxWajlUWl9IREloMHoxc1NHbmdhYk55VlBSS1hPXzVsUnc2c280dGFfRnJkeGZPZE1CalNPTmNHUXl2SEZvTzU4QWl0UnFNalREazR4TG9aeXJYWExNTmtVSmR5SFFxZmNYQmdEQlp0VXF0Zjh1TnZIbzVWWUVJQWU5eFdfTXptWFlxTHFnTHNhYVRyWUowWkoxT1FtSTQtOVkyWFBRNlhPVk8zSGtNRHg2eDdYbUZqeERocnJXWTR3clJibnVvOEFGcmR3?oc=5",
+    "source": "\"global economy OR inflation OR interest rate OR GDP when:2d\" - Google News",
+    "published": "2026-10-17T21:08:37+09:00",
+    "summary": "A Korean economist predicts that India is poised for its longest period of economic growth exceeding 7 percent GDP expansion. This forecast highlights a significant surge in India's economic trajectory.",
+    "detail": "",
+    "score": 6.0,
+    "wow": false
+  },
+  {
+    "topic": "economics",
+    "title": "IMF says AI slowdown could knock 0.4pc off global GDP by 2028 - Newswav",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPS3pDYUduYlRhWGFNWnBzbTRTMFdTV0s0RmFwXzVEbzRGSXZ6TFI3d2xPb2xDd29nWjNZT3pmNm9lSFRWOHRUaW1DUlJ0bnpuQWpTaHFTbW5CVVRPbWg5N3hwZXFHVUcxTnJya1FKOGJtWVA4dW1tMlpqcnkxa1R6Q0hwOFVNUEN5U3BWd3Q4dHBQZVRrdFJlY1pTekhkLVlIc3psVA?oc=5",
+    "source": "\"global economy OR inflation OR interest rate OR GDP when:2d\" - Google News",
+    "published": "2026-10-17T21:03:33+09:00",
+    "summary": "The International Monetary Fund (IMF) has warned that a potential slowdown in AI development could reduce global GDP by 0.4 percent by 2028. This projection underscores the significant economic impact of AI growth.",
+    "detail": "",
+    "score": 6.0,
+    "wow": false
+  }
+]
