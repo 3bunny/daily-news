@@ -2,34 +2,8 @@
   "intro": "A plain roundup of the week's notable military and business technology (full analysis was unavailable this run).",
   "deep_dives": [
     {
-      "title": "US Army, Kaizen Laboratories to establish common software platform for classified material",
-      "what_happened": "The U.S. Army recently awarded $43 million to Kaizen Laboratories to create application software for highly sensitive military material.",
-      "enabling_tech": [],
-      "pioneers": [
-        {
-          "name": "Defense News",
-          "role": "reporting outlet"
-        }
-      ],
-      "spillover": "",
-      "watchlist": []
-    },
-    {
-      "title": "Lockheed Martin unveils PAC-3 Edge interceptor designed to counter hypersonic threats",
-      "what_happened": "Lockheed Martin said PAC-3 Edge incorporates a new seeker, upgraded flight controls and a multi-pulse rocket motor supplied by Northrop Grumman.",
-      "enabling_tech": [],
-      "pioneers": [
-        {
-          "name": "Defense News",
-          "role": "reporting outlet"
-        }
-      ],
-      "spillover": "",
-      "watchlist": []
-    },
-    {
-      "title": "Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week",
-      "what_happened": "The throw rug really pulls the bunker together, don't you think? The post Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week appeared first on TWZ .",
+      "title": "Where Are The Aircraft Carriers?: October 17, 2026",
+      "what_happened": "USS Theodore Roosevelt arrives in Japan ahead of exercise Keen Sword, while the U.S. once again positions two aircraft carriers in the Middle East. The post Where Are The Aircraft Carriers?: October 17, 2026 appeared first on TWZ .",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -41,8 +15,21 @@
       "watchlist": []
     },
     {
-      "title": "Pentagon, Raytheon sign $6.3B deal to replenish US missile interceptor supply",
-      "what_happened": "The contract \"supports urgent replenishment of missile defense inventory that has been successfully used in combat,\" Raytheon said.",
+      "title": "Mothership, MCM, Trials Platform: Indian Navy Inducts First Multi-Purpose Vessel",
+      "what_happened": "The Indian Navy commissioned its first Multi-Purpose Vessel INS Samarthak at Naval Base, Karwar on October 16, 2026. Built by Larsen and Toubro, the MPV can conduct weapon trials, MCM and act as a mothership for uncrewed assets. INS Samarthak (A 10) is the first of two Multi-Purpose Vessels (MPV) being inducted into the Indian ... The post Mothership, MCM, Trials Platform: Indian Navy Inducts First Multi-Purpose Vessel appeared first on Naval News .",
+      "enabling_tech": [],
+      "pioneers": [
+        {
+          "name": "Naval News",
+          "role": "reporting outlet"
+        }
+      ],
+      "spillover": "",
+      "watchlist": []
+    },
+    {
+      "title": "US Special Operations adopts new half-mask and goggles",
+      "what_happened": "Avon Protection's MITR half-mask and goggle system is designed to protect wearers from dangerous chemicals and toxic substances in the atmosphere.",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -54,12 +41,12 @@
       "watchlist": []
     },
     {
-      "title": "Coast Guard places $248 million order for first MQ-9B drones",
-      "what_happened": "The unarmed drones are meant to “give the Coast Guard crews a longer-range view of our maritime domain,” a senior official said.",
+      "title": "F-22 Pilot Controls FQ-44 Fighter Drone From The Cockpit For The First Time",
+      "what_happened": "This is a key milestone as F-22s will be the Air Force's first aerial 'quarterbacks' for Collaborative Combat Aircraft drones. The post F-22 Pilot Controls FQ-44 Fighter Drone From The Cockpit For The First Time appeared first on TWZ .",
       "enabling_tech": [],
       "pioneers": [
         {
-          "name": "Breaking Defense",
+          "name": "TWZ",
           "role": "reporting outlet"
         }
       ],
@@ -67,12 +54,12 @@
       "watchlist": []
     },
     {
-      "title": "One year in, Army’s FUZE leader eyes ‘bigger’ acquisition challenges",
-      "what_happened": "The Army innovation hub’s first year also revealed the challenge of making sure promising technologies don’t stop at the prototype stage, FUZE Director Matt Willis told Breaking Defense.",
+      "title": "Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week",
+      "what_happened": "Where is that drip sound coming from? The post Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week appeared first on TWZ .",
       "enabling_tech": [],
       "pioneers": [
         {
-          "name": "Breaking Defense",
+          "name": "TWZ",
           "role": "reporting outlet"
         }
       ],
@@ -80,12 +67,12 @@
       "watchlist": []
     },
     {
-      "title": "Lockheed unveils PAC-3 Edge, its next-gen Patriot interceptor",
-      "what_happened": "The aerospace giant intends to invest hundreds of millions of dollars of its own cash in the missile alone, alongside additional investments in its seeker and solid rocket motor, said Tim Cahill, president of Lockheed’s missiles and fire control division.",
+      "title": "What The Army’s Pacific Commanders Are Learning From Ukraine And Iran Conflicts",
+      "what_happened": "Battles far away are informing major changes to how the Army trains, equips and operates in the vast Pacific. The post What The Army’s Pacific Commanders Are Learning From Ukraine And Iran Conflicts appeared first on TWZ .",
       "enabling_tech": [],
       "pioneers": [
         {
-          "name": "Breaking Defense",
+          "name": "TWZ",
           "role": "reporting outlet"
         }
       ],
@@ -93,12 +80,25 @@
       "watchlist": []
     },
     {
-      "title": "Drones and autonomous warfare: ‘One-way attack’ and reshaping ISR",
-      "what_happened": "[Sponsored] Systems that can work independently while still being part of a unit are critical to carrying out multi-domain operations.",
+      "title": "What is Starshield, SpaceX’s military version of Starlink?",
+      "what_happened": "Ukraine said on Wednesday that SpaceX had restricted “military-grade” Starlink services, hampering Ukrainian drone strike missions and air defenses.",
       "enabling_tech": [],
       "pioneers": [
         {
-          "name": "Breaking Defense",
+          "name": "Defense News",
+          "role": "reporting outlet"
+        }
+      ],
+      "spillover": "",
+      "watchlist": []
+    },
+    {
+      "title": "Naval Group rolls out 5th Suffren-class attack submarine",
+      "what_happened": "Naval Group has rolled out Rubis (S639), the fifth Barracuda type nuclear attack submarine (SSN), transferring the vessel to its shiplift in Cherbourg ahead of sea trials for the French Navy. The post Naval Group rolls out 5th Suffren-class attack submarine appeared first on Naval News .",
+      "enabling_tech": [],
+      "pioneers": [
+        {
+          "name": "Naval News",
           "role": "reporting outlet"
         }
       ],
