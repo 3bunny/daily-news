@@ -1,0 +1,123 @@
+[
+  {
+    "topic": "business",
+    "title": "Single photo predicts your chances of surviving cancer treatment",
+    "link": "https://newatlas.com/medical/photo-predict-cancer-treatment-faceage-facesurvival/",
+    "source": "New Atlas: Technology-Innovation-Outdoor News",
+    "published": "2026-10-26T07:03:00+09:00",
+    "summary": "Researchers at Mass General Brigham Cancer Institute have developed an AI tool that can predict a patient's biological age and their chances of surviving challenging cancer treatment. This tool utilizes a single photograph of the patient's face for its analysis. This represents a novel application of AI in personalized medicine.",
+    "detail": "Researchers at Mass General Brigham Cancer Institute have developed an AI tool that can predict a cancer patient's biological age and their likelihood of surviving challenging treatments, all from a single facial photograph. This innovation matters because it offers a non-invasive, potentially more accurate method than chronological age or standard health markers for assessing a patient's physiological resilience. By providing a clearer picture of who can tolerate aggressive therapies, this tool could enable doctors to personalize treatment plans more effectively, potentially preventing unnecessary suffering from overly intensive treatments or encouraging more robust options for those with higher chances of success. The useful context is that biological age reflects the body's true wear and tear, often differing from chronological age, and AI is increasingly adept at identifying subtle visual cues linked to health outcomes.",
+    "score": 9.0,
+    "wow": true
+  },
+  {
+    "topic": "business",
+    "title": "Space-age manna: USAF & SpaceX drop survival kit from orbit",
+    "link": "https://newatlas.com/military/usaf-spacex-capsule-survival-kit-from-orbit/",
+    "source": "New Atlas: Technology-Innovation-Outdoor News",
+    "published": "2026-10-25T22:03:00+09:00",
+    "summary": "The US Air Force Research Laboratory (AFRL) and SpaceX have successfully tested a system to drop a survival kit from orbit using a Starfall reentry capsule. This experiment demonstrates a novel method for delivering emergency supplies to remote locations. This represents a significant advancement in orbital delivery and emergency response technology.",
+    "detail": "The US Air Force Research Laboratory (AFRL) and SpaceX successfully conducted a test where a survival kit, including a liferaft, was dropped from orbit using a SpaceX Starfall reentry capsule. This event is significant because it demonstrates a groundbreaking capability for rapid, global delivery of emergency supplies. Unlike traditional air-drops that are limited by aircraft range, weather, or contested airspace, orbital delivery offers a way to bypass these constraints, potentially delivering aid to remote or disaster-stricken areas with unprecedented speed. This technology could be transformative for humanitarian aid, disaster response, and military logistics, enabling swift assistance in critical situations where conventional methods are impractical or too slow. The context involves adapting space reentry technology, typically used for returning scientific payloads or astronauts, for rapid cargo deployment.",
+    "score": 9.0,
+    "wow": true
+  },
+  {
+    "topic": "business",
+    "title": "Hazmat suit coating neutralizes nerve agents",
+    "link": "https://newatlas.com/materials/fabric-coating-hazmat-suits-break-down-toxins/",
+    "source": "New Atlas: Technology-Innovation-Outdoor News",
+    "published": "2026-10-26T04:03:00+09:00",
+    "summary": "Researchers at Northwestern University are developing a novel substance designed to neutralize deadly nerve agents. This coating could be applied to hazmat suits, offering enhanced protection against chemical weapons. This represents a significant advancement in protective materials technology.",
+    "detail": "Researchers at Northwestern University are developing a specialized coating for hazmat suits designed to neutralize deadly nerve agents upon contact. This advancement is crucial because while current hazmat suits provide a physical barrier, they do not actively degrade chemical threats. A coating that chemically breaks down nerve agents would significantly enhance protection for first responders, military personnel, and civilians in the event of a chemical attack. This innovation could reduce casualties, improve safety during decontamination efforts, and offer a more robust defense against highly toxic substances like Sarin or VX. The useful context is that nerve agents are potent chemical weapons that disrupt the nervous system, and developing materials with reactive properties is a key area of research in chemical defense to mitigate their devastating effects.",
+    "score": 8.0,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "Finger-controlled robo beetle sports artificial muscles & two-way feedback",
+    "link": "https://newatlas.com/robotics/beetlebot-robotic-beetle/",
+    "source": "New Atlas: Technology-Innovation-Outdoor News",
+    "published": "2026-10-25T18:03:00+09:00",
+    "summary": "Researchers at KAIST have developed a finger-controlled robotic beetle equipped with artificial muscles and two-way feedback. This biomimetic robot is designed for agility and navigating confined spaces, offering potential applications in exploration, inspection, and search-and-rescue. The use of artificial muscles and haptic feedback represents an advanced step in micro-robotics.",
+    "detail": "Researchers at KAIST have developed a beetle-inspired robot featuring artificial muscles and two-way haptic feedback, controllable by a finger. This innovation is important because it advances the field of biomimetic robotics, creating small, agile robots capable of navigating complex environments with enhanced precision. The artificial muscles allow for more natural and flexible movement than traditional motors, while two-way feedback gives the operator a sense of touch or pressure from the robot's surroundings, improving control and situational awareness. This technology is highly valuable for applications such as inspecting industrial equipment in confined spaces, conducting search-and-rescue operations in hazardous environments, or performing delicate tasks in space exploration where human access is impossible or dangerous. The background involves biomimicry, drawing inspiration from insects for robust design, and the development of advanced materials for artificial muscles and haptic interfaces.",
+    "score": 8.0,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "Subaquatic robot leverages biomimetics for natural movement",
+    "link": "https://newatlas.com/robotics/feather-star-underwater-robot/",
+    "source": "New Atlas: Technology-Innovation-Outdoor News",
+    "published": "2026-10-25T11:03:00+09:00",
+    "summary": "Researchers at North Carolina State University are developing a subaquatic robot that utilizes biomimetics to achieve natural, fish-like movement underwater. The goal is to create robots that can blend into their environment for exploration and observation. This represents an advancement in underwater robotics and biomimicry.",
+    "detail": "A research group at North Carolina State University has developed a subaquatic robot that leverages biomimetics to achieve natural, fish-like movement. This development is significant because it offers a more efficient, quieter, and less disruptive alternative to traditional propeller-driven underwater robots. Robots that mimic fish movement are more agile, can navigate sensitive marine environments without disturbing wildlife, and are less prone to entanglement. This natural locomotion allows for stealthy observation of marine life, discreet inspection of underwater infrastructure like pipelines, and effective environmental monitoring in delicate ecosystems. Such capabilities extend mission durations and enable access to previously unreachable areas, contributing to a new generation of autonomous underwater vehicles with enhanced maneuverability and environmental compatibility. The context highlights biomimicry as a powerful design principle, replicating nature's optimized solutions for locomotion in fluids.",
+    "score": 7.0,
+    "wow": false
+  },
+  {
+    "topic": "diamonds",
+    "title": "Isro plans four functional launch pads by 2029, says chairman Narayanan - Business Standard",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNR0U4STdJRXFsN3U5ZGZyZS12MUt1RGtRdnVBYVhQYXJXdGZhTmRnZGhiaW1mam9SYzV1cUxMcHlYQlFzT09nN3FtX29IWnI3NWQ0LUwtYVdQeHdWaXNjQ1dTQk9EdnlyZ0djdVRDc0ZpMVlYZmduZ0RqUzMwODl2OVJxdUxoTlEtQVhrWl8zMXk4YXZoc0RkSG5jRlBYMUc5QzU2cGR2SlZQMzYzRlllTWtOSGJMWU83bWtEWWlYbDdXQnFvOW01SjVyejhadWtpUE02S9IB2gFBVV95cUxNS2Zub1d5Y0FVREdoT3ZRQWE1SzNFTWlFdHBIenhYb2dqR1V2eENQbl91ZGN5NXJGWGQxNFVFaTV3THJsNEkwa1FKa0M0N1V6YjZBVnJZcTB6YnlDMG1ESXN3YXZtZC1nandpUjVJTE03NXJzekJUZjhHLWxiWlFyMGk1RVpyV1RaUzVyZVkzMGl3QlZWamxYMnhmcGJkcE9Id09UMDhzM0NOTi00SUZZQm9sMC1PSGwwUVhkX080enRESkNrZEZMamlEbnNwY1FfY3Q5RVNWb3RNZw?oc=5",
+    "source": "\"(startup OR startups) (raises OR \"Series A\" OR \"Series B\" OR \"seed round\" OR funding) when:2d\" - Google News",
+    "published": "2026-10-25T15:05:10+09:00",
+    "summary": "Isro plans four functional launch pads by 2029, says chairman Narayanan Business Standard",
+    "detail": "ISRO's announcement to establish four functional launch pads by 2029 signifies a major expansion of India's space infrastructure. Currently, the Indian Space Research Organisation primarily operates from the Satish Dhawan Space Centre in Sriharikota, Andhra Pradesh, which houses two active launch pads. A third facility is already under construction in Kulasekarapattinam, Tamil Nadu, specifically designed for small satellite launch vehicles (SSLVs).\n\nThis ambitious plan matters significantly for several reasons. Firstly, it will dramatically increase ISRO's launch frequency and capacity, allowing for quicker mission turnaround times and enabling India to meet the growing domestic and international demand for satellite launches. This is crucial for capturing a larger share of the lucrative global commercial space market. Secondly, diversifying launch sites provides strategic redundancy and allows for optimized launch trajectories, particularly from Kulasekarapattinam, which is ideal for polar orbits due to its equatorial proximity, offering fuel efficiency. Lastly, enhanced launch capabilities bolster India's strategic autonomy in space, supporting its ambitious programs like Gaganyaan (human spaceflight) and lunar missions, while also benefiting the burgeoning private Indian space sector, which requires access to robust launch infrastructure for its own rocket development and operations. This expansion underscores India's commitment to becoming a leading global space power.",
+    "score": 6.3,
+    "wow": false
+  },
+  {
+    "topic": "crypto",
+    "title": "AI agents help rescue ETH’s Glamsterdam fork, ‘Steal My Bitcoin’ site: Hodler’s Digest",
+    "link": "https://cointelegraph.com/magazine/ai-agents-help-rescue-eths-glamsterdam-fork-steal-my-bitcoin-site-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source": "Cointelegraph.com News",
+    "published": "2026-10-26T07:48:40+09:00",
+    "summary": "Ethereum researchers are utilizing AI agents on a message board to assist in resolving the 'Glamsterdam' fork issue. Separately, a new website named 'Steal My Bitcoin' has launched, challenging users to attempt to steal its Bitcoin.",
+    "detail": "",
+    "score": 6.0,
+    "wow": false
+  },
+  {
+    "topic": "crypto",
+    "title": "ECB official sees digital euro as key to protecting EU ‘sovereignty’",
+    "link": "https://cointelegraph.com/news/ecb-official-sees-digital-euro-tool-to-protect-eu-sovereignty?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source": "Cointelegraph.com News",
+    "published": "2026-10-26T00:11:00+09:00",
+    "summary": "An ECB official stated that a digital euro is crucial for protecting EU sovereignty, with plans to test real transactions by 2027 and potentially launch as early as 2029, pending legislation. This reiterates the ECB's commitment and timeline for the digital euro.",
+    "detail": "",
+    "score": 6.0,
+    "wow": false
+  },
+  {
+    "topic": "crypto",
+    "title": "Netanyahu floats use of blockchain as solution to potential financial sanctions",
+    "link": "https://cointelegraph.com/news/netanyahu-floats-use-of-blockchain-as-solution-to-potential-financial-sanctions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source": "Cointelegraph.com News",
+    "published": "2026-10-25T20:42:00+09:00",
+    "summary": "Israeli Prime Minister Benjamin Netanyahu suggested that Israel could utilize blockchain and cryptocurrency to circumvent potential international financial sanctions. This proposal was met with opposition from critics and the country's central bank.",
+    "detail": "",
+    "score": 6.0,
+    "wow": false
+  },
+  {
+    "topic": "economics",
+    "title": "Sensex Falls 571 Points, Nifty Closes Below 22,450 as Indian Markets Extend Losses - INDIA New England News",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMFBiMVEtZ3F3YVNHZTdUbmVkaFVpVXJRQXVrWEhkRDloWE1VMGlfTVJnMWN4NTdCLU1GOUF4TTh0Zktrb0t5T2dRUkVBOEl5cGpLZGI1VS1sUjd1Vy16QmxTbFNLQTVLQ252TkJjSjFSSFRFeFVQUmdKakZzRzlYVmRodDZNN1lDUFhFUm9NSE9XOHJQVTNiR1RBLUd0b3RnMWVfTnhURU1Rb3hhWWc?oc=5",
+    "source": "\"global economy OR inflation OR interest rate OR GDP when:2d\" - Google News",
+    "published": "2026-10-26T03:27:01+09:00",
+    "summary": "Sensex Falls 571 Points, Nifty Closes Below 22,450 as Indian Markets Extend Losses INDIA New England News",
+    "detail": "Indian stock market indices, the Sensex and Nifty, experienced a notable decline, with the Sensex falling 571 points and the Nifty closing below 22,450. This event signifies a broader market downturn, extending previous losses and reflecting a period of negative investor sentiment in the Indian equity market.\n\nThis matters because stock market performance is often viewed as a barometer of economic health and investor confidence. A significant fall can erode investor wealth, particularly for those with direct or indirect investments in equities through mutual funds or pension schemes. Sustained market declines can also signal underlying concerns about corporate earnings, domestic economic growth, or global economic headwinds, potentially impacting future investment flows into India.\n\nThe Sensex and Nifty are India's primary benchmark indices, representing the performance of 30 and 50 large, liquid companies listed on the Bombay Stock Exchange and National Stock Exchange, respectively. Their movements reflect the collective sentiment and expectations of market participants regarding the Indian economy and corporate sector. Factors contributing to such declines can include global market volatility, domestic political uncertainties (like upcoming elections), inflation concerns, interest rate expectations, or specific sector-related challenges. The phrase \"extend losses\" suggests this is part of a continuing trend, indicating a more persistent period of caution among investors.",
+    "score": 6.3,
+    "wow": false
+  },
+  {
+    "topic": "economics",
+    "title": "Ranked: The World’s Largest Economies in 2026 – Visual Capitalist - EnergyNow",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQnVjeTJ3dng1LURjLW5PeFR4eUdWZXZRa2JJQ2gyVnpzVG5DeUFiODd0SVBRdnBjaVl0NmFJNHFvZEczeUpPRjdxRVVjRXN4MlN1VVVTdFl2WnJ0UzBRTzZSdTdjaldrRllac0RidGFFSElzRHN4RGlFaTEwT19qbFRwcDg1dW92cTFka0U4SXlBMTlnakE?oc=5",
+    "source": "\"global economy OR inflation OR interest rate OR GDP when:2d\" - Google News",
+    "published": "2026-10-26T01:30:38+09:00",
+    "summary": "Ranked: The World’s Largest Economies in 2026 – Visual Capitalist EnergyNow",
+    "detail": "Visual Capitalist has published a projection ranking the world's largest economies for the year 2026. While the specific rankings are not detailed in the headline, the report likely outlines which nations are expected to hold the top positions in terms of economic output, and potentially highlights significant shifts or emerging economic powers.\n\nThis matters significantly for several reasons. Such economic forecasts provide critical insights for governments, businesses, and investors in their long-term strategic planning. Understanding which economies are projected to grow and dominate helps inform trade policies, investment decisions, and resource allocation. Shifts in these rankings can also indicate evolving geopolitical landscapes, as economic size often correlates with international influence and power. For instance, a country projected to climb the ranks might become a more attractive destination for foreign direct investment or a more influential player in global affairs.\n\nThe ranking of \"largest economies\" typically refers to a country's Gross Domestic Product (GDP), which measures the total value of goods and services produced within its borders. These projections are usually based on analyses from institutions like the International Monetary Fund (IMF) or the World Bank, considering factors such as population growth, productivity improvements, technological advancements, and anticipated policy changes. The methodology, whether using nominal GDP or Purchasing Power Parity (PPP), can significantly alter the rankings. Visual Capitalist is known for presenting complex economic data in an accessible, visual format, making these insights digestible for a broad audience.",
+    "score": 6.3,
+    "wow": false
+  }
+]
