@@ -1528,5 +1528,17 @@
       "crypto": 5,
       "economics": 5
     }
+  },
+  {
+    "date": "2026-10-25",
+    "long": "Sunday, October 25, 2026",
+    "grade": "A",
+    "counts": {
+      "military": 4,
+      "business": 5,
+      "diamonds": 4,
+      "crypto": 5,
+      "economics": 5
+    }
   }
 ]
