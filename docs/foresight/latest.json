@@ -2,8 +2,8 @@
   "intro": "A plain roundup of the week's notable military and business technology (full analysis was unavailable this run).",
   "deep_dives": [
     {
-      "title": "First U.S. Navy Destroyer Enters Phase Two of DDG MOD 2.0 Modernization",
-      "what_happened": "USS Pinckney becomes the first U.S. Navy destroyer to enter Phase Two of the DDG MOD 2.0 program, adding advanced SPY-6 radars to counter growing global threats. The post First U.S. Navy Destroyer Enters Phase Two of DDG MOD 2.0 Modernization appeared first on Naval News .",
+      "title": "Belgium Transfers First Tripartite Minehunter BNS Bellis to Bulgarian Navy",
+      "what_happened": "Belgium has transferred the first of four Tripartite-class minehunters, BNS Bellis, to the Bulgarian Navy to strengthen NATO security in the Black Sea. The post Belgium Transfers First Tripartite Minehunter BNS Bellis to Bulgarian Navy appeared first on Naval News .",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -15,12 +15,25 @@
       "watchlist": []
     },
     {
-      "title": "Hellenic Navy Conducts Inaugural SPIKE Missile Firings During Joint Drills with Israel",
-      "what_happened": "Greece and Israel test new SPIKE NLOS and ER2 missile systems and sink a decommissioned frigate during joint Hellenic Navy live-fire drills in the Cretan Sea. The post Hellenic Navy Conducts Inaugural SPIKE Missile Firings During Joint Drills with Israel appeared first on Naval News .",
+      "title": "Chess Dynamics Wins £3M Contract for Indonesian Bung Tomo-Class Frigates",
+      "what_happened": "UK-based Chess Dynamics announced on October 28 that it had secured a contract worth around £ 3 million from Indonesian state-owned defense electronics company PT Len Industri to supply SeaEagle Fire Control Electro-Optical (FCEO) systems for two Indonesian Navy (TNI AL) Bung Tomo-class light frigates/corvettes. According to Chess Dynamics, this latest order completes the planned ... The post Chess Dynamics Wins £3M Contract for Indonesian Bung Tomo-Class Frigates appeared first on Naval News .",
       "enabling_tech": [],
       "pioneers": [
         {
           "name": "Naval News",
+          "role": "reporting outlet"
+        }
+      ],
+      "spillover": "",
+      "watchlist": []
+    },
+    {
+      "title": "Surface-To-Air Missiles Deployed To Protect Trump’s Mar-a-Lago Estate",
+      "what_happened": "AN/TWQ-1 Avengers fire FIM-92 Stinger missiles and have been joined by counter-drone fly-away sensor and jammer kits from U.S. Northern Command. The post Surface-To-Air Missiles Deployed To Protect Trump’s Mar-a-Lago Estate appeared first on TWZ .",
+      "enabling_tech": [],
+      "pioneers": [
+        {
+          "name": "TWZ",
           "role": "reporting outlet"
         }
       ],
@@ -29,7 +42,7 @@
     },
     {
       "title": "Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week",
-      "what_happened": "How long are we going to be locked in here? The post Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week appeared first on TWZ .",
+      "what_happened": "I wonder if there area any birds left outside? The post Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week appeared first on TWZ .",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -41,8 +54,8 @@
       "watchlist": []
     },
     {
-      "title": "On The Brink Of Epic Fury Round Two?",
-      "what_happened": "Israeli Air Force operations, ship movements, ominous messaging and more point to the possibility that the war with Iran is about to erupt again. The post On The Brink Of Epic Fury Round Two? appeared first on TWZ .",
+      "title": "Stealthy GJ-21 Drone Has Launched And Recovered From Type 076 Amphibious Assault Ship, China Claims",
+      "what_happened": "Signs that the PLAN has been building up to this significant milestone in naval airpower have been growing for more than a year. The post Stealthy GJ-21 Drone Has Launched And Recovered From Type 076 Amphibious Assault Ship, China Claims appeared first on TWZ .",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -54,8 +67,21 @@
       "watchlist": []
     },
     {
-      "title": "GDIT announces Amy Johnson as new president",
-      "what_happened": "Johnson replaces longtime president Amy Gilliland, who was let go from the company earlier this month after almost a decade of leading the business unit.",
+      "title": "Highlights From North Korea’s Drone-A-Palooza",
+      "what_happened": "Here’s what Pyongyang put on display as it showcased a growing arsenal of recon and attack drones, including a very aspirational stealthy UCAV concept. The post Highlights From North Korea’s Drone-A-Palooza appeared first on TWZ .",
+      "enabling_tech": [],
+      "pioneers": [
+        {
+          "name": "TWZ",
+          "role": "reporting outlet"
+        }
+      ],
+      "spillover": "",
+      "watchlist": []
+    },
+    {
+      "title": "US greenlights 500 Patriot missiles for Ukraine, with $2.1 billion to be paid by allies",
+      "what_happened": "The announcement comes amid heightened tensions between Kyiv and Washington, including purported delays in the transfer of interceptors.",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -67,38 +93,12 @@
       "watchlist": []
     },
     {
-      "title": "Space Force reveals first 6 ‘operational’ contracts for civil reserve support in space monitoring",
-      "what_happened": "Space Systems Command officials said the contracts are an initial step for the Commercial Augmentation Space Reserve (CASR) initiative, and don’t address the thornier issues of US rights to deny other customers service or reimbursement for satellites lost in a conflict.",
-      "enabling_tech": [],
-      "pioneers": [
-        {
-          "name": "Breaking Defense",
-          "role": "reporting outlet"
-        }
-      ],
-      "spillover": "",
-      "watchlist": []
-    },
-    {
-      "title": "General Atomics FQ-42 CCA Drone Production Ramp Up To Be Boosted By Boeing Subsidiary",
-      "what_happened": "General Atomics is now working with Spirit Defense to help meet surging USAF demands for fighter drones within the next six years. The post General Atomics FQ-42 CCA Drone Production Ramp Up To Be Boosted By Boeing Subsidiary appeared first on TWZ .",
+      "title": "Iran Used Limpet Mine Placed On Ship’s Hull In Latest Strait Of Hormuz Attack: Report",
+      "what_happened": "More air defenses, ships, troops, ammo and supplies are flowing into the Middle East as the clock ticks down to the potential start of a new air campaign against Iran. The post Iran Used Limpet Mine Placed On Ship’s Hull In Latest Strait Of Hormuz Attack: Report appeared first on TWZ .",
       "enabling_tech": [],
       "pioneers": [
         {
           "name": "TWZ",
-          "role": "reporting outlet"
-        }
-      ],
-      "spillover": "",
-      "watchlist": []
-    },
-    {
-      "title": "US military needs ‘urgent revolutionary institutional change’ to prepare for modern war, Petraeus says",
-      "what_happened": "Ret. Army Gen. David Petraeus praised the Pentagon’s new Autonomous Warfare Command but said the U.S. must rapidly prepare for modern autonomous war.",
-      "enabling_tech": [],
-      "pioneers": [
-        {
-          "name": "Defense News",
           "role": "reporting outlet"
         }
       ],
