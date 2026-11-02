@@ -1,0 +1,136 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>THE DAILY DISPATCH — Monday, November 2, 2026</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800;900&display=swap" rel="stylesheet"><style>
+:root{
+  --paper:#f7f3ea; --ink:#1c1a17; --muted:#6b6358; --rule:#d8cfbf;
+  --accent:#8a1f1f; --accent2:#2a3d54; --pill:#efe8da; --wow:#b8860b;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);
+  font-family:Georgia,'Times New Roman',serif;line-height:1.6;
+  -webkit-font-smoothing:antialiased}
+.wrap{max-width:860px;margin:0 auto;padding:32px 22px 80px}
+a{color:inherit}
+/* Masthead */
+.masthead{text-align:center;border-bottom:3px double var(--ink);padding-bottom:14px}
+.masthead h1{font-family:'Playfair Display',Georgia,serif;font-weight:900;
+  letter-spacing:.04em;margin:.1em 0;font-size:clamp(34px,7vw,58px);line-height:1}
+.tagline{font-style:italic;color:var(--muted);font-size:15px;margin-top:6px}
+.dateline{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;
+  font-size:12.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);
+  margin-top:12px}
+/* Editor's note */
+.ednote{background:#fff;border:1px solid var(--rule);border-left:4px solid var(--accent);
+  padding:14px 18px;margin:26px 0;border-radius:3px}
+.ednote .lbl{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);
+  font-family:Helvetica,Arial,sans-serif;font-weight:700}
+.ednote .grade{float:right;font-family:'Playfair Display',Georgia,serif;font-weight:900;
+  font-size:34px;line-height:1;color:var(--accent)}
+.ednote p{margin:.4em 0 0;font-style:italic}
+/* Sections */
+.section{margin-top:40px}
+.section-head{display:flex;align-items:baseline;gap:12px;border-bottom:2px solid var(--ink);
+  padding-bottom:6px}
+.section-head h2{font-family:'Playfair Display',Georgia,serif;margin:0;font-size:25px;font-weight:800}
+.section-head .blurb{color:var(--muted);font-style:italic;font-size:13.5px}
+.section.lead .section-head h2{color:var(--accent)}
+/* Stories */
+.story{padding:20px 0;border-bottom:1px solid var(--rule)}
+.story:last-child{border-bottom:none}
+.story h3{margin:0 0 6px;font-size:20px;line-height:1.3;font-weight:700}
+.story h3 a{text-decoration:none}
+.story h3 a:hover{text-decoration:underline;text-decoration-color:var(--accent)}
+.meta{font-size:12px;color:var(--muted);font-family:Helvetica,Arial,sans-serif;
+  display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:8px}
+.pill{background:var(--pill);border:1px solid var(--rule);border-radius:20px;
+  padding:2px 10px;letter-spacing:.04em}
+.wow{background:var(--wow);color:#fff;border-color:var(--wow);font-weight:700}
+.story p{margin:0;font-size:16.5px}
+.empty{color:var(--muted);font-style:italic;padding:14px 0}
+/* Footer / nav */
+.foot{margin-top:54px;border-top:3px double var(--ink);padding-top:16px;
+  font-size:13px;color:var(--muted);text-align:center}
+.foot a{color:var(--accent2);font-weight:700}
+.archive-list{list-style:none;padding:0}
+.archive-list li{border-bottom:1px solid var(--rule);padding:12px 2px}
+.archive-list a{text-decoration:none;font-size:18px;font-weight:700}
+.archive-list .g{float:right;color:var(--accent);font-weight:700}
+@media print{body{background:#fff}.foot a{color:#000}}
+/* Foresight (embedded in daily paper + standalone pages) */
+.fs-section{margin-top:50px}
+.fs-section .section-head h2{color:var(--accent2)}
+.fs-intro{font-size:17px;font-style:italic;color:var(--muted);margin:18px 0 8px}
+.dive{margin-top:34px;border-top:1px solid var(--rule);padding-top:16px}
+.dive h2{font-family:'Playfair Display',Georgia,serif;font-size:22px;margin:0 0 8px;color:var(--accent2)}
+.dive .happened{font-size:16.5px;margin:0 0 14px}
+.block{margin:13px 0}
+.block .h{font-size:11px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;
+  font-family:Helvetica,Arial,sans-serif;color:var(--accent);margin-bottom:6px}
+.kv{margin:5px 0;font-size:15.5px}
+.kv b{color:var(--ink)}
+.spill{background:#fff;border:1px solid var(--rule);border-left:4px solid var(--accent2);
+  padding:10px 14px;border-radius:3px;font-size:15.5px}
+.watch{margin:0;padding-left:18px}
+.watch li{margin:5px 0;font-size:15.5px}
+.disclaimer{margin-top:24px;font-size:12.5px;color:var(--muted);font-style:italic;
+  border-top:1px solid var(--rule);padding-top:12px}
+.fs-more{margin-top:18px;font-size:13px}
+.fs-more a{color:var(--accent2);font-weight:700}
+/* Read more */
+details.readmore-d{margin-top:10px}
+details.readmore-d summary{cursor:pointer;list-style:none;font-family:Helvetica,Arial,sans-serif;
+  font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent2)}
+details.readmore-d summary::-webkit-details-marker{display:none}
+details.readmore-d summary::after{content:" B8"}
+details.readmore-d[open] summary::after{content:" BE"}
+.readmore{margin-top:8px;font-size:15.5px;color:var(--ink)}
+/* Bionic reading toggle */
+#bionic-toggle{position:fixed;right:14px;bottom:14px;z-index:60;font-family:Helvetica,Arial,sans-serif;
+  font-size:12px;font-weight:700;letter-spacing:.04em;background:var(--accent2);color:#fff;border:none;
+  border-radius:20px;padding:9px 15px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.25);opacity:.85}
+#bionic-toggle:hover{opacity:1}
+@media print{#bionic-toggle{display:none}}
+/* Top Ten Today */
+.topten{margin:26px 0 8px;background:#fff;border:1px solid var(--rule);border-radius:4px;padding:16px 18px 12px}
+.topten h2{font-family:'Playfair Display',Georgia,serif;font-size:21px;margin:0;color:var(--accent)}
+.topten .sub{font-size:12px;color:var(--muted);font-style:italic;margin:2px 0 10px}
+.topten ol{margin:0;padding:0;list-style:none;counter-reset:tt}
+.topten li{counter-increment:tt;display:flex;gap:9px;align-items:baseline;
+  padding:7px 0;border-bottom:1px dotted var(--rule)}
+.topten li:last-child{border-bottom:none}
+.topten li::before{content:counter(tt);font-family:'Playfair Display',Georgia,serif;
+  font-weight:900;color:var(--accent);min-width:20px;font-size:15px}
+.topten a{font-weight:700;text-decoration:none;font-size:15.5px;flex:1}
+.topten a:hover{text-decoration:underline;text-decoration-color:var(--accent)}
+.tt-grade{font-family:Helvetica,Arial,sans-serif;font-size:11px;font-weight:700;color:#fff;
+  background:var(--accent2);border-radius:4px;padding:1px 6px;white-space:nowrap}
+.tt-tag{font-family:Helvetica,Arial,sans-serif;font-size:10px;letter-spacing:.05em;
+  text-transform:uppercase;color:var(--muted);background:var(--pill);border:1px solid var(--rule);
+  border-radius:20px;padding:1px 8px;white-space:nowrap}
+.pill.tag{background:#edf0f7;border-color:#cfd8ea;color:var(--accent2)}
+</style></head><body><div class='wrap'><header class='masthead'><h1>THE DAILY DISPATCH</h1><div class='tagline'>World news, scanned at dawn — military · business · crypto · economics</div><div class='dateline'><span>Seoul · Monday, November 2, 2026</span><span>Edition 2026.11.02</span></div></header><div class='ednote'><span class='grade'>B</span><span class='lbl'>Editor's Note</span><p>A solid edition with 0 standout item(s).</p></div><section class='topten'><h2>Top Ten Today</h2><div class='sub'>The day's highest-graded finds across every desk — tap to jump to the full story.</div><ol><li><span class='tt-grade'>B</span><a href='#s1'>Here’s what ‘renoa’ — the first new fiber in 25 years — feels like</a><span class='tt-tag'>Business &amp; Invention</span></li><li><span class='tt-grade'>B</span><a href='#s2'>HomePod Mini 2 first look: Three things I love and one disappointment</a><span class='tt-tag'>Business &amp; Invention</span></li><li><span class='tt-grade'>B</span><a href='#s6'>Bitcoin ETF Investors Head for the Exits After Record Binance Hack</a><span class='tt-tag'>Crypto &amp; Blockchain</span></li><li><span class='tt-grade'>B-</span><a href='#s3'>Taurine shields us from age-related inflammation – in an unexpected way</a><span class='tt-tag'>Business &amp; Invention</span></li><li><span class='tt-grade'>B-</span><a href='#s4'>TechCrunch Mobility: A new, bigger AV boom is here</a><span class='tt-tag'>Business &amp; Invention</span></li><li><span class='tt-grade'>B-</span><a href='#s5'>Scentronic tech lets you smell the internet</a><span class='tt-tag'>Business &amp; Invention</span></li><li><span class='tt-grade'>B-</span><a href='#s7'>AI agents bypassed crypto spending limits without human approval, researchers find in a new test</a><span class='tt-tag'>Crypto &amp; Blockchain</span></li><li><span class='tt-grade'>B-</span><a href='#s8'>Binance says phase one of withdrawals opens after $6.3B hack</a><span class='tt-tag'>Crypto &amp; Blockchain</span></li><li><span class='tt-grade'>B-</span><a href='#s9'>Which Southeast Asian economy is the only one among the world’s 20 largest? - VnExpress International</a><span class='tt-tag'>World Economics</span></li><li><span class='tt-grade'>B-</span><a href='#s10'>First interest rate rises in three years expected as Iran war drives high inflation - Morning Star | The People’s Daily</a><span class='tt-tag'>World Economics</span></li></ol></section><section class='section lead'><div class='section-head'><h2>Military &amp; Defense Technology</h2><span class='blurb'>New advances, programs, and the genuinely jaw-dropping.</span></div><div class='empty'>Nothing met the bar today. We'd rather run nothing than filler.</div></section><section class='section'><div class='section-head'><h2>Business &amp; Invention</h2><span class='blurb'>Companies building new and remarkable things.</span></div><article class='story' id='s1'><h3><a href='https://techcrunch.com/2026/11/01/heres-what-renoa-the-first-new-fiber-in-25-years-feels-like/' target='_blank' rel='noopener'>Here’s what ‘renoa’ — the first new fiber in 25 years — feels like</a></h3><div class='meta'><span class='pill'>TechCrunch</span><span>Nov 01, 23:00 KST</span></div><p>Startup Everbloom&#x27;s new material, renoa, is the first new fiber in 25 years, and it feels very familiar.</p></article><article class='story' id='s2'><h3><a href='https://www.theverge.com/tech/1024108/homepod-mini-2-hands-on-siri-smart-home-mac-speaker' target='_blank' rel='noopener'>HomePod Mini 2 first look: Three things I love and one disappointment</a></h3><div class='meta'><span class='pill'>The Verge</span><span>Nov 01, 23:00 KST</span></div><p>When I first heard about the new $149 HomePod Mini 2 at Apple&#x27;s Welcome Home event last month, I was disappointed. It&#x27;s been six years since Apple launched its entry-level smart speaker, and all it got in the second gen was a chip bump, some color glowy stuff, and better AirPlay? For $50 more than […]</p></article><article class='story' id='s3'><h3><a href='https://newatlas.com/aging/age-related-inflammation-taurine/' target='_blank' rel='noopener'>Taurine shields us from age-related inflammation – in an unexpected way</a></h3><div class='meta'><span class='pill'>New Atlas: Technology-Innovation-Outdoor News</span><span>Nov 02, 07:03 KST</span></div><p>One of the most abundant amino acids found in humans is finally getting the recognition it seemingly deserves, with a new study showing how important it is for our health as we age. While no anti-aging silver bullet, it appears to be more important to aging well than we&#x27;ve given it credit for. Continue Reading …</p><details class='readmore-d'><summary>Read more</summary><div class='readmore'>One of the most abundant amino acids found in humans is finally getting the recognition it seemingly deserves, with a new study showing how important it is for our health as we age. While no anti-aging silver bullet, it appears to be more important to aging well than we&#x27;ve given it credit for. Continue Reading Category: Aging Well , Wellness and Healthy Living , Body and Mind Tags: Yale , Age-Related , Aging , Inflammatory , Inflammation , Amino Acids , molecular biology</div></details></article><article class='story' id='s4'><h3><a href='https://techcrunch.com/2026/11/01/techcrunch-mobility-a-new-bigger-av-boom-is-here/' target='_blank' rel='noopener'>TechCrunch Mobility: A new, bigger AV boom is here</a></h3><div class='meta'><span class='pill'>TechCrunch</span><span>Nov 02, 02:04 KST</span></div><p>Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.</p></article><article class='story' id='s5'><h3><a href='https://newatlas.com/vr/scentronic-smells-sent-over-internet/' target='_blank' rel='noopener'>Scentronic tech lets you smell the internet</a></h3><div class='meta'><span class='pill'>New Atlas: Technology-Innovation-Outdoor News</span><span>Nov 02, 02:03 KST</span></div><p>Ever bought a perfume online with rave reviews and awesome packaging, only for it to arrive and the first whiff brings tears to your eyes ... tears of sorrow? Well, that may soon be a thing of the past, as scientists have figured out a way to transmit smells over the internet. Technically speaking. Continue Reading …</p><details class='readmore-d'><summary>Read more</summary><div class='readmore'>Ever bought a perfume online with rave reviews and awesome packaging, only for it to arrive and the first whiff brings tears to your eyes ... tears of sorrow? Well, that may soon be a thing of the past, as scientists have figured out a way to transmit smells over the internet. Technically speaking. Continue Reading Category: Virtual Reality , Consumer Tech , Technology Tags: Ohio State University , Zhejiang University , Smell</div></details></article></section><section class='section'><div class='section-head'><h2>Diamonds in the Rough</h2><span class='blurb'>Early &amp; under-the-radar: startups, funding, big-company bets, fresh tech.</span></div><div class='empty'>Nothing met the bar today. We'd rather run nothing than filler.</div></section><section class='section'><div class='section-head'><h2>Crypto &amp; Blockchain</h2><span class='blurb'>Notable altcoins, protocols, and on-chain developments.</span></div><article class='story' id='s6'><h3><a href='https://decrypt.co/382309/bitcoin-etf-investors-exits-record-binance-hack' target='_blank' rel='noopener'>Bitcoin ETF Investors Head for the Exits After Record Binance Hack</a></h3><div class='meta'><span class='pill'>Decrypt</span><span>Nov 02, 01:01 KST</span></div><p>Bitcoin ETFs saw $643.2 million in outflows Friday, the first full trading session after the $6.4 billion Binance hack, ending October with roughly $516 million in net outflows.</p></article><article class='story' id='s7'><h3><a href='https://www.coindesk.com/tech/2026/11/01/ai-agents-bypassed-crypto-spending-limits-without-human-approval-researchers-find-in-a-new-test' target='_blank' rel='noopener'>AI agents bypassed crypto spending limits without human approval, researchers find in a new test</a></h3><div class='meta'><span class='pill'>CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data</span><span>Nov 02, 02:00 KST</span></div><p>Summary unavailable.</p></article><article class='story' id='s8'><h3><a href='https://cointelegraph.com/news/binance-says-phase-one-of-withdrawals-opens-after-63b-hack?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound' target='_blank' rel='noopener'>Binance says phase one of withdrawals opens after $6.3B hack</a></h3><div class='meta'><span class='pill'>Cointelegraph.com News</span><span>Nov 01, 18:38 KST</span></div><p>The crypto exchange said it has begun phased withdrawals after the record hack the FBI has blamed on North Korea.</p></article></section><section class='section'><div class='section-head'><h2>World Economics</h2><span class='blurb'>The state and direction of the world&#x27;s economies.</span></div><article class='story' id='s9'><h3><a href='https://news.google.com/rss/articles/CBMiygFBVV95cUxORXAwUTduWmxPWXRmS2hONElIWGJFLU5MRmRjYTE5d1lLMTltSW5ka2F3NDBvaDFnNWRCcUYtdk9Jay1mcTlId2hvUnNabUhuS1JlRFFTTkRPbmF4UzVtV2hDajdRYi1XdlhaUlNEaG9nU1h2ZHZmRldpWUJjejd1cFRIeENLZGJPUmE5RGNnNkNKT09jaHFkeW1BZXVLNllOb2dQelc5VWlQUzVfV3YxdjJpZTBwZlNGNWxtaVY4V2hYV09sRlZCSUdn?oc=5' target='_blank' rel='noopener'>Which Southeast Asian economy is the only one among the world’s 20 largest? - VnExpress International</a></h3><div class='meta'><span class='pill'>&quot;global economy OR inflation OR interest rate OR GDP when:2d&quot; - Google News</span><span>Nov 02, 08:50 KST</span></div><p>Which Southeast Asian economy is the only one among the world’s 20 largest? VnExpress International</p></article><article class='story' id='s10'><h3><a href='https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTEJDdFhjQXhzTjVPS0NsQzFRY3dRSzROYkFrdTQzX2UzVE12YUJPUzJmV05Id2tHZUJsXzNKXzk0Rm5xSDRCSDhwVHkxM0dxbExVQ3dLYlNtVWZzeTZpLW81Wjh3SWY3NzNxNzJtVlFsdUstM2VmQTBIUmYtUmUxdUFqRW53dHBNcnFRazM5enZpWHYyWEJtUVA0OGp4SlhtbEtJZXhCWWV3NkxHbGRUdlY0VkFfc1RE?oc=5' target='_blank' rel='noopener'>First interest rate rises in three years expected as Iran war drives high inflation - Morning Star | The People’s Daily</a></h3><div class='meta'><span class='pill'>&quot;global economy OR inflation OR interest rate OR GDP when:2d&quot; - Google News</span><span>Nov 02, 03:51 KST</span></div><p>First interest rate rises in three years expected as Iran war drives high inflation Morning Star | The People’s Daily</p></article><article class='story' id='s11'><h3><a href='https://www.ft.com/content/ce8496a4-d728-49a1-afbe-f1c9eefe53a9?syn-25a6b1a6=1' target='_blank' rel='noopener'>Trump faces the voters</a></h3><div class='meta'><span class='pill'>Global Economy</span><span>Nov 02, 03:15 KST</span></div><p>US midterm elections, Bank of England interest rate decision, John Ternus hosts first earnings call as Apple chief</p></article></section><section class='fs-section'><div class='section-head'><h2>Weekly Foresight</h2><span class='blurb'>Dual-use tech — what the military builds today, the world uses tomorrow</span></div><p class='fs-intro'>A plain roundup of the week&#x27;s notable military and business technology (full analysis was unavailable this run).</p><div class='dive'><h2>Belgium Transfers First Tripartite Minehunter BNS Bellis to Bulgarian Navy</h2><p class='happened'>Belgium has transferred the first of four Tripartite-class minehunters, BNS Bellis, to the Bulgarian Navy to strengthen NATO security in the Black Sea. The post Belgium Transfers First Tripartite Minehunter BNS Bellis to Bulgarian Navy appeared first on Naval News .</p><div class='block'><div class='h'>Pioneers &amp; players</div><div class='kv'><b>Naval News</b> — reporting outlet</div></div></div><div class='dive'><h2>Chess Dynamics Wins £3M Contract for Indonesian Bung Tomo-Class Frigates</h2><p class='happened'>UK-based Chess Dynamics announced on October 28 that it had secured a contract worth around £ 3 million from Indonesian state-owned defense electronics company PT Len Industri to supply SeaEagle Fire Control Electro-Optical (FCEO) systems for two Indonesian Navy (TNI AL) Bung Tomo-class light frigates/corvettes. According to Chess Dynamics, this latest order completes the planned ... The post Chess Dynamics Wins £3M Contract for Indonesian Bung Tomo-Class Frigates appeared first on Naval News .</p><div class='block'><div class='h'>Pioneers &amp; players</div><div class='kv'><b>Naval News</b> — reporting outlet</div></div></div><div class='dive'><h2>Surface-To-Air Missiles Deployed To Protect Trump’s Mar-a-Lago Estate</h2><p class='happened'>AN/TWQ-1 Avengers fire FIM-92 Stinger missiles and have been joined by counter-drone fly-away sensor and jammer kits from U.S. Northern Command. The post Surface-To-Air Missiles Deployed To Protect Trump’s Mar-a-Lago Estate appeared first on TWZ .</p><div class='block'><div class='h'>Pioneers &amp; players</div><div class='kv'><b>TWZ</b> — reporting outlet</div></div></div><div class='dive'><h2>Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week</h2><p class='happened'>I wonder if there area any birds left outside? The post Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week appeared first on TWZ .</p><div class='block'><div class='h'>Pioneers &amp; players</div><div class='kv'><b>TWZ</b> — reporting outlet</div></div></div><div class='dive'><h2>Stealthy GJ-21 Drone Has Launched And Recovered From Type 076 Amphibious Assault Ship, China Claims</h2><p class='happened'>Signs that the PLAN has been building up to this significant milestone in naval airpower have been growing for more than a year. The post Stealthy GJ-21 Drone Has Launched And Recovered From Type 076 Amphibious Assault Ship, China Claims appeared first on TWZ .</p><div class='block'><div class='h'>Pioneers &amp; players</div><div class='kv'><b>TWZ</b> — reporting outlet</div></div></div><div class='dive'><h2>Highlights From North Korea’s Drone-A-Palooza</h2><p class='happened'>Here’s what Pyongyang put on display as it showcased a growing arsenal of recon and attack drones, including a very aspirational stealthy UCAV concept. The post Highlights From North Korea’s Drone-A-Palooza appeared first on TWZ .</p><div class='block'><div class='h'>Pioneers &amp; players</div><div class='kv'><b>TWZ</b> — reporting outlet</div></div></div><div class='dive'><h2>US greenlights 500 Patriot missiles for Ukraine, with $2.1 billion to be paid by allies</h2><p class='happened'>The announcement comes amid heightened tensions between Kyiv and Washington, including purported delays in the transfer of interceptors.</p><div class='block'><div class='h'>Pioneers &amp; players</div><div class='kv'><b>Breaking Defense</b> — reporting outlet</div></div></div><div class='dive'><h2>Iran Used Limpet Mine Placed On Ship’s Hull In Latest Strait Of Hormuz Attack: Report</h2><p class='happened'>More air defenses, ships, troops, ammo and supplies are flowing into the Middle East as the clock ticks down to the potential start of a new air campaign against Iran. The post Iran Used Limpet Mine Placed On Ship’s Hull In Latest Strait Of Hormuz Attack: Report appeared first on TWZ .</p><div class='block'><div class='h'>Pioneers &amp; players</div><div class='kv'><b>TWZ</b> — reporting outlet</div></div></div><div class='disclaimer'>The watchlist is informational only and not financial advice.</div><div class='fs-more'><a href='foresight/index.html'>Past Foresight reports →</a></div></section><div class='foot'>Compiled automatically by the Daily Dispatch bot · <a href='archive.html'>Past editions →</a> · <a href='foresight/index.html'>Weekly Foresight →</a><br>Sources are independent outlets; tap any headline to read the original.</div></div>
+<script>
+(function(){
+  var SEL='.story p, .readmore, .fs-intro, .dive .happened, .spill';
+  var KEY='bionicOn';
+  function bw(w){var m=w.match(/^([^A-Za-z0-9]*)([A-Za-z0-9]+)([\s\S]*)$/);if(!m)return w;
+    var n=Math.max(1,Math.round(m[2].length*0.45));
+    return m[1]+'<b>'+m[2].slice(0,n)+'</b>'+m[2].slice(n)+m[3];}
+  function apply(){document.querySelectorAll(SEL).forEach(function(el){
+    if(el.dataset.bd)return; el.dataset.bd='1'; el.dataset.orig=el.innerHTML;
+    var wk=document.createTreeWalker(el,NodeFilter.SHOW_TEXT,null),ns=[];
+    while(wk.nextNode())ns.push(wk.currentNode);
+    ns.forEach(function(t){ if(!t.nodeValue.trim())return;
+      var sp=document.createElement('span');
+      sp.innerHTML=t.nodeValue.split(/(\s+)/).map(function(tok){return tok.trim()?bw(tok):tok;}).join('');
+      t.parentNode.replaceChild(sp,t);});
+  });}
+  function unapply(){document.querySelectorAll(SEL).forEach(function(el){
+    if(el.dataset.orig!==undefined){el.innerHTML=el.dataset.orig;delete el.dataset.bd;delete el.dataset.orig;}});}
+  var on; try{var v=localStorage.getItem(KEY); on=(v===null)?true:(v==='1');}catch(e){on=true;}
+  var btn=document.createElement('button'); btn.id='bionic-toggle';
+  function render(){ if(on)apply(); else unapply(); btn.textContent='\u26A1 Faster reading: '+(on?'ON':'OFF'); }
+  btn.onclick=function(){on=!on; try{localStorage.setItem(KEY,on?'1':'0');}catch(e){} render();};
+  if(document.readyState!=='loading'){document.body.appendChild(btn);render();}
+  else document.addEventListener('DOMContentLoaded',function(){document.body.appendChild(btn);render();});
+})();
+</script>
+</body></html>
