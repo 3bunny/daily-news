@@ -2,8 +2,8 @@
   "intro": "A plain roundup of the week's notable military and business technology (full analysis was unavailable this run).",
   "deep_dives": [
     {
-      "title": "Belgium Transfers First Tripartite Minehunter BNS Bellis to Bulgarian Navy",
-      "what_happened": "Belgium has transferred the first of four Tripartite-class minehunters, BNS Bellis, to the Bulgarian Navy to strengthen NATO security in the Black Sea. The post Belgium Transfers First Tripartite Minehunter BNS Bellis to Bulgarian Navy appeared first on Naval News .",
+      "title": "Euronaval 2026: France Orders 32-Cell Aster Missile Upgrade for FDI Frigates",
+      "what_happened": "France officially ordered a 32-cell VLS upgrade for the French Navy's FDI frigates at Euronaval 2026, doubling their Aster missile air defense capacity. The post Euronaval 2026: France Orders 32-Cell Aster Missile Upgrade for FDI Frigates appeared first on Naval News .",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -15,25 +15,12 @@
       "watchlist": []
     },
     {
-      "title": "Chess Dynamics Wins £3M Contract for Indonesian Bung Tomo-Class Frigates",
-      "what_happened": "UK-based Chess Dynamics announced on October 28 that it had secured a contract worth around £ 3 million from Indonesian state-owned defense electronics company PT Len Industri to supply SeaEagle Fire Control Electro-Optical (FCEO) systems for two Indonesian Navy (TNI AL) Bung Tomo-class light frigates/corvettes. According to Chess Dynamics, this latest order completes the planned ... The post Chess Dynamics Wins £3M Contract for Indonesian Bung Tomo-Class Frigates appeared first on Naval News .",
+      "title": "European troops set to train in Poland for postwar Ukraine deployment",
+      "what_happened": "Britain and France will lead 2,800 troops from 11 nations in a two-week exercise testing how to move, protect and supply a force to rebuild Ukraine’s military after the war ends.",
       "enabling_tech": [],
       "pioneers": [
         {
-          "name": "Naval News",
-          "role": "reporting outlet"
-        }
-      ],
-      "spillover": "",
-      "watchlist": []
-    },
-    {
-      "title": "Surface-To-Air Missiles Deployed To Protect Trump’s Mar-a-Lago Estate",
-      "what_happened": "AN/TWQ-1 Avengers fire FIM-92 Stinger missiles and have been joined by counter-drone fly-away sensor and jammer kits from U.S. Northern Command. The post Surface-To-Air Missiles Deployed To Protect Trump’s Mar-a-Lago Estate appeared first on TWZ .",
-      "enabling_tech": [],
-      "pioneers": [
-        {
-          "name": "TWZ",
+          "name": "Defense News",
           "role": "reporting outlet"
         }
       ],
@@ -42,7 +29,7 @@
     },
     {
       "title": "Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week",
-      "what_happened": "I wonder if there area any birds left outside? The post Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week appeared first on TWZ .",
+      "what_happened": "Why won't the buzzing stop??! The post Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week appeared first on TWZ .",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -54,8 +41,8 @@
       "watchlist": []
     },
     {
-      "title": "Stealthy GJ-21 Drone Has Launched And Recovered From Type 076 Amphibious Assault Ship, China Claims",
-      "what_happened": "Signs that the PLAN has been building up to this significant milestone in naval airpower have been growing for more than a year. The post Stealthy GJ-21 Drone Has Launched And Recovered From Type 076 Amphibious Assault Ship, China Claims appeared first on TWZ .",
+      "title": "Operational F-15EXs Have Started Flying With Conformal Fuel Tanks",
+      "what_happened": "The USAF did not originally plan for the air-to-air combat-focused F-15EX to carry CFTs, but its mission demands are evolving. The post Operational F-15EXs Have Started Flying With Conformal Fuel Tanks appeared first on TWZ .",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -67,8 +54,8 @@
       "watchlist": []
     },
     {
-      "title": "Highlights From North Korea’s Drone-A-Palooza",
-      "what_happened": "Here’s what Pyongyang put on display as it showcased a growing arsenal of recon and attack drones, including a very aspirational stealthy UCAV concept. The post Highlights From North Korea’s Drone-A-Palooza appeared first on TWZ .",
+      "title": "USS Theodore Roosevelt Arrives In Singapore; Last Stop Before Third Strike Group Reaches The Middle East",
+      "what_happened": "Where the aircraft carriers are as of November 6, 2026. The post USS Theodore Roosevelt Arrives In Singapore; Last Stop Before Third Strike Group Reaches The Middle East appeared first on TWZ .",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -80,25 +67,38 @@
       "watchlist": []
     },
     {
-      "title": "US greenlights 500 Patriot missiles for Ukraine, with $2.1 billion to be paid by allies",
-      "what_happened": "The announcement comes amid heightened tensions between Kyiv and Washington, including purported delays in the transfer of interceptors.",
+      "title": "US Army feeds culinary soldiers new job title",
+      "what_happened": "Formerly known as culinary specialists, a soldier with the 92G occupation identifier will henceforth be known as a “tactical field feeding specialist.”",
+      "enabling_tech": [],
+      "pioneers": [
+        {
+          "name": "Defense News",
+          "role": "reporting outlet"
+        }
+      ],
+      "spillover": "",
+      "watchlist": []
+    },
+    {
+      "title": "US, Colombian troops kick off exercise amid the Pentagon’s Western Hemisphere pivot",
+      "what_happened": "Hundreds of American and Colombian troops kicked off a sprawling military exercise in Colombia this week as the U.S. military sharpens its focus on the Western Hemisphere.",
+      "enabling_tech": [],
+      "pioneers": [
+        {
+          "name": "Defense News",
+          "role": "reporting outlet"
+        }
+      ],
+      "spillover": "",
+      "watchlist": []
+    },
+    {
+      "title": "Missed AUSA 2026? Get the Ground Truth from Breaking Defense’s free eBook",
+      "what_happened": "Catch up on the conference’s biggest stories, Army priorities and industry developments in our AUSA 2026 after-action report. Download it free, with no registration required.",
       "enabling_tech": [],
       "pioneers": [
         {
           "name": "Breaking Defense",
-          "role": "reporting outlet"
-        }
-      ],
-      "spillover": "",
-      "watchlist": []
-    },
-    {
-      "title": "Iran Used Limpet Mine Placed On Ship’s Hull In Latest Strait Of Hormuz Attack: Report",
-      "what_happened": "More air defenses, ships, troops, ammo and supplies are flowing into the Middle East as the clock ticks down to the potential start of a new air campaign against Iran. The post Iran Used Limpet Mine Placed On Ship’s Hull In Latest Strait Of Hormuz Attack: Report appeared first on TWZ .",
-      "enabling_tech": [],
-      "pioneers": [
-        {
-          "name": "TWZ",
           "role": "reporting outlet"
         }
       ],
@@ -113,7 +113,7 @@
     "corpus": 40,
     "steps": [
       {
-        "select": "HTTP 429: b'{\\n  \"error\": {\\n    \"code\": 429,\\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a'"
+        "select": "HTTP 429: b'{\\n  \"error\": {\\n    \"code\": 429,\\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do'"
       }
     ]
   }
