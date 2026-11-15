@@ -2,8 +2,8 @@
   "intro": "A plain roundup of the week's notable military and business technology (full analysis was unavailable this run).",
   "deep_dives": [
     {
-      "title": "Euronaval 2026: France Orders 32-Cell Aster Missile Upgrade for FDI Frigates",
-      "what_happened": "France officially ordered a 32-cell VLS upgrade for the French Navy's FDI frigates at Euronaval 2026, doubling their Aster missile air defense capacity. The post Euronaval 2026: France Orders 32-Cell Aster Missile Upgrade for FDI Frigates appeared first on Naval News .",
+      "title": "Lead Columbia-class SSBN Claws Back from Delay Risk",
+      "what_happened": "The U.S. Navy's lead Columbia-class SSBN, USS District of Columbia (SSBN-826), is back on track for 2028 delivery after work rates more than doubled. The post Lead Columbia-class SSBN Claws Back from Delay Risk appeared first on Naval News .",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -15,12 +15,12 @@
       "watchlist": []
     },
     {
-      "title": "European troops set to train in Poland for postwar Ukraine deployment",
-      "what_happened": "Britain and France will lead 2,800 troops from 11 nations in a two-week exercise testing how to move, protect and supply a force to rebuild Ukraine’s military after the war ends.",
+      "title": "Naval Group Unveils SCX 26 ‘Hybrid Fleet’ Drone Mothership Concept",
+      "what_happened": "French shipbuilder Naval Group unveiled a new conceptual surface warship design at Euronaval 2026 dubbed “SCX 26.” Naval News provides an overview covering the key technical characteristics and wider operational concept, explaining how SCX 26 fits into the company’s vision for the future of naval warfare. Standing for “Surface Combatant Xperimental,” Naval Group’s SCX 26 ... The post Naval Group Unveils SCX 26 ‘Hybrid Fleet’ Drone Mothership Concept appeared first on Naval News .",
       "enabling_tech": [],
       "pioneers": [
         {
-          "name": "Defense News",
+          "name": "Naval News",
           "role": "reporting outlet"
         }
       ],
@@ -29,7 +29,7 @@
     },
     {
       "title": "Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week",
-      "what_happened": "Why won't the buzzing stop??! The post Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week appeared first on TWZ .",
+      "what_happened": "Why can't we hear the planes? The post Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week appeared first on TWZ .",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -41,8 +41,8 @@
       "watchlist": []
     },
     {
-      "title": "Operational F-15EXs Have Started Flying With Conformal Fuel Tanks",
-      "what_happened": "The USAF did not originally plan for the air-to-air combat-focused F-15EX to carry CFTs, but its mission demands are evolving. The post Operational F-15EXs Have Started Flying With Conformal Fuel Tanks appeared first on TWZ .",
+      "title": "FAA Orders Ground Stop For All Flights Across The U.S. (Updated)",
+      "what_happened": "This is only the third time in history such an order has been given by the FAA. The post FAA Orders Ground Stop For All Flights Across The U.S. (Updated) appeared first on TWZ .",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -54,8 +54,34 @@
       "watchlist": []
     },
     {
-      "title": "USS Theodore Roosevelt Arrives In Singapore; Last Stop Before Third Strike Group Reaches The Middle East",
-      "what_happened": "Where the aircraft carriers are as of November 6, 2026. The post USS Theodore Roosevelt Arrives In Singapore; Last Stop Before Third Strike Group Reaches The Middle East appeared first on TWZ .",
+      "title": "Securing the Asia-Pacific digital battlespace: TechNet Indo-Pacific 2026",
+      "what_happened": "From electronic warfare threats to coalition data sharing, discover how US and allied forces are strengthening the digital battlespace across the Indo-Pacific.",
+      "enabling_tech": [],
+      "pioneers": [
+        {
+          "name": "Breaking Defense",
+          "role": "reporting outlet"
+        }
+      ],
+      "spillover": "",
+      "watchlist": []
+    },
+    {
+      "title": "Senate appropriators resuscitate Commerce space tracking program",
+      "what_happened": "The Commerce Department effort was launched nearly a decade ago due to Defense Department concerns about the increasing drain on its space monitoring resources as commercial space traffic continues to skyrocket.",
+      "enabling_tech": [],
+      "pioneers": [
+        {
+          "name": "Breaking Defense",
+          "role": "reporting outlet"
+        }
+      ],
+      "spillover": "",
+      "watchlist": []
+    },
+    {
+      "title": "Suspected Drones Over RAF Lakenheath Just Triggered Security Response: U.S. Air Force (Updated)",
+      "what_happened": "The scare comes after some USAF aircraft were evacuated from England and the threat level at bases has been raised. The post Suspected Drones Over RAF Lakenheath Just Triggered Security Response: U.S. Air Force (Updated) appeared first on TWZ .",
       "enabling_tech": [],
       "pioneers": [
         {
@@ -67,34 +93,8 @@
       "watchlist": []
     },
     {
-      "title": "US Army feeds culinary soldiers new job title",
-      "what_happened": "Formerly known as culinary specialists, a soldier with the 92G occupation identifier will henceforth be known as a “tactical field feeding specialist.”",
-      "enabling_tech": [],
-      "pioneers": [
-        {
-          "name": "Defense News",
-          "role": "reporting outlet"
-        }
-      ],
-      "spillover": "",
-      "watchlist": []
-    },
-    {
-      "title": "US, Colombian troops kick off exercise amid the Pentagon’s Western Hemisphere pivot",
-      "what_happened": "Hundreds of American and Colombian troops kicked off a sprawling military exercise in Colombia this week as the U.S. military sharpens its focus on the Western Hemisphere.",
-      "enabling_tech": [],
-      "pioneers": [
-        {
-          "name": "Defense News",
-          "role": "reporting outlet"
-        }
-      ],
-      "spillover": "",
-      "watchlist": []
-    },
-    {
-      "title": "Missed AUSA 2026? Get the Ground Truth from Breaking Defense’s free eBook",
-      "what_happened": "Catch up on the conference’s biggest stories, Army priorities and industry developments in our AUSA 2026 after-action report. Download it free, with no registration required.",
+      "title": "Submarine maintenance delays saw ‘significant’ improvements in FY26, sub czar says",
+      "what_happened": "Vice Adm. Rob Gaucher, the direct reporting portfolio manager for submarines, said that the Navy faced roughly 780 days of maintenance delay for subs in FY26.",
       "enabling_tech": [],
       "pioneers": [
         {
