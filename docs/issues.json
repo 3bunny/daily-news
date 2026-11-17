@@ -1804,5 +1804,17 @@
       "crypto": 3,
       "economics": 2
     }
+  },
+  {
+    "date": "2026-11-17",
+    "long": "Tuesday, November 17, 2026",
+    "grade": "B-",
+    "counts": {
+      "military": 5,
+      "business": 5,
+      "diamonds": 5,
+      "crypto": 5,
+      "economics": 1
+    }
   }
 ]
