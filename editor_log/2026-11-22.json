@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-22",
+  "grade": "A",
+  "note": "Today's edition is packed with genuinely new and notable material, especially in the business and technology sectors, featuring groundbreaking innovations like a biological computer and a modular space factory. Significant developments in cryptocurrency security also make this a highly informative read.",
+  "counts": {
+    "military": 3,
+    "business": 5,
+    "diamonds": 4,
+    "crypto": 5,
+    "economics": 5
+  },
+  "wow": 5,
+  "source_suggestions": [],
+  "sources_added": [],
+  "used_llm": true,
+  "gemini_health": {
+    "key_present": true,
+    "working": true,
+    "detail": "Gemini responded correctly."
+  },
+  "gemini_calls": {
+    "ok": 9,
+    "fail": 3,
+    "last_error": "HTTP 429: b'{\\n  \"error\": {\\n    \"code\": 429,\\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/do'"
+  }
+}
