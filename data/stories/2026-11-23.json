@@ -1,0 +1,189 @@
+[
+  {
+    "topic": "military",
+    "title": "Ukraine’s Campaign Against Russian Naval Assets Far Beyond The Black Sea Enters A New Phase",
+    "link": "https://www.twz.com/sea/ukraines-campaign-against-russian-naval-assets-far-beyond-the-black-sea-enters-a-new-phase",
+    "source": "TWZ",
+    "published": "2026-11-23T07:26:09+09:00",
+    "summary": "Ukraine has reportedly expanded its naval campaign against Russian assets, claiming to have destroyed a new Russian corvette and struck two cargo ships within a single day. These strikes reportedly occurred across a wide geographical area, including the Mediterranean and Baltic Seas, indicating a significant extension of Ukraine's operational reach beyond the Black Sea.",
+    "detail": "Ukraine has reportedly expanded its naval campaign against Russia, moving beyond the Black Sea to strike targets in the Mediterranean and Baltic Seas within a single day. This new phase involved the destruction of a new Russian corvette and damage to two cargo ships. This development signifies a substantial escalation and a demonstration of Ukraine's evolving capabilities. Previously, Ukraine achieved considerable success in degrading Russia's Black Sea Fleet using naval drones and missiles, forcing Russian vessels to retreat from its western coast. The current actions suggest Ukraine can now project power far beyond its immediate conflict zone, challenging Russia's naval assets and maritime trade routes in distant waters. The destruction of a new corvette represents a significant material loss for Russia, impacting its naval modernization efforts. Striking cargo ships, even if not military, can disrupt Russian supply chains, increase shipping costs, and create a deterrent effect on vessels operating with Russia. This expanded reach underscores Ukraine's effective use of asymmetric warfare tactics against a larger naval power and signals a potential shift in the conflict's geographical scope, forcing Russia to consider the vulnerability of its assets globally.",
+    "score": 9.0,
+    "wow": true
+  },
+  {
+    "topic": "business",
+    "title": "108-mic array gives immersive video a matching soundtrack",
+    "link": "https://newatlas.com/technology/blackmagic-ambisonic-microphone-immersive-audio/",
+    "source": "New Atlas: Technology-Innovation-Outdoor News",
+    "published": "2026-11-23T07:03:00+09:00",
+    "summary": "Blackmagic Design has developed a new Ambisonic Microphone, a faceted metal sphere containing 108 microphones. This device is designed to capture all-encompassing audio that perfectly matches the immersive 360-degree video shot by compatible cameras.",
+    "detail": "Blackmagic Design has introduced an Ambisonic Microphone, a compact, faceted metal sphere housing 108 microphones. This device is designed to capture 360-degree immersive audio, providing a matching soundtrack for 360-degree cameras and virtual reality (VR) content. The significance lies in addressing a common limitation of immersive video: while visuals can be all-encompassing, audio often remains static or less immersive. By integrating a high-density array of MEMS (Micro-Electro-Mechanical Systems) microphones, the device can record sound from every direction. This allows content creators to produce Ambisonic audio, a full-sphere surround sound format that accurately reproduces the acoustic environment. When paired with VR headsets or 360-degree video players, this technology enables listeners to experience sound that shifts realistically as they turn their heads, enhancing the sense of presence and immersion in the virtual or recorded environment, making the overall experience far more compelling and realistic.",
+    "score": 8.0,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "GLP-1 drugs could have a surprisingly large environmental payoff",
+    "link": "https://arstechnica.com/health/2026/11/glp-1-drugs-could-have-a-surprisingly-large-environmental-payoff/",
+    "source": "Ars Technica",
+    "published": "2026-11-22T21:07:41+09:00",
+    "summary": "GLP-1 drugs, primarily known for treating diabetes and obesity, are projected to significantly reduce global food demand. This reduction could potentially free up an amount of farmland larger than the size of Italy, suggesting a substantial environmental benefit.",
+    "detail": "A new analysis suggests that GLP-1 receptor agonist drugs, primarily known for treating type 2 diabetes and obesity, could significantly reduce global food demand. These medications, which mimic a natural hormone to regulate appetite and blood sugar, have been shown to lead to substantial weight loss in users. The environmental implications are potentially vast: a widespread reduction in food consumption could free up an amount of farmland larger than the entire country of Italy. This matters because agriculture is a major contributor to environmental degradation, including deforestation, greenhouse gas emissions, water pollution from fertilizers and pesticides, and biodiversity loss. A decrease in demand for food would lessen the pressure on natural ecosystems, potentially allowing for reforestation, habitat restoration, and a reduction in agricultural runoff, offering a surprisingly large environmental payoff beyond their direct health benefits.",
+    "score": 8.0,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "‘The show is starting soon. Please turn on your headphones.’",
+    "link": "https://www.theverge.com/tech/1038879/off-broadway-love-me-auracast",
+    "source": "The Verge",
+    "published": "2026-11-22T23:00:00+09:00",
+    "summary": "Attendees at the SoHo Playhouse in New York City were provided with wired headphones connected to a small Auracast device for an immersive audio experience. This setup suggests a novel approach to delivering personalized sound in a live performance setting.",
+    "detail": "A theatrical production at New York City's SoHo Playhouse is utilizing Auracast-enabled headphones for its audience, providing a personalized audio experience for each attendee. This implementation showcases a practical, real-world application of Auracast, a new feature of Bluetooth LE Audio. Auracast allows a single audio source to broadcast to an unlimited number of compatible receiving devices, such as headphones or hearing aids, within a certain range. This technology is significant because it offers a standardized and accessible way to deliver high-quality, individualized audio in public spaces. Unlike traditional loudspeakers, which can be disruptive or lack clarity, or proprietary systems that limit device compatibility, Auracast enables silent broadcasts for events, public information, or live performances. This enhances accessibility for those with hearing impairments and provides a more intimate and customizable audio experience for all participants, potentially revolutionizing how we interact with public soundscapes.",
+    "score": 7.0,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "Roof-mounted solar panels turn your EV into its own charging station",
+    "link": "https://newatlas.com/automotive/dartsolar-roof-mounted-solar-charging-ev/",
+    "source": "New Atlas: Technology-Innovation-Outdoor News",
+    "published": "2026-11-22T22:03:00+09:00",
+    "summary": "DartSolar, a Los Angeles-based company, is developing roof-mounted solar panels for electric vehicles (EVs). These panels aim to provide enough solar-generated range to cover daily commutes, effectively turning an EV into its own charging station.",
+    "detail": "DartSolar, a Los Angeles-based company, is developing roof-mounted solar panels designed to turn electric vehicles (EVs) into their own charging stations. These panels aim to generate enough power from the sun to cover an EV owner's daily commute. This innovation matters because it offers a supplemental, 'free' source of energy for EVs, potentially extending range, reducing reliance on grid charging infrastructure, and alleviating 'range anxiety' – a common concern for EV owners. While the surface area on a car roof limits the total power generated compared to home solar arrays, even a modest daily top-up can be significant for urban commuters, potentially covering their typical daily mileage without needing to plug into a charger. This technology represents an incremental step towards greater energy independence for EVs, making them more convenient and potentially more environmentally friendly by harnessing renewable energy directly on the vehicle.",
+    "score": 7.0,
+    "wow": false
+  },
+  {
+    "topic": "business",
+    "title": "$21,500 pickup plans to fix the American truck problem",
+    "link": "https://newatlas.com/automotive/reo-runabout-lineup/",
+    "source": "New Atlas: Technology-Innovation-Outdoor News",
+    "published": "2026-11-23T09:03:00+09:00",
+    "summary": "A new pickup truck, following the Slate and REO models, is being introduced with a starting price of $21,500. This development signals a shift towards more affordable, sensible, and less oversized trucks in the American market, contrasting with the trend of increasingly large and expensive models.",
+    "detail": "A new wave of companies, including Slate and REO, are planning to introduce smaller, more affordable, and practical pickup trucks, with some models priced as low as $21,500. This initiative signals a potential shift in the American truck market, moving away from the trend of increasingly large, expensive, and feature-laden pickups. For decades, trucks have grown in size and price, often serving as primary family vehicles rather than utilitarian workhorses. This has created a gap for consumers seeking a more sensible, budget-friendly, and maneuverable option. The emergence of these smaller, modular, and more affordable trucks matters because it addresses a demand for vehicles that prioritize utility and accessibility over luxury and excessive size. This could appeal to a broader market, including small businesses and urban dwellers, and potentially lead to more fuel-efficient and environmentally conscious choices in the automotive sector.",
+    "score": 6.0,
+    "wow": false
+  },
+  {
+    "topic": "diamonds",
+    "title": "Draper Seeks Startups for AI Translators, New Nations - Wisevoter",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbVB1ekRyTVNjR190WGdvM0g3NlB2RXV1TXBtc0RfVlZMbm1HTzl5bG44NGVjWUd2bm03c3lIc1lJZXVZSlVOOHRvUTE5ckFTUFhHYnZhYlpkLUkzeDJCWGdVX2VrMklDay1RNUthYUp3WldhdWVxMVZ0V05yVUsyN3dhV1ZGVGlw?oc=5",
+    "source": "\"(startup OR startups) (raises OR \"Series A\" OR \"Series B\" OR \"seed round\" OR funding) when:2d\" - Google News",
+    "published": "2026-11-23T09:10:45+09:00",
+    "summary": "Draper Seeks Startups for AI Translators, New Nations Wisevoter",
+    "detail": "",
+    "score": 6.3,
+    "wow": false
+  },
+  {
+    "topic": "diamonds",
+    "title": "How John Deere’s Acquisition of Orchard AI Adds New Plant-Level Intelligence for Growers - Growing Produce",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNVnVweVItTHZySk0zRkRNVnBESXgxNVBlM2ZrZEdpQnFTWUJWaGg1Zkx1bzVOQTBzcW1vbVg2UFN3MlVDMVp2WTJrdHlPODhQWXZNLXlvbnM1R1BmWXVDcmRWemR0YVdWN2NTVUpMM1ZLdWJQY2ZON05xVDh3RzYzeWRaa3BLSXNPRmNEN3dQRGJBSkhDYUtVYjVxYWNjVUM0MjdZMk5ZQXV6X2R4N2lETWRhTDdFMk54cTVCM2hHZVQzUEJ1VXJJU21FbS1SN19pTm9rV21kcw?oc=5",
+    "source": "\"(acquires OR acquisition OR \"strategic investment\" OR \"invests in\" OR \"takes stake\" OR \"leads round\") (AI OR startup OR technology OR chip OR biotech) when:2d\" - Google News",
+    "published": "2026-11-23T00:02:28+09:00",
+    "summary": "How John Deere’s Acquisition of Orchard AI Adds New Plant-Level Intelligence for Growers Growing Produce",
+    "detail": "",
+    "score": 6.3,
+    "wow": false
+  },
+  {
+    "topic": "diamonds",
+    "title": "Defense tech venture funding hit a record $37.9 billion last quarter, and some investors see 2021 again - MLQ.ai",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOOU51MzRrQTRsZUhkd2dyVlJQSW1qdmE2aVZXUTN3dFplMzFnZzlCZFBjdlU4YXowMWE1eThkeXpZQWNQZHljWVd4MW1iWmR1Z3h6WkpKT3FaQXRVejBsNTV2UkZzVUxhaEVCMHF6VVROVk4zVmNrOFhtTFFnN0NPcW12ZEI2Q2h0dndIU2NKT3VzQk00dnQ1bGp4QUkxbkpyMkZtX0xWYlo4eE83ZDlXYXd5WHJQS0owNGYzUXN3?oc=5",
+    "source": "\"(startup OR startups) (raises OR \"Series A\" OR \"Series B\" OR \"seed round\" OR funding) when:2d\" - Google News",
+    "published": "2026-11-22T19:39:59+09:00",
+    "summary": "Defense tech venture funding hit a record $37.9 billion last quarter, and some investors see 2021 again MLQ.ai",
+    "detail": "",
+    "score": 6.3,
+    "wow": false
+  },
+  {
+    "topic": "diamonds",
+    "title": "Israel to launch dedicated startup 'Launchpad' to help Israeli companies enter Indian market, shares deep-tech funding strategy - Education Times",
+    "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPeXlhU0poM25ZYW4xbDBySkRyY2lOZVZvUTVyNXhiTHdjdWphaGN0dXVjUTEyYkNzVWIyT1J2VEVzeTgzMzVLRmxqM29sVjNzelBySUZqVGxidVZTZWJqQ05rR2FubnpROEJhN3RVNEJVcTRLakkxajZMQjF1NU9ObHFWQzVsaExsRnE4bGJKY1k1bGJaN2xMek5HakNLbXo4SFlJZFNqOFBxY3lLUkJzS2xTR2JuVzloWE1fak0tTzYtZGhDME5lQWlTUzQ1QTk3NjBZR2pFT3B4S3Z6aHkxdDY5aU1QYXdaTURXdXNvU3JZcm16NmNMVDZJdEVpczRXVnJ5alI1VDZXcEpZUmtwOUdnQmU?oc=5",
+    "source": "\"(startup OR startups) (raises OR \"Series A\" OR \"Series B\" OR \"seed round\" OR funding) when:2d\" - Google News",
+    "published": "2026-11-22T18:27:00+09:00",
+    "summary": "Israel to launch dedicated startup 'Launchpad' to help Israeli companies enter Indian market, shares deep-tech funding strategy Education Times",
+    "detail": "",
+    "score": 6.3,
+    "wow": false
+  },
+  {
+    "topic": "diamonds",
+    "title": "Sejong University medical device startup secures $9.7 mil. in new investments - The Korea Times",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQa3kzT3llNlFTbjFBVzNoUkw2ZFdTWnA5c085cURIZm9lR3FFSGVKM2dQSERhQWM2dzlQZno5UkVvNGRXWmtkTU9PMG9uOFlBN0lqSFB5eV9Xa1A3Q2lJYjNDRmJJZllfQzJualBEZW9WVEpfQTRhTS1BT0V0ZzczSjFNeXlHUkVDUDhhclBhS2pES0cyZ0pkRWlUZGJpRWpjOW41ZXlrWk1kaGRaM1p6dVR0U3Jqc3RyTnNBWTM2QzZuaXZiVmlZdTZGQU9WcklhblNv0gHTAUFVX3lxTFBreTNPeWU2UVNuMUFXM2hSTDZkV1NacDlzTzlxREhmb2VHcUVIZUozZ1BIRGFBYzZ3OVBmejlSRW80ZFdaa2RNT08wb244WUE3SWpIUHl5X1drUDdDaUliM0NGYklmWV9DMm5qUERlb1ZUSl9BNGFNLUFPRXRnNzNKMU15eUdSRUNQOGFyUGFLakRLRzJnSmRFaVRkYmlFamM5bjVleWtaTWRoZFozWnp1VHRTcmpzdHJOc0FZMzZDNm5pdmJWaVl1NkZBT1ZySWFuU28?oc=5",
+    "source": "\"(startup OR startups) (raises OR \"Series A\" OR \"Series B\" OR \"seed round\" OR funding) when:2d\" - Google News",
+    "published": "2026-11-22T13:24:03+09:00",
+    "summary": "Sejong University medical device startup secures $9.7 mil. in new investments The Korea Times",
+    "detail": "",
+    "score": 6.3,
+    "wow": false
+  },
+  {
+    "topic": "crypto",
+    "title": "Google's Quantum Chip Beats Classical Limits in 'Impossible' Game",
+    "link": "https://decrypt.co/383743/googles-quantum-chip-beats-classical-limits-in-impossible-game-tests-105-qubits",
+    "source": "Decrypt",
+    "published": "2026-11-22T23:01:02+09:00",
+    "summary": "Google's Willow quantum processor successfully surpassed classical computational limits in a four-qubit coordination game. This achievement demonstrates a significant hardware test for quantum computing, though it is not indicative of immediate commercial applications.",
+    "detail": "",
+    "score": 9.0,
+    "wow": true
+  },
+  {
+    "topic": "crypto",
+    "title": "South Korean exchanges halt CYBER transfers amid suspected bridge exploit",
+    "link": "https://cointelegraph.com/news/upbit-bithumb-suspend-cyber-transfers-bridge-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source": "Cointelegraph.com News",
+    "published": "2026-11-22T16:24:05+09:00",
+    "summary": "South Korean cryptocurrency exchanges have temporarily halted CYBER token transfers following a suspected bridge exploit. Cyber reported unauthorized minting of CYBER tokens on the Solana network and subsequent movement of tokens from its Ethereum bridge lockbox, initiating an investigation into the incident.",
+    "detail": "",
+    "score": 7.0,
+    "wow": false
+  },
+  {
+    "topic": "crypto",
+    "title": "Chainflip confirms $12M hack, offers attacker 10% bounty",
+    "link": "https://cointelegraph.com/news/chainflip-12m-crypto-hack-10-percent-bounty?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "source": "Cointelegraph.com News",
+    "published": "2026-11-22T14:28:43+09:00",
+    "summary": "Chainflip has confirmed a $12 million hack and subsequently offered the attacker a 10% bounty to return 90% of the stolen funds by November 23. The project stated it would consider the return a white-hat recovery and drop legal complaints if the funds are returned.",
+    "detail": "",
+    "score": 7.0,
+    "wow": false
+  },
+  {
+    "topic": "crypto",
+    "title": "Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins",
+    "link": "https://www.coindesk.com/tech/2026/11/22/bitcoin-s-quantum-security-challenge-extends-to-bridges-custodians-and-millions-of-coins",
+    "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+    "published": "2026-11-22T23:00:00+09:00",
+    "summary": "This article discusses the potential long-term security challenges posed by quantum computing to Bitcoin, specifically extending to cross-chain bridges, custodial services, and a large volume of cryptocurrencies. It highlights the need for quantum-resistant cryptographic solutions in the future.",
+    "detail": "",
+    "score": 6.0,
+    "wow": false
+  },
+  {
+    "topic": "economics",
+    "title": "COP31 climate talks fail after stand-off over fossil fuels",
+    "link": "https://www.ft.com/content/1b6089f6-2201-43b4-8ed4-0c689a916afa?syn-25a6b1a6=1",
+    "source": "Global Economy",
+    "published": "2026-11-22T22:50:41+09:00",
+    "summary": "The COP31 climate talks have reportedly failed due to a significant stand-off concerning fossil fuels. Geopolitical divisions, particularly between the Arab group and an EU-led coalition, were highlighted as a key reason for the lack of agreement.",
+    "detail": "",
+    "score": 6.0,
+    "wow": false
+  },
+  {
+    "topic": "economics",
+    "title": "US ports face cyber attack onslaught as hackers target vital trade routes",
+    "link": "https://www.ft.com/content/c269cf3e-2275-4244-9a86-f412c8521b4f?syn-25a6b1a6=1",
+    "source": "Global Economy",
+    "published": "2026-11-22T21:00:06+09:00",
+    "summary": "US ports are experiencing a significant increase in cyber attacks, with America’s largest crude oil export hub reporting thousands of attempted hacks daily. Shipping companies are actively battling these breaches, indicating a growing threat to vital trade infrastructure.",
+    "detail": "",
+    "score": 6.0,
+    "wow": false
+  }
+]
